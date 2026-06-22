@@ -1,0 +1,258 @@
+﻿@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-16px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.glass-panel, .kpi-card { animation: fadeInUp 0.5s ease both; }
+/* ============================
+   CORREÇÃO DEFINITIVA DO LAYOUT
+   Dashboard em blocos verticais
+============================ */
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main.dashboard-container,
+.dashboard-container {
+    width: 100% !important;
+    max-width: 1380px !important;
+    margin: 0 auto !important;
+    padding: 2rem !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    gap: 2rem !important;
+
+    overflow: visible !important;
+}
+
+.dashboard-container > section,
+main.dashboard-container > section,
+.section-panel,
+.match-analysis-section {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
+    box-sizing: border-box !important;
+    flex: none !important;
+}
+
+.kpi-grid {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) !important;
+    gap: 1rem !important;
+}
+
+.two-column-grid {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1.3fr) minmax(300px, 0.7fr) !important;
+    gap: 2rem !important;
+    align-items: start !important;
+}
+
+.panel-title-with-actions {
+    width: 100% !important;
+}
+
+.table-wrapper,
+.analysis-box,
+.ranking-chart-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.hero {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+}
+
+@media (max-width: 1100px) {
+    main.dashboard-container,
+    .dashboard-container {
+        padding: 1.25rem !important;
+        gap: 1.5rem !important;
+    }
+
+    .two-column-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .analysis-filters {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media (max-width: 700px) {
+    main.dashboard-container,
+    .dashboard-container {
+        padding: 0.85rem !important;
+    }
+
+    .kpi-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .panel-title-with-actions {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+
+    .ranking-actions,
+    .filters {
+        width: 100% !important;
+    }
+
+    .ranking-actions select,
+    .filters select,
+    .analysis-filters select {
+        width: 100% !important;
+    }
+}
+/* ============================
+   RESTAURAÇÃO DO LAYOUT BONITO
+   Corrige seções empilhadas errado
+============================ */
+
+main.dashboard-container {
+    max-width: 1320px !important;
+    margin: 0 auto !important;
+    padding: 2rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
+}
+
+/* mantém ranking e artilheiros lado a lado */
+main.dashboard-container > section.two-column-grid,
+.dashboard-container > section.two-column-grid,
+.two-column-grid {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr) !important;
+    gap: 2rem !important;
+    align-items: start !important;
+}
+
+/* garante que os cards continuem com cara de card */
+.section-panel {
+    background: rgba(10, 10, 10, 0.72) !important;
+    border: 1px solid rgba(212, 175, 55, 0.22) !important;
+    border-radius: 20px !important;
+    padding: 1.4rem !important;
+    box-sizing: border-box !important;
+}
+
+/* visão geral em cards bonitos */
+.kpi-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 1rem !important;
+}
+
+/* ranking com altura correta */
+.ranking-chart-wrapper {
+    height: 380px !important;
+    width: 100% !important;
+}
+
+.ranking-chart-wrapper.expanded {
+    height: 850px !important;
+}
+
+/* análise por partida volta a ocupar uma linha limpa */
+.match-analysis-section {
+    width: 100% !important;
+}
+
+.analysis-filters {
+    display: grid !important;
+    grid-template-columns: 2fr 1fr 1fr !important;
+    gap: 1rem !important;
+}
+
+.analysis-tabs {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.75rem !important;
+}
+
+@media (max-width: 1050px) {
+    main.dashboard-container > section.two-column-grid,
+    .dashboard-container > section.two-column-grid,
+    .two-column-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .kpi-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+    .analysis-filters {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media (max-width: 700px) {
+    main.dashboard-container {
+        padding: 1rem !important;
+    }
+
+    .kpi-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+/* ============================
+   AJUSTE POSIÇÃO MÉDIA
+   Bolinhas e nomes menores
+============================ */
+
+.average-position-player {
+    stroke: rgba(10, 10, 10, 0.95) !important;
+    stroke-width: 0.35 !important;
+    fill: rgba(212, 175, 55, 0.9) !important;
+    opacity: 0.9 !important;
+}
+
+.average-position-player.secondary {
+    fill: rgba(245, 245, 245, 0.72) !important;
+}
+
+.average-position-number {
+    fill: #0A0A0A !important;
+    font-size: 2.1px !important;
+    font-weight: 900 !important;
+    text-anchor: middle !important;
+    dominant-baseline: middle !important;
+    pointer-events: none !important;
+}
+
+.average-position-label {
+    fill: rgba(245, 245, 245, 0.9) !important;
+    font-size: 1.9px !important;
+    font-weight: 700 !important;
+    text-anchor: middle !important;
+    paint-order: stroke !important;
+    stroke: rgba(10, 10, 10, 0.95) !important;
+    stroke-width: 0.45px !important;
+    stroke-linejoin: round !important;
+    pointer-events: none !important;
+}
+
+.average-position-team-title {
+    margin: 1rem 0 0.75rem !important;
+    color: var(--gold-light) !important;
+    font-weight: 900 !important;
+    text-align: center !important;
+}

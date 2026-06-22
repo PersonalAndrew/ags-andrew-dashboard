@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa do Mundo 2022 — Dashboard</title>
+    <link rel="stylesheet" href="assets/css/copa2022-base.css">
+    <link rel="stylesheet" href="assets/css/copa2022-components.css">
+    <link rel="stylesheet" href="assets/css/copa2022-animations.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <img src="assets/img/logo.png" alt="Logo" class="brand-logo" onerror="this.style.display=''none''">
+            <h1>Copa do Mundo 2022</h1>
+            <p>Análise Tática &amp; Estatística — Dados StatsBomb</p>
+        </header>
+        <main>
+            <div class="span-12 kpi-row" id="kpi-row">
+                <div class="loading">Carregando estatísticas...</div>
+            </div>
+            <div class="span-8 glass-panel">
+                <h2>
+                    Ranking de Seleções
+                    <select id="ranking-order" style="margin-left:auto;font-size:0.8rem;">
+                        <option value="gols">Gols</option>
+                        <option value="xg">xG</option>
+                        <option value="chutes">Chutes</option>
+                        <option value="chutes_no_gol">Chutes no Gol</option>
+                        <option value="xg_diff">xG Diff</option>
+                    </select>
+                </h2>
+                <div style="height:340px;">
+                    <canvas id="ranking-chart"></canvas>
+                </div>
+            </div>
+            <div class="span-4 glass-panel">
+                <h2>Artilheiros</h2>
+                <div id="artilheiros-list">
+                    <div class="loading">Carregando...</div>
+                </div>
+            </div>
+            <div class="span-12 glass-panel">
+                <h2>Campanha do Brasil</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Data</th><th>Fase</th><th>Adversário</th><th>Placar</th><th>xG</th><th>Chutes</th><th>No Alvo</th>
+                            </tr>
+                        </thead>
+                        <tbody id="brasil-tbody">
+                            <tr><td colspan="7" class="loading">Carregando...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="span-12 glass-panel">
+                <h2>Todas as Partidas</h2>
+                <div class="filters">
+                    <select id="team-filter">
+                        <option value="">Carregando seleções...</option>
+                    </select>
+                </div>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr><th>Data</th><th>Fase</th><th>Casa</th><th>Placar</th><th>Fora</th></tr>
+                        </thead>
+                        <tbody id="matches-tbody">
+                            <tr><td colspan="5" class="loading">Carregando...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+            <div class="span-12 glass-panel match-analysis-section">
+                <h2>Análise por Partida</h2>
+                <p class="section-description">
+                    Explore escalações, jogadores, chutes e passes com dados detalhados da StatsBomb.
+                </p>
+
+                <div class="filters">
+                    <select id="analysis-match-select">
+                        <option value="">Selecione uma partida</option>
+                    </select>
+
+                    <select id="analysis-team-select">
+                        <option value="">Ambos os times</option>
+                    </select>
+
+                    <select id="analysis-player-select">
+                        <option value="">Todos os jogadores</option>
+                    </select>
+                </div>
+
+                <div class="analysis-grid">
+                    <div class="analysis-card">
+                        <h3>Escalações</h3>
+                        <div id="lineups-box" class="analysis-box loading">Selecione uma partida</div>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h3>Resumo dos Jogadores</h3>
+                        <div id="player-summary-box" class="analysis-box loading">Selecione uma partida</div>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h3>Chutes</h3>
+                        <div id="shots-box" class="analysis-box loading">Selecione uma partida</div>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h3>Passes</h3>
+                        <div id="passes-box" class="analysis-box loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="assets/js/copa2022-app.js"></script>
+</body>
+</html>

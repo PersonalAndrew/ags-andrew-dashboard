@@ -1,0 +1,1069 @@
+/* =========================================================
+   EMERGENCY RESET - VOLTAR DASHBOARD AO LAYOUT NORMAL
+========================================================= */
+
+.page-shell {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+    padding: 0 1rem 3rem !important;
+    display: block !important;
+}
+
+/* ============================
+   HERO ORIGINAL SEM LOGO DA COPA
+============================ */
+
+.hero-section {
+    width: min(1320px, 100%) !important;
+    max-width: 1320px !important;
+    min-height: auto !important;
+    margin: 0 auto 1.25rem !important;
+    padding: 2.6rem 1rem 2.1rem !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+.hero-content {
+    width: 100% !important;
+    max-width: 920px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.brand-row {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 0 1rem 0 !important;
+    padding: 0 !important;
+}
+
+.project-logo {
+    width: 150px !important;
+    max-width: 150px !important;
+    height: auto !important;
+    display: block !important;
+    object-fit: contain !important;
+}
+
+/* Mata completamente tudo da logo da Copa */
+.worldcup-logo-wrap,
+.worldcup-logo,
+.project-logo-corner,
+.hero-with-corner-logo,
+.compact-hero,
+.hero-content-compact,
+.hero-logo-side,
+.hero-text-side,
+.compact-project-logo,
+.compact-worldcup-wrap,
+.compact-worldcup-logo {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+.eyebrow {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: fit-content !important;
+    margin: 0 auto 0.85rem !important;
+    padding: 0.32rem 0.78rem !important;
+    border-radius: 999px !important;
+    color: var(--gold-light) !important;
+    background: rgba(212, 175, 55, 0.08) !important;
+    border: 1px solid rgba(212, 175, 55, 0.22) !important;
+    font-size: 0.76rem !important;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+}
+
+.hero-content h1 {
+    width: 100% !important;
+    margin: 0 0 0.75rem !important;
+    padding: 0 !important;
+    color: var(--white) !important;
+    text-align: center !important;
+    line-height: 1.08 !important;
+}
+
+.hero-content p {
+    width: 100% !important;
+    max-width: 880px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    color: var(--muted) !important;
+    text-align: center !important;
+    line-height: 1.55 !important;
+}
+
+/* ============================
+   SEÇÕES NORMAIS
+============================ */
+
+.section-panel,
+.section-grid,
+.match-analysis-section,
+.footer-section {
+    width: min(1320px, 100%) !important;
+    max-width: 1320px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.section-panel {
+    margin-bottom: 1rem !important;
+}
+
+/* KPIs em 4 colunas */
+.kpi-grid {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 0.85rem !important;
+}
+
+.kpi-card {
+    min-height: 112px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+/* Artilheiros esquerda + Ranking direita, como antes */
+.section-grid.two-columns {
+    display: grid !important;
+    grid-template-columns: minmax(320px, 0.85fr) minmax(0, 1.35fr) !important;
+    gap: 1rem !important;
+    align-items: stretch !important;
+}
+
+.section-grid.two-columns > .section-panel {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+}
+
+/* Se em algum momento o HTML ficou com ranking-scorers-grid, também normaliza */
+.ranking-scorers-grid {
+    width: min(1320px, 100%) !important;
+    max-width: 1320px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: grid !important;
+    grid-template-columns: minmax(320px, 0.85fr) minmax(0, 1.35fr) !important;
+    gap: 1rem !important;
+}
+
+/* ============================
+   TABELAS E PLACAR
+============================ */
+
+.table-wrapper table th,
+.table-wrapper table td,
+.small-table table th,
+.small-table table td {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.small-table table td:nth-child(2),
+.player-ranking-table td:nth-child(2) {
+    text-align: left !important;
+}
+
+.team-pill,
+.date-chip,
+.stage-chip {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.score-cell {
+    text-align: center !important;
+    vertical-align: middle !important;
+    white-space: normal !important;
+    line-height: 1.2 !important;
+}
+
+.score-stack {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.22rem !important;
+    text-align: center !important;
+}
+
+.score-main {
+    display: block !important;
+    color: var(--gold-light) !important;
+    font-weight: 950 !important;
+    white-space: nowrap !important;
+}
+
+.penalty-score {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    color: var(--muted) !important;
+    font-size: 0.72rem !important;
+    font-weight: 850 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+}
+
+/* ============================
+   ANÁLISE POR PARTIDA
+============================ */
+
+.analysis-filters {
+    display: grid !important;
+    grid-template-columns: 2fr 1fr 1fr !important;
+    gap: 1rem !important;
+}
+
+.analysis-tabs {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.7rem !important;
+}
+
+.analysis-tab-content {
+    display: none !important;
+}
+
+.analysis-tab-content.active {
+    display: block !important;
+}
+
+/* Campos em tamanho normal */
+.pitch-visual {
+    max-width: 860px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#shots-box .pitch-visual {
+    max-width: 820px !important;
+}
+
+#passes-box .pitch-visual,
+#heatmap-box .pitch-visual {
+    max-width: 860px !important;
+}
+
+/* ============================
+   RESPONSIVO
+============================ */
+
+@media (max-width: 900px) {
+    .section-grid.two-columns,
+    .ranking-scorers-grid,
+    .analysis-filters {
+        grid-template-columns: 1fr !important;
+    }
+
+    .kpi-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+    .project-logo {
+        width: 120px !important;
+        max-width: 120px !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .kpi-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+/* ============================
+   AJUSTE FINAL DO TOPO + RANKING
+============================ */
+
+/* Topo mais elegante, sem cara de planilha */
+.hero-section {
+    width: min(1320px, calc(100% - 2rem)) !important;
+    max-width: 1320px !important;
+    margin: 1.2rem auto 1.25rem !important;
+    padding: 0 !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+.hero-card-clean {
+    width: min(920px, 100%) !important;
+    max-width: 920px !important;
+    margin: 0 auto !important;
+    padding: 2.2rem 2rem !important;
+    border-radius: 24px !important;
+    border: 1px solid rgba(212, 175, 55, 0.28) !important;
+    background:
+        radial-gradient(circle at top, rgba(212, 175, 55, 0.13), transparent 38%),
+        linear-gradient(180deg, rgba(18, 18, 18, 0.96), rgba(8, 8, 8, 0.96)) !important;
+    box-shadow:
+        0 22px 50px rgba(0, 0, 0, 0.32),
+        inset 0 1px 0 rgba(255, 255, 255, 0.04) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+/* Remove qualquer sobra do StatsBomb Open Data */
+.eyebrow {
+    display: none !important;
+}
+
+.hero-card-clean h1 {
+    margin: 0 0 0.85rem !important;
+    color: var(--white) !important;
+    font-size: clamp(2rem, 4vw, 3.6rem) !important;
+    line-height: 1.02 !important;
+    letter-spacing: -0.04em !important;
+    text-align: center !important;
+}
+
+.hero-card-clean p {
+    width: min(780px, 100%) !important;
+    margin: 0 auto !important;
+    color: var(--muted) !important;
+    font-size: clamp(0.9rem, 1.4vw, 1.05rem) !important;
+    line-height: 1.65 !important;
+    text-align: center !important;
+}
+
+/* Ranking na esquerda e artilheiros na direita */
+.ranking-left-grid {
+    width: min(1320px, 100%) !important;
+    max-width: 1320px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1.35fr) minmax(330px, 0.85fr) !important;
+    gap: 1rem !important;
+    align-items: stretch !important;
+}
+
+.ranking-left-grid > .section-panel {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+}
+
+/* Ranking mais largo e menos deformado */
+.ranking-panel {
+    min-width: 0 !important;
+}
+
+.ranking-chart-clean,
+#ranking-chart-wrapper {
+    width: 100% !important;
+    height: 430px !important;
+    min-height: 430px !important;
+    margin-top: 1rem !important;
+    overflow: hidden !important;
+}
+
+/* Evita gráfico espremido */
+.ranking-panel canvas {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Artilheiros mais compacto e elegante */
+.scorers-panel {
+    min-width: 0 !important;
+}
+
+.scorers-panel .section-header {
+    margin-bottom: 0.9rem !important;
+}
+
+.scorer-row {
+    padding-top: 0.72rem !important;
+    padding-bottom: 0.72rem !important;
+}
+
+/* Títulos menos “Excel” */
+.section-header h2 {
+    font-size: 1.35rem !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.02em !important;
+}
+
+.section-kicker {
+    font-size: 0.68rem !important;
+    letter-spacing: 0.09em !important;
+    color: var(--gold-light) !important;
+}
+
+/* Mantém o resto organizado */
+.section-panel {
+    border-radius: 20px !important;
+}
+
+@media (max-width: 900px) {
+    .hero-card-clean {
+        padding: 1.8rem 1.2rem !important;
+    }
+
+    .ranking-left-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .ranking-chart-clean,
+    #ranking-chart-wrapper {
+        height: 360px !important;
+        min-height: 360px !important;
+    }
+}
+/* ============================
+   VISUAL MODERNO FINAL - HERO + SEÇÕES
+============================ */
+
+/* Fundo geral mais profissional */
+body {
+    background:
+        radial-gradient(circle at top, rgba(212, 175, 55, 0.06), transparent 32%),
+        linear-gradient(180deg, #0A0A0A 0%, #050505 100%) !important;
+}
+
+/* HERO elegante */
+.hero-section {
+    width: min(1320px, calc(100% - 2rem)) !important;
+    max-width: 1320px !important;
+    margin: 1.4rem auto 1.25rem !important;
+    padding: 0 !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+.hero-card-clean {
+    width: min(980px, 100%) !important;
+    max-width: 980px !important;
+    margin: 0 auto !important;
+    padding: 2.3rem 2rem 2rem !important;
+    border-radius: 28px !important;
+    border: 1px solid rgba(212, 175, 55, 0.30) !important;
+    background:
+        radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.16), transparent 38%),
+        linear-gradient(180deg, rgba(18, 18, 18, 0.97), rgba(7, 7, 7, 0.98)) !important;
+    box-shadow:
+        0 26px 55px rgba(0, 0, 0, 0.34),
+        inset 0 1px 0 rgba(255, 255, 255, 0.04) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+/* Logo AGS centralizada e visível */
+.brand-row {
+    display: flex !important;
+    width: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 0 1.15rem !important;
+    padding: 0 !important;
+}
+
+.project-logo {
+    width: 145px !important;
+    max-width: 145px !important;
+    height: auto !important;
+    display: block !important;
+    object-fit: contain !important;
+    filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.48)) !important;
+}
+
+/* Título do hero */
+.hero-title-block {
+    width: 100% !important;
+    max-width: 860px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+
+.hero-kicker {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: fit-content !important;
+    margin: 0 auto 0.75rem !important;
+    padding: 0.38rem 0.85rem !important;
+    border-radius: 999px !important;
+    color: #0A0A0A !important;
+    background: linear-gradient(135deg, rgba(244, 208, 111, 1), rgba(212, 175, 55, 0.95)) !important;
+    border: 1px solid rgba(244, 208, 111, 0.85) !important;
+    font-size: 0.72rem !important;
+    font-weight: 950 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+}
+
+.hero-card-clean h1 {
+    margin: 0 0 0.85rem !important;
+    color: var(--white) !important;
+    font-size: clamp(2.15rem, 4vw, 3.8rem) !important;
+    line-height: 1.02 !important;
+    letter-spacing: -0.045em !important;
+    text-align: center !important;
+}
+
+.hero-card-clean p {
+    width: min(790px, 100%) !important;
+    margin: 0 auto !important;
+    color: var(--muted) !important;
+    font-size: clamp(0.92rem, 1.35vw, 1.04rem) !important;
+    line-height: 1.68 !important;
+    text-align: center !important;
+}
+
+/* Remove restos antigos */
+.eyebrow,
+.worldcup-logo-wrap,
+.worldcup-logo,
+.project-logo-corner {
+    display: none !important;
+}
+
+/* Cards das seções mais modernos */
+.section-panel {
+    border-radius: 24px !important;
+    border: 1px solid rgba(212, 175, 55, 0.24) !important;
+    background:
+        linear-gradient(180deg, rgba(14, 14, 14, 0.96), rgba(8, 8, 8, 0.96)) !important;
+    box-shadow:
+        0 18px 38px rgba(0, 0, 0, 0.24),
+        inset 0 1px 0 rgba(255, 255, 255, 0.035) !important;
+    padding: 1.55rem !important;
+}
+
+/* Cabeçalhos menos “Excel” */
+.section-header {
+    margin-bottom: 1.15rem !important;
+}
+
+.section-kicker {
+    display: inline-flex !important;
+    width: fit-content !important;
+    padding: 0.28rem 0.65rem !important;
+    border-radius: 999px !important;
+    color: var(--gold-light) !important;
+    background: rgba(212, 175, 55, 0.10) !important;
+    border: 1px solid rgba(212, 175, 55, 0.22) !important;
+    font-size: 0.68rem !important;
+    font-weight: 950 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+    margin-bottom: 0.45rem !important;
+}
+
+.section-header h2 {
+    margin: 0.2rem 0 0.45rem !important;
+    color: var(--white) !important;
+    font-size: clamp(1.35rem, 2vw, 2rem) !important;
+    line-height: 1.1 !important;
+    letter-spacing: -0.035em !important;
+}
+
+.section-header p,
+.section-description {
+    color: var(--muted) !important;
+    font-size: 0.92rem !important;
+    line-height: 1.6 !important;
+}
+
+/* Área de filtros mais bonita */
+.filters-row,
+.ranking-controls,
+.analysis-filters {
+    background: rgba(255, 255, 255, 0.025) !important;
+    border: 1px solid rgba(212, 175, 55, 0.13) !important;
+    border-radius: 16px !important;
+    padding: 0.9rem !important;
+}
+
+.filters-row label,
+.ranking-controls label,
+.analysis-filters label {
+    color: var(--white) !important;
+    font-weight: 850 !important;
+    font-size: 0.82rem !important;
+}
+
+/* Inputs/select mais modernos */
+select {
+    min-height: 42px !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(212, 175, 55, 0.42) !important;
+    background: rgba(10, 10, 10, 0.92) !important;
+    color: var(--white) !important;
+    padding: 0.55rem 0.85rem !important;
+    font-weight: 800 !important;
+}
+
+/* Ranking esquerda e artilheiros direita */
+.ranking-left-grid {
+    width: min(1320px, 100%) !important;
+    max-width: 1320px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1.35fr) minmax(330px, 0.85fr) !important;
+    gap: 1rem !important;
+    align-items: stretch !important;
+}
+
+.ranking-left-grid > .section-panel {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+}
+
+/* Gráfico menos deformado */
+.ranking-chart-clean,
+#ranking-chart-wrapper {
+    width: 100% !important;
+    height: 440px !important;
+    min-height: 440px !important;
+    margin-top: 1rem !important;
+    overflow: hidden !important;
+}
+
+.ranking-panel canvas {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Todas as partidas e tabelas com cara mais premium */
+.table-wrapper {
+    border-radius: 16px !important;
+    overflow: hidden !important;
+    border: 1px solid rgba(212, 175, 55, 0.13) !important;
+    background: rgba(255, 255, 255, 0.018) !important;
+}
+
+.table-wrapper table th {
+    background: rgba(212, 175, 55, 0.055) !important;
+    color: var(--gold-light) !important;
+    font-size: 0.78rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.04em !important;
+}
+
+.table-wrapper table td {
+    font-size: 0.86rem !important;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+    .hero-card-clean {
+        padding: 1.8rem 1.2rem !important;
+    }
+
+    .project-logo {
+        width: 118px !important;
+        max-width: 118px !important;
+    }
+
+    .ranking-left-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .ranking-chart-clean,
+    #ranking-chart-wrapper {
+        height: 360px !important;
+        min-height: 360px !important;
+    }
+}
+/* ============================
+   AJUSTE FINAL: CARDS IGUAIS + TÍTULOS CENTRALIZADOS
+============================ */
+
+/* Ranking e Artilheiros com o mesmo tamanho */
+.ranking-left-grid {
+    width: min(1320px, 100%) !important;
+    max-width: 1320px !important;
+    margin: 0 auto 1rem !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1rem !important;
+    align-items: stretch !important;
+}
+
+.ranking-left-grid > .section-panel {
+    width: 100% !important;
+    max-width: none !important;
+    min-height: 620px !important;
+    margin: 0 !important;
+}
+
+/* Ranking mais organizado dentro do card */
+.ranking-panel {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.ranking-chart-clean,
+#ranking-chart-wrapper {
+    width: 100% !important;
+    height: 455px !important;
+    min-height: 455px !important;
+    margin-top: 1rem !important;
+    overflow: hidden !important;
+}
+
+.ranking-panel canvas {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Artilheiros ocupando melhor o espaço */
+.scorers-panel {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.scorers-list {
+    flex: 1 !important;
+}
+
+.scorer-row {
+    padding: 0.8rem 0 !important;
+}
+
+/* Centraliza títulos, subtítulos e etiquetas das seções */
+.section-header {
+    width: 100% !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 1.25rem !important;
+}
+
+.section-kicker {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+.section-header h2 {
+    width: 100% !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.section-header p,
+.section-description {
+    max-width: 880px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+/* Centraliza também os títulos dentro dos cards de análise */
+.analysis-card h3 {
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.analysis-card .section-description {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Filtros mais centralizados e organizados */
+.ranking-controls,
+.filters-row,
+.analysis-filters {
+    justify-content: center !important;
+    align-items: end !important;
+    text-align: center !important;
+}
+
+.ranking-controls label,
+.filters-row label,
+.analysis-filters label {
+    text-align: center !important;
+}
+
+/* Análise por partida centralizada */
+.match-analysis-section .section-header {
+    text-align: center !important;
+    align-items: center !important;
+}
+
+.match-analysis-section .section-header h2,
+.match-analysis-section .section-header p {
+    text-align: center !important;
+}
+
+/* Abas centralizadas */
+.analysis-tabs {
+    justify-content: center !important;
+}
+
+/* Deixa o card do Ranking respirar mais */
+.ranking-panel .section-header p {
+    max-width: 520px !important;
+}
+
+.scorers-panel .section-header p {
+    max-width: 520px !important;
+}
+
+/* Responsivo */
+@media (max-width: 1000px) {
+    .ranking-left-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .ranking-left-grid > .section-panel {
+        min-height: auto !important;
+    }
+
+    .ranking-chart-clean,
+    #ranking-chart-wrapper {
+        height: 380px !important;
+        min-height: 380px !important;
+    }
+}
+/* ============================
+   CORREÇÃO DEFINITIVA DO RANKING
+============================ */
+
+/* Ranking e Artilheiros com largura igual */
+.section-grid.two-columns.ranking-left-grid,
+.ranking-left-grid {
+    width: min(1320px, 100%) !important;
+    max-width: 1320px !important;
+    margin: 0 auto 1rem !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 1rem !important;
+    align-items: stretch !important;
+}
+
+/* Garante que os dois cards ocupem o mesmo espaço */
+.section-grid.two-columns.ranking-left-grid > .section-panel,
+.ranking-left-grid > .section-panel {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    min-width: 0 !important;
+}
+
+/* Ranking com espaço interno melhor */
+.ranking-panel {
+    min-width: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Top 10 normal */
+.ranking-panel #ranking-chart-wrapper,
+.ranking-panel .ranking-chart-clean {
+    width: 100% !important;
+    height: 430px !important;
+    min-height: 430px !important;
+    max-height: none !important;
+    margin-top: 1rem !important;
+    overflow: hidden !important;
+}
+
+/* Quando selecionar TODAS, o app coloca a classe expanded.
+   Aqui o gráfico ganha altura para não ficar espremido. */
+.ranking-panel #ranking-chart-wrapper.expanded,
+#ranking-chart-wrapper.expanded {
+    height: 850px !important;
+    min-height: 850px !important;
+    max-height: none !important;
+}
+
+/* Canvas ocupa o espaço correto */
+.ranking-panel canvas,
+#ranking-chart {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Evita que o card corte o gráfico */
+.ranking-panel.section-panel {
+    overflow: visible !important;
+}
+
+/* Artilheiros acompanha visualmente */
+.scorers-panel {
+    min-width: 0 !important;
+}
+
+/* Centraliza controles do ranking */
+.ranking-controls {
+    justify-content: center !important;
+    align-items: end !important;
+    text-align: center !important;
+}
+
+/* Responsivo */
+@media (max-width: 1000px) {
+    .section-grid.two-columns.ranking-left-grid,
+    .ranking-left-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .ranking-panel #ranking-chart-wrapper,
+    .ranking-panel .ranking-chart-clean {
+        height: 380px !important;
+        min-height: 380px !important;
+    }
+
+    .ranking-panel #ranking-chart-wrapper.expanded,
+    #ranking-chart-wrapper.expanded {
+        height: 820px !important;
+        min-height: 820px !important;
+    }
+}
+/* ============================
+   METODOLOGIA E CRÉDITOS
+============================ */
+
+.methodology-section {
+    margin-top: 1rem !important;
+}
+
+.methodology-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 1rem !important;
+    margin-top: 1.25rem !important;
+}
+
+.methodology-card {
+    position: relative !important;
+    min-height: 245px !important;
+    padding: 1.35rem !important;
+    border-radius: 20px !important;
+    border: 1px solid rgba(212, 175, 55, 0.20) !important;
+    background:
+        radial-gradient(circle at top left, rgba(212, 175, 55, 0.10), transparent 42%),
+        linear-gradient(180deg, rgba(18, 18, 18, 0.94), rgba(8, 8, 8, 0.96)) !important;
+    box-shadow:
+        0 16px 34px rgba(0, 0, 0, 0.22),
+        inset 0 1px 0 rgba(255, 255, 255, 0.035) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease !important;
+}
+
+.methodology-card:hover {
+    transform: translateY(-4px) !important;
+    border-color: rgba(244, 208, 111, 0.45) !important;
+    background:
+        radial-gradient(circle at top left, rgba(212, 175, 55, 0.16), transparent 42%),
+        linear-gradient(180deg, rgba(20, 20, 20, 0.96), rgba(8, 8, 8, 0.98)) !important;
+}
+
+.methodology-icon {
+    width: 52px !important;
+    height: 52px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 16px !important;
+    margin-bottom: 1rem !important;
+    background: rgba(212, 175, 55, 0.12) !important;
+    border: 1px solid rgba(212, 175, 55, 0.26) !important;
+    font-size: 1.45rem !important;
+}
+
+.methodology-card h3 {
+    color: var(--gold-light) !important;
+    font-size: 1.1rem !important;
+    font-weight: 950 !important;
+    margin: 0 0 0.65rem !important;
+    text-align: center !important;
+}
+
+.methodology-card p {
+    color: var(--muted) !important;
+    font-size: 0.9rem !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    text-align: center !important;
+}
+
+.methodology-note {
+    margin: 1.25rem auto 0 !important;
+    max-width: 920px !important;
+    padding: 1rem 1.2rem !important;
+    border-radius: 16px !important;
+    color: var(--muted) !important;
+    background: rgba(212, 175, 55, 0.075) !important;
+    border: 1px solid rgba(212, 175, 55, 0.18) !important;
+    text-align: center !important;
+    line-height: 1.6 !important;
+    font-size: 0.9rem !important;
+}
+
+.methodology-note strong {
+    color: var(--gold-light) !important;
+}
+
+/* Rodapé mais elegante */
+.footer-section {
+    margin-top: 1.25rem !important;
+    padding: 1.2rem 1rem !important;
+    color: var(--muted) !important;
+    text-align: center !important;
+    font-size: 0.86rem !important;
+}
+
+.footer-section p {
+    margin: 0 !important;
+}
+
+/* Responsivo */
+@media (max-width: 1050px) {
+    .methodology-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .methodology-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .methodology-card {
+        min-height: auto !important;
+    }
+
+    .methodology-note {
+        font-size: 0.84rem !important;
+    }
+}

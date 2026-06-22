@@ -1,0 +1,553 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Copa do Mundo 2022 | Dashboard StatsBomb</title>
+
+    <link
+        rel="stylesheet"
+        href="/dashboard/assets/css/copa2022-base.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="/dashboard/assets/css/copa2022-components.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="/dashboard/assets/css/copa2022-animations.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="/dashboard/assets/css/copa2022-emergency.css?v=999"
+    >
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <main class="page-shell">
+        <!-- HERO -->
+        <section class="hero-section">
+            <div class="hero-content hero-card-clean">
+                <div class="brand-row">
+                    <img
+                        src="/dashboard/assets/img/logo.png"
+                        alt="Logo AGS Performance"
+                        class="project-logo"
+                    >
+                </div>
+
+                <div class="hero-title-block">
+                    <span class="hero-kicker">Dashboard Copa do Mundo 2022</span>
+
+                    <h1>Copa do Mundo 2022</h1>
+
+                    <p>
+                        Dashboard interativo de análise de desempenho com dados de partidas,
+                        jogadores, eventos, chutes, passes, posições médias, mapas de calor,
+                        comparativos, momentos, linha do tempo, ranking individual e resumo inteligente.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- VISÃO GERAL -->
+        <section class="section-panel">
+            <div class="section-header">
+                <span class="section-kicker">Visão geral</span>
+                <h2>Resumo da competição</h2>
+                <p>
+                    Principais números da Copa do Mundo 2022 com base nos dados disponíveis no projeto.
+                </p>
+            </div>
+
+            <div
+                id="kpi-row"
+                class="kpi-grid"
+            >
+                <div class="loading">Carregando resumo...</div>
+            </div>
+        </section>
+
+        <!-- RANKING + ARTILHEIROS -->
+        <section class="section-grid two-columns ranking-left-grid">
+            <div class="section-panel ranking-panel">
+                <div class="section-header">
+                    <span class="section-kicker">Seleções</span>
+                    <h2>Ranking por equipes</h2>
+                    <p>
+                        Compare as seleções por gols, xG, finalizações e finalizações no gol.
+                    </p>
+                </div>
+
+                <div class="ranking-controls">
+                    <label>
+                        Métrica
+                        <select id="ranking-order">
+                            <option value="gols">Gols</option>
+                            <option value="xg">xG</option>
+                            <option value="shots">Finalizações</option>
+                            <option value="shots_on_target">Finalizações no gol</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Exibir
+                        <select id="ranking-limit">
+                            <option value="10">Top 10</option>
+                            <option value="16">Top 16</option>
+                            <option value="32">Todas</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div
+                    id="ranking-chart-wrapper"
+                    class="chart-wrapper ranking-chart-clean"
+                >
+                    <canvas id="ranking-chart"></canvas>
+                </div>
+            </div>
+
+            <div class="section-panel scorers-panel">
+                <div class="section-header">
+                    <span class="section-kicker">Jogadores</span>
+                    <h2>Artilheiros</h2>
+                    <p>
+                        Ranking dos principais goleadores da competição.
+                    </p>
+                </div>
+
+                <div
+                    id="artilheiros-list"
+                    class="scorers-list"
+                >
+                    <div class="loading">Carregando artilheiros...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CAMPANHA DO BRASIL -->
+        <section class="section-panel">
+            <div class="section-header">
+                <span class="section-kicker">Brasil</span>
+                <h2>Campanha do Brasil</h2>
+                <p>
+                    Jogos do Brasil na Copa do Mundo 2022, com placar, xG e volume ofensivo.
+                </p>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Fase</th>
+                            <th>Adversário</th>
+                            <th>Placar</th>
+                            <th>xG</th>
+                            <th>Finalizações</th>
+                            <th>No gol</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="brasil-tbody">
+                        <tr>
+                            <td
+                                colspan="7"
+                                class="loading"
+                            >
+                                Carregando campanha do Brasil...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- TODAS AS PARTIDAS -->
+        <section class="section-panel">
+            <div class="section-header">
+                <span class="section-kicker">Partidas</span>
+                <h2>Todas as partidas</h2>
+                <p>
+                    Consulte os jogos da Copa do Mundo 2022 e filtre por seleção.
+                </p>
+            </div>
+
+            <div class="filters-row">
+                <label>
+                    Filtrar seleção
+                    <select id="team-filter">
+                        <option value="">Todas as seleções</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Fase</th>
+                            <th>Mandante</th>
+                            <th>Placar</th>
+                            <th>Visitante</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="matches-tbody">
+                        <tr>
+                            <td
+                                colspan="5"
+                                class="loading"
+                            >
+                                Carregando partidas...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ANÁLISE POR PARTIDA -->
+        <section class="section-panel match-analysis-section">
+            <div class="section-header">
+                <span class="section-kicker">Análise por partida</span>
+                <h2>Explore uma partida em detalhes</h2>
+                <p>
+                    Selecione uma partida para visualizar escalações, resumo inteligente,
+                    comparativo entre equipes, momentos do jogo, linha do tempo, ranking individual,
+                    posições médias, mapa de calor, resumo dos jogadores, chutes e passes.
+                </p>
+            </div>
+
+            <div class="analysis-filters">
+                <label>
+                    Partida
+                    <select id="analysis-match-select">
+                        <option value="">Selecione uma partida</option>
+                    </select>
+                </label>
+
+                <label>
+                    Time
+                    <select id="analysis-team-select">
+                        <option value="">Ambos os times</option>
+                    </select>
+                </label>
+
+                <label>
+                    Jogador
+                    <select id="analysis-player-select">
+                        <option value="">Todos os jogadores</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="analysis-tabs">
+                <button class="analysis-tab active" data-tab="lineups-panel">Escalações</button>
+                <button class="analysis-tab" data-tab="insights-panel">Resumo Inteligente</button>
+                <button class="analysis-tab" data-tab="comparison-panel">Comparativo</button>
+                <button class="analysis-tab" data-tab="moments-panel">Momentos da Partida</button>
+                <button class="analysis-tab" data-tab="timeline-panel">Linha do Tempo</button>
+                <button class="analysis-tab" data-tab="player-ranking-panel">Ranking Individual</button>
+                <button class="analysis-tab" data-tab="average-panel">Posição Média</button>
+                <button class="analysis-tab" data-tab="heatmap-panel">Mapa de Calor</button>
+                <button class="analysis-tab" data-tab="summary-panel">Resumo dos Jogadores</button>
+                <button class="analysis-tab" data-tab="shots-panel">Chutes</button>
+                <button class="analysis-tab" data-tab="passes-panel">Passes</button>
+            </div>
+
+            <!-- ESCALAÇÕES -->
+            <div
+                id="lineups-panel"
+                class="analysis-tab-content active"
+            >
+                <div class="analysis-card">
+                    <h3>Escalações</h3>
+                    <p class="section-description">
+                        Visualização tática das formações iniciais das equipes.
+                    </p>
+
+                    <div id="lineups-box">
+                        <div class="loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESUMO INTELIGENTE -->
+            <div
+                id="insights-panel"
+                class="analysis-tab-content"
+            >
+                <div class="analysis-card">
+                    <h3>Resumo Inteligente</h3>
+                    <p class="section-description">
+                        Leitura automatizada dos principais pontos da partida.
+                    </p>
+
+                    <div id="insights-box">
+                        <div class="loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COMPARATIVO -->
+            <div
+                id="comparison-panel"
+                class="analysis-tab-content"
+            >
+                <div class="analysis-card">
+                    <h3>Comparativo entre equipes</h3>
+                    <p class="section-description">
+                        Comparação direta entre os dois times da partida em métricas ofensivas,
+                        volume de ações, passes e pressão.
+                    </p>
+
+                    <div id="comparison-box">
+                        <div class="loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOMENTOS -->
+            <div
+                id="moments-panel"
+                class="analysis-tab-content"
+            >
+                <div class="analysis-card">
+                    <h3>Momentos da Partida</h3>
+                    <p class="section-description">
+                        Leitura por blocos de tempo para identificar quais equipes tiveram maior domínio
+                        ou pressão ofensiva em diferentes momentos do jogo.
+                    </p>
+
+                    <div id="moments-box">
+                        <div class="loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LINHA DO TEMPO -->
+            <div
+                id="timeline-panel"
+                class="analysis-tab-content"
+            >
+                <div class="analysis-card">
+                    <h3>Linha do Tempo</h3>
+                    <p class="section-description">
+                        Eventos importantes da partida organizados cronologicamente.
+                    </p>
+
+                    <div id="timeline-box">
+                        <div class="loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RANKING INDIVIDUAL -->
+            <div
+                id="player-ranking-panel"
+                class="analysis-tab-content"
+            >
+                <div class="analysis-card">
+                    <h3>Ranking Individual</h3>
+                    <p class="section-description">
+                        Índice próprio do dashboard para ranquear jogadores com base em ações,
+                        gols, xG, passes, dribles e participação ofensiva.
+                    </p>
+
+                    <div id="player-ranking-box">
+                        <div class="loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POSIÇÃO MÉDIA -->
+            <div
+                id="average-panel"
+                class="analysis-tab-content"
+            >
+                <div class="analysis-card">
+                    <h3>Posição Média</h3>
+                    <p class="section-description">
+                        Localização média dos jogadores em campo com base nos eventos da partida.
+                    </p>
+
+                    <div id="average-positions-box">
+                        <div class="loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MAPA DE CALOR -->
+            <div
+                id="heatmap-panel"
+                class="analysis-tab-content"
+            >
+                <div class="analysis-card">
+                    <h3>Mapa de Calor</h3>
+                    <p class="section-description">
+                        Distribuição espacial das ações da equipe ou jogador selecionado.
+                    </p>
+
+                    <div id="heatmap-box">
+                        <div class="loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESUMO DOS JOGADORES -->
+            <div
+                id="summary-panel"
+                class="analysis-tab-content"
+            >
+                <div class="analysis-card">
+                    <h3>Resumo dos Jogadores</h3>
+                    <p class="section-description">
+                        Tabela com ações, passes, chutes, gols, xG e dribles dos jogadores.
+                    </p>
+
+                    <div id="player-summary-box">
+                        <div class="loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CHUTES -->
+            <div
+                id="shots-panel"
+                class="analysis-tab-content"
+            >
+                <div class="analysis-card">
+                    <h3>Chutes</h3>
+                    <p class="section-description">
+                        Mapa de finalizações com localização, xG, resultado do chute e parte do corpo.
+                    </p>
+
+                    <div id="shots-box">
+                        <div class="loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PASSES -->
+            <div
+                id="passes-panel"
+                class="analysis-tab-content"
+            >
+                <div class="analysis-card">
+                    <h3>Passes</h3>
+                    <p class="section-description">
+                        Mapa de passes da partida, com filtros por passes curtos, médios,
+                        lançamentos e passes errados.
+                    </p>
+
+                    <div id="passes-box">
+                        <div class="loading">Selecione uma partida</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- METODOLOGIA E CRÉDITOS -->
+        <section class="section-panel methodology-section">
+            <div class="section-header">
+                <span class="section-kicker">Projeto</span>
+                <h2>Metodologia e Créditos</h2>
+                <p>
+                    Este dashboard foi desenvolvido para transformar dados brutos de partidas da Copa do Mundo 2022
+                    em visualizações interativas voltadas à análise de desempenho no futebol.
+                </p>
+            </div>
+
+            <div class="methodology-grid">
+                <div class="methodology-card">
+                    <div class="methodology-icon">📊</div>
+                    <h3>Fonte dos dados</h3>
+                    <p>
+                        Os dados utilizados no projeto têm como base o conjunto público da StatsBomb,
+                        contendo informações de partidas, eventos, jogadores, escalações, chutes, passes
+                        e ações em campo.
+                    </p>
+                </div>
+
+                <div class="methodology-card">
+                    <div class="methodology-icon">⚽</div>
+                    <h3>O que é analisado</h3>
+                    <p>
+                        O dashboard permite analisar resultados, campanha do Brasil, artilheiros,
+                        rankings por equipe, escalações, finalizações, passes, mapas de calor,
+                        posições médias, momentos do jogo e linha do tempo dos eventos.
+                    </p>
+                </div>
+
+                <div class="methodology-card">
+                    <div class="methodology-icon">🧠</div>
+                    <h3>Resumo inteligente</h3>
+                    <p>
+                        A seção de resumo inteligente interpreta os principais padrões da partida,
+                        destacando volume ofensivo, criação de chances, domínio territorial,
+                        eficiência e jogadores de maior impacto.
+                    </p>
+                </div>
+
+                <div class="methodology-card">
+                    <div class="methodology-icon">⭐</div>
+                    <h3>Ranking individual</h3>
+                    <p>
+                        O ranking individual é um índice próprio do dashboard. Ele não representa uma nota oficial
+                        da StatsBomb, mas uma métrica criada para combinar participação, gols, xG, passes,
+                        dribles, ações ofensivas e influência no jogo.
+                    </p>
+                </div>
+
+                <div class="methodology-card">
+                    <div class="methodology-icon">🛠️</div>
+                    <h3>Tecnologias utilizadas</h3>
+                    <p>
+                        O projeto foi construído com Python, FastAPI, SQLite, HTML, CSS, JavaScript
+                        e Chart.js, integrando backend, banco de dados e visualizações interativas
+                        em uma aplicação web.
+                    </p>
+                </div>
+
+                <div class="methodology-card">
+                    <div class="methodology-icon">👤</div>
+                    <h3>Autoria</h3>
+                    <p>
+                        Desenvolvido por Andrew Gouveia como projeto de Análise de Desempenho
+                        e Ciência de Dados aplicados ao futebol, com foco em visualização,
+                        interpretação e comunicação de dados esportivos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="methodology-note">
+                <strong>Observação:</strong>
+                este projeto tem finalidade educacional e de portfólio. As métricas próprias foram criadas
+                para fins de estudo, interpretação e apresentação visual dos dados.
+            </div>
+        </section>
+
+        <!-- RODAPÉ SIMPLES -->
+        <footer class="footer-section">
+            <p>
+                Desenvolvido por Andrew Gouveia · Análise de Desempenho e Ciência de Dados Aplicados ao Futebol
+            </p>
+        </footer>
+    </main>
+
+    <script src="/dashboard/assets/js/copa2022-app.js?v=999"></script>
+</body>
+</html>
