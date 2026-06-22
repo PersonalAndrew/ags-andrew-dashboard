@@ -1,7 +1,8 @@
 fastapi
-uvicorn
+uvicorn[standard]
 pandas
 numpy
 matplotlib
 mplsoccer
+plotly
 python-multipart
