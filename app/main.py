@@ -17,3 +17,15 @@ FRONTEND_DIR = Path(__file__).parent / "frontend"
 app.mount("/dashboard", StaticFiles(directory=str(FRONTEND_DIR), html=True), name="frontend")
 app.include_router(router, prefix="")
 app.include_router(statsbomb_router, prefix="")
+from fastapi.responses import FileResponse, RedirectResponse
+from pathlib import Path
+
+FRONTEND_DIR = Path(__file__).parent / "frontend"
+
+@app.get("/")
+def home():
+    return RedirectResponse(url="/dashboard/copa2022.html")
+
+@app.get("/dashboard/copa2022.html")
+def copa2022_dashboard():
+    return FileResponse(FRONTEND_DIR / "copa2022.html")
