@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>Copa 2026 | Inglaterra x Croácia</title>
 
-    <link rel="stylesheet" href="/dashboard/assets/css/copa2026.css?v=1">
+    <link
+        rel="stylesheet"
+        href="/dashboard/assets/css/copa2026.css?v=4"
+    >
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
     <header class="topbar">
-        <a href="/dashboard/index.html" class="back-link">
+        <a
+            href="/dashboard/index.html"
+            class="back-link"
+        >
             <span>←</span>
             Voltar para AGS Performance Análises
         </a>
     </header>
 
     <main class="page-shell">
+        <!-- HERO -->
         <section class="hero-section">
             <div class="hero-card">
                 <span class="hero-kicker">Copa do Mundo 2026</span>
@@ -53,6 +62,7 @@
             </div>
         </section>
 
+        <!-- CARDS PRINCIPAIS -->
         <section class="kpi-grid">
             <article class="kpi-card">
                 <span class="kpi-label">Placar</span>
@@ -61,90 +71,127 @@
             </article>
 
             <article class="kpi-card">
-                <span class="kpi-label">Finalizações</span>
+                <span class="kpi-label">xG</span>
                 <strong>--</strong>
-                <small>Dados a conectar</small>
+                <small>Gols esperados</small>
             </article>
 
             <article class="kpi-card">
-                <span class="kpi-label">Finalizações no gol</span>
+                <span class="kpi-label">Finalizações</span>
                 <strong>--</strong>
-                <small>Dados a conectar</small>
+                <small>Inglaterra x Croácia</small>
             </article>
 
             <article class="kpi-card">
                 <span class="kpi-label">Posse de bola</span>
                 <strong>--</strong>
-                <small>Dados a conectar</small>
+                <small>Inglaterra x Croácia</small>
             </article>
         </section>
 
+        <!-- ESTATÍSTICAS + FINALIZAÇÕES -->
         <section class="section-grid">
             <article class="section-panel">
                 <div class="section-header">
-                    <span>Resumo</span>
-                    <h2>Leitura inicial da partida</h2>
+                    <span>Estatísticas gerais</span>
+                    <h2>Comparativo da partida</h2>
                     <p>
-                        Esta página será conectada aos dados que você já tem no projeto SofaScore.
-                        Primeiro estamos montando a estrutura visual dentro do hub.
+                        Principais indicadores do jogo Inglaterra 4 x 2 Croácia com base nos dados SofaScore.
                     </p>
                 </div>
 
-                <div class="insight-list">
-                    <div class="insight-item">
-                        <strong>1</strong>
-                        <p>Base da página Copa 2026 criada dentro do projeto principal.</p>
-                    </div>
-
-                    <div class="insight-item">
-                        <strong>2</strong>
-                        <p>Próximo passo: importar estatísticas reais do jogo Inglaterra x Croácia.</p>
-                    </div>
-
-                    <div class="insight-item">
-                        <strong>3</strong>
-                        <p>Depois conectamos finalizações, momentum, eventos e ranking de jogadores.</p>
-                    </div>
+                <div
+                    id="stats-comparison-box"
+                    class="stats-comparison-box"
+                >
+                    <div class="loading-card">Carregando estatísticas...</div>
                 </div>
             </article>
 
             <article class="section-panel">
                 <div class="section-header">
-                    <span>Próximas seções</span>
-                    <h2>Módulos planejados</h2>
+                    <span>Finalizações</span>
+                    <h2>Resumo ofensivo</h2>
                     <p>
-                        Estrutura que vamos preencher com os dados reais da partida.
+                        Volume de chutes, xG, gols e eficiência das finalizações das duas seleções.
                     </p>
                 </div>
 
-                <div class="module-list">
-                    <div>📊 Estatísticas gerais</div>
-                    <div>🎯 Finalizações</div>
-                    <div>⭐ Ranking dos jogadores</div>
-                    <div>📈 Momentum</div>
-                    <div>🕒 Eventos da partida</div>
-                    <div>🗺️ Posições médias</div>
+                <div
+                    id="shot-summary-box"
+                    class="shot-summary-box"
+                >
+                    <div class="loading-card">Carregando finalizações...</div>
                 </div>
             </article>
         </section>
 
+        <!-- PRÓXIMOS MÓDULOS -->
         <section class="section-panel full-panel">
             <div class="section-header">
-                <span>Status</span>
-                <h2>Página Copa 2026 criada</h2>
+                <span>Próximos módulos</span>
+                <h2>Expansão da análise</h2>
                 <p>
-                    Agora o hub já pode apontar para esta página. Em seguida vamos migrar os dados
-                    do dashboard antigo/SofaScore para este novo módulo.
+                    Dados reais do SofaScore carregados com sucesso. A página agora utiliza estatísticas,
+                    shotmap, logos e arquivos migrados do dashboard antigo.
                 </p>
+            </div>
+
+            <div class="module-list">
+                <div>🎯 Mapa de finalizações</div>
+                <div>⭐ Ranking dos jogadores</div>
+                <div>📈 Momentum da partida</div>
+                <div>🕒 Eventos do jogo</div>
+                <div>🗺️ Posições médias</div>
+                <div>📋 Escalações</div>
+            </div>
+        </section>
+
+        <!-- METODOLOGIA -->
+        <section class="section-panel full-panel">
+            <div class="section-header">
+                <span>Metodologia</span>
+                <h2>Fonte e organização dos dados</h2>
+                <p>
+                    Este módulo da Copa 2026 utiliza dados extraídos do SofaScore e migrados do dashboard
+                    original em Streamlit para uma página web integrada ao hub AGS Performance Análises.
+                    A estrutura foi separada em arquivos JSON para facilitar a evolução do projeto.
+                </p>
+            </div>
+
+            <div class="insight-list">
+                <div class="insight-item">
+                    <strong>1</strong>
+                    <p>
+                        Os arquivos de estatísticas, finalizações, momentum, eventos, escalações e posições médias
+                        ficam organizados em <b>assets/data/copa2026</b>.
+                    </p>
+                </div>
+
+                <div class="insight-item">
+                    <strong>2</strong>
+                    <p>
+                        O JavaScript carrega os dados automaticamente e atualiza os cards e módulos visuais da página.
+                    </p>
+                </div>
+
+                <div class="insight-item">
+                    <strong>3</strong>
+                    <p>
+                        A próxima etapa será transformar os dados de chutes, jogadores, momentum e eventos em gráficos
+                        e visualizações interativas.
+                    </p>
+                </div>
             </div>
         </section>
 
         <footer class="footer-section">
-            <p>AGS Performance Análises · Copa 2026 · Inglaterra x Croácia</p>
+            <p>
+                AGS Performance Análises · Copa 2026 · Inglaterra x Croácia
+            </p>
         </footer>
     </main>
 
-    <script src="/dashboard/assets/js/copa2026-app.js?v=1"></script>
+    <script src="/dashboard/assets/js/copa2026-app.js?v=4"></script>
 </body>
-
 </html>
