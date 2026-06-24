@@ -12,7 +12,7 @@
 
     <link
         rel="stylesheet"
-        href="/dashboard/assets/css/copa2026.css?v=4"
+        href="/dashboard/assets/css/copa2026.css?v=5"
     >
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -126,6 +126,78 @@
             </article>
         </section>
 
+        <!-- DETALHAMENTO DAS FINALIZAÇÕES -->
+        <section class="section-panel full-panel">
+            <div class="section-header">
+                <span>Mapa de finalizações</span>
+                <h2>Detalhamento dos chutes</h2>
+                <p>
+                    Lista das finalizações da partida com jogador, minuto, resultado do chute e valor de xG.
+                </p>
+            </div>
+
+            <div class="shots-detail-grid">
+                <div class="shots-detail-card">
+                    <h3>Inglaterra</h3>
+
+                    <div
+                        id="england-shots-table"
+                        class="shots-table-box"
+                    >
+                        <div class="loading-card">Carregando chutes da Inglaterra...</div>
+                    </div>
+                </div>
+
+                <div class="shots-detail-card">
+                    <h3>Croácia</h3>
+
+                    <div
+                        id="croatia-shots-table"
+                        class="shots-table-box"
+                    >
+                        <div class="loading-card">Carregando chutes da Croácia...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- RANKING DOS JOGADORES + MOMENTUM -->
+<section class="section-grid">
+    <article class="section-panel">
+        <div class="section-header">
+            <span>Jogadores</span>
+            <h2>Ranking individual</h2>
+            <p>
+                Destaques da partida com base em nota, finalizações, xG, gols e participação ofensiva.
+            </p>
+        </div>
+
+        <div
+            id="player-ranking-box"
+            class="player-ranking-box"
+        >
+            <div class="loading-card">Carregando ranking dos jogadores...</div>
+        </div>
+    </article>
+
+    <article class="section-panel">
+        <div class="section-header">
+            <span>Momentum</span>
+            <h2>Domínio da partida</h2>
+            <p>
+                Leitura do domínio territorial e pressão ofensiva ao longo dos minutos do jogo.
+            </p>
+        </div>
+
+        <div
+            id="momentum-box"
+            class="momentum-box"
+        >
+            <div class="loading-card">Carregando momentum...</div>
+        </div>
+    </article>
+</section>
+
         <!-- PRÓXIMOS MÓDULOS -->
         <section class="section-panel full-panel">
             <div class="section-header">
@@ -138,12 +210,12 @@
             </div>
 
             <div class="module-list">
-                <div>🎯 Mapa de finalizações</div>
                 <div>⭐ Ranking dos jogadores</div>
                 <div>📈 Momentum da partida</div>
                 <div>🕒 Eventos do jogo</div>
                 <div>🗺️ Posições médias</div>
                 <div>📋 Escalações</div>
+                <div>📊 Comparativos avançados</div>
             </div>
         </section>
 
@@ -178,7 +250,7 @@
                 <div class="insight-item">
                     <strong>3</strong>
                     <p>
-                        A próxima etapa será transformar os dados de chutes, jogadores, momentum e eventos em gráficos
+                        A próxima etapa será transformar os dados de jogadores, momentum e eventos em gráficos
                         e visualizações interativas.
                     </p>
                 </div>
@@ -192,6 +264,6 @@
         </footer>
     </main>
 
-    <script src="/dashboard/assets/js/copa2026-app.js?v=4"></script>
+    <script src="/dashboard/assets/js/copa2026-app.js?v=5"></script>
 </body>
 </html>

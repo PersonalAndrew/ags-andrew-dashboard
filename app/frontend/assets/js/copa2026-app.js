@@ -89,8 +89,10 @@ function getShotmapSummary(shotmapData) {
     const awayAccuracy = awayShots.length ? (awayOnTarget / awayShots.length) * 100 : 0;
 
     return {
-        homeShots: homeShots.length,
-        awayShots: awayShots.length,
+        homeShots,
+        awayShots,
+        homeShotsCount: homeShots.length,
+        awayShotsCount: awayShots.length,
         homeXg,
         awayXg,
         homeGoals,
@@ -238,7 +240,7 @@ function renderShotSummary(shotSummary) {
 
                 <div class="shot-team-stat">
                     <span>Finalizações</span>
-                    <strong>${shotSummary.homeShots}</strong>
+                    <strong>${shotSummary.homeShotsCount}</strong>
                 </div>
 
                 <div class="shot-team-stat">
@@ -267,7 +269,7 @@ function renderShotSummary(shotSummary) {
 
                 <div class="shot-team-stat">
                     <span>Finalizações</span>
-                    <strong>${shotSummary.awayShots}</strong>
+                    <strong>${shotSummary.awayShotsCount}</strong>
                 </div>
 
                 <div class="shot-team-stat">
@@ -292,6 +294,96 @@ function renderShotSummary(shotSummary) {
             </div>
         </div>
     `;
+}
+
+function getShotPlayerName(shot) {
+    const player = shot.player || {};
+    return player.shortName || player.name || "-";
+}
+
+function translateShotResult(type) {
+    const translations = {
+        goal: "Gol",
+        save: "No alvo",
+        miss: "Fora",
+        block: "Bloqueado",
+    };
+
+    return translations[type] || type || "-";
+}
+
+function getShotResultClass(type) {
+    const classes = {
+        goal: "shot-result-goal",
+        save: "shot-result-save",
+        miss: "shot-result-miss",
+        block: "shot-result-block",
+    };
+
+    return classes[type] || "shot-result-miss";
+}
+
+function shotToRow(shot) {
+    const minute = shot.time ?? "-";
+    const player = getShotPlayerName(shot);
+    const result = translateShotResult(shot.shotType);
+    const resultClass = getShotResultClass(shot.shotType);
+    const xg = Number(shot.xg || 0).toFixed(3);
+
+    return `
+        <tr>
+            <td>${minute}'</td>
+            <td class="player-cell">${player}</td>
+            <td>
+                <span class="shot-result-pill ${resultClass}">
+                    ${result}
+                </span>
+            </td>
+            <td>${xg}</td>
+        </tr>
+    `;
+}
+
+function renderShotsTable(selector, shots) {
+    const box = document.querySelector(selector);
+
+    if (!box) return;
+
+    if (!shots.length) {
+        box.innerHTML = `<div class="loading-card">Nenhuma finalização encontrada.</div>`;
+        return;
+    }
+
+    const sortedShots = [...shots].sort(
+        (a, b) => Number(a.time || 0) - Number(b.time || 0)
+    );
+
+    box.innerHTML = `
+        <table class="shots-table">
+            <thead>
+                <tr>
+                    <th>Min</th>
+                    <th>Jogador</th>
+                    <th>Resultado</th>
+                    <th>xG</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                ${sortedShots.map(shotToRow).join("")}
+            </tbody>
+        </table>
+    `;
+}
+
+function renderShotTables(shotmapData) {
+    const shots = shotmapData?.shotmap || [];
+
+    const homeShots = shots.filter((shot) => shot.isHome);
+    const awayShots = shots.filter((shot) => !shot.isHome);
+
+    renderShotsTable("#england-shots-table", homeShots);
+    renderShotsTable("#croatia-shots-table", awayShots);
 }
 
 function updateKpisFromData(statisticsData, shotmapData) {
@@ -320,7 +412,7 @@ function updateKpisFromData(statisticsData, shotmapData) {
         "Finalizações",
         totalShots
             ? `${totalShots.home} x ${totalShots.away}`
-            : `${shotSummary.homeShots} x ${shotSummary.awayShots}`,
+            : `${shotSummary.homeShotsCount} x ${shotSummary.awayShotsCount}`,
         "Inglaterra x Croácia"
     );
 
@@ -335,6 +427,7 @@ function updateKpisFromData(statisticsData, shotmapData) {
 
     renderStatsComparison(statsRows);
     renderShotSummary(shotSummary);
+    renderShotTables(shotmapData);
 
     console.log("Estatísticas carregadas:", statsRows);
     console.log("Resumo de chutes:", shotSummary);
@@ -354,18 +447,212 @@ function renderDataStatus(success = true) {
     }
 }
 
+function normalizePlayersFromLineups(lineupsData) {
+    const homePlayers = lineupsData?.home?.players || [];
+    const awayPlayers = lineupsData?.away?.players || [];
+
+    const mapPlayer = (item, teamName) => {
+        const player = item.player || {};
+        const stats = item.statistics || {};
+
+        const rating = Number(stats.rating || 0);
+        const goals = Number(stats.goals || 0);
+        const assists = Number(stats.goalAssist || 0);
+        const shots = Number(stats.totalShots || 0);
+        const xg = Number(stats.expectedGoals || 0);
+        const xa = Number(stats.expectedAssists || 0);
+        const sprints = Number(stats.numberOfSprints || 0);
+
+        const score =
+            rating * 10 +
+            goals * 12 +
+            assists * 8 +
+            xg * 7 +
+            xa * 5 +
+            shots * 1.4 +
+            sprints * 0.08;
+
+        return {
+            team: teamName,
+            name: player.shortName || player.name || "-",
+            position: item.position || player.position || "-",
+            rating,
+            goals,
+            assists,
+            shots,
+            xg,
+            xa,
+            sprints,
+            score,
+        };
+    };
+
+    return [
+        ...homePlayers.map((item) => mapPlayer(item, "Inglaterra")),
+        ...awayPlayers.map((item) => mapPlayer(item, "Croácia")),
+    ];
+}
+
+function renderPlayerRanking(lineupsData) {
+    const box = document.querySelector("#player-ranking-box");
+
+    if (!box) return;
+
+    const players = normalizePlayersFromLineups(lineupsData)
+        .filter((player) => player.name !== "-")
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 8);
+
+    if (!players.length) {
+        box.innerHTML = `<div class="loading-card">Não foi possível carregar o ranking.</div>`;
+        return;
+    }
+
+    box.innerHTML = `
+        <div class="player-ranking-list">
+            ${players
+                .map((player, index) => {
+                    return `
+                        <div class="player-ranking-row">
+                            <div class="player-rank-number">${index + 1}</div>
+
+                            <div class="player-rank-info">
+                                <div class="player-rank-name">${player.name}</div>
+
+                                <div class="player-rank-meta">
+                                    <span class="player-rank-pill">${player.team}</span>
+                                    <span class="player-rank-pill">${player.position}</span>
+                                    <span class="player-rank-pill">${player.goals} gol(s)</span>
+                                    <span class="player-rank-pill">${player.shots} chute(s)</span>
+                                </div>
+                            </div>
+
+                            <div class="player-rank-score">
+                                ${player.rating ? player.rating.toFixed(1) : player.score.toFixed(1)}
+                            </div>
+                        </div>
+                    `;
+                })
+                .join("")}
+        </div>
+    `;
+}
+
+function normalizeMomentum(momentumData) {
+    const points = momentumData?.graphPoints || [];
+
+    return points
+        .map((point) => {
+            return {
+                minute: Number(point.minute || 0),
+                value: Number(point.value || 0),
+            };
+        })
+        .filter((point) => point.minute > 0);
+}
+
+function formatMomentumMinute(minute) {
+    if (minute === 45.5) return "45+";
+    if (minute === 90.5) return "90+";
+    return `${Math.round(minute)}'`;
+}
+
+function renderMomentum(momentumData) {
+    const box = document.querySelector("#momentum-box");
+
+    if (!box) return;
+
+    const points = normalizeMomentum(momentumData);
+
+    if (!points.length) {
+        box.innerHTML = `<div class="loading-card">Não foi possível carregar o momentum.</div>`;
+        return;
+    }
+
+    const homeDominance = points.filter((point) => point.value > 0).length;
+    const awayDominance = points.filter((point) => point.value < 0).length;
+
+    const homePeak = points.reduce(
+        (best, point) => (point.value > best.value ? point : best),
+        { minute: "-", value: 0 }
+    );
+
+    const awayPeak = points.reduce(
+        (best, point) => (point.value < best.value ? point : best),
+        { minute: "-", value: 0 }
+    );
+
+    const sampledPoints = points.filter((_, index) => index % 3 === 0).slice(0, 34);
+
+    box.innerHTML = `
+        <div class="momentum-summary-grid">
+            <div class="momentum-mini-card">
+                <span>Domínio Inglaterra</span>
+                <strong>${homeDominance}</strong>
+            </div>
+
+            <div class="momentum-mini-card">
+                <span>Domínio Croácia</span>
+                <strong>${awayDominance}</strong>
+            </div>
+
+            <div class="momentum-mini-card">
+                <span>Pico Inglaterra</span>
+                <strong>${Math.round(homePeak.value)}</strong>
+            </div>
+
+            <div class="momentum-mini-card">
+                <span>Pico Croácia</span>
+                <strong>${Math.abs(Math.round(awayPeak.value))}</strong>
+            </div>
+        </div>
+
+        <div class="momentum-chart">
+            ${sampledPoints
+                .map((point) => {
+                    const width = Math.min(100, Math.abs(point.value));
+                    const isHome = point.value >= 0;
+
+                    return `
+                        <div class="momentum-row">
+                            <div class="momentum-minute">${formatMomentumMinute(point.minute)}</div>
+
+                            <div class="momentum-bar-track">
+                                <div class="momentum-bar-center"></div>
+                                <div
+                                    class="momentum-bar ${isHome ? "momentum-home" : "momentum-away"}"
+                                    style="width: ${width / 2}%"
+                                ></div>
+                            </div>
+                        </div>
+                    `;
+                })
+                .join("")}
+        </div>
+
+        <div class="momentum-legend">
+            <span class="legend-home">● Inglaterra</span>
+            <span class="legend-away">● Croácia</span>
+        </div>
+    `;
+}
+
 async function initCopa2026Dashboard() {
     try {
         updateHeroText();
         updateTeamLogos();
 
-        const [statisticsData, shotmapData] = await Promise.all([
-            loadJson(`${DATA_BASE_PATH}/statistics.json`),
-            loadJson(`${DATA_BASE_PATH}/shotmap.json`),
-        ]);
+        const [statisticsData, shotmapData, lineupsData, momentumData] = await Promise.all([
+    loadJson(`${DATA_BASE_PATH}/statistics.json`),
+    loadJson(`${DATA_BASE_PATH}/shotmap.json`),
+    loadJson(`${DATA_BASE_PATH}/lineups.json`),
+    loadJson(`${DATA_BASE_PATH}/momentum.json`),
+]);
 
-        updateKpisFromData(statisticsData, shotmapData);
-        renderDataStatus(true);
+updateKpisFromData(statisticsData, shotmapData);
+renderPlayerRanking(lineupsData);
+renderMomentum(momentumData);
+renderDataStatus(true);
     } catch (error) {
         console.error("Erro ao inicializar Copa 2026:", error);
         renderDataStatus(false);
