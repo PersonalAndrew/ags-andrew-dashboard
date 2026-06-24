@@ -24,8 +24,4 @@ FRONTEND_DIR = Path(__file__).parent / "frontend"
 
 @app.get("/")
 def home():
-    return RedirectResponse(url="/dashboard/copa2022.html")
-
-@app.get("/dashboard/copa2022.html")
-def copa2022_dashboard():
-    return FileResponse(FRONTEND_DIR / "copa2022.html")
+    return RedirectResponse(url="/dashboard/index.html")

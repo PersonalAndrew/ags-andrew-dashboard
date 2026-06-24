@@ -2,61 +2,228 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SofaScore Player Dashboard</title>
-    <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="stylesheet" href="assets/css/components.css">
-    <link rel="stylesheet" href="assets/css/animations.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AGS Performance Análises</title>
+
+    <link
+        rel="stylesheet"
+        href="/dashboard/assets/css/copa2022-base.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="/dashboard/assets/css/hub.css?v=2"
+    >
 </head>
+
 <body>
-    <div class="dashboard">
-        <header>
-            <h1>SofaScore Player Dashboard</h1>
-            <p>Performance & Estatísticas Detalhadas</p>
-            <div class="player-selector">
-                <select id="player-select" disabled>
-                    <option value="">Carregando jogadores...</option>
-                </select>
-                <div id="player-info" class="player-info"></div>
-            </div>
-        </header>
+    <main class="hub-layout">
+        <!-- SIDEBAR -->
+        <aside class="hub-sidebar">
+            <div class="hub-brand">
+                <img
+                    src="/dashboard/assets/img/logo.png"
+                    alt="AGS Performance"
+                    class="hub-logo"
+                >
 
-        <main>
-            <div class="glass-panel map-container">
-                <h2>Mapa de Calor (Heatmap)</h2>
-                <div class="img-wrapper">
-                    <img id="heatmap-img" src="" alt="Heatmap loading...">
+                <div>
+                    <h1>AGS Performance</h1>
+                    <p>Análises</p>
                 </div>
             </div>
 
-            <div class="glass-panel map-container">
-                <h2>Mapa de Chutes (Shotmap)</h2>
-                <div class="img-wrapper">
-                    <img id="shotmap-img" src="" alt="Shotmap loading...">
+            <nav class="hub-menu">
+                <a
+                    href="/dashboard/index.html"
+                    class="hub-menu-link active"
+                >
+                    <span>🏠</span>
+                    Início
+                </a>
+
+                <a
+                    href="/dashboard/copa2022.html"
+                    class="hub-menu-link"
+                >
+                    <span>🏆</span>
+                    Copa 2022
+                </a>
+
+                <a
+                    href="#copa-2026"
+                    class="hub-menu-link"
+                >
+                    <span>🌎</span>
+                    Copa 2026
+                </a>
+
+                <a
+                    href="#comparativo"
+                    class="hub-menu-link"
+                >
+                    <span>⚔️</span>
+                    Comparativo
+                </a>
+            </nav>
+
+            <div class="hub-sidebar-note">
+                <strong>Projeto em evolução</strong>
+                <p>
+                    Plataforma criada para reunir dashboards, análises e comparativos de futebol.
+                </p>
+            </div>
+        </aside>
+
+        <!-- CONTENT -->
+        <section class="hub-content">
+            <header class="hub-hero">
+                <div class="hub-hero-badge">
+                    Análise de desempenho e ciência de dados aplicada ao futebol
                 </div>
-            </div>
 
-            <div class="glass-panel map-container">
-                <h2>Mapa de Passes</h2>
-                <div class="img-wrapper">
-                    <img id="passmap-img" src="" alt="Passmap loading...">
+                <h2>AGS Performance Análises</h2>
+
+                <p>
+                    Plataforma criada para centralizar dashboards de futebol, análises de partidas,
+                    comparativos entre seleções, jogadores e competições.
+                </p>
+            </header>
+
+            <section class="hub-grid">
+                <!-- COPA 2022 -->
+                <article class="hub-card">
+                    <div class="hub-card-icon">🏆</div>
+
+                    <div class="hub-card-content">
+                        <span class="hub-card-kicker">StatsBomb Open Data</span>
+
+                        <h3>Copa do Mundo 2022</h3>
+
+                        <p>
+                            Dashboard completo com rankings, campanha do Brasil, artilheiros,
+                            análise por partida, chutes, passes, posições médias, mapa de calor,
+                            comparativos, momentos, linha do tempo e resumo inteligente.
+                        </p>
+                    </div>
+
+                    <a
+                        href="/dashboard/copa2022.html"
+                        class="hub-card-button"
+                    >
+                        Abrir dashboard 2022
+                    </a>
+                </article>
+
+                <!-- COPA 2026 -->
+                <article
+                    class="hub-card"
+                    id="copa-2026"
+                >
+                    <div class="hub-card-icon">🌎</div>
+
+                    <div class="hub-card-content">
+                        <span class="hub-card-kicker">Sofascore</span>
+
+                        <h3>Copa do Mundo 2026</h3>
+
+                        <p>
+                            Área reservada para dashboards de partidas da Copa 2026, começando pela
+                            análise de Inglaterra x Croácia. Novos jogos poderão ser adicionados
+                            ao longo da competição.
+                        </p>
+                    </div>
+
+                    <button
+                        class="hub-card-button disabled"
+                        type="button"
+                    >
+                        Em construção
+                    </button>
+                </article>
+
+                <!-- COMPARATIVO -->
+                <article
+                    class="hub-card"
+                    id="comparativo"
+                >
+                    <div class="hub-card-icon">⚔️</div>
+
+                    <div class="hub-card-content">
+                        <span class="hub-card-kicker">Camada padronizada</span>
+
+                        <h3>Comparativo</h3>
+
+                        <p>
+                            Espaço para comparar países e jogadores entre diferentes competições,
+                            temporadas e fontes de dados, usando uma tabela padronizada de métricas.
+                        </p>
+                    </div>
+
+                    <div class="hub-card-actions">
+                        <button
+                            class="hub-mini-button disabled"
+                            type="button"
+                        >
+                            Países
+                        </button>
+
+                        <button
+                            class="hub-mini-button disabled"
+                            type="button"
+                        >
+                            Jogadores
+                        </button>
+                    </div>
+                </article>
+            </section>
+
+            <section class="hub-methodology">
+                <div class="section-header">
+                    <span class="section-kicker">Estrutura do projeto</span>
+                    <h2>Base para crescimento</h2>
+                    <p>
+                        A plataforma foi pensada para evoluir sem misturar fontes de dados de forma desorganizada.
+                        Cada competição pode ter seu próprio módulo, enquanto os comparativos usam uma camada
+                        padronizada de métricas.
+                    </p>
                 </div>
-            </div>
 
-            <div class="glass-panel stats-container">
-                <h2>Estatísticas Gerais</h2>
-                <div id="stats-grid" class="stats-grid"></div>
-            </div>
+                <div class="hub-standard-grid">
+                    <div class="hub-standard-card">
+                        <h3>2022</h3>
+                        <p>
+                            Dados da Copa do Mundo 2022 com base no StatsBomb Open Data.
+                        </p>
+                    </div>
 
-            <div class="glass-panel radar-container">
-                <h2>Radar de Performance</h2>
-                <canvas id="stats-radar"></canvas>
-            </div>
-        </main>
-    </div>
+                    <div class="hub-standard-card">
+                        <h3>2026</h3>
+                        <p>
+                            Dados de partidas específicas da Copa 2026 com base em consultas ao Sofascore.
+                        </p>
+                    </div>
 
-    <script type="module" src="assets/js/app.js"></script>
+                    <div class="hub-standard-card">
+                        <h3>Comparativo</h3>
+                        <p>
+                            Tabela padronizada para comparar seleções, jogadores e competições.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="hub-footer">
+                <p>
+                    Desenvolvido por Andrew Gouveia · AGS Performance Análises
+                </p>
+            </footer>
+        </section>
+    </main>
 </body>
 </html>
