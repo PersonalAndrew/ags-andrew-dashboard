@@ -414,3 +414,67 @@ a {
         height: 62px;
     }
 }
+/* ============================
+   CORREÇÃO DAS LOGOS DAS SELEÇÕES
+============================ */
+
+.flag-placeholder {
+    width: 86px !important;
+    height: 86px !important;
+    min-width: 86px !important;
+    min-height: 86px !important;
+    max-width: 86px !important;
+    max-height: 86px !important;
+
+    overflow: hidden !important;
+    border-radius: 22px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    background:
+        radial-gradient(circle at top, rgba(244, 208, 111, 0.25), transparent 48%),
+        linear-gradient(180deg, rgba(212, 175, 55, 0.18), rgba(212, 175, 55, 0.06)) !important;
+
+    border: 1px solid rgba(244, 208, 111, 0.42) !important;
+}
+
+.team-logo-img {
+    width: 76px !important;
+    height: 76px !important;
+    max-width: 76px !important;
+    max-height: 76px !important;
+
+    object-fit: contain !important;
+    display: block !important;
+}
+
+/* Segurança extra para nenhuma imagem do placar estourar */
+.match-score-card img {
+    width: 76px !important;
+    height: 76px !important;
+    max-width: 76px !important;
+    max-height: 76px !important;
+    object-fit: contain !important;
+}
+
+/* No celular, reduz mais */
+@media (max-width: 700px) {
+    .flag-placeholder {
+        width: 68px !important;
+        height: 68px !important;
+        min-width: 68px !important;
+        min-height: 68px !important;
+        max-width: 68px !important;
+        max-height: 68px !important;
+    }
+
+    .team-logo-img,
+    .match-score-card img {
+        width: 60px !important;
+        height: 60px !important;
+        max-width: 60px !important;
+        max-height: 60px !important;
+    }
+}
