@@ -339,8 +339,6 @@ async function buildTeamDataFromCopa2022() {
                 xgDiff: Number(team.xg_diff ?? 0),
                 games: Number(team.jogos ?? 0),
 
-                // Esses campos ainda não vêm nesse endpoint da Copa 2022.
-                // Eles aparecem como indisponíveis quando o outro lado tiver o dado.
                 possession: null,
                 bigChances: null,
                 finalThirdEntries: null,
@@ -462,13 +460,10 @@ function shouldShowMetric(entityA, entityB, key) {
     const hasA = hasMetricValue(entityA, key);
     const hasB = hasMetricValue(entityB, key);
 
-    // Se nenhum dos dois tiver, não mostra a linha.
     if (!hasA && !hasB) {
         return false;
     }
 
-    // Se pelo menos um tiver, mostra.
-    // O lado sem dado aparece como Indisponível.
     return true;
 }
 
@@ -526,6 +521,220 @@ function getActiveData() {
 
 function getActiveMetricConfig() {
     return currentMode === "players" ? playerMetricConfig : teamMetricConfig;
+}
+
+function getMetricWinner(entityA, entityB, key) {
+    const valueA = entityA.metrics?.[key];
+    const valueB = entityB.metrics?.[key];
+
+    const winner = getWinnerClass(valueA, valueB);
+
+    if (winner === "a") {
+        return entityA;
+    }
+
+    if (winner === "b") {
+        return entityB;
+    }
+
+    return null;
+}
+
+function getMetricLabel(entity, key, format) {
+    if (!entity) return "Equilíbrio";
+
+    const value = entity.metrics?.[key];
+
+    return `${entity.label} · ${formatMetric(value, format)}`;
+}
+
+function generateHighlightCards(entityA, entityB) {
+    const metricsA = entityA.metrics || {};
+    const metricsB = entityB.metrics || {};
+
+    if (currentMode === "players") {
+        const bestRating = getMetricWinner(entityA, entityB, "rating");
+        const bestGoalParticipation = getMetricWinner(entityA, entityB, "goals");
+        const bestCreation = getMetricWinner(entityA, entityB, "xa");
+        const bestVolume = getMetricWinner(entityA, entityB, "shots");
+
+        return `
+            <div class="auto-highlight-grid">
+                <article class="auto-highlight-card">
+                    <span>Maior nota</span>
+                    <strong>${getMetricLabel(bestRating, "rating", "decimal")}</strong>
+                </article>
+
+                <article class="auto-highlight-card">
+                    <span>Mais gols</span>
+                    <strong>${getMetricLabel(bestGoalParticipation, "goals", "number")}</strong>
+                </article>
+
+                <article class="auto-highlight-card">
+                    <span>Maior criação</span>
+                    <strong>${getMetricLabel(bestCreation, "xa", "decimal")}</strong>
+                </article>
+
+                <article class="auto-highlight-card">
+                    <span>Mais finalizações</span>
+                    <strong>${getMetricLabel(bestVolume, "shots", "number")}</strong>
+                </article>
+            </div>
+        `;
+    }
+
+    const bestVolume = getMetricWinner(entityA, entityB, "shotsPerGame");
+    const bestCreation = getMetricWinner(entityA, entityB, "xgPerGame");
+    const bestEfficiency = getMetricWinner(entityA, entityB, "conversionRate");
+    const bestFinishing = getMetricWinner(entityA, entityB, "xgDiff");
+
+    return `
+        <div class="auto-highlight-grid">
+            <article class="auto-highlight-card">
+                <span>Maior volume ofensivo</span>
+                <strong>${getMetricLabel(bestVolume, "shotsPerGame", "decimal")}</strong>
+            </article>
+
+            <article class="auto-highlight-card">
+                <span>Maior criação por jogo</span>
+                <strong>${getMetricLabel(bestCreation, "xgPerGame", "decimal")}</strong>
+            </article>
+
+            <article class="auto-highlight-card">
+                <span>Melhor eficiência</span>
+                <strong>${getMetricLabel(bestEfficiency, "conversionRate", "percent")}</strong>
+            </article>
+
+            <article class="auto-highlight-card">
+                <span>Melhor saldo gols - xG</span>
+                <strong>${getMetricLabel(bestFinishing, "xgDiff", "decimal")}</strong>
+            </article>
+        </div>
+    `;
+}
+
+function generateComparisonInsight(entityA, entityB, availableMetrics) {
+    const metricsA = entityA.metrics || {};
+    const metricsB = entityB.metrics || {};
+
+    const advantagesA = [];
+    const advantagesB = [];
+
+    availableMetrics.forEach((metric) => {
+        const valueA = metricsA[metric.key];
+        const valueB = metricsB[metric.key];
+
+        const winner = getWinnerClass(valueA, valueB);
+
+        if (winner === "a") {
+            advantagesA.push(metric.label);
+        }
+
+        if (winner === "b") {
+            advantagesB.push(metric.label);
+        }
+    });
+
+    const nameA = entityA.label;
+    const nameB = entityB.label;
+
+    let mainReading = "";
+
+    if (advantagesA.length > advantagesB.length) {
+        mainReading = `${nameA} apresenta vantagem na maior parte das métricas disponíveis.`;
+    } else if (advantagesB.length > advantagesA.length) {
+        mainReading = `${nameB} apresenta vantagem na maior parte das métricas disponíveis.`;
+    } else {
+        mainReading = `A comparação mostra equilíbrio geral entre ${nameA} e ${nameB}.`;
+    }
+
+    const details = [];
+
+    if (currentMode === "teams") {
+        if (hasMetricValue(entityA, "goalsPerGame") && hasMetricValue(entityB, "goalsPerGame")) {
+            if (metricsA.goalsPerGame > metricsB.goalsPerGame) {
+                details.push(`${nameA} tem maior média de gols por jogo.`);
+            } else if (metricsB.goalsPerGame > metricsA.goalsPerGame) {
+                details.push(`${nameB} tem maior média de gols por jogo.`);
+            }
+        }
+
+        if (hasMetricValue(entityA, "xgPerGame") && hasMetricValue(entityB, "xgPerGame")) {
+            if (metricsA.xgPerGame > metricsB.xgPerGame) {
+                details.push(`${nameA} gera mais xG por jogo, indicando maior volume/qualidade ofensiva.`);
+            } else if (metricsB.xgPerGame > metricsA.xgPerGame) {
+                details.push(`${nameB} gera mais xG por jogo, indicando maior volume/qualidade ofensiva.`);
+            }
+        }
+
+        if (hasMetricValue(entityA, "conversionRate") && hasMetricValue(entityB, "conversionRate")) {
+            if (metricsA.conversionRate > metricsB.conversionRate) {
+                details.push(`${nameA} apresenta melhor taxa de conversão das finalizações.`);
+            } else if (metricsB.conversionRate > metricsA.conversionRate) {
+                details.push(`${nameB} apresenta melhor taxa de conversão das finalizações.`);
+            }
+        }
+
+        if (hasMetricValue(entityA, "xgDiff") && hasMetricValue(entityB, "xgDiff")) {
+            if (metricsA.xgDiff > metricsB.xgDiff) {
+                details.push(`${nameA} finalizou acima do xG com maior eficiência no recorte analisado.`);
+            } else if (metricsB.xgDiff > metricsA.xgDiff) {
+                details.push(`${nameB} finalizou acima do xG com maior eficiência no recorte analisado.`);
+            }
+        }
+    }
+
+    if (currentMode === "players") {
+        if (hasMetricValue(entityA, "rating") && hasMetricValue(entityB, "rating")) {
+            if (metricsA.rating > metricsB.rating) {
+                details.push(`${nameA} teve melhor nota geral na partida.`);
+            } else if (metricsB.rating > metricsA.rating) {
+                details.push(`${nameB} teve melhor nota geral na partida.`);
+            }
+        }
+
+        if (hasMetricValue(entityA, "xg") && hasMetricValue(entityB, "xg")) {
+            if (metricsA.xg > metricsB.xg) {
+                details.push(`${nameA} acumulou mais xG, indicando maior presença em zonas de finalização.`);
+            } else if (metricsB.xg > metricsA.xg) {
+                details.push(`${nameB} acumulou mais xG, indicando maior presença em zonas de finalização.`);
+            }
+        }
+
+        if (hasMetricValue(entityA, "xa") && hasMetricValue(entityB, "xa")) {
+            if (metricsA.xa > metricsB.xa) {
+                details.push(`${nameA} contribuiu mais para criação de chances via xA.`);
+            } else if (metricsB.xa > metricsA.xa) {
+                details.push(`${nameB} contribuiu mais para criação de chances via xA.`);
+            }
+        }
+    }
+
+    const sampleWarning = currentMode === "teams" && metricsA.games !== metricsB.games
+        ? `Atenção: as amostras são diferentes (${nameA}: ${metricsA.games || "—"} jogo(s), ${nameB}: ${metricsB.games || "—"} jogo(s)). Por isso, as métricas por jogo ajudam a tornar a comparação mais justa.`
+        : "";
+
+    return `
+        <div class="comparison-insight-card">
+            <span class="insight-kicker">Leitura automática</span>
+
+            <h3>Resumo da comparação</h3>
+
+            <p>${mainReading}</p>
+
+            ${
+                details.length
+                    ? `<ul>${details.map((item) => `<li>${item}</li>`).join("")}</ul>`
+                    : ""
+            }
+
+            ${
+                sampleWarning
+                    ? `<p class="insight-warning">${sampleWarning}</p>`
+                    : ""
+            }
+        </div>
+    `;
 }
 
 function populateSelectors() {
@@ -607,7 +816,9 @@ function renderComparison() {
         return;
     }
 
-    box.innerHTML = `
+    const highlightsHtml = generateHighlightCards(entityA, entityB);
+
+    const tableHtml = `
         <table class="metric-table">
             <thead>
                 <tr>
@@ -659,6 +870,14 @@ function renderComparison() {
                     .join("")}
             </tbody>
         </table>
+    `;
+
+    const insightHtml = generateComparisonInsight(entityA, entityB, availableMetrics);
+
+    box.innerHTML = `
+        ${highlightsHtml}
+        ${tableHtml}
+        ${insightHtml}
     `;
 }
 
