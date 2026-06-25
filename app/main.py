@@ -45,6 +45,11 @@ def copa2026_dashboard():
     return FileResponse(FRONTEND_DIR / "copa2026.html")
 
 
+@app.get("/dashboard/comparativo.html")
+def comparativo_dashboard():
+    return FileResponse(FRONTEND_DIR / "comparativo.html")
+
+
 app.mount(
     "/dashboard",
     StaticFiles(directory=str(FRONTEND_DIR), html=True),

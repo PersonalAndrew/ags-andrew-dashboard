@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Comparativo | AGS Performance</title>
+
+    <link
+        rel="stylesheet"
+        href="/dashboard/assets/css/comparativo.css?v=1"
+    >
+</head>
+
+<body>
+    <header class="topbar">
+        <a
+            href="/dashboard/index.html"
+            class="back-link"
+        >
+            <span>←</span>
+            Voltar para AGS Performance Análises
+        </a>
+    </header>
+
+    <main class="page-shell">
+        <section class="hero-section">
+            <div class="hero-card">
+                <span class="hero-kicker">Camada padronizada</span>
+
+                <h1>Comparativo</h1>
+
+                <p>
+                    Espaço para comparar países e jogadores entre diferentes competições,
+                    temporadas e fontes de dados, usando uma tabela padronizada de métricas.
+                </p>
+
+                <div class="hero-tags">
+                    <span>Países</span>
+                    <span>Jogadores</span>
+                    <span>Copa 2022</span>
+                    <span>Copa 2026</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="selector-panel">
+            <div class="section-header">
+                <span>Modo de comparação</span>
+                <h2>Escolha o tipo de análise</h2>
+                <p>
+                    A comparação será construída com métricas normalizadas para evitar misturar fontes diferentes
+                    de forma errada.
+                </p>
+            </div>
+
+            <div class="mode-grid">
+                <button
+                    class="mode-card active"
+                    data-mode="teams"
+                >
+                    <strong>🌍 Países</strong>
+                    <span>Comparar seleções entre Copa 2022 e Copa 2026.</span>
+                </button>
+
+                <button
+                    class="mode-card"
+                    data-mode="players"
+                >
+                    <strong>⭐ Jogadores</strong>
+                    <span>Comparar desempenho individual por métricas ofensivas e gerais.</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="comparison-grid">
+            <article class="comparison-card">
+                <div class="section-header">
+                    <span>Entidade A</span>
+                    <h2>Primeiro lado</h2>
+                </div>
+
+                <label for="entity-a">Selecionar</label>
+
+                <select id="entity-a">
+                    <option value="england">Inglaterra 2026</option>
+                    <option value="croatia">Croácia 2026</option>
+                    <option value="brazil2022">Brasil 2022</option>
+                    <option value="argentina2022">Argentina 2022</option>
+                    <option value="france2022">França 2022</option>
+                </select>
+            </article>
+
+            <article class="comparison-card">
+                <div class="section-header">
+                    <span>Entidade B</span>
+                    <h2>Segundo lado</h2>
+                </div>
+
+                <label for="entity-b">Selecionar</label>
+
+                <select id="entity-b">
+                    <option value="croatia">Croácia 2026</option>
+                    <option value="england">Inglaterra 2026</option>
+                    <option value="brazil2022">Brasil 2022</option>
+                    <option value="argentina2022">Argentina 2022</option>
+                    <option value="france2022">França 2022</option>
+                </select>
+            </article>
+        </section>
+
+        <section class="section-panel full-panel">
+            <div class="section-header">
+                <span>Resultado</span>
+                <h2>Tabela padronizada</h2>
+                <p>
+                    As métricas abaixo são uma primeira camada de comparação. Depois podemos conectar dados reais
+                    completos da Copa 2022 e da Copa 2026.
+                </p>
+            </div>
+
+            <div
+                id="comparison-result-box"
+                class="comparison-result-box"
+            >
+                <div class="loading-card">Carregando comparativo...</div>
+            </div>
+        </section>
+
+        <section class="section-panel full-panel">
+            <div class="section-header">
+                <span>Próxima evolução</span>
+                <h2>Comparativo completo</h2>
+                <p>
+                    Esta aba será evoluída para comparar seleções e jogadores usando métricas normalizadas,
+                    rankings, filtros por competição e visualizações lado a lado.
+                </p>
+            </div>
+
+            <div class="module-list">
+                <div>✅ Estrutura da aba</div>
+                <div>✅ Países</div>
+                <div>✅ Jogadores</div>
+                <div>🔜 Dados reais completos</div>
+                <div>🔜 Filtros por competição</div>
+                <div>🔜 Gráficos comparativos</div>
+            </div>
+        </section>
+
+        <footer class="footer-section">
+            <p>
+                AGS Performance Análises · Comparativo
+            </p>
+        </footer>
+    </main>
+
+    <script src="/dashboard/assets/js/comparativo-app.js?v=1"></script>
+</body>
+</html>
