@@ -1401,3 +1401,160 @@ a {
         grid-template-columns: 1fr;
     }
 }
+/* ============================
+   LIMPEZA FINAL COPA 2026
+============================ */
+
+.page-shell {
+    padding-bottom: 4rem;
+}
+
+.section-panel {
+    scroll-margin-top: 2rem;
+}
+
+.section-header p {
+    max-width: 760px;
+}
+
+/* Evita tabelas estourarem no celular */
+.shots-table-box {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.shots-table {
+    min-width: 520px;
+}
+
+/* Deixa cards finais mais bonitos */
+.module-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.85rem;
+}
+
+.module-list div {
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding: 0.85rem;
+    border-radius: 18px;
+
+    background:
+        radial-gradient(circle at top, rgba(212, 175, 55, 0.1), transparent 45%),
+        rgba(255, 255, 255, 0.025);
+
+    border: 1px solid rgba(212, 175, 55, 0.18);
+    color: var(--white);
+
+    font-size: 0.86rem;
+    font-weight: 900;
+}
+
+/* Melhora leitura das posições médias */
+.average-position-box {
+    overflow: hidden;
+}
+
+.average-pitch {
+    isolation: isolate;
+}
+
+.average-dot-name {
+    z-index: 5;
+}
+
+/* Segurança para nomes não grudarem fora dos campos */
+.average-team-card,
+.lineup-team-card {
+    overflow: hidden;
+}
+
+/* Melhora escalações */
+.lineups-box {
+    width: 100%;
+}
+
+.lineup-pitch {
+    max-width: 100%;
+}
+
+.lineup-player-name {
+    backdrop-filter: blur(6px);
+}
+
+/* Comparativos avançados */
+.advanced-comparison-box {
+    width: 100%;
+}
+
+/* Rodapé */
+.footer-section {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(212, 175, 55, 0.16);
+}
+
+/* Responsividade final */
+@media (max-width: 1100px) {
+    .module-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 780px) {
+    .page-shell {
+        padding-inline: 1rem;
+    }
+
+    .hero-card h1 {
+        font-size: clamp(2rem, 9vw, 3.5rem);
+    }
+
+    .match-score-card {
+        gap: 0.8rem;
+    }
+
+    .score-box span {
+        font-size: clamp(2rem, 10vw, 4rem);
+    }
+
+    .section-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .kpi-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .module-list {
+        grid-template-columns: 1fr;
+    }
+
+    .advanced-comparison-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+    .kpi-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-box h2 {
+        font-size: 0.9rem;
+    }
+
+    .section-panel {
+        padding: 1rem;
+    }
+
+    .lineup-pitch,
+    .average-pitch {
+        border-radius: 18px;
+    }
+}
