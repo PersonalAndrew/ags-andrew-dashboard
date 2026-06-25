@@ -12,7 +12,7 @@
 
     <link
         rel="stylesheet"
-        href="/dashboard/assets/css/copa2026.css?v=6"
+        href="/dashboard/assets/css/copa2026.css?v=7"
     >
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -235,21 +235,62 @@
             </article>
         </section>
 
-        <!-- PRÓXIMOS MÓDULOS -->
+        <!-- ESCALAÇÕES -->
+        <section class="section-panel full-panel">
+            <div class="section-header">
+                <span>Escalações</span>
+                <h2>Formações iniciais</h2>
+                <p>
+                    Organização dos jogadores titulares em campo com base nas escalações da partida.
+                </p>
+            </div>
+
+            <div
+                id="lineups-box"
+                class="lineups-box"
+            >
+                <div class="loading-card">Carregando escalações...</div>
+            </div>
+        </section>
+
+        <!-- COMPARATIVOS AVANÇADOS -->
+        <section class="section-panel full-panel">
+            <div class="section-header">
+                <span>Comparativos avançados</span>
+                <h2>Eficiência e produção ofensiva</h2>
+                <p>
+                    Métricas derivadas para comparar volume, qualidade das chances e aproveitamento das duas seleções.
+                </p>
+            </div>
+
+            <div
+                id="advanced-comparison-box"
+                class="advanced-comparison-box"
+            >
+                <div class="loading-card">Carregando comparativos avançados...</div>
+            </div>
+        </section>
+
+        <!-- STATUS FINAL -->
         <section class="section-panel full-panel">
             <div class="section-header">
                 <span>Status do projeto</span>
-                <h2>Próximos ajustes</h2>
+                <h2>Dashboard Copa 2026 finalizado</h2>
                 <p id="data-status-text">
-                    Dados reais do SofaScore carregados com sucesso.
+                    Dados reais carregados com sucesso: estatísticas, finalizações, ranking, momentum, eventos, posições médias, escalações e comparativos avançados.
                 </p>
             </div>
 
             <div class="module-list">
-                <div>📋 Escalações</div>
-                <div>📊 Comparativos avançados</div>
-                <div>🎨 Ajuste final de layout</div>
-                <div>🚀 Deploy final</div>
+                <div>✅ Estatísticas gerais</div>
+                <div>✅ Resumo ofensivo</div>
+                <div>✅ Detalhamento das finalizações</div>
+                <div>✅ Ranking dos jogadores</div>
+                <div>✅ Momentum da partida</div>
+                <div>✅ Eventos do jogo</div>
+                <div>✅ Posições médias</div>
+                <div>✅ Escalações</div>
+                <div>✅ Comparativos avançados</div>
             </div>
         </section>
 
@@ -284,7 +325,7 @@
                 <div class="insight-item">
                     <strong>3</strong>
                     <p>
-                        A próxima etapa será revisar o visual, ajustar responsividade e publicar a versão final.
+                        O dashboard foi estruturado como uma página completa de análise da partida, reunindo dados estatísticos, eventos, jogadores e leitura tática em um único ambiente visual.
                     </p>
                 </div>
             </div>
@@ -297,6 +338,6 @@
         </footer>
     </main>
 
-    <script src="/dashboard/assets/js/copa2026-app.js?v=6"></script>
+    <script src="/dashboard/assets/js/copa2026-app.js?v=7"></script>
 </body>
 </html>

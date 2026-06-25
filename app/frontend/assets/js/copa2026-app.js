@@ -70,6 +70,18 @@ function findStat(statsRows, keys) {
     return statsRows.find((row) => keys.includes(row.key)) || null;
 }
 
+function getStatNumber(statsRows, keys, side) {
+    const row = findStat(statsRows, keys);
+
+    if (!row) return 0;
+
+    if (side === "home") {
+        return Number(row.homeValue || row.home || 0);
+    }
+
+    return Number(row.awayValue || row.away || 0);
+}
+
 function getShotmapSummary(shotmapData) {
     const shots = shotmapData?.shotmap || [];
 
@@ -637,6 +649,8 @@ function getEventTitle(event) {
         period: "Intervalo",
         var: "VAR",
         penalty: "Pênalti",
+        varDecision: "Decisão do VAR",
+        injuryTime: "Acréscimos",
     };
 
     const translated = translatedTypes[type] || event.text || event.description || type;
@@ -804,6 +818,249 @@ function renderAveragePositions(averageData) {
     `;
 }
 
+function getLineupPlayerName(item) {
+    const player = item.player || {};
+    return player.shortName || player.name || item.name || "-";
+}
+
+function getLineupPlayerNumber(item, index) {
+    const player = item.player || {};
+
+    return (
+        item.jerseyNumber ||
+        item.shirtNumber ||
+        player.jerseyNumber ||
+        player.shirtNumber ||
+        index + 1
+    );
+}
+
+function getLineupPlayerPosition(item) {
+    const player = item.player || {};
+    return item.position || player.position || "-";
+}
+
+function getStarterPlayers(players) {
+    return players.filter((item) => !item.substitute).slice(0, 11);
+}
+
+function distributePlayersByFormation(players) {
+    const starters = getStarterPlayers(players);
+
+    const goalkeeper = starters.filter((p) => getLineupPlayerPosition(p) === "G");
+    const defenders = starters.filter((p) => getLineupPlayerPosition(p) === "D");
+    const midfielders = starters.filter((p) => getLineupPlayerPosition(p) === "M");
+    const forwards = starters.filter((p) => getLineupPlayerPosition(p) === "F");
+
+    const remaining = starters.filter(
+        (p) =>
+            !goalkeeper.includes(p) &&
+            !defenders.includes(p) &&
+            !midfielders.includes(p) &&
+            !forwards.includes(p)
+    );
+
+    const lines = [];
+
+    lines.push(goalkeeper.length ? goalkeeper.slice(0, 1) : starters.slice(0, 1));
+
+    if (defenders.length) lines.push(defenders);
+    if (midfielders.length) lines.push(midfielders);
+    if (forwards.length) lines.push(forwards);
+    if (remaining.length) lines.push(remaining);
+
+    const normalizedLines = lines.slice(0, 4);
+    const yPositions = [88, 66, 40, 17];
+    const positioned = [];
+
+    normalizedLines.forEach((line, lineIndex) => {
+        const count = line.length;
+        const y = yPositions[lineIndex] || 50;
+
+        line.forEach((player, playerIndex) => {
+            const x = ((playerIndex + 1) / (count + 1)) * 100;
+
+            positioned.push({
+                item: player,
+                x,
+                y,
+            });
+        });
+    });
+
+    return positioned.slice(0, 11);
+}
+
+function renderLineupTeam(title, formation, players, isAway = false) {
+    const positionedPlayers = distributePlayersByFormation(players);
+
+    return `
+        <div class="lineup-team-card">
+            <div class="lineup-team-header">
+                <h3>${title}</h3>
+                <span>Formação: ${formation || "-"}</span>
+            </div>
+
+            <div class="lineup-pitch">
+                ${positionedPlayers
+                    .map((player, index) => {
+                        const number = getLineupPlayerNumber(player.item, index);
+                        const name = getLineupPlayerName(player.item);
+                        const position = getLineupPlayerPosition(player.item);
+
+                        return `
+                            <div
+                                class="lineup-player ${isAway ? "away-player" : ""}"
+                                style="left: ${player.x}%; top: ${player.y}%"
+                                title="${name}"
+                            >
+                                <div class="lineup-player-number">${number}</div>
+                                <span class="lineup-player-name">${name}</span>
+                                <span class="lineup-player-position">${position}</span>
+                            </div>
+                        `;
+                    })
+                    .join("")}
+            </div>
+        </div>
+    `;
+}
+
+function renderLineups(lineupsData) {
+    const box = document.querySelector("#lineups-box");
+
+    if (!box) return;
+
+    const homePlayers = lineupsData?.home?.players || [];
+    const awayPlayers = lineupsData?.away?.players || [];
+
+    const homeFormation = lineupsData?.home?.formation || "-";
+    const awayFormation = lineupsData?.away?.formation || "-";
+
+    if (!homePlayers.length && !awayPlayers.length) {
+        box.innerHTML = `<div class="loading-card">Não foi possível carregar as escalações.</div>`;
+        return;
+    }
+
+    box.innerHTML = `
+        <div class="lineups-grid">
+            ${renderLineupTeam("Inglaterra", homeFormation, homePlayers, false)}
+            ${renderLineupTeam("Croácia", awayFormation, awayPlayers, true)}
+        </div>
+    `;
+}
+
+function formatPercentValue(value) {
+    if (!Number.isFinite(value)) return "--";
+    return `${value.toFixed(1)}%`;
+}
+
+function formatDecimalValue(value, decimals = 2) {
+    if (!Number.isFinite(value)) return "--";
+    return value.toFixed(decimals);
+}
+
+function renderAdvancedMetric(label, homeValue, awayValue, note) {
+    return `
+        <div class="advanced-metric-card">
+            <div class="advanced-metric-label">${label}</div>
+
+            <div class="advanced-metric-values">
+                <div class="advanced-team-value">
+                    <strong>${homeValue}</strong>
+                    <span>Inglaterra</span>
+                </div>
+
+                <div class="advanced-versus">vs</div>
+
+                <div class="advanced-team-value">
+                    <strong>${awayValue}</strong>
+                    <span>Croácia</span>
+                </div>
+            </div>
+
+            <div class="advanced-note">${note}</div>
+        </div>
+    `;
+}
+
+function renderAdvancedComparisons(statsRows, shotSummary) {
+    const box = document.querySelector("#advanced-comparison-box");
+
+    if (!box) return;
+
+    const homeConversion = shotSummary.homeShotsCount
+        ? (shotSummary.homeGoals / shotSummary.homeShotsCount) * 100
+        : 0;
+
+    const awayConversion = shotSummary.awayShotsCount
+        ? (shotSummary.awayGoals / shotSummary.awayShotsCount) * 100
+        : 0;
+
+    const homeXgPerShot = shotSummary.homeShotsCount
+        ? shotSummary.homeXg / shotSummary.homeShotsCount
+        : 0;
+
+    const awayXgPerShot = shotSummary.awayShotsCount
+        ? shotSummary.awayXg / shotSummary.awayShotsCount
+        : 0;
+
+    const homeXgDiff = shotSummary.homeGoals - shotSummary.homeXg;
+    const awayXgDiff = shotSummary.awayGoals - shotSummary.awayXg;
+
+    const homeBigChances = getStatNumber(statsRows, ["bigChanceCreated"], "home");
+    const awayBigChances = getStatNumber(statsRows, ["bigChanceCreated"], "away");
+
+    const homeFinalThird = getStatNumber(statsRows, ["finalThirdEntries"], "home");
+    const awayFinalThird = getStatNumber(statsRows, ["finalThirdEntries"], "away");
+
+    box.innerHTML = `
+        <div class="advanced-comparison-grid">
+            ${renderAdvancedMetric(
+                "Taxa de conversão",
+                formatPercentValue(homeConversion),
+                formatPercentValue(awayConversion),
+                "Percentual de finalizações que terminaram em gol."
+            )}
+
+            ${renderAdvancedMetric(
+                "Precisão dos chutes",
+                formatPercentValue(shotSummary.homeAccuracy),
+                formatPercentValue(shotSummary.awayAccuracy),
+                "Percentual de finalizações que foram no alvo."
+            )}
+
+            ${renderAdvancedMetric(
+                "xG por finalização",
+                formatDecimalValue(homeXgPerShot, 3),
+                formatDecimalValue(awayXgPerShot, 3),
+                "Mede a qualidade média das chances criadas."
+            )}
+
+            ${renderAdvancedMetric(
+                "Gols - xG",
+                formatDecimalValue(homeXgDiff, 2),
+                formatDecimalValue(awayXgDiff, 2),
+                "Diferença entre gols marcados e gols esperados."
+            )}
+
+            ${renderAdvancedMetric(
+                "Grandes chances",
+                homeBigChances,
+                awayBigChances,
+                "Volume de oportunidades claras criadas na partida."
+            )}
+
+            ${renderAdvancedMetric(
+                "Entradas no terço final",
+                homeFinalThird,
+                awayFinalThird,
+                "Frequência de chegada ao setor ofensivo."
+            )}
+        </div>
+    `;
+}
+
 function updateKpisFromData(statisticsData, shotmapData) {
     const statsRows = flattenStatistics(statisticsData);
     const shotSummary = getShotmapSummary(shotmapData);
@@ -846,6 +1103,7 @@ function updateKpisFromData(statisticsData, shotmapData) {
     renderStatsComparison(statsRows);
     renderShotSummary(shotSummary);
     renderShotTables(shotmapData);
+    renderAdvancedComparisons(statsRows, shotSummary);
 }
 
 function renderDataStatus(success = true) {
@@ -855,7 +1113,7 @@ function renderDataStatus(success = true) {
 
     if (success) {
         statusPanel.textContent =
-            "Dados reais carregados com sucesso: estatísticas, finalizações, ranking, momentum, eventos e posições médias.";
+            "Dados reais carregados com sucesso: estatísticas, finalizações, ranking, momentum, eventos, posições médias, escalações e comparativos avançados.";
     } else {
         statusPanel.textContent =
             "A página foi carregada, mas algum arquivo de dados não foi encontrado. Verifique a pasta assets/data/copa2026.";
@@ -888,6 +1146,7 @@ async function initCopa2026Dashboard() {
         renderMomentum(momentumData);
         renderEventsTimeline(highlightsData);
         renderAveragePositions(averagePositionData);
+        renderLineups(lineupsData);
         renderDataStatus(true);
     } catch (error) {
         console.error("Erro ao inicializar Copa 2026:", error);
