@@ -1,0 +1,3325 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Iliman Ndiaye",
+        "slug": "iliman-ndiaye",
+        "shortName": "I. Ndiaye",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 67331,
+        "gender": "M",
+        "sofascoreId": "ilimanndiaye10",
+        "id": 914309,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إليمان نداي",
+            "bn": "ইলিমান এনদিয়ায়ে",
+            "hi": "इलीमन नदिये",
+            "ru": "Илиман Ндиайе"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. نداي",
+            "bn": "আই. এনদিয়ায়ে",
+            "hi": "आई. नदिये",
+            "ru": "И. Ндиайе"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.6,
+        "y": 34,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.9,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 47.8,
+        "z": 0
+      },
+      "xg": 0.078683853149414,
+      "xgot": 0.33745962381363,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586637,
+      "time": 90,
+      "addedTime": 5,
+      "timeSeconds": 5697,
+      "draw": {
+        "start": {
+          "x": 34,
+          "y": 12.6
+        },
+        "block": {
+          "x": 47.8,
+          "y": 1.6
+        },
+        "end": {
+          "x": 53.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.1,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 603,
+      "periodTimeSeconds": 297,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Pape Gueye",
+        "slug": "pape-gueye",
+        "shortName": "P. Gueye",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 38989,
+        "gender": "M",
+        "sofascoreId": "p.gueye24",
+        "id": 879694,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باب غاي",
+            "bn": "পেপে গুয়ে",
+            "hi": "पपे गुये",
+            "ru": "Пап Гейе"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غاي",
+            "bn": "পি.গুয়ে",
+            "hi": "पी. गुये",
+            "ru": "П. Гейе"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 21.4,
+        "y": 72,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.5,
+        "z": 6.3
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.011548407375813,
+      "xgot": 0.018630100414157,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586636,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5500,
+      "draw": {
+        "start": {
+          "x": 72,
+          "y": 21.4
+        },
+        "block": {
+          "x": 52.5,
+          "y": 1.8
+        },
+        "end": {
+          "x": 51.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.5,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 800,
+      "periodTimeSeconds": 100,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nicolas Jackson",
+        "firstName": "Nicolas Jackson",
+        "lastName": "",
+        "slug": "nicolas-jackson",
+        "shortName": "N. Jackson",
+        "position": "F",
+        "jerseyNumber": "15",
+        "userCount": 104690,
+        "gender": "M",
+        "sofascoreId": "NJackson11",
+        "id": 1085381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولاس جاكسون",
+            "bn": "নিকোলাস জ্যাকসন",
+            "hi": "निकोलस जैक्सन",
+            "ru": "Николас Джексон"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. جاكسون",
+            "bn": "এন. জ্যাকসন",
+            "hi": "एन. जैक्सन",
+            "ru": "Н. Джексон"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 10.4,
+        "y": 53.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 6.3
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 50.4,
+        "z": 0
+      },
+      "xg": 0.077206626534462,
+      "xgot": 0.030104275792837,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586635,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5423,
+      "draw": {
+        "start": {
+          "x": 53.4,
+          "y": 10.4
+        },
+        "block": {
+          "x": 50.4,
+          "y": 1.1
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 93.7
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 877,
+      "periodTimeSeconds": 23,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Pape Gueye",
+        "slug": "pape-gueye",
+        "shortName": "P. Gueye",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 38989,
+        "gender": "M",
+        "sofascoreId": "p.gueye24",
+        "id": 879694,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باب غاي",
+            "bn": "পেপে গুয়ে",
+            "hi": "पपे गुये",
+            "ru": "Пап Гейе"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غاي",
+            "bn": "পি.গুয়ে",
+            "hi": "पी. गुये",
+            "ru": "П. Гейе"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.7,
+        "y": 48.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.8,
+        "y": 49.5,
+        "z": 0
+      },
+      "xg": 0.027599694207311,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586632,
+      "time": 88,
+      "timeSeconds": 5272,
+      "draw": {
+        "start": {
+          "x": 48.7,
+          "y": 27.7
+        },
+        "block": {
+          "x": 49.5,
+          "y": 15.8
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 128,
+      "periodTimeSeconds": 2572,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Sadio Mané",
+        "slug": "sadio-mane",
+        "shortName": "S. Mané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 188157,
+        "gender": "M",
+        "sofascoreId": "SadioMané",
+        "id": 217704,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساديو ماني",
+            "bn": "সাদিও মানে",
+            "hi": "सादियो माने",
+            "ru": "Садио Мане"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ماني",
+            "bn": "এস. মানে",
+            "hi": "एस. माने",
+            "ru": "С. Мане"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 11,
+        "y": 40.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.094923198223114,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586629,
+      "time": 86,
+      "timeSeconds": 5112,
+      "draw": {
+        "start": {
+          "x": 40.9,
+          "y": 11
+        },
+        "block": {
+          "x": 46.6,
+          "y": 6
+        },
+        "end": {
+          "x": 53.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 288,
+      "periodTimeSeconds": 2412,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Iliman Ndiaye",
+        "slug": "iliman-ndiaye",
+        "shortName": "I. Ndiaye",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 67331,
+        "gender": "M",
+        "sofascoreId": "ilimanndiaye10",
+        "id": 914309,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إليمان نداي",
+            "bn": "ইলিমান এনদিয়ায়ে",
+            "hi": "इलीमन नदिये",
+            "ru": "Илиман Ндиайе"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. نداي",
+            "bn": "আই. এনদিয়ায়ে",
+            "hi": "आई. नदिये",
+            "ru": "И. Ндиайе"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.2,
+        "y": 66.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47,
+        "z": 24.7
+      },
+      "xg": 0.037147391587496,
+      "xgot": 0.18463240563869,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586626,
+      "time": 82,
+      "timeSeconds": 4900,
+      "draw": {
+        "start": {
+          "x": 66.9,
+          "y": 20.2
+        },
+        "end": {
+          "x": 53,
+          "y": 0
+        },
+        "goal": {
+          "x": 53,
+          "y": 75.3
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 500,
+      "periodTimeSeconds": 2200,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nicolas Jackson",
+        "firstName": "Nicolas Jackson",
+        "lastName": "",
+        "slug": "nicolas-jackson",
+        "shortName": "N. Jackson",
+        "position": "F",
+        "jerseyNumber": "15",
+        "userCount": 104690,
+        "gender": "M",
+        "sofascoreId": "NJackson11",
+        "id": 1085381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولاس جاكسون",
+            "bn": "নিকোলাস জ্যাকসন",
+            "hi": "निकोलस जैक्सन",
+            "ru": "Николас Джексон"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. جاكسون",
+            "bn": "এন. জ্যাকসন",
+            "hi": "एन. जैक्सन",
+            "ru": "Н. Джексон"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.9,
+        "y": 35.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.4,
+        "z": 17.7
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 48.2,
+        "z": 0
+      },
+      "xg": 0.050990626215935,
+      "xgot": 0.51612049341202,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586623,
+      "time": 79,
+      "timeSeconds": 4736,
+      "draw": {
+        "start": {
+          "x": 35.5,
+          "y": 14.9
+        },
+        "block": {
+          "x": 48.2,
+          "y": 2
+        },
+        "end": {
+          "x": 45.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.6,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 664,
+      "periodTimeSeconds": 2036,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Pathé Ismaël Ciss",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ismaila-ciss",
+        "shortName": "P. I. Ciss",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 6232,
+        "gender": "M",
+        "id": 913679,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باتي سيس",
+            "bn": "পাথে ইসমাইল সিস",
+            "hi": "पाथे इस्माइल सिस",
+            "ru": "Пате Исмаэль Сис"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سيس",
+            "bn": "পি. আই. সিস",
+            "hi": "पी. आई. सिस",
+            "ru": "П. Сис"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 7.3,
+        "y": 45.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 25.3
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.2368298470974,
+      "xgot": 0.19195057451725,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586621,
+      "time": 79,
+      "timeSeconds": 4696,
+      "draw": {
+        "start": {
+          "x": 45.2,
+          "y": 7.3
+        },
+        "block": {
+          "x": 48.4,
+          "y": 1.2
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 74.7
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 704,
+      "periodTimeSeconds": 1996,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nicolas Jackson",
+        "firstName": "Nicolas Jackson",
+        "lastName": "",
+        "slug": "nicolas-jackson",
+        "shortName": "N. Jackson",
+        "position": "F",
+        "jerseyNumber": "15",
+        "userCount": 104690,
+        "gender": "M",
+        "sofascoreId": "NJackson11",
+        "id": 1085381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولاس جاكسون",
+            "bn": "নিকোলাস জ্যাকসন",
+            "hi": "निकोलस जैक्सन",
+            "ru": "Николас Джексон"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. جاكسون",
+            "bn": "এন. জ্যাকসন",
+            "hi": "एन. जैक्सन",
+            "ru": "Н. Джексон"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.7,
+        "y": 53.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.2,
+        "y": 53.1,
+        "z": 0
+      },
+      "xg": 0.1091663390398,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586598,
+      "time": 77,
+      "timeSeconds": 4562,
+      "draw": {
+        "start": {
+          "x": 53.8,
+          "y": 10.7
+        },
+        "block": {
+          "x": 53.1,
+          "y": 9.2
+        },
+        "end": {
+          "x": 48.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 838,
+      "periodTimeSeconds": 1862,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Krépin Diatta",
+        "firstName": "Krepin",
+        "lastName": "Diatta",
+        "slug": "krepin-diatta",
+        "shortName": "K. Diatta",
+        "position": "M",
+        "userCount": 14584,
+        "gender": "M",
+        "sofascoreId": "krepindiatta",
+        "id": 873534,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريبين دياتا",
+            "bn": "ক্রেপ দিয়াট্টা",
+            "hi": "क्रेपिन डायटा",
+            "ru": "Крепен Диатта"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. دياتا",
+            "bn": "কে. দিয়াট্টা",
+            "hi": "के. डायटा",
+            "ru": "К. Диатта"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.3,
+        "y": 60.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 62.9,
+        "z": 81.9
+      },
+      "xg": 0.066338822245598,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586595,
+      "time": 74,
+      "timeSeconds": 4403,
+      "draw": {
+        "start": {
+          "x": 60.2,
+          "y": 21.3
+        },
+        "end": {
+          "x": 37.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 37.1,
+          "y": 18.1
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 997,
+      "periodTimeSeconds": 1703,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Pape Gueye",
+        "slug": "pape-gueye",
+        "shortName": "P. Gueye",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 38989,
+        "gender": "M",
+        "sofascoreId": "p.gueye24",
+        "id": 879694,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باب غاي",
+            "bn": "পেপে গুয়ে",
+            "hi": "पपे गुये",
+            "ru": "Пап Гейе"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غاي",
+            "bn": "পি.গুয়ে",
+            "hi": "पी. गुये",
+            "ru": "П. Гейе"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.8,
+        "y": 46.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.5,
+        "y": 46.2,
+        "z": 0
+      },
+      "xg": 0.053978744894266,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586596,
+      "time": 74,
+      "timeSeconds": 4400,
+      "draw": {
+        "start": {
+          "x": 46.6,
+          "y": 18.8
+        },
+        "block": {
+          "x": 46.2,
+          "y": 8.5
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 1000,
+      "periodTimeSeconds": 1700,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Kevin Yakob",
+        "slug": "kevin-yakob",
+        "shortName": "K. Yakob",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 1528,
+        "gender": "M",
+        "id": 936451,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيفن يعقوب",
+            "bn": "কেভিন জ্যাকব",
+            "hi": "केविन याकूब",
+            "ru": "Кевин Якоб"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. يعقوب",
+            "bn": "কে. ইয়াকুব",
+            "hi": "के. याकूब",
+            "ru": "К. Якоб"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.6,
+        "y": 66.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 62,
+        "z": 2.8
+      },
+      "blockCoordinates": {
+        "x": 10.3,
+        "y": 61.6,
+        "z": 0
+      },
+      "xg": 0.024797007441521,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mory Diaw",
+        "firstName": "Mory",
+        "lastName": "Diaw",
+        "slug": "mory-diaw",
+        "shortName": "M. Diaw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 4705,
+        "gender": "M",
+        "id": 580226,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موري دياو",
+            "bn": "মোরি ডায়াউ",
+            "hi": "मोरी डियाव",
+            "ru": "Мори Диау"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دياو",
+            "bn": "এম. দিয়াও",
+            "hi": "एम. डियाव",
+            "ru": "М. Диау"
+          }
+        }
+      },
+      "id": 7586594,
+      "time": 73,
+      "timeSeconds": 4321,
+      "draw": {
+        "start": {
+          "x": 66.7,
+          "y": 12.6
+        },
+        "block": {
+          "x": 61.6,
+          "y": 10.3
+        },
+        "end": {
+          "x": 38,
+          "y": 0
+        },
+        "goal": {
+          "x": 38,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1079,
+      "periodTimeSeconds": 1621,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Pape Gueye",
+        "slug": "pape-gueye",
+        "shortName": "P. Gueye",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 38989,
+        "gender": "M",
+        "sofascoreId": "p.gueye24",
+        "id": 879694,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باب غاي",
+            "bn": "পেপে গুয়ে",
+            "hi": "पपे गुये",
+            "ru": "Пап Гейе"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غاي",
+            "bn": "পি.গুয়ে",
+            "hi": "पी. गुये",
+            "ru": "П. Гейе"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.3,
+        "y": 49.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 18.4
+      },
+      "xg": 0.13738591969013,
+      "xgot": 0.70658791065216,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586592,
+      "time": 71,
+      "timeSeconds": 4245,
+      "draw": {
+        "start": {
+          "x": 49.6,
+          "y": 15.3
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 81.6
+        }
+      },
+      "reversedPeriodTime": 20,
+      "reversedPeriodTimeSeconds": 1155,
+      "periodTimeSeconds": 1545,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Pape Gueye",
+        "slug": "pape-gueye",
+        "shortName": "P. Gueye",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 38989,
+        "gender": "M",
+        "sofascoreId": "p.gueye24",
+        "id": 879694,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باب غاي",
+            "bn": "পেপে গুয়ে",
+            "hi": "पपे गुये",
+            "ru": "Пап Гейе"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غاي",
+            "bn": "পি.গুয়ে",
+            "hi": "पी. गुये",
+            "ru": "П. Гейе"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 15.6,
+        "y": 35.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 37.8,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 7.7,
+        "y": 47.5,
+        "z": 0
+      },
+      "xg": 0.063853494822979,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586584,
+      "time": 62,
+      "timeSeconds": 3660,
+      "draw": {
+        "start": {
+          "x": 35.8,
+          "y": 15.6
+        },
+        "block": {
+          "x": 47.5,
+          "y": 7.7
+        },
+        "end": {
+          "x": 62.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 62.2,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1740,
+      "periodTimeSeconds": 960,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Pape Gueye",
+        "slug": "pape-gueye",
+        "shortName": "P. Gueye",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 38989,
+        "gender": "M",
+        "sofascoreId": "p.gueye24",
+        "id": 879694,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باب غاي",
+            "bn": "পেপে গুয়ে",
+            "hi": "पपे गुये",
+            "ru": "Пап Гейе"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غاي",
+            "bn": "পি.গুয়ে",
+            "hi": "पी. गुये",
+            "ru": "П. Гейе"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.7,
+        "y": 68.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 24.7
+      },
+      "xg": 0.036470785737038,
+      "xgot": 0.64928078651428,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586579,
+      "time": 59,
+      "timeSeconds": 3501,
+      "draw": {
+        "start": {
+          "x": 68.2,
+          "y": 21.7
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 75.3
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1899,
+      "periodTimeSeconds": 801,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ismaïla Sarr",
+        "firstName": "Ismaila",
+        "lastName": "Sarr",
+        "slug": "ismaila-sarr",
+        "shortName": "I. Sarr",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 37486,
+        "gender": "M",
+        "sofascoreId": "ismaila_sarr18",
+        "id": 845286,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إسماعيلا سار",
+            "bn": "ইসমাইলা সর",
+            "hi": "इस्माइला सार्र",
+            "ru": "Исмаила Сарр"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. سار",
+            "bn": "আই. সর",
+            "hi": "आई. सार्र",
+            "ru": "И. Сарр"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.4,
+        "y": 50.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 27.9
+      },
+      "xg": 0.4099680185318,
+      "xgot": 0.95598500967026,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586549,
+      "time": 56,
+      "timeSeconds": 3321,
+      "draw": {
+        "start": {
+          "x": 50.5,
+          "y": 3.4
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 72.1
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2079,
+      "periodTimeSeconds": 621,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ismaïla Sarr",
+        "firstName": "Ismaila",
+        "lastName": "Sarr",
+        "slug": "ismaila-sarr",
+        "shortName": "I. Sarr",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 37486,
+        "gender": "M",
+        "sofascoreId": "ismaila_sarr18",
+        "id": 845286,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إسماعيلا سار",
+            "bn": "ইসমাইলা সর",
+            "hi": "इस्माइला सार्र",
+            "ru": "Исмаила Сарр"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. سار",
+            "bn": "আই. সর",
+            "hi": "आई. सार्र",
+            "ru": "И. Сарр"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 13.5,
+        "y": 62.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 2.9,
+        "y": 53.6,
+        "z": 0
+      },
+      "xg": 0.14181339740753,
+      "xgot": 0.090392790734768,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586544,
+      "time": 54,
+      "timeSeconds": 3229,
+      "draw": {
+        "start": {
+          "x": 62.2,
+          "y": 13.5
+        },
+        "block": {
+          "x": 53.6,
+          "y": 2.9
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2171,
+      "periodTimeSeconds": 529,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Jasim",
+        "firstName": "Ali Jasim Elaibi",
+        "slug": "elaibi-ali-jasim",
+        "shortName": "A. Jasim",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 8944,
+        "gender": "M",
+        "sofascoreId": "ali_jasim.7",
+        "id": 1066729,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي جاسم",
+            "bn": "এলাইবি, আলী জসিম",
+            "hi": "इलाइबी, अली जसीम",
+            "ru": "Али Джасим"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. جاسم",
+            "bn": "এ. জে. এলাইবি",
+            "hi": "ए.जे. इलाइबी",
+            "ru": "А. Джасим"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.1,
+        "y": 18.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.8,
+        "z": 15.2
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.01942066475749,
+      "xgot": 0.071219988167286,
+      "goalkeeper": {
+        "name": "Mory Diaw",
+        "firstName": "Mory",
+        "lastName": "Diaw",
+        "slug": "mory-diaw",
+        "shortName": "M. Diaw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 4705,
+        "gender": "M",
+        "id": 580226,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موري دياو",
+            "bn": "মোরি ডায়াউ",
+            "hi": "मोरी डियाव",
+            "ru": "Мори Диау"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دياو",
+            "bn": "এম. দিয়াও",
+            "hi": "एम. डियाव",
+            "ru": "М. Диау"
+          }
+        }
+      },
+      "id": 7586542,
+      "time": 53,
+      "timeSeconds": 3150,
+      "draw": {
+        "start": {
+          "x": 18.8,
+          "y": 20.1
+        },
+        "block": {
+          "x": 46.7,
+          "y": 1.8
+        },
+        "end": {
+          "x": 53.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.2,
+          "y": 84.8
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2250,
+      "periodTimeSeconds": 450,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Sadio Mané",
+        "slug": "sadio-mane",
+        "shortName": "S. Mané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 188157,
+        "gender": "M",
+        "sofascoreId": "SadioMané",
+        "id": 217704,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساديو ماني",
+            "bn": "সাদিও মানে",
+            "hi": "सादियो माने",
+            "ru": "Садио Мане"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ماني",
+            "bn": "এস. মানে",
+            "hi": "एस. माने",
+            "ru": "С. Мане"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.1,
+        "y": 46.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 36.3,
+        "z": 86.1
+      },
+      "xg": 0.35527294874191,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586539,
+      "time": 51,
+      "timeSeconds": 3036,
+      "draw": {
+        "start": {
+          "x": 46.4,
+          "y": 7.1
+        },
+        "end": {
+          "x": 63.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 63.7,
+          "y": 13.9
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2364,
+      "periodTimeSeconds": 336,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Habib Diarra",
+        "firstName": "Habib",
+        "lastName": "Diarra",
+        "slug": "habib-diarra",
+        "shortName": "H. Diarra",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 13831,
+        "gender": "M",
+        "id": 1128532,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "حبيب ديارا",
+            "bn": "হাবিব দিয়ারা",
+            "hi": "हबीब दियारा",
+            "ru": "Хабиб Диарра"
+          },
+          "shortNameTranslation": {
+            "ar": "ح. ديارا",
+            "bn": "এইচ. দিয়ারা",
+            "hi": "एच. दियारा",
+            "ru": "Х. Диарра"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.9,
+        "y": 64.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 66.9,
+        "z": 1.4
+      },
+      "xg": 0.019911063835025,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jalal Hassan",
+        "firstName": "Jalal",
+        "lastName": "Hassan",
+        "slug": "jalal-hassan",
+        "shortName": "J. Hassan",
+        "position": "G",
+        "jerseyNumber": "12",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 196454,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جلال حسن",
+            "bn": "জালাল হাসান",
+            "hi": "जलाल हसन",
+            "ru": "Джалал Хассан"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. حسن",
+            "bn": "জে. হাসান",
+            "hi": "जे. हसन",
+            "ru": "Д. Хассан"
+          }
+        }
+      },
+      "id": 7586529,
+      "time": 46,
+      "timeSeconds": 2755,
+      "draw": {
+        "start": {
+          "x": 64.9,
+          "y": 20.9
+        },
+        "end": {
+          "x": 33.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 33.1,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 45,
+      "reversedPeriodTimeSeconds": 2645,
+      "periodTimeSeconds": 55,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Lamine Camara",
+        "firstName": "Lamine Camara",
+        "lastName": "",
+        "slug": "camara-lamine",
+        "shortName": "L. Camara",
+        "position": "M",
+        "jerseyNumber": "15",
+        "userCount": 22597,
+        "gender": "M",
+        "sofascoreId": "lamine_camara_5",
+        "id": 1389846,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لامين كامارا",
+            "bn": "কামারা, লামিন",
+            "hi": "कैमारा, लैमिन",
+            "ru": "Ламине Камара"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كامارا",
+            "bn": "এল. কামারা",
+            "hi": "एल. कैमारा",
+            "ru": "Л. Камара"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 26,
+        "y": 39.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39.7,
+        "z": 95.8
+      },
+      "xg": 0.0045697153545916,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ahmed Basil",
+        "firstName": "Ahmed",
+        "lastName": "Basil",
+        "slug": "ahmed-basil",
+        "shortName": "A. Basil",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1231,
+        "gender": "M",
+        "id": 888896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد باسل",
+            "bn": "আহমেদ বাসিল",
+            "hi": "अहमद बेसिल",
+            "ru": "Ахмед Басиль"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باسل",
+            "bn": "এ. বি. ফাদিল",
+            "hi": "ए. बी. फधिल",
+            "ru": "А. Басиль"
+          }
+        }
+      },
+      "id": 7586503,
+      "time": 45,
+      "addedTime": 6,
+      "timeSeconds": 3031,
+      "draw": {
+        "start": {
+          "x": 39.9,
+          "y": 26
+        },
+        "end": {
+          "x": 60.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 60.3,
+          "y": 4.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2369,
+      "periodTimeSeconds": 331,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Moussa Niakhaté",
+        "firstName": "Moussa",
+        "lastName": "Niakhate",
+        "slug": "moussa-niakhate",
+        "shortName": "M. Niakhaté",
+        "position": "D",
+        "jerseyNumber": "19",
+        "userCount": 9715,
+        "gender": "M",
+        "sofascoreId": "niakhate",
+        "id": 758168,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسى نياكاتي",
+            "bn": "মুসা নিয়াখাটে",
+            "hi": "मूसा नियाखाटे",
+            "ru": "Мусса Ниакате"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نياكاتي",
+            "bn": "এম. নিয়াখাটে",
+            "hi": "एम. नियाखाटे",
+            "ru": "М. Ниакате"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.1,
+        "y": 51.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 86.2,
+        "z": 5.6
+      },
+      "blockCoordinates": {
+        "x": 3.7,
+        "y": 18.6,
+        "z": 0
+      },
+      "xg": 0.10667917132378,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ahmed Basil",
+        "firstName": "Ahmed",
+        "lastName": "Basil",
+        "slug": "ahmed-basil",
+        "shortName": "A. Basil",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1231,
+        "gender": "M",
+        "id": 888896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد باسل",
+            "bn": "আহমেদ বাসিল",
+            "hi": "अहमद बेसिल",
+            "ru": "Ахмед Басиль"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باسل",
+            "bn": "এ. বি. ফাদিল",
+            "hi": "ए. बी. फधिल",
+            "ru": "А. Басиль"
+          }
+        }
+      },
+      "id": 7586498,
+      "time": 45,
+      "addedTime": 2,
+      "timeSeconds": 2817,
+      "draw": {
+        "start": {
+          "x": 51.5,
+          "y": 8.1
+        },
+        "block": {
+          "x": 18.6,
+          "y": 3.7
+        },
+        "end": {
+          "x": 13.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 13.8,
+          "y": 94.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2583,
+      "periodTimeSeconds": 117,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Sadio Mané",
+        "slug": "sadio-mane",
+        "shortName": "S. Mané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 188157,
+        "gender": "M",
+        "sofascoreId": "SadioMané",
+        "id": 217704,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساديو ماني",
+            "bn": "সাদিও মানে",
+            "hi": "सादियो माने",
+            "ru": "Садио Мане"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ماني",
+            "bn": "এস. মানে",
+            "hi": "एस. माने",
+            "ru": "С. Мане"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.1,
+        "y": 35.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.7,
+        "z": 59.7
+      },
+      "xg": 0.042402669787407,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ahmed Basil",
+        "firstName": "Ahmed",
+        "lastName": "Basil",
+        "slug": "ahmed-basil",
+        "shortName": "A. Basil",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1231,
+        "gender": "M",
+        "id": 888896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد باسل",
+            "bn": "আহমেদ বাসিল",
+            "hi": "अहमद बेसिल",
+            "ru": "Ахмед Басиль"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باسل",
+            "bn": "এ. বি. ফাদিল",
+            "hi": "ए. बी. फधिल",
+            "ru": "А. Басиль"
+          }
+        }
+      },
+      "id": 7586495,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2742,
+      "draw": {
+        "start": {
+          "x": 35.8,
+          "y": 12.1
+        },
+        "end": {
+          "x": 54.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.3,
+          "y": 40.3
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2658,
+      "periodTimeSeconds": 42,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Jasim",
+        "firstName": "Ali Jasim Elaibi",
+        "slug": "elaibi-ali-jasim",
+        "shortName": "A. Jasim",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 8944,
+        "gender": "M",
+        "sofascoreId": "ali_jasim.7",
+        "id": 1066729,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي جاسم",
+            "bn": "এলাইবি, আলী জসিম",
+            "hi": "इलाइबी, अली जसीम",
+            "ru": "Али Джасим"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. جاسم",
+            "bn": "এ. জে. এলাইবি",
+            "hi": "ए.जे. इलाइबी",
+            "ru": "А. Джасим"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 20.9,
+        "y": 29.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.4,
+        "y": 39,
+        "z": 0
+      },
+      "xg": 0.017388019710779,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mory Diaw",
+        "firstName": "Mory",
+        "lastName": "Diaw",
+        "slug": "mory-diaw",
+        "shortName": "M. Diaw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 4705,
+        "gender": "M",
+        "id": 580226,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موري دياو",
+            "bn": "মোরি ডায়াউ",
+            "hi": "मोरी डियाव",
+            "ru": "Мори Диау"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دياو",
+            "bn": "এম. দিয়াও",
+            "hi": "एम. डियाव",
+            "ru": "М. Диау"
+          }
+        }
+      },
+      "id": 7586489,
+      "time": 41,
+      "timeSeconds": 2445,
+      "draw": {
+        "start": {
+          "x": 29.3,
+          "y": 20.9
+        },
+        "block": {
+          "x": 39,
+          "y": 12.4
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 255,
+      "periodTimeSeconds": 2445,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Merchas Doski",
+        "firstName": "Merchas",
+        "lastName": "Doski",
+        "slug": "merchas-doski",
+        "shortName": "M. Doski",
+        "position": "D",
+        "jerseyNumber": "14",
+        "userCount": 5667,
+        "gender": "M",
+        "id": 1381224,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميرخاس دوسكي",
+            "bn": "দোস্কি, মার্চাস",
+            "hi": "डोस्की, मर्चस",
+            "ru": "Мерчас Доски"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دوسكي",
+            "bn": "এম. দোস্কি",
+            "hi": "एम. डोस्की",
+            "ru": "М. Доски"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 21.2,
+        "y": 32.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 18.5,
+        "y": 35,
+        "z": 0
+      },
+      "xg": 0.01887920498848,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mory Diaw",
+        "firstName": "Mory",
+        "lastName": "Diaw",
+        "slug": "mory-diaw",
+        "shortName": "M. Diaw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 4705,
+        "gender": "M",
+        "id": 580226,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موري دياو",
+            "bn": "মোরি ডায়াউ",
+            "hi": "मोरी डियाव",
+            "ru": "Мори Диау"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دياو",
+            "bn": "এম. দিয়াও",
+            "hi": "एम. डियाव",
+            "ru": "М. Диау"
+          }
+        }
+      },
+      "id": 7586488,
+      "time": 41,
+      "timeSeconds": 2441,
+      "draw": {
+        "start": {
+          "x": 32.5,
+          "y": 21.2
+        },
+        "block": {
+          "x": 35,
+          "y": 18.5
+        },
+        "end": {
+          "x": 52.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 259,
+      "periodTimeSeconds": 2441,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ismail Jakobs",
+        "firstName": "Ismail",
+        "lastName": "Jakobs",
+        "slug": "ismail-jakobs",
+        "shortName": "I. Jakobs",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 8904,
+        "gender": "M",
+        "sofascoreId": "ismaijakobs",
+        "id": 897291,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إسماعيل جاكوبس",
+            "bn": "ইসমাইল জ্যাকবস",
+            "hi": "इस्माइल जैकब्स",
+            "ru": "Исмаил Якобс"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. جاكوبس",
+            "bn": "আই. জ্যাকবস",
+            "hi": "आई. जैकब्स",
+            "ru": "И. Якобс"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.5,
+        "y": 37,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.4,
+        "z": 2.8
+      },
+      "xg": 0.063387885689735,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ahmed Basil",
+        "firstName": "Ahmed",
+        "lastName": "Basil",
+        "slug": "ahmed-basil",
+        "shortName": "A. Basil",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1231,
+        "gender": "M",
+        "id": 888896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد باسل",
+            "bn": "আহমেদ বাসিল",
+            "hi": "अहमद बेसिल",
+            "ru": "Ахмед Басиль"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باسل",
+            "bn": "এ. বি. ফাদিল",
+            "hi": "ए. बी. फधिल",
+            "ru": "А. Басиль"
+          }
+        }
+      },
+      "id": 7586482,
+      "time": 33,
+      "timeSeconds": 1939,
+      "draw": {
+        "start": {
+          "x": 37,
+          "y": 14.5
+        },
+        "end": {
+          "x": 57.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.6,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 761,
+      "periodTimeSeconds": 1939,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Jasim",
+        "firstName": "Ali Jasim Elaibi",
+        "slug": "elaibi-ali-jasim",
+        "shortName": "A. Jasim",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 8944,
+        "gender": "M",
+        "sofascoreId": "ali_jasim.7",
+        "id": 1066729,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي جاسم",
+            "bn": "এলাইবি, আলী জসিম",
+            "hi": "इलाइबी, अली जसीम",
+            "ru": "Али Джасим"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. جاسم",
+            "bn": "এ. জে. এলাইবি",
+            "hi": "ए.जे. इलाइबी",
+            "ru": "А. Джасим"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 20.7,
+        "y": 30.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.9,
+        "y": 32.5,
+        "z": 0
+      },
+      "xg": 0.01488421112299,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mory Diaw",
+        "firstName": "Mory",
+        "lastName": "Diaw",
+        "slug": "mory-diaw",
+        "shortName": "M. Diaw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 4705,
+        "gender": "M",
+        "id": 580226,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موري دياو",
+            "bn": "মোরি ডায়াউ",
+            "hi": "मोरी डियाव",
+            "ru": "Мори Диау"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دياو",
+            "bn": "এম. দিয়াও",
+            "hi": "एम. डियाव",
+            "ru": "М. Диау"
+          }
+        }
+      },
+      "id": 7586317,
+      "time": 20,
+      "timeSeconds": 1165,
+      "draw": {
+        "start": {
+          "x": 30.3,
+          "y": 20.7
+        },
+        "block": {
+          "x": 32.5,
+          "y": 17.9
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1535,
+      "periodTimeSeconds": 1165,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Jasim",
+        "firstName": "Ali Jasim Elaibi",
+        "slug": "elaibi-ali-jasim",
+        "shortName": "A. Jasim",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 8944,
+        "gender": "M",
+        "sofascoreId": "ali_jasim.7",
+        "id": 1066729,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي جاسم",
+            "bn": "এলাইবি, আলী জসিম",
+            "hi": "इलाइबी, अली जसीम",
+            "ru": "Али Джасим"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. جاسم",
+            "bn": "এ. জে. এলাইবি",
+            "hi": "ए.जे. इलाइबी",
+            "ru": "А. Джасим"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 21.4,
+        "y": 27.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.5,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 14.9,
+        "y": 33.4,
+        "z": 0
+      },
+      "xg": 0.043950498104095,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mory Diaw",
+        "firstName": "Mory",
+        "lastName": "Diaw",
+        "slug": "mory-diaw",
+        "shortName": "M. Diaw",
+        "position": "G",
+        "jerseyNumber": "99",
+        "userCount": 4705,
+        "gender": "M",
+        "id": 580226,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موري دياو",
+            "bn": "মোরি ডায়াউ",
+            "hi": "मोरी डियाव",
+            "ru": "Мори Диау"
+          },
+          "shortNameTranslation": {
+            "ar": "م. دياو",
+            "bn": "এম. দিয়াও",
+            "hi": "एम. डियाव",
+            "ru": "М. Диау"
+          }
+        }
+      },
+      "id": 7586316,
+      "time": 20,
+      "timeSeconds": 1162,
+      "draw": {
+        "start": {
+          "x": 27.1,
+          "y": 21.4
+        },
+        "block": {
+          "x": 33.4,
+          "y": 14.9
+        },
+        "end": {
+          "x": 46.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.5,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1538,
+      "periodTimeSeconds": 1162,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ismaïla Sarr",
+        "firstName": "Ismaila",
+        "lastName": "Sarr",
+        "slug": "ismaila-sarr",
+        "shortName": "I. Sarr",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 37486,
+        "gender": "M",
+        "sofascoreId": "ismaila_sarr18",
+        "id": 845286,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إسماعيلا سار",
+            "bn": "ইসমাইলা সর",
+            "hi": "इस्माइला सार्र",
+            "ru": "Исмаила Сарр"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. سار",
+            "bn": "আই. সর",
+            "hi": "आई. सार्र",
+            "ru": "И. Сарр"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 6,
+        "y": 66.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.4,
+        "z": 61.1
+      },
+      "xg": 0.070951297879219,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ahmed Basil",
+        "firstName": "Ahmed",
+        "lastName": "Basil",
+        "slug": "ahmed-basil",
+        "shortName": "A. Basil",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1231,
+        "gender": "M",
+        "id": 888896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد باسل",
+            "bn": "আহমেদ বাসিল",
+            "hi": "अहमद बेसिल",
+            "ru": "Ахмед Басиль"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باسل",
+            "bn": "এ. বি. ফাদিল",
+            "hi": "ए. बी. फधिल",
+            "ru": "А. Басиль"
+          }
+        }
+      },
+      "id": 7586310,
+      "time": 17,
+      "timeSeconds": 1001,
+      "draw": {
+        "start": {
+          "x": 66.7,
+          "y": 6
+        },
+        "end": {
+          "x": 54.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.6,
+          "y": 38.9
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1699,
+      "periodTimeSeconds": 1001,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Abdoulaye Seck",
+        "firstName": "Abdoulaye",
+        "lastName": "Seck",
+        "slug": "abdoulaye-seck",
+        "shortName": "A. Seck",
+        "position": "D",
+        "userCount": 5878,
+        "gender": "M",
+        "id": 583896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد الله سيك",
+            "bn": "আবদুলায়ে সেক",
+            "hi": "अब्दुलाये सेक",
+            "ru": "Абдулайе Сек"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. سيك",
+            "bn": "এ. সেক",
+            "hi": "ए. सेक",
+            "ru": "А. Сек"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 26.9,
+        "y": 51.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 58.8,
+        "z": 29.2
+      },
+      "xg": 0.017420947551727,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ahmed Basil",
+        "firstName": "Ahmed",
+        "lastName": "Basil",
+        "slug": "ahmed-basil",
+        "shortName": "A. Basil",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1231,
+        "gender": "M",
+        "id": 888896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد باسل",
+            "bn": "আহমেদ বাসিল",
+            "hi": "अहमद बेसिल",
+            "ru": "Ахмед Басиль"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باسل",
+            "bn": "এ. বি. ফাদিল",
+            "hi": "ए. बी. फधिल",
+            "ru": "А. Басиль"
+          }
+        }
+      },
+      "id": 7586305,
+      "time": 14,
+      "timeSeconds": 834,
+      "draw": {
+        "start": {
+          "x": 51.3,
+          "y": 26.9
+        },
+        "end": {
+          "x": 41.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 41.2,
+          "y": 70.8
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1866,
+      "periodTimeSeconds": 834,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Sadio Mané",
+        "slug": "sadio-mane",
+        "shortName": "S. Mané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 188157,
+        "gender": "M",
+        "sofascoreId": "SadioMané",
+        "id": 217704,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساديو ماني",
+            "bn": "সাদিও মানে",
+            "hi": "सादियो माने",
+            "ru": "Садио Мане"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ماني",
+            "bn": "এস. মানে",
+            "hi": "एस. माने",
+            "ru": "С. Мане"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 20.2,
+        "y": 59.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 20.9
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 48.9,
+        "z": 0
+      },
+      "xg": 0.1102451980114,
+      "xgot": 0.27093383669853,
+      "goalkeeper": {
+        "name": "Ahmed Basil",
+        "firstName": "Ahmed",
+        "lastName": "Basil",
+        "slug": "ahmed-basil",
+        "shortName": "A. Basil",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1231,
+        "gender": "M",
+        "id": 888896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد باسل",
+            "bn": "আহমেদ বাসিল",
+            "hi": "अहमद बेसिल",
+            "ru": "Ахмед Басиль"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باسل",
+            "bn": "এ. বি. ফাদিল",
+            "hi": "ए. बी. फधिल",
+            "ru": "А. Басиль"
+          }
+        }
+      },
+      "id": 7586304,
+      "time": 14,
+      "timeSeconds": 822,
+      "draw": {
+        "start": {
+          "x": 59.2,
+          "y": 20.2
+        },
+        "block": {
+          "x": 48.9,
+          "y": 1.2
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 79.1
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1878,
+      "periodTimeSeconds": 822,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Habib Diarra",
+        "firstName": "Habib",
+        "lastName": "Diarra",
+        "slug": "habib-diarra",
+        "shortName": "H. Diarra",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 13831,
+        "gender": "M",
+        "id": 1128532,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "حبيب ديارا",
+            "bn": "হাবিব দিয়ারা",
+            "hi": "हबीब दियारा",
+            "ru": "Хабиб Диарра"
+          },
+          "shortNameTranslation": {
+            "ar": "ح. ديارا",
+            "bn": "এইচ. দিয়ারা",
+            "hi": "एच. दियारा",
+            "ru": "Х. Диарра"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.9,
+        "y": 49.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 24.7
+      },
+      "xg": 0.51361978054047,
+      "xgot": 0.97400170564651,
+      "goalkeeper": {
+        "name": "Ahmed Basil",
+        "firstName": "Ahmed",
+        "lastName": "Basil",
+        "slug": "ahmed-basil",
+        "shortName": "A. Basil",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1231,
+        "gender": "M",
+        "id": 888896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد باسل",
+            "bn": "আহমেদ বাসিল",
+            "hi": "अहमद बेसिल",
+            "ru": "Ахмед Басиль"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باسل",
+            "bn": "এ. বি. ফাদিল",
+            "hi": "ए. बी. फधिल",
+            "ru": "А. Басиль"
+          }
+        }
+      },
+      "id": 7586250,
+      "time": 4,
+      "timeSeconds": 202,
+      "draw": {
+        "start": {
+          "x": 49.4,
+          "y": 3.9
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 75.3
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2498,
+      "periodTimeSeconds": 202,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Abdoulaye Seck",
+        "firstName": "Abdoulaye",
+        "lastName": "Seck",
+        "slug": "abdoulaye-seck",
+        "shortName": "A. Seck",
+        "position": "D",
+        "userCount": 5878,
+        "gender": "M",
+        "id": 583896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد الله سيك",
+            "bn": "আবদুলায়ে সেক",
+            "hi": "अब्दुलाये सेक",
+            "ru": "Абдулайе Сек"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. سيك",
+            "bn": "এ. সেক",
+            "hi": "ए. सेक",
+            "ru": "А. Сек"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.7,
+        "y": 44.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.1,
+        "y": 47.3,
+        "z": 0
+      },
+      "xg": 0.03585871309042,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ahmed Basil",
+        "firstName": "Ahmed",
+        "lastName": "Basil",
+        "slug": "ahmed-basil",
+        "shortName": "A. Basil",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1231,
+        "gender": "M",
+        "id": 888896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد باسل",
+            "bn": "আহমেদ বাসিল",
+            "hi": "अहमद बेसिल",
+            "ru": "Ахмед Басиль"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باسل",
+            "bn": "এ. বি. ফাদিল",
+            "hi": "ए. बी. फधिल",
+            "ru": "А. Басиль"
+          }
+        }
+      },
+      "id": 7586249,
+      "time": 4,
+      "timeSeconds": 201,
+      "draw": {
+        "start": {
+          "x": 44.3,
+          "y": 8.7
+        },
+        "block": {
+          "x": 47.3,
+          "y": 3.1
+        },
+        "end": {
+          "x": 48.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2499,
+      "periodTimeSeconds": 201,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Idrissa Gana Gueye",
+        "firstName": "Idrissa Gana",
+        "lastName": "Gueye",
+        "slug": "idrissa-gana-gueye",
+        "shortName": "I. Gueye",
+        "position": "M",
+        "userCount": 24428,
+        "gender": "M",
+        "sofascoreId": "iganagueye",
+        "id": 106337,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إدريسا غي",
+            "bn": "ইদ্রিসা গুইয়ে",
+            "hi": "इद्रिसा गुये",
+            "ru": "Идрисса Гейе"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. غي",
+            "bn": "আই. গুইয়ে",
+            "hi": "आई. गुये",
+            "ru": "И. Гейе"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 18.7,
+        "y": 54.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.5,
+        "y": 47.6,
+        "z": 0
+      },
+      "xg": 0.034260343760252,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ahmed Basil",
+        "firstName": "Ahmed",
+        "lastName": "Basil",
+        "slug": "ahmed-basil",
+        "shortName": "A. Basil",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1231,
+        "gender": "M",
+        "id": 888896,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أحمد باسل",
+            "bn": "আহমেদ বাসিল",
+            "hi": "अहमद बेसिल",
+            "ru": "Ахмед Басиль"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. باسل",
+            "bn": "এ. বি. ফাদিল",
+            "hi": "ए. बी. फधिल",
+            "ru": "А. Басиль"
+          }
+        }
+      },
+      "id": 7586247,
+      "time": 3,
+      "timeSeconds": 169,
+      "draw": {
+        "start": {
+          "x": 54.3,
+          "y": 18.7
+        },
+        "block": {
+          "x": 47.6,
+          "y": 9.5
+        },
+        "end": {
+          "x": 39.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 39.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2531,
+      "periodTimeSeconds": 169,
+      "incidentType": "shot"
+    }
+  ]
+}

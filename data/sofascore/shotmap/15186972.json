@@ -1,0 +1,1847 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Alexander Isak",
+        "firstName": "Alexander",
+        "lastName": "Isak",
+        "slug": "alexander-isak",
+        "shortName": "A. Isak",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 110723,
+        "gender": "M",
+        "sofascoreId": "AlexIsak",
+        "id": 823941,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر إيزاك",
+            "bn": "আলেকজান্ডার ইসাক",
+            "hi": "अलेक्जेंडर इसाक",
+            "ru": "Александр Исак"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إيزاك",
+            "bn": "এ. ইসাক",
+            "hi": "ए. इसाक",
+            "ru": "А. Исак"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4,
+        "y": 43.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 29.1
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 48,
+        "z": 0
+      },
+      "xg": 0.10501806437969,
+      "xgot": 0.39875382184982,
+      "goalkeeper": {
+        "name": "Zion Suzuki",
+        "firstName": "Suzuki",
+        "lastName": "Zion",
+        "slug": "suzuki-zion",
+        "shortName": "Z. Suzuki",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 14674,
+        "gender": "M",
+        "id": 905351,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيون سوزوكي",
+            "bn": "জিয়ন সুজুকি",
+            "hi": "सियोन सुजुकी",
+            "ru": "Дзион Судзуки"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. سوزوكي",
+            "bn": "জেড. সুজুকি",
+            "hi": "जेड. सुजुकी",
+            "ru": "Д. Судзуки"
+          }
+        }
+      },
+      "id": 7582721,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5583,
+      "draw": {
+        "start": {
+          "x": 43.6,
+          "y": 4
+        },
+        "block": {
+          "x": 48,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 70.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 717,
+      "periodTimeSeconds": 183,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Anthony Elanga",
+        "firstName": "",
+        "lastName": "",
+        "slug": "anthony-elanga",
+        "shortName": "A. Elanga",
+        "position": "F",
+        "jerseyNumber": "20",
+        "userCount": 14968,
+        "gender": "M",
+        "sofascoreId": "anthonyelanga",
+        "id": 979232,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتوني إلانغا",
+            "bn": "অ্যান্টনি এলাঙ্গা",
+            "hi": "एंथनी एलंगा",
+            "ru": "Энтони Эланга"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إلانغا",
+            "bn": "এ. এলাঙ্গা",
+            "hi": "ए. एलंगा",
+            "ru": "Э. Эланга"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7,
+        "y": 68.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.3,
+        "z": 12.7
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 53.4,
+        "z": 0
+      },
+      "xg": 0.062120828777552,
+      "xgot": 0.29756489396095,
+      "goalkeeper": {
+        "name": "Zion Suzuki",
+        "firstName": "Suzuki",
+        "lastName": "Zion",
+        "slug": "suzuki-zion",
+        "shortName": "Z. Suzuki",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 14674,
+        "gender": "M",
+        "id": 905351,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيون سوزوكي",
+            "bn": "জিয়ন সুজুকি",
+            "hi": "सियोन सुजुकी",
+            "ru": "Дзион Судзуки"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. سوزوكي",
+            "bn": "জেড. সুজুকি",
+            "hi": "जेड. सुजुकी",
+            "ru": "Д. Судзуки"
+          }
+        }
+      },
+      "id": 7582720,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5533,
+      "draw": {
+        "start": {
+          "x": 68.4,
+          "y": 7
+        },
+        "block": {
+          "x": 53.4,
+          "y": 1.2
+        },
+        "end": {
+          "x": 45.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.7,
+          "y": 87.3
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 767,
+      "periodTimeSeconds": 133,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Koki Ogawa",
+        "firstName": "Koki",
+        "lastName": "Ogawa",
+        "slug": "koki-ogawa",
+        "shortName": "K. Ogawa",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1936,
+        "gender": "M",
+        "id": 831860,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كوكي أوجاوا",
+            "bn": "কোকি ওগাওয়া",
+            "hi": "कोकी ओगावा",
+            "ru": "Коки Огава"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. أوجاوا",
+            "bn": "কে. ওগাওয়া",
+            "hi": "के. ओगावा",
+            "ru": "К. Огава"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.9,
+        "y": 54.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.5,
+        "z": 81.9
+      },
+      "xg": 0.30681684613228,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jacob Widell Zetterström",
+        "slug": "jacob-widell-zetterstrom",
+        "shortName": "J. W. Zetterström",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 783,
+        "gender": "M",
+        "id": 978728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياكوب ويديل زيترشتروم",
+            "bn": "জ্যাকব উইডেল জেটারস্ট্রোম",
+            "hi": "जैकब विडेल ज़ेटरस्ट्रोम",
+            "ru": "Якоб Виделль Сеттерстрём"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويديل زيترشتروم",
+            "bn": "জে. ডব্লিউ. জেটারস্ট্রম",
+            "hi": "जे.डब्लू. ज़ेटरस्ट्रोम",
+            "ru": "Я. Виделль Сеттерстрём"
+          }
+        }
+      },
+      "id": 7582624,
+      "time": 83,
+      "timeSeconds": 4944,
+      "draw": {
+        "start": {
+          "x": 54.4,
+          "y": 9.9
+        },
+        "end": {
+          "x": 46.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.5,
+          "y": 18.1
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 456,
+      "periodTimeSeconds": 2244,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Gustaf Lagerbielke",
+        "firstName": "Gustaf",
+        "lastName": "Lagerbielke",
+        "slug": "gustaf-lagerbielke",
+        "shortName": "G. Lagerbielke",
+        "position": "D",
+        "jerseyNumber": "14",
+        "userCount": 912,
+        "gender": "M",
+        "id": 965263,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوستاف لاجربيلكي",
+            "bn": "গুস্তাফ লেগারবিয়েলকে",
+            "hi": "गुस्ताफ़ लेगरबीलके",
+            "ru": "Густаф Лагербильке"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. لاجربيلكي",
+            "bn": "জি. লেগারবিয়েলকে",
+            "hi": "जी. लेगरबीलके",
+            "ru": "Г. Лагербильке"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 12.5,
+        "y": 43,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 63.4,
+        "z": 11.1
+      },
+      "xg": 0.027530945837498,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Zion Suzuki",
+        "firstName": "Suzuki",
+        "lastName": "Zion",
+        "slug": "suzuki-zion",
+        "shortName": "Z. Suzuki",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 14674,
+        "gender": "M",
+        "id": 905351,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيون سوزوكي",
+            "bn": "জিয়ন সুজুকি",
+            "hi": "सियोन सुजुकी",
+            "ru": "Дзион Судзуки"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. سوزوكي",
+            "bn": "জেড. সুজুকি",
+            "hi": "जेड. सुजुकी",
+            "ru": "Д. Судзуки"
+          }
+        }
+      },
+      "id": 7582622,
+      "time": 81,
+      "timeSeconds": 4818,
+      "draw": {
+        "start": {
+          "x": 43,
+          "y": 12.5
+        },
+        "end": {
+          "x": 36.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 36.6,
+          "y": 88.9
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 582,
+      "periodTimeSeconds": 2118,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ken Sema",
+        "firstName": "Ken",
+        "lastName": "Sema",
+        "slug": "ken-sema",
+        "shortName": "K. Sema",
+        "position": "M",
+        "jerseyNumber": "12",
+        "userCount": 709,
+        "gender": "M",
+        "id": 319847,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كين سيما",
+            "bn": "কেন সেমা",
+            "hi": "केन सेमा",
+            "ru": "Кен Сема"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. سيما",
+            "bn": "কে. সেমা",
+            "hi": "के. सेमा",
+            "ru": "К. Сема"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 14.7,
+        "y": 60.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.6,
+        "y": 58.1,
+        "z": 0
+      },
+      "xg": 0.032759688794613,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Zion Suzuki",
+        "firstName": "Suzuki",
+        "lastName": "Zion",
+        "slug": "suzuki-zion",
+        "shortName": "Z. Suzuki",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 14674,
+        "gender": "M",
+        "id": 905351,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيون سوزوكي",
+            "bn": "জিয়ন সুজুকি",
+            "hi": "सियोन सुजुकी",
+            "ru": "Дзион Судзуки"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. سوزوكي",
+            "bn": "জেড. সুজুকি",
+            "hi": "जेड. सुजुकी",
+            "ru": "Д. Судзуки"
+          }
+        }
+      },
+      "id": 7582621,
+      "time": 79,
+      "timeSeconds": 4686,
+      "draw": {
+        "start": {
+          "x": 60.1,
+          "y": 14.7
+        },
+        "block": {
+          "x": 58.1,
+          "y": 11.6
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 714,
+      "periodTimeSeconds": 1986,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Victor Lindelöf",
+        "slug": "victor-lindelof",
+        "shortName": "V. Lindelöf",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 9588,
+        "gender": "M",
+        "sofascoreId": "victorlindelof",
+        "id": 143334,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور ليندلوف",
+            "bn": "ভিক্টর লিন্ডেলফ",
+            "hi": "विक्टर लिंडलोफ",
+            "ru": "Виктор Линделёф"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ليندلوف",
+            "bn": "ভি. লিন্ডেলফ",
+            "hi": "वी. लिंडलोफ",
+            "ru": "В. Линделёф"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.2,
+        "y": 44.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 36.5,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 2.8,
+        "y": 46.2,
+        "z": 0
+      },
+      "xg": 0.18993830680847,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Zion Suzuki",
+        "firstName": "Suzuki",
+        "lastName": "Zion",
+        "slug": "suzuki-zion",
+        "shortName": "Z. Suzuki",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 14674,
+        "gender": "M",
+        "id": 905351,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيون سوزوكي",
+            "bn": "জিয়ন সুজুকি",
+            "hi": "सियोन सुजुकी",
+            "ru": "Дзион Судзуки"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. سوزوكي",
+            "bn": "জেড. সুজুকি",
+            "hi": "जेड. सुजुकी",
+            "ru": "Д. Судзуки"
+          }
+        }
+      },
+      "id": 7582770,
+      "time": 79,
+      "timeSeconds": 4682,
+      "draw": {
+        "start": {
+          "x": 44.9,
+          "y": 3.2
+        },
+        "block": {
+          "x": 46.2,
+          "y": 2.8
+        },
+        "end": {
+          "x": 63.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 63.5,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 718,
+      "periodTimeSeconds": 1982,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Daniel Svensson",
+        "firstName": "",
+        "lastName": "",
+        "slug": "daniel-svensson",
+        "shortName": "D. Svensson",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 3892,
+        "gender": "M",
+        "id": 1021272,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دانيال سفينسون",
+            "ru": "Даниэль Свенссон"
+          },
+          "shortNameTranslation": {
+            "ar": "د. سفينسون",
+            "ru": "Д. Свенссон"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 20.1,
+        "y": 31.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.5,
+        "y": 33.6,
+        "z": 0
+      },
+      "xg": 0.0080354148522019,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Zion Suzuki",
+        "firstName": "Suzuki",
+        "lastName": "Zion",
+        "slug": "suzuki-zion",
+        "shortName": "Z. Suzuki",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 14674,
+        "gender": "M",
+        "id": 905351,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيون سوزوكي",
+            "bn": "জিয়ন সুজুকি",
+            "hi": "सियोन सुजुकी",
+            "ru": "Дзион Судзуки"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. سوزوكي",
+            "bn": "জেড. সুজুকি",
+            "hi": "जेड. सुजुकी",
+            "ru": "Д. Судзуки"
+          }
+        }
+      },
+      "id": 7582619,
+      "time": 78,
+      "timeSeconds": 4635,
+      "draw": {
+        "start": {
+          "x": 31.1,
+          "y": 20.1
+        },
+        "block": {
+          "x": 33.6,
+          "y": 17.5
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 765,
+      "periodTimeSeconds": 1935,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Alexander Isak",
+        "firstName": "Alexander",
+        "lastName": "Isak",
+        "slug": "alexander-isak",
+        "shortName": "A. Isak",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 110723,
+        "gender": "M",
+        "sofascoreId": "AlexIsak",
+        "id": 823941,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر إيزاك",
+            "bn": "আলেকজান্ডার ইসাক",
+            "hi": "अलेक्जेंडर इसाक",
+            "ru": "Александр Исак"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إيزاك",
+            "bn": "এ. ইসাক",
+            "hi": "ए. इसाक",
+            "ru": "А. Исак"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 20,
+        "y": 41.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.4,
+        "z": 9.5
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 49.3,
+        "z": 0
+      },
+      "xg": 0.057289812713861,
+      "xgot": 0.12338314950466,
+      "goalkeeper": {
+        "name": "Zion Suzuki",
+        "firstName": "Suzuki",
+        "lastName": "Zion",
+        "slug": "suzuki-zion",
+        "shortName": "Z. Suzuki",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 14674,
+        "gender": "M",
+        "id": 905351,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيون سوزوكي",
+            "bn": "জিয়ন সুজুকি",
+            "hi": "सियोन सुजुकी",
+            "ru": "Дзион Судзуки"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. سوزوكي",
+            "bn": "জেড. সুজুকি",
+            "hi": "जेड. सुजुकी",
+            "ru": "Д. Судзуки"
+          }
+        }
+      },
+      "id": 7582612,
+      "time": 65,
+      "timeSeconds": 3852,
+      "draw": {
+        "start": {
+          "x": 41.9,
+          "y": 20
+        },
+        "block": {
+          "x": 49.3,
+          "y": 1.5
+        },
+        "end": {
+          "x": 52.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.6,
+          "y": 90.5
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1548,
+      "periodTimeSeconds": 1152,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Anthony Elanga",
+        "firstName": "",
+        "lastName": "",
+        "slug": "anthony-elanga",
+        "shortName": "A. Elanga",
+        "position": "F",
+        "jerseyNumber": "20",
+        "userCount": 14968,
+        "gender": "M",
+        "sofascoreId": "anthonyelanga",
+        "id": 979232,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتوني إلانغا",
+            "bn": "অ্যান্টনি এলাঙ্গা",
+            "hi": "एंथनी एलंगा",
+            "ru": "Энтони Эланга"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إلانغا",
+            "bn": "এ. এলাঙ্গা",
+            "hi": "ए. एलंगा",
+            "ru": "Э. Эланга"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.8,
+        "y": 78.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 7.6
+      },
+      "xg": 0.017983600497246,
+      "xgot": 0.13210089504719,
+      "goalkeeper": {
+        "name": "Zion Suzuki",
+        "firstName": "Suzuki",
+        "lastName": "Zion",
+        "slug": "suzuki-zion",
+        "shortName": "Z. Suzuki",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 14674,
+        "gender": "M",
+        "id": 905351,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيون سوزوكي",
+            "bn": "জিয়ন সুজুকি",
+            "hi": "सियोन सुजुकी",
+            "ru": "Дзион Судзуки"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. سوزوكي",
+            "bn": "জেড. সুজুকি",
+            "hi": "जेड. सुजुकी",
+            "ru": "Д. Судзуки"
+          }
+        }
+      },
+      "id": 7582610,
+      "time": 62,
+      "timeSeconds": 3669,
+      "draw": {
+        "start": {
+          "x": 78.1,
+          "y": 17.8
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1731,
+      "periodTimeSeconds": 969,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Daizen Maeda",
+        "firstName": "Daizen",
+        "lastName": "Maeda",
+        "slug": "daizen-maeda",
+        "shortName": "D. Maeda",
+        "position": "F",
+        "jerseyNumber": "38",
+        "userCount": 6262,
+        "gender": "M",
+        "id": 832420,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دايزين ماييدا",
+            "bn": "ডাইজেন মাইদা",
+            "hi": "डेज़ेन माएदा",
+            "ru": "Дайдзэн Маэда"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ماييدا",
+            "bn": "ডি. মাইদা",
+            "hi": "डी. माएदा",
+            "ru": "Д. Маэда"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.9,
+        "y": 51.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.2,
+        "z": 3.8
+      },
+      "xg": 0.59847813844681,
+      "xgot": 0.75398790836334,
+      "goalkeeper": {
+        "name": "Jacob Widell Zetterström",
+        "slug": "jacob-widell-zetterstrom",
+        "shortName": "J. W. Zetterström",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 783,
+        "gender": "M",
+        "id": 978728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياكوب ويديل زيترشتروم",
+            "bn": "জ্যাকব উইডেল জেটারস্ট্রোম",
+            "hi": "जैकब विडेल ज़ेटरस्ट्रोम",
+            "ru": "Якоб Виделль Сеттерстрём"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويديل زيترشتروم",
+            "bn": "জে. ডব্লিউ. জেটারস্ট্রম",
+            "hi": "जे.डब्लू. ज़ेटरस्ट्रोम",
+            "ru": "Я. Виделль Сеттерстрём"
+          }
+        }
+      },
+      "id": 7582606,
+      "time": 56,
+      "timeSeconds": 3313,
+      "draw": {
+        "start": {
+          "x": 51.8,
+          "y": 9.9
+        },
+        "end": {
+          "x": 46.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.8,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2087,
+      "periodTimeSeconds": 613,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ayase Ueda",
+        "slug": "ueda-ayase",
+        "shortName": "A. Ueda",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 15439,
+        "gender": "M",
+        "sofascoreId": "bee18",
+        "id": 985823,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أياسي أويدا",
+            "bn": "উয়েদা, আয়াস",
+            "hi": "उएदा, अयासे",
+            "ru": "Аясе Уэда"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. أويدا",
+            "bn": "এ. উয়েদা",
+            "hi": "ए. उएदा",
+            "ru": "А. Уэда"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.5,
+        "y": 56.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.9,
+        "y": 55.9,
+        "z": 0
+      },
+      "xg": 0.080117680132389,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jacob Widell Zetterström",
+        "slug": "jacob-widell-zetterstrom",
+        "shortName": "J. W. Zetterström",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 783,
+        "gender": "M",
+        "id": 978728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياكوب ويديل زيترشتروم",
+            "bn": "জ্যাকব উইডেল জেটারস্ট্রোম",
+            "hi": "जैकब विडेल ज़ेटरस्ट्रोम",
+            "ru": "Якоб Виделль Сеттерстрём"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويديل زيترشتروم",
+            "bn": "জে. ডব্লিউ. জেটারস্ট্রম",
+            "hi": "जे.डब्लू. ज़ेटरस्ट्रोम",
+            "ru": "Я. Виделль Сеттерстрём"
+          }
+        }
+      },
+      "id": 7582557,
+      "time": 52,
+      "timeSeconds": 3118,
+      "draw": {
+        "start": {
+          "x": 56.3,
+          "y": 21.5
+        },
+        "block": {
+          "x": 55.9,
+          "y": 17.9
+        },
+        "end": {
+          "x": 53.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2282,
+      "periodTimeSeconds": 418,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Gustaf Lagerbielke",
+        "firstName": "Gustaf",
+        "lastName": "Lagerbielke",
+        "slug": "gustaf-lagerbielke",
+        "shortName": "G. Lagerbielke",
+        "position": "D",
+        "jerseyNumber": "14",
+        "userCount": 912,
+        "gender": "M",
+        "id": 965263,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوستاف لاجربيلكي",
+            "bn": "গুস্তাফ লেগারবিয়েলকে",
+            "hi": "गुस्ताफ़ लेगरबीलके",
+            "ru": "Густаф Лагербильке"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. لاجربيلكي",
+            "bn": "জি. লেগারবিয়েলকে",
+            "hi": "जी. लेगरबीलके",
+            "ru": "Г. Лагербильке"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.3,
+        "y": 58.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39.8,
+        "z": 26.4
+      },
+      "xg": 0.073050126433372,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Zion Suzuki",
+        "firstName": "Suzuki",
+        "lastName": "Zion",
+        "slug": "suzuki-zion",
+        "shortName": "Z. Suzuki",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 14674,
+        "gender": "M",
+        "id": 905351,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيون سوزوكي",
+            "bn": "জিয়ন সুজুকি",
+            "hi": "सियोन सुजुकी",
+            "ru": "Дзион Судзуки"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. سوزوكي",
+            "bn": "জেড. সুজুকি",
+            "hi": "जेड. सुजुकी",
+            "ru": "Д. Судзуки"
+          }
+        }
+      },
+      "id": 7582555,
+      "time": 50,
+      "timeSeconds": 2967,
+      "draw": {
+        "start": {
+          "x": 58.8,
+          "y": 4.3
+        },
+        "end": {
+          "x": 60.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 60.2,
+          "y": 73.6
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2433,
+      "periodTimeSeconds": 267,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ao Tanaka",
+        "slug": "ao-tanaka",
+        "shortName": "A. Tanaka",
+        "position": "M",
+        "jerseyNumber": "22",
+        "userCount": 6331,
+        "gender": "M",
+        "id": 871886,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آو تانكا",
+            "bn": "আও তানাকা",
+            "hi": "एओ तनाका",
+            "ru": "Ао Танака"
+          },
+          "shortNameTranslation": {
+            "ar": "آو تانكا",
+            "bn": "এ. তানাকা",
+            "hi": "ए. तनाका",
+            "ru": "А. Танака"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 23.8,
+        "y": 54.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 77.8
+      },
+      "xg": 0.046611629426479,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jacob Widell Zetterström",
+        "slug": "jacob-widell-zetterstrom",
+        "shortName": "J. W. Zetterström",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 783,
+        "gender": "M",
+        "id": 978728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياكوب ويديل زيترشتروم",
+            "bn": "জ্যাকব উইডেল জেটারস্ট্রোম",
+            "hi": "जैकब विडेल ज़ेटरस्ट्रोम",
+            "ru": "Якоб Виделль Сеттерстрём"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويديل زيترشتروم",
+            "bn": "জে. ডব্লিউ. জেটারস্ট্রম",
+            "hi": "जे.डब्लू. ज़ेटरस्ट्रोम",
+            "ru": "Я. Виделль Сеттерстрём"
+          }
+        }
+      },
+      "id": 7582550,
+      "time": 48,
+      "timeSeconds": 2866,
+      "draw": {
+        "start": {
+          "x": 54.6,
+          "y": 23.8
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 22.2
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2534,
+      "periodTimeSeconds": 166,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Viktor Gyökeres",
+        "firstName": "Viktor",
+        "lastName": "Gyokeres",
+        "slug": "viktor-gyokeres",
+        "shortName": "V. Gyökeres",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 224715,
+        "gender": "M",
+        "sofascoreId": "VGyökeres",
+        "id": 804508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غيوكيريس",
+            "bn": "ভিক্টর গোকেরেস",
+            "hi": "विक्टर ग्योकेरेस",
+            "ru": "Виктор Дьёкереш"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غيوكيريس",
+            "bn": "ভি. গোকেরেস",
+            "hi": "वी. ग्योकेरेस",
+            "ru": "В. Дьёкереш"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 25.2,
+        "y": 56.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.6,
+        "y": 54.3,
+        "z": 0
+      },
+      "xg": 0.025266936048865,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Zion Suzuki",
+        "firstName": "Suzuki",
+        "lastName": "Zion",
+        "slug": "suzuki-zion",
+        "shortName": "Z. Suzuki",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 14674,
+        "gender": "M",
+        "id": 905351,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيون سوزوكي",
+            "bn": "জিয়ন সুজুকি",
+            "hi": "सियोन सुजुकी",
+            "ru": "Дзион Судзуки"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. سوزوكي",
+            "bn": "জেড. সুজুকি",
+            "hi": "जेड. सुजुकी",
+            "ru": "Д. Судзуки"
+          }
+        }
+      },
+      "id": 7582515,
+      "time": 45,
+      "addedTime": 3,
+      "timeSeconds": 2877,
+      "draw": {
+        "start": {
+          "x": 56.6,
+          "y": 25.2
+        },
+        "block": {
+          "x": 54.3,
+          "y": 17.6
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2523,
+      "periodTimeSeconds": 177,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Keito Nakamura",
+        "firstName": "Keito",
+        "lastName": "Nakamura",
+        "slug": "keito-nakamura",
+        "shortName": "K. Nakamura",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 6469,
+        "gender": "M",
+        "id": 905352,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيتو ناكامورا",
+            "bn": "কেইটো নাকামুরা",
+            "hi": "कीटो नाकामुरा",
+            "ru": "Кэито Накамура"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ناكامورا",
+            "bn": "কে. নাকামুরা",
+            "hi": "के. नाकामुरा",
+            "ru": "К. Накамура"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.4,
+        "y": 34.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.9,
+        "z": 10.8
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 46.4,
+        "z": 0
+      },
+      "xg": 0.061905667185783,
+      "xgot": 0.50593560934067,
+      "goalkeeper": {
+        "name": "Jacob Widell Zetterström",
+        "slug": "jacob-widell-zetterstrom",
+        "shortName": "J. W. Zetterström",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 783,
+        "gender": "M",
+        "id": 978728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياكوب ويديل زيترشتروم",
+            "bn": "জ্যাকব উইডেল জেটারস্ট্রোম",
+            "hi": "जैकब विडेल ज़ेटरस्ट्रोम",
+            "ru": "Якоб Виделль Сеттерстрём"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويديل زيترشتروم",
+            "bn": "জে. ডব্লিউ. জেটারস্ট্রম",
+            "hi": "जे.डब्लू. ज़ेटरस्ट्रोम",
+            "ru": "Я. Виделль Сеттерстрём"
+          }
+        }
+      },
+      "id": 7582483,
+      "time": 45,
+      "timeSeconds": 2694,
+      "draw": {
+        "start": {
+          "x": 34.6,
+          "y": 13.4
+        },
+        "block": {
+          "x": 46.4,
+          "y": 1.2
+        },
+        "end": {
+          "x": 53.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.1,
+          "y": 89.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 6,
+      "periodTimeSeconds": 2694,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yukinari Sugawara",
+        "firstName": "Yukinari",
+        "lastName": "Sugawara",
+        "slug": "yukinari-sugawara",
+        "shortName": "Y. Sugawara",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 3228,
+        "gender": "M",
+        "id": 905347,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوكيناري سوغاوارا",
+            "bn": "ইউকিনারী সুগাওয়ারা",
+            "hi": "युकिनारी सुगावारा",
+            "ru": "Юкинари Сугавара"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. سوغاوارا",
+            "bn": "ওয়াই. সুগাওয়ারা",
+            "hi": "वाई. सुगावारा",
+            "ru": "Ю. Сугавара"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 28.5,
+        "y": 69.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 51.1,
+        "z": 0
+      },
+      "xg": 0.0080745816230774,
+      "xgot": 0.012897876091301,
+      "goalkeeper": {
+        "name": "Jacob Widell Zetterström",
+        "slug": "jacob-widell-zetterstrom",
+        "shortName": "J. W. Zetterström",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 783,
+        "gender": "M",
+        "id": 978728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياكوب ويديل زيترشتروم",
+            "bn": "জ্যাকব উইডেল জেটারস্ট্রোম",
+            "hi": "जैकब विडेल ज़ेटरस्ट्रोम",
+            "ru": "Якоб Виделль Сеттерстрём"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويديل زيترشتروم",
+            "bn": "জে. ডব্লিউ. জেটারস্ট্রম",
+            "hi": "जे.डब्लू. ज़ेटरस्ट्रोम",
+            "ru": "Я. Виделль Сеттерстрём"
+          }
+        }
+      },
+      "id": 7582478,
+      "time": 40,
+      "timeSeconds": 2374,
+      "draw": {
+        "start": {
+          "x": 69.1,
+          "y": 28.5
+        },
+        "block": {
+          "x": 51.1,
+          "y": 1.2
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 326,
+      "periodTimeSeconds": 2374,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Daizen Maeda",
+        "firstName": "Daizen",
+        "lastName": "Maeda",
+        "slug": "daizen-maeda",
+        "shortName": "D. Maeda",
+        "position": "F",
+        "jerseyNumber": "38",
+        "userCount": 6262,
+        "gender": "M",
+        "id": 832420,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دايزين ماييدا",
+            "bn": "ডাইজেন মাইদা",
+            "hi": "डेज़ेन माएदा",
+            "ru": "Дайдзэн Маэда"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ماييدا",
+            "bn": "ডি. মাইদা",
+            "hi": "डी. माएदा",
+            "ru": "Д. Маэда"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9,
+        "y": 44.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 55.3,
+        "z": 62.5
+      },
+      "xg": 0.084685936570168,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jacob Widell Zetterström",
+        "slug": "jacob-widell-zetterstrom",
+        "shortName": "J. W. Zetterström",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 783,
+        "gender": "M",
+        "id": 978728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياكوب ويديل زيترشتروم",
+            "bn": "জ্যাকব উইডেল জেটারস্ট্রোম",
+            "hi": "जैकब विडेल ज़ेटरस्ट्रोम",
+            "ru": "Якоб Виделль Сеттерстрём"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويديل زيترشتروم",
+            "bn": "জে. ডব্লিউ. জেটারস্ট্রম",
+            "hi": "जे.डब्लू. ज़ेटरस्ट्रोम",
+            "ru": "Я. Виделль Сеттерстрём"
+          }
+        }
+      },
+      "id": 7582468,
+      "time": 22,
+      "timeSeconds": 1264,
+      "draw": {
+        "start": {
+          "x": 44.5,
+          "y": 9
+        },
+        "end": {
+          "x": 44.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 44.7,
+          "y": 37.5
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1436,
+      "periodTimeSeconds": 1264,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ritsu Doan",
+        "firstName": "Ritsu",
+        "lastName": "Doan",
+        "slug": "ritsu-doan",
+        "shortName": "R. Doan",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 6959,
+        "gender": "M",
+        "sofascoreId": "doanritsu",
+        "id": 790965,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريتسو دوان",
+            "bn": "রিৎসু দোয়ান",
+            "hi": "रित्सु दोआन",
+            "ru": "Рицу Доан"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. دوان",
+            "bn": "আর. দোয়ান",
+            "hi": "आर. दोआन",
+            "ru": "Р. Доан"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.7,
+        "y": 65.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 18.4,
+        "y": 64.8,
+        "z": 0
+      },
+      "xg": 0.022252473980188,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Jacob Widell Zetterström",
+        "slug": "jacob-widell-zetterstrom",
+        "shortName": "J. W. Zetterström",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 783,
+        "gender": "M",
+        "id": 978728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياكوب ويديل زيترشتروم",
+            "bn": "জ্যাকব উইডেল জেটারস্ট্রোম",
+            "hi": "जैकब विडेल ज़ेटरस्ट्रोम",
+            "ru": "Якоб Виделль Сеттерстрём"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويديل زيترشتروم",
+            "bn": "জে. ডব্লিউ. জেটারস্ট্রম",
+            "hi": "जे.डब्लू. ज़ेटरस्ट्रोम",
+            "ru": "Я. Виделль Сеттерстрём"
+          }
+        }
+      },
+      "id": 7582465,
+      "time": 15,
+      "timeSeconds": 872,
+      "draw": {
+        "start": {
+          "x": 65.8,
+          "y": 19.7
+        },
+        "block": {
+          "x": 64.8,
+          "y": 18.4
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1828,
+      "periodTimeSeconds": 872,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Alexander Bernhardsson",
+        "firstName": "Alexander",
+        "lastName": "Bernhardsson",
+        "slug": "alexander-bernhardsson",
+        "shortName": "A. Bernhardsson",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 694,
+        "gender": "M",
+        "id": 980916,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر بيرنهاردسون",
+            "bn": "আলেকজান্ডার বার্নহার্ডসন",
+            "hi": "अलेक्जेंडर बर्नहार्डसन",
+            "ru": "Александр Бернхардссон"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. بيرنهاردسون",
+            "bn": "এ. বার্নহার্ডসন",
+            "hi": "ए. बर्नहार्डसन",
+            "ru": "А. Бернхардссон"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.9,
+        "y": 58.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.1,
+        "z": 2.5
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 52,
+        "z": 0
+      },
+      "xg": 0.044493444263935,
+      "xgot": 0.21202436089516,
+      "goalkeeper": {
+        "name": "Zion Suzuki",
+        "firstName": "Suzuki",
+        "lastName": "Zion",
+        "slug": "suzuki-zion",
+        "shortName": "Z. Suzuki",
+        "position": "G",
+        "jerseyNumber": "31",
+        "userCount": 14674,
+        "gender": "M",
+        "id": 905351,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيون سوزوكي",
+            "bn": "জিয়ন সুজুকি",
+            "hi": "सियोन सुजुकी",
+            "ru": "Дзион Судзуки"
+          },
+          "shortNameTranslation": {
+            "ar": "ز. سوزوكي",
+            "bn": "জেড. সুজুকি",
+            "hi": "जेड. सुजुकी",
+            "ru": "Д. Судзуки"
+          }
+        }
+      },
+      "id": 7582460,
+      "time": 6,
+      "timeSeconds": 317,
+      "draw": {
+        "start": {
+          "x": 58.9,
+          "y": 17.9
+        },
+        "block": {
+          "x": 52,
+          "y": 1.2
+        },
+        "end": {
+          "x": 47.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.9,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2383,
+      "periodTimeSeconds": 317,
+      "incidentType": "shot"
+    }
+  ]
+}

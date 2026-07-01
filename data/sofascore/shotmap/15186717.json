@@ -1,0 +1,2016 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Théo Bongonda",
+        "slug": "theo-bongonda",
+        "shortName": "T. Bongonda",
+        "position": "M",
+        "userCount": 36442,
+        "gender": "M",
+        "sofascoreId": "theo_bongonda",
+        "id": 344953,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثيو بونغوندا",
+            "bn": "থিও বনগোন্ডা",
+            "hi": "थियो बोंगोंडा",
+            "ru": "Тео Бонгонда"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. بونغوندا",
+            "bn": "টি. বনগোন্ডা",
+            "hi": "टी. बोंगोंडा",
+            "ru": "Т. Бонгонда"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13,
+        "y": 64.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 56.8,
+        "z": 100
+      },
+      "xg": 0.073466561734676,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591353,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5726,
+      "draw": {
+        "start": {
+          "x": 64.4,
+          "y": 13
+        },
+        "end": {
+          "x": 43.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 43.2,
+          "y": 0
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 574,
+      "periodTimeSeconds": 326,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ngal'ayel Mukau",
+        "firstName": "Ngal'ayel Mukau",
+        "lastName": "",
+        "slug": "ngalayel-mukau",
+        "shortName": "N. Mukau",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 9015,
+        "gender": "M",
+        "id": 1391541,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نغالاييل موكوا",
+            "bn": "নাগাল'য়েল মুকাউ",
+            "hi": "नगाल'याल मुकाऊ",
+            "ru": "Нгалайель Мукау"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. موكوا",
+            "bn": "এন. মুকাউ",
+            "hi": "एन. मुकाऊ",
+            "ru": "Н. Мукау"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26,
+        "y": 39.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.4,
+        "z": 86.1
+      },
+      "xg": 0.019023770466447,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591352,
+      "time": 90,
+      "addedTime": 5,
+      "timeSeconds": 5679,
+      "draw": {
+        "start": {
+          "x": 39.1,
+          "y": 26
+        },
+        "end": {
+          "x": 54.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.6,
+          "y": 13.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 621,
+      "periodTimeSeconds": 279,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yoane Wissa",
+        "firstName": "Yoane",
+        "lastName": "Wissa",
+        "slug": "yoane-wissa",
+        "shortName": "Y. Wissa",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 79083,
+        "gender": "M",
+        "sofascoreId": "yowissa",
+        "id": 805123,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوني ويسا",
+            "bn": "জন উইসা",
+            "hi": "योआने विस्सा",
+            "ru": "Йоан Висса"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويسا",
+            "bn": "ওয়াই. উইসা",
+            "hi": "वाई. विस्सा",
+            "ru": "Й. Висса"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.8,
+        "y": 31,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.7,
+        "z": 1.9
+      },
+      "xg": 0.025248985737562,
+      "xgot": 0.48951402306557,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591345,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5416,
+      "draw": {
+        "start": {
+          "x": 31,
+          "y": 19.8
+        },
+        "end": {
+          "x": 54.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.3,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 884,
+      "periodTimeSeconds": 16,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Fiston Mayele",
+        "slug": "fiston-mayele",
+        "shortName": "F. Mayele",
+        "position": "F",
+        "userCount": 44747,
+        "gender": "M",
+        "sofascoreId": "mayelefiston",
+        "id": 1007556,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيستون ماييلي",
+            "bn": "ফিস্টন মায়েলে",
+            "hi": "फिस्टन मेयेले",
+            "ru": "Фистон Майеле"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ماييلي",
+            "bn": "এফ. মায়েলে",
+            "hi": "एफ. मेयेले",
+            "ru": "Ф. Майеле"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.7,
+        "y": 72.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 84.5,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 0.59999999999999,
+        "y": 20.2,
+        "z": 0
+      },
+      "xg": 0.026827288791537,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591344,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5405,
+      "draw": {
+        "start": {
+          "x": 72.2,
+          "y": 9.7
+        },
+        "block": {
+          "x": 20.2,
+          "y": 0.59999999999999
+        },
+        "end": {
+          "x": 15.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 15.5,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 895,
+      "periodTimeSeconds": 5,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Fiston Mayele",
+        "slug": "fiston-mayele",
+        "shortName": "F. Mayele",
+        "position": "F",
+        "userCount": 44747,
+        "gender": "M",
+        "sofascoreId": "mayelefiston",
+        "id": 1007556,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيستون ماييلي",
+            "bn": "ফিস্টন মায়েলে",
+            "hi": "फिस्टन मेयेले",
+            "ru": "Фистон Майеле"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ماييلي",
+            "bn": "এফ. মায়েলে",
+            "hi": "एफ. मेयेले",
+            "ru": "Ф. Майеле"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.6,
+        "y": 63.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 41,
+        "z": 22.2
+      },
+      "xg": 0.033216651529074,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591279,
+      "time": 88,
+      "timeSeconds": 5271,
+      "draw": {
+        "start": {
+          "x": 63.4,
+          "y": 24.6
+        },
+        "end": {
+          "x": 59,
+          "y": 0
+        },
+        "goal": {
+          "x": 59,
+          "y": 77.8
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 129,
+      "periodTimeSeconds": 2571,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Fiston Mayele",
+        "slug": "fiston-mayele",
+        "shortName": "F. Mayele",
+        "position": "F",
+        "userCount": 44747,
+        "gender": "M",
+        "sofascoreId": "mayelefiston",
+        "id": 1007556,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيستون ماييلي",
+            "bn": "ফিস্টন মায়েলে",
+            "hi": "फिस्टन मेयेले",
+            "ru": "Фистон Майеле"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ماييلي",
+            "bn": "এফ. মায়েলে",
+            "hi": "एफ. मेयेले",
+            "ru": "Ф. Майеле"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 4.3,
+        "y": 45.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 25.3
+      },
+      "xg": 0.40773376822472,
+      "xgot": 0.90726065635681,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591275,
+      "time": 78,
+      "timeSeconds": 4626,
+      "draw": {
+        "start": {
+          "x": 45.3,
+          "y": 4.3
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 74.7
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 774,
+      "periodTimeSeconds": 1926,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Meschak Elia",
+        "firstName": "Meschak",
+        "lastName": "Elia",
+        "slug": "meschak-elia",
+        "shortName": "M. Elia",
+        "position": "F",
+        "jerseyNumber": "12",
+        "userCount": 36073,
+        "gender": "M",
+        "sofascoreId": "meschackelialina",
+        "id": 862078,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميشاك ايليا",
+            "bn": "মেশাক ইলিয়াস",
+            "hi": "मेस्चैक एलिया",
+            "ru": "Мешак Элия"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ايليا",
+            "bn": "এম. ইলিয়া",
+            "hi": "एम. एलिया",
+            "ru": "М. Элия"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.4,
+        "y": 30.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 59.3,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 14.9,
+        "y": 31.6,
+        "z": 0
+      },
+      "xg": 0.018488509580493,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591253,
+      "time": 78,
+      "timeSeconds": 4624,
+      "draw": {
+        "start": {
+          "x": 30.6,
+          "y": 17.4
+        },
+        "block": {
+          "x": 31.6,
+          "y": 14.9
+        },
+        "end": {
+          "x": 40.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 40.7,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 776,
+      "periodTimeSeconds": 1924,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Fiston Mayele",
+        "slug": "fiston-mayele",
+        "shortName": "F. Mayele",
+        "position": "F",
+        "userCount": 44747,
+        "gender": "M",
+        "sofascoreId": "mayelefiston",
+        "id": 1007556,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيستون ماييلي",
+            "bn": "ফিস্টন মায়েলে",
+            "hi": "फिस्टन मेयेले",
+            "ru": "Фистон Майеле"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ماييلي",
+            "bn": "এফ. মায়েলে",
+            "hi": "एफ. मेयेले",
+            "ru": "Ф. Майеле"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5.1,
+        "y": 42.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 55.6,
+        "z": 87.5
+      },
+      "xg": 0.093426272273064,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591224,
+      "time": 75,
+      "timeSeconds": 4483,
+      "draw": {
+        "start": {
+          "x": 42.1,
+          "y": 5.1
+        },
+        "end": {
+          "x": 44.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 44.4,
+          "y": 12.5
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 917,
+      "periodTimeSeconds": 1783,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yoane Wissa",
+        "firstName": "Yoane",
+        "lastName": "Wissa",
+        "slug": "yoane-wissa",
+        "shortName": "Y. Wissa",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 79083,
+        "gender": "M",
+        "sofascoreId": "yowissa",
+        "id": 805123,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوني ويسا",
+            "bn": "জন উইসা",
+            "hi": "योआने विस्सा",
+            "ru": "Йоан Висса"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويسا",
+            "bn": "ওয়াই. উইসা",
+            "hi": "वाई. विस्सा",
+            "ru": "Й. Висса"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46,
+        "z": 1.9
+      },
+      "xg": 0.7884,
+      "xgot": 0.90042114257812,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591156,
+      "time": 68,
+      "timeSeconds": 4055,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 54,
+          "y": 0
+        },
+        "goal": {
+          "x": 54,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1345,
+      "periodTimeSeconds": 1355,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yoane Wissa",
+        "firstName": "Yoane",
+        "lastName": "Wissa",
+        "slug": "yoane-wissa",
+        "shortName": "Y. Wissa",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 79083,
+        "gender": "M",
+        "sofascoreId": "yowissa",
+        "id": 805123,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوني ويسا",
+            "bn": "জন উইসা",
+            "hi": "योआने विस्सा",
+            "ru": "Йоан Висса"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويسا",
+            "bn": "ওয়াই. উইসা",
+            "hi": "वाई. विस्सा",
+            "ru": "Й. Висса"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.7,
+        "y": 54.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 38.5,
+        "z": 5.6
+      },
+      "xg": 0.24712020158768,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591146,
+      "time": 61,
+      "timeSeconds": 3609,
+      "draw": {
+        "start": {
+          "x": 54.2,
+          "y": 7.7
+        },
+        "end": {
+          "x": 61.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 61.5,
+          "y": 94.4
+        }
+      },
+      "reversedPeriodTime": 30,
+      "reversedPeriodTimeSeconds": 1791,
+      "periodTimeSeconds": 909,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Fiston Mayele",
+        "slug": "fiston-mayele",
+        "shortName": "F. Mayele",
+        "position": "F",
+        "userCount": 44747,
+        "gender": "M",
+        "sofascoreId": "mayelefiston",
+        "id": 1007556,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيستون ماييلي",
+            "bn": "ফিস্টন মায়েলে",
+            "hi": "फिस्टन मेयेले",
+            "ru": "Фистон Майеле"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ماييلي",
+            "bn": "এফ. মায়েলে",
+            "hi": "एफ. मेयेले",
+            "ru": "Ф. Майеле"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.5,
+        "y": 27.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.2,
+        "z": 91.7
+      },
+      "xg": 0.02857612259686,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591144,
+      "time": 60,
+      "timeSeconds": 3546,
+      "draw": {
+        "start": {
+          "x": 27.2,
+          "y": 14.5
+        },
+        "end": {
+          "x": 57.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.8,
+          "y": 8.3
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1854,
+      "periodTimeSeconds": 846,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nathanaël Mbuku",
+        "firstName": "Nathanael",
+        "lastName": "Mbuku",
+        "slug": "nathanael-mbuku",
+        "shortName": "N. Mbuku",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 7849,
+        "gender": "M",
+        "id": 963399,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناثانييل مبوكو",
+            "bn": "নাথানেল এমবুকু",
+            "hi": "नाथनाएल मबुकु",
+            "ru": "Натанаэль Мбуку"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. مبوكو",
+            "bn": "এন. এমবুকু",
+            "hi": "एन. मबुकु",
+            "ru": "Н. Мбуку"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.8,
+        "y": 73.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.8,
+        "z": 28.5
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.018359009176493,
+      "xgot": 0.050671003758907,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591061,
+      "time": 58,
+      "timeSeconds": 3427,
+      "draw": {
+        "start": {
+          "x": 73.5,
+          "y": 20.8
+        },
+        "block": {
+          "x": 51.4,
+          "y": 1.2
+        },
+        "end": {
+          "x": 51.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.2,
+          "y": 71.5
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1973,
+      "periodTimeSeconds": 727,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Brian Cipenga",
+        "firstName": "Brian Cipenga",
+        "lastName": "",
+        "slug": "brian-cipenga",
+        "shortName": "B. Cipenga",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 5538,
+        "gender": "M",
+        "id": 1160969,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريان سيبينغا",
+            "ru": "Брайан Сипенга"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سيبينغا",
+            "ru": "Б. Сипенга"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.2,
+        "y": 23.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 36,
+        "z": 69.4
+      },
+      "xg": 0.039350748062134,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591050,
+      "time": 53,
+      "timeSeconds": 3177,
+      "draw": {
+        "start": {
+          "x": 23.9,
+          "y": 12.2
+        },
+        "end": {
+          "x": 64,
+          "y": 0
+        },
+        "goal": {
+          "x": 64,
+          "y": 30.6
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2223,
+      "periodTimeSeconds": 477,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Eldor Shomurodov",
+        "firstName": "Eldor",
+        "lastName": "Shomurodov",
+        "slug": "eldor-shomurodov",
+        "shortName": "E. Shomurodov",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 43126,
+        "gender": "M",
+        "id": 791355,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلدور شومورودوف",
+            "ru": "Эльдор Шомуродов"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. شومورودوف",
+            "ru": "Э. Шомуродов"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.8,
+        "y": 57,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 51.4
+      },
+      "xg": 0.14316120743752,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lionel Mpasi Nzau",
+        "firstName": "Lionel",
+        "lastName": "Mpasi Nzau",
+        "slug": "lionel-mpasi-nzau",
+        "shortName": "L. Mpasi Nzau",
+        "position": "G",
+        "jerseyNumber": "77",
+        "userCount": 6967,
+        "gender": "M",
+        "sofascoreId": "mpasil16",
+        "id": 599192,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليونيل مپاسي نزاو",
+            "bn": "লিওনেল এম'পাসি",
+            "hi": "लियोनेल एम'पासी",
+            "ru": "Лионель Мпаси-Нзо"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. نزاو",
+            "bn": "এল. এম'পাসি",
+            "hi": "एल. एम'पासी",
+            "ru": "Л. Мпаси-Нзо"
+          }
+        }
+      },
+      "id": 7591049,
+      "time": 51,
+      "timeSeconds": 3029,
+      "draw": {
+        "start": {
+          "x": 57,
+          "y": 14.8
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 48.6
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2371,
+      "periodTimeSeconds": 329,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yoane Wissa",
+        "firstName": "Yoane",
+        "lastName": "Wissa",
+        "slug": "yoane-wissa",
+        "shortName": "Y. Wissa",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 79083,
+        "gender": "M",
+        "sofascoreId": "yowissa",
+        "id": 805123,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوني ويسا",
+            "bn": "জন উইসা",
+            "hi": "योआने विस्सा",
+            "ru": "Йоан Висса"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويسا",
+            "bn": "ওয়াই. উইসা",
+            "hi": "वाई. विस्सा",
+            "ru": "Й. Висса"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12,
+        "y": 52.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 65,
+        "z": 13.9
+      },
+      "xg": 0.143783852458,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591047,
+      "time": 50,
+      "timeSeconds": 2955,
+      "draw": {
+        "start": {
+          "x": 52.6,
+          "y": 12
+        },
+        "end": {
+          "x": 35,
+          "y": 0
+        },
+        "goal": {
+          "x": 35,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2445,
+      "periodTimeSeconds": 255,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Brian Cipenga",
+        "firstName": "Brian Cipenga",
+        "lastName": "",
+        "slug": "brian-cipenga",
+        "shortName": "B. Cipenga",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 5538,
+        "gender": "M",
+        "id": 1160969,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريان سيبينغا",
+            "ru": "Брайан Сипенга"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سيبينغا",
+            "ru": "Б. Сипенга"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 28.7,
+        "y": 33.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 40.8,
+        "z": 86.1
+      },
+      "xg": 0.011401515454054,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7591023,
+      "time": 48,
+      "timeSeconds": 2851,
+      "draw": {
+        "start": {
+          "x": 33.3,
+          "y": 28.7
+        },
+        "end": {
+          "x": 59.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 59.2,
+          "y": 13.9
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2549,
+      "periodTimeSeconds": 151,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Abbosbek Fayzullaev",
+        "firstName": "Abbosbek",
+        "lastName": "Fayzullaev",
+        "slug": "abbosbek-fayzullaev",
+        "shortName": "A. Fayzullaev",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 38708,
+        "gender": "M",
+        "sofascoreId": "abbos",
+        "id": 1118429,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبوسبك فيزولايف",
+            "bn": "ফাইজুলায়েভ, আববোসবেক",
+            "hi": "फैज़ुल्लाएव, अब्बोसबेक",
+            "ru": "Аббосбек Файзуллаев"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. فيزولايف",
+            "bn": "এ. ফাইজুলায়েভ",
+            "hi": "ए. फैज़ुल्लाएव",
+            "ru": "А. Файзуллаев"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 26.5,
+        "y": 42.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 55,
+        "z": 73.6
+      },
+      "xg": 0.046875905245543,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Lionel Mpasi Nzau",
+        "firstName": "Lionel",
+        "lastName": "Mpasi Nzau",
+        "slug": "lionel-mpasi-nzau",
+        "shortName": "L. Mpasi Nzau",
+        "position": "G",
+        "jerseyNumber": "77",
+        "userCount": 6967,
+        "gender": "M",
+        "sofascoreId": "mpasil16",
+        "id": 599192,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليونيل مپاسي نزاو",
+            "bn": "লিওনেল এম'পাসি",
+            "hi": "लियोनेल एम'पासी",
+            "ru": "Лионель Мпаси-Нзо"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. نزاو",
+            "bn": "এল. এম'পাসি",
+            "hi": "एल. एम'पासी",
+            "ru": "Л. Мпаси-Нзо"
+          }
+        }
+      },
+      "id": 7591007,
+      "time": 45,
+      "addedTime": 6,
+      "timeSeconds": 3017,
+      "draw": {
+        "start": {
+          "x": 42.5,
+          "y": 26.5
+        },
+        "end": {
+          "x": 45,
+          "y": 0
+        },
+        "goal": {
+          "x": 45,
+          "y": 26.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2383,
+      "periodTimeSeconds": 317,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Chancel Mbemba",
+        "firstName": "Chancel",
+        "lastName": "Mbemba",
+        "slug": "chancel-mbemba",
+        "shortName": "C. Mbemba",
+        "position": "D",
+        "jerseyNumber": "18",
+        "userCount": 48862,
+        "gender": "M",
+        "sofascoreId": "chancel22",
+        "id": 238612,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شانسيل مبيمبا",
+            "bn": "চ্যান্সেল এমবেম্বা",
+            "hi": "चांसेल मबेम्बा",
+            "ru": "Шансел Мбемба"
+          },
+          "shortNameTranslation": {
+            "ar": "ش. مبيمبا",
+            "bn": "সি. এমবেম্বা",
+            "hi": "सी. मबेम्बा",
+            "ru": "Ш. Мбемба"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 10.7,
+        "y": 35.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 58.8,
+        "z": 25
+      },
+      "xg": 0.049607183784246,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7590968,
+      "time": 45,
+      "addedTime": 3,
+      "timeSeconds": 2877,
+      "draw": {
+        "start": {
+          "x": 35.4,
+          "y": 10.7
+        },
+        "end": {
+          "x": 41.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 41.2,
+          "y": 75
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2523,
+      "periodTimeSeconds": 177,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Brian Cipenga",
+        "firstName": "Brian Cipenga",
+        "lastName": "",
+        "slug": "brian-cipenga",
+        "shortName": "B. Cipenga",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 5538,
+        "gender": "M",
+        "id": 1160969,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريان سيبينغا",
+            "ru": "Брайан Сипенга"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. سيبينغا",
+            "ru": "Б. Сипенга"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 5.1,
+        "y": 13.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.2,
+        "z": 22.2
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 45.8,
+        "z": 0
+      },
+      "xg": 0.030056998133659,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7590958,
+      "time": 44,
+      "timeSeconds": 2600,
+      "draw": {
+        "start": {
+          "x": 13.1,
+          "y": 5.1
+        },
+        "block": {
+          "x": 45.8,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 50.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.8,
+          "y": 77.8
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 100,
+      "periodTimeSeconds": 2600,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yoane Wissa",
+        "firstName": "Yoane",
+        "lastName": "Wissa",
+        "slug": "yoane-wissa",
+        "shortName": "Y. Wissa",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 79083,
+        "gender": "M",
+        "sofascoreId": "yowissa",
+        "id": 805123,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوني ويسا",
+            "bn": "জন উইসা",
+            "hi": "योआने विस्सा",
+            "ru": "Йоан Висса"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويسا",
+            "bn": "ওয়াই. উইসা",
+            "hi": "वाई. विस्सा",
+            "ru": "Й. Висса"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 10.8,
+        "y": 49.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 93.1
+      },
+      "xg": 0.10317313671112,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7590860,
+      "time": 29,
+      "timeSeconds": 1717,
+      "draw": {
+        "start": {
+          "x": 49.1,
+          "y": 10.8
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 6.9
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 983,
+      "periodTimeSeconds": 1717,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Eldor Shomurodov",
+        "firstName": "Eldor",
+        "lastName": "Shomurodov",
+        "slug": "eldor-shomurodov",
+        "shortName": "E. Shomurodov",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 43126,
+        "gender": "M",
+        "id": 791355,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلدور شومورودوف",
+            "ru": "Эльдор Шомуродов"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. شومورودوف",
+            "ru": "Э. Шомуродов"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8,
+        "y": 26.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.7,
+        "z": 24.1
+      },
+      "xg": 0.014302907511592,
+      "xgot": 0.29334715008736,
+      "goalkeeper": {
+        "name": "Lionel Mpasi Nzau",
+        "firstName": "Lionel",
+        "lastName": "Mpasi Nzau",
+        "slug": "lionel-mpasi-nzau",
+        "shortName": "L. Mpasi Nzau",
+        "position": "G",
+        "jerseyNumber": "77",
+        "userCount": 6967,
+        "gender": "M",
+        "sofascoreId": "mpasil16",
+        "id": 599192,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليونيل مپاسي نزاو",
+            "bn": "লিওনেল এম'পাসি",
+            "hi": "लियोनेल एम'पासी",
+            "ru": "Лионель Мпаси-Нзо"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. نزاو",
+            "bn": "এল. এম'পাসি",
+            "hi": "एल. एम'पासी",
+            "ru": "Л. Мпаси-Нзо"
+          }
+        }
+      },
+      "id": 7590815,
+      "time": 10,
+      "timeSeconds": 562,
+      "draw": {
+        "start": {
+          "x": 26.5,
+          "y": 8
+        },
+        "end": {
+          "x": 53.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.3,
+          "y": 75.9
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2138,
+      "periodTimeSeconds": 562,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yoane Wissa",
+        "firstName": "Yoane",
+        "lastName": "Wissa",
+        "slug": "yoane-wissa",
+        "shortName": "Y. Wissa",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 79083,
+        "gender": "M",
+        "sofascoreId": "yowissa",
+        "id": 805123,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يوني ويسا",
+            "bn": "জন উইসা",
+            "hi": "योआने विस्सा",
+            "ru": "Йоан Висса"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. ويسا",
+            "bn": "ওয়াই. উইসা",
+            "hi": "वाई. विस्सा",
+            "ru": "Й. Висса"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 26,
+        "y": 40.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 28.4,
+        "z": 18.1
+      },
+      "xg": 0.019953059032559,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abduvokhid Nematov",
+        "slug": "abduvokhid-nematov",
+        "shortName": "A. Nematov",
+        "position": "G",
+        "jerseyNumber": "35",
+        "userCount": 3090,
+        "gender": "M",
+        "id": 1000465,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدوخييد نعماتوف",
+            "bn": "আবদুভোখিদ নেমাতভ",
+            "hi": "अब्दुवोखिद नेमातोव",
+            "ru": "Абдувохид Нематов"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. نعماتوف",
+            "bn": "এ. নেমাতোভ",
+            "hi": "ए. नेमातोव",
+            "ru": "А. Нематов"
+          }
+        }
+      },
+      "id": 7590780,
+      "time": 2,
+      "timeSeconds": 109,
+      "draw": {
+        "start": {
+          "x": 40.7,
+          "y": 26
+        },
+        "end": {
+          "x": 71.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 71.6,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2591,
+      "periodTimeSeconds": 109,
+      "incidentType": "shot"
+    }
+  ]
+}

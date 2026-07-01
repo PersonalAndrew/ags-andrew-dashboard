@@ -1,0 +1,2001 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jin-seob Park",
+        "slug": "jin-seob-park",
+        "shortName": "J. S. Park",
+        "position": "M",
+        "jerseyNumber": "4",
+        "userCount": 253,
+        "gender": "M",
+        "id": 1026069,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جين-سوب بارك",
+            "bn": "জিন-সিওব পার্ক",
+            "hi": "जिन-सेओब पार्क",
+            "ru": "Пак Чжин Соб"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. بارك",
+            "bn": "জে. এস. পার্ক",
+            "hi": "जेएस पार्क",
+            "ru": "П. Чжин Соб"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 2.9,
+        "y": 44.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 22.8
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.36469665169716,
+      "xgot": 0.64339852333069,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7578834,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5541,
+      "draw": {
+        "start": {
+          "x": 44.2,
+          "y": 2.9
+        },
+        "block": {
+          "x": 46.7,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 77.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 759,
+      "periodTimeSeconds": 141,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Son Heung-min",
+        "firstName": "Son",
+        "lastName": "Heung-min",
+        "slug": "son-heung-min",
+        "shortName": "S. Heung-min",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 131142,
+        "gender": "M",
+        "sofascoreId": "HMSon",
+        "id": 111505,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سون هيونغ مين",
+            "bn": "হেউং-মিন সন",
+            "hi": "ह्युंग-मिन सोन",
+            "ru": "Сон Хын Мин"
+          },
+          "shortNameTranslation": {
+            "ar": "سون هيونغ مين",
+            "bn": "এইচ. এম. সন",
+            "hi": "एच.एम. सोन",
+            "ru": "С. Мин"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 48.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.3,
+        "z": 25
+      },
+      "blockCoordinates": {
+        "x": 20.1,
+        "y": 48,
+        "z": 0
+      },
+      "xg": 0.032174330204725,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7578831,
+      "time": 88,
+      "timeSeconds": 5273,
+      "draw": {
+        "start": {
+          "x": 48.1,
+          "y": 22.2
+        },
+        "block": {
+          "x": 48,
+          "y": 20.1
+        },
+        "end": {
+          "x": 45.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.7,
+          "y": 75
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 127,
+      "periodTimeSeconds": 2573,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Young-woo Seol",
+        "slug": "young-woo-seol",
+        "shortName": "Y. W. Seol",
+        "position": "D",
+        "jerseyNumber": "66",
+        "userCount": 2515,
+        "gender": "M",
+        "id": 1019333,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يونغ-وو سيول",
+            "bn": "ইয়ং-উ সিওল",
+            "hi": "यंग-वू सेओल",
+            "ru": "Сол Юн Ву"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. سيول",
+            "bn": "ওয়াই. ডব্লিউ. সিওল",
+            "hi": "YW सेओल",
+            "ru": "С. Юн Ву"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 24.2,
+        "y": 66.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 72.2
+      },
+      "xg": 0.005469829775393,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7578796,
+      "time": 86,
+      "timeSeconds": 5132,
+      "draw": {
+        "start": {
+          "x": 66.2,
+          "y": 24.2
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 27.8
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 268,
+      "periodTimeSeconds": 2432,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Thapelo Maseko",
+        "firstName": "",
+        "lastName": "",
+        "slug": "thapelo-maseko",
+        "shortName": "T. Maseko",
+        "position": "M",
+        "jerseyNumber": "33",
+        "userCount": 1533,
+        "gender": "M",
+        "id": 1179164,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثابيلو ماسيكو",
+            "ru": "Тхапело Масеко"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. ماسيكو",
+            "ru": "Т. Масеко"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 12.3,
+        "y": 60.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.8,
+        "z": 5.1
+      },
+      "xg": 0.086023598909378,
+      "xgot": 0.24795681238174,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578659,
+      "time": 63,
+      "timeSeconds": 3737,
+      "draw": {
+        "start": {
+          "x": 60.9,
+          "y": 12.3
+        },
+        "end": {
+          "x": 53.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.2,
+          "y": 94.9
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1663,
+      "periodTimeSeconds": 1037,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Hyeon-gyu Oh",
+        "slug": "hyun-gyu-oh",
+        "shortName": "H. Oh",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 9237,
+        "gender": "M",
+        "id": 1010634,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيون-غيو أوه",
+            "bn": "হিয়ুন-গিউ ওহ",
+            "hi": "ह्युन-ग्यू ओह",
+            "ru": "О Хён Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "هيون-غيو أوه",
+            "ru": "О Хён Кю"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.7,
+        "y": 51.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 50.9,
+        "z": 0
+      },
+      "xg": 0.16524033248425,
+      "xgot": 0.78074711561203,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7578654,
+      "time": 60,
+      "timeSeconds": 3594,
+      "draw": {
+        "start": {
+          "x": 51.1,
+          "y": 8.7
+        },
+        "block": {
+          "x": 50.9,
+          "y": 1.8
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1806,
+      "periodTimeSeconds": 894,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Thalente Mbatha",
+        "firstName": "Thalente",
+        "lastName": "Mbatha",
+        "slug": "thalente-mbatha",
+        "shortName": "T. Mbatha",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 1568,
+        "gender": "M",
+        "id": 1014410,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تالينتي مباثا",
+            "ru": "Тхаленте Мбатха"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. مباثا",
+            "ru": "Т. Мбатха"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 31.8,
+        "y": 47.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 37.5,
+        "z": 27.8
+      },
+      "xg": 0.016321009024978,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578643,
+      "time": 51,
+      "timeSeconds": 3015,
+      "draw": {
+        "start": {
+          "x": 47.7,
+          "y": 31.8
+        },
+        "end": {
+          "x": 62.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 62.5,
+          "y": 72.2
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2385,
+      "periodTimeSeconds": 315,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Thapelo Maseko",
+        "firstName": "",
+        "lastName": "",
+        "slug": "thapelo-maseko",
+        "shortName": "T. Maseko",
+        "position": "M",
+        "jerseyNumber": "33",
+        "userCount": 1533,
+        "gender": "M",
+        "id": 1179164,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثابيلو ماسيكو",
+            "ru": "Тхапело Масеко"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. ماسيكو",
+            "ru": "Т. Масеко"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.9,
+        "y": 55.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.9,
+        "y": 54.9,
+        "z": 0
+      },
+      "xg": 0.083055011928082,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578644,
+      "time": 51,
+      "timeSeconds": 3005,
+      "draw": {
+        "start": {
+          "x": 55.9,
+          "y": 13.9
+        },
+        "block": {
+          "x": 54.9,
+          "y": 11.9
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2395,
+      "periodTimeSeconds": 305,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Aubrey Modiba",
+        "firstName": "Aubrey",
+        "lastName": "Modiba",
+        "slug": "aubrey-modiba",
+        "shortName": "A. Modiba",
+        "position": "D",
+        "jerseyNumber": "6",
+        "userCount": 1183,
+        "gender": "M",
+        "id": 837099,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوبري موديبا",
+            "bn": "অব্রে মোদিবা",
+            "hi": "ऑब्रे मोदीबा",
+            "ru": "Обри Модиба"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موديبا",
+            "bn": "এ. মোদিবা",
+            "hi": "ए. मोदीबा",
+            "ru": "О. Модиба"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 26.8,
+        "y": 56.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 33.1,
+        "z": 13.9
+      },
+      "xg": 0.0088994232937694,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578624,
+      "time": 45,
+      "addedTime": 5,
+      "timeSeconds": 2943,
+      "draw": {
+        "start": {
+          "x": 56.8,
+          "y": 26.8
+        },
+        "end": {
+          "x": 66.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 66.9,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2457,
+      "periodTimeSeconds": 243,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Thapelo Maseko",
+        "firstName": "",
+        "lastName": "",
+        "slug": "thapelo-maseko",
+        "shortName": "T. Maseko",
+        "position": "M",
+        "jerseyNumber": "33",
+        "userCount": 1533,
+        "gender": "M",
+        "id": 1179164,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثابيلو ماسيكو",
+            "ru": "Тхапело Масеко"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. ماسيكو",
+            "ru": "Т. Масеко"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.6,
+        "y": 71.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.9,
+        "y": 65.5,
+        "z": 0
+      },
+      "xg": 0.031134493649006,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578618,
+      "time": 43,
+      "timeSeconds": 2546,
+      "draw": {
+        "start": {
+          "x": 71.3,
+          "y": 20.6
+        },
+        "block": {
+          "x": 65.5,
+          "y": 15.9
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 154,
+      "periodTimeSeconds": 2546,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Relebohile Mofokeng",
+        "slug": "relebohile-mofokeng",
+        "shortName": "R. Mofokeng",
+        "position": "M",
+        "jerseyNumber": "38",
+        "userCount": 17408,
+        "gender": "M",
+        "id": 1564998,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريليبوهيلي موفوكينج",
+            "bn": "রেলেবোহিল মোফোকেং",
+            "hi": "रेलेबोहिले मोफोकेंग",
+            "ru": "Релебохиле Мофокенг"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. موفوكينج",
+            "bn": "আর. মোফোকেং",
+            "hi": "आर. मोफोकेंग",
+            "ru": "Р. Мофокенг"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 22.9,
+        "y": 34.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 37.5,
+        "z": 34.7
+      },
+      "xg": 0.025005983188748,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578617,
+      "time": 42,
+      "timeSeconds": 2490,
+      "draw": {
+        "start": {
+          "x": 34.2,
+          "y": 22.9
+        },
+        "end": {
+          "x": 62.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 62.5,
+          "y": 65.3
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 210,
+      "periodTimeSeconds": 2490,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Thapelo Maseko",
+        "firstName": "",
+        "lastName": "",
+        "slug": "thapelo-maseko",
+        "shortName": "T. Maseko",
+        "position": "M",
+        "jerseyNumber": "33",
+        "userCount": 1533,
+        "gender": "M",
+        "id": 1179164,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثابيلو ماسيكو",
+            "ru": "Тхапело Масеко"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. ماسيكو",
+            "ru": "Т. Масеко"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 26,
+        "y": 56.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.7,
+        "z": 62.5
+      },
+      "xg": 0.040215857326984,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578611,
+      "time": 39,
+      "timeSeconds": 2296,
+      "draw": {
+        "start": {
+          "x": 56.5,
+          "y": 26
+        },
+        "end": {
+          "x": 51.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.3,
+          "y": 37.5
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 404,
+      "periodTimeSeconds": 2296,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Hwang Hee-chan",
+        "firstName": "Hwang",
+        "lastName": "Hee-chan",
+        "slug": "hwang-hee-chan",
+        "shortName": "H. Hee-chan",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 7073,
+        "gender": "M",
+        "sofascoreId": "Hwangso",
+        "id": 786186,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هوانغ هي-تشان",
+            "bn": "হি-চ্যান হোয়াং",
+            "hi": "ही-चान ह्वांग",
+            "ru": "Хван Хи Чан"
+          },
+          "shortNameTranslation": {
+            "ar": "هوانغ هي-تشان",
+            "bn": "এইচ. হোয়াং",
+            "hi": "एच. ह्वांग",
+            "ru": "Х. Хи Чан"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 29.1,
+        "y": 37.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 58.5,
+        "z": 16.7
+      },
+      "xg": 0.018266240134835,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7578605,
+      "time": 34,
+      "timeSeconds": 2020,
+      "draw": {
+        "start": {
+          "x": 37.6,
+          "y": 29.1
+        },
+        "end": {
+          "x": 41.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 41.5,
+          "y": 83.3
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 680,
+      "periodTimeSeconds": 2020,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Evidence Makgopa",
+        "firstName": "Evidence",
+        "lastName": "Makgopa",
+        "slug": "evidence-makgopa",
+        "shortName": "E. Makgopa",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 1863,
+        "gender": "M",
+        "id": 1022170,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفيدنس ماكجوبا",
+            "bn": "এভিডেন্স মাকগোপা",
+            "hi": "एविडेंस मक्गोपा",
+            "ru": "Эвиденс Макгопа"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ماكجوبا",
+            "bn": "ই. মাকগোপা",
+            "hi": "ई. मक्गोपा",
+            "ru": "Э. Макгопа"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 9.1,
+        "y": 49.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.7,
+        "z": 11.4
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.57916927337646,
+      "xgot": 0.20412892103195,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578598,
+      "time": 30,
+      "timeSeconds": 1789,
+      "draw": {
+        "start": {
+          "x": 49.1,
+          "y": 9.1
+        },
+        "block": {
+          "x": 49.1,
+          "y": 1.6
+        },
+        "end": {
+          "x": 49.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.3,
+          "y": 88.6
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 911,
+      "periodTimeSeconds": 1789,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Thalente Mbatha",
+        "firstName": "Thalente",
+        "lastName": "Mbatha",
+        "slug": "thalente-mbatha",
+        "shortName": "T. Mbatha",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 1568,
+        "gender": "M",
+        "id": 1014410,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تالينتي مباثا",
+            "ru": "Тхаленте Мбатха"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. مباثا",
+            "ru": "Т. Мбатха"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 22,
+        "y": 64,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 18.4
+      },
+      "blockCoordinates": {
+        "x": 2.7,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.044074073433876,
+      "xgot": 0.016837816685438,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578597,
+      "time": 30,
+      "timeSeconds": 1786,
+      "draw": {
+        "start": {
+          "x": 64,
+          "y": 22
+        },
+        "block": {
+          "x": 52.5,
+          "y": 2.7
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81.6
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 914,
+      "periodTimeSeconds": 1786,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Oswin Appollis",
+        "firstName": "Oswin",
+        "lastName": "Appollis",
+        "slug": "oswin-appollis",
+        "shortName": "O. Appollis",
+        "position": "M",
+        "jerseyNumber": "12",
+        "userCount": 4541,
+        "gender": "M",
+        "id": 984505,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوسوين أبوليس",
+            "ru": "Освин Апполис"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. أبوليس",
+            "ru": "О. Апполис"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 23.7,
+        "y": 32.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.5,
+        "z": 15.8
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.027296043932438,
+      "xgot": 0.029785199090838,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578579,
+      "time": 20,
+      "timeSeconds": 1154,
+      "draw": {
+        "start": {
+          "x": 32.7,
+          "y": 23.7
+        },
+        "block": {
+          "x": 48.7,
+          "y": 2
+        },
+        "end": {
+          "x": 48.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.5,
+          "y": 84.2
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1546,
+      "periodTimeSeconds": 1154,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Thapelo Maseko",
+        "firstName": "",
+        "lastName": "",
+        "slug": "thapelo-maseko",
+        "shortName": "T. Maseko",
+        "position": "M",
+        "jerseyNumber": "33",
+        "userCount": 1533,
+        "gender": "M",
+        "id": 1179164,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثابيلو ماسيكو",
+            "ru": "Тхапело Масеко"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. ماسيكو",
+            "ru": "Т. Масеко"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 13.5,
+        "y": 60.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.4,
+        "y": 58.8,
+        "z": 0
+      },
+      "xg": 0.13537962734699,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578578,
+      "time": 19,
+      "timeSeconds": 1102,
+      "draw": {
+        "start": {
+          "x": 60.5,
+          "y": 13.5
+        },
+        "block": {
+          "x": 58.8,
+          "y": 11.4
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1598,
+      "periodTimeSeconds": 1102,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Evidence Makgopa",
+        "firstName": "Evidence",
+        "lastName": "Makgopa",
+        "slug": "evidence-makgopa",
+        "shortName": "E. Makgopa",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 1863,
+        "gender": "M",
+        "id": 1022170,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفيدنس ماكجوبا",
+            "bn": "এভিডেন্স মাকগোপা",
+            "hi": "एविडेंस मक्गोपा",
+            "ru": "Эвиденс Макгопа"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ماكجوبا",
+            "bn": "ই. মাকগোপা",
+            "hi": "ई. मक्गोपा",
+            "ru": "Э. Макгопа"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10,
+        "y": 51.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 33.5,
+        "z": 4.2
+      },
+      "xg": 0.054189834743738,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578430,
+      "time": 14,
+      "timeSeconds": 831,
+      "draw": {
+        "start": {
+          "x": 51.2,
+          "y": 10
+        },
+        "end": {
+          "x": 66.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 66.5,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1869,
+      "periodTimeSeconds": 831,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Kang-in Lee",
+        "slug": "kang-in-lee",
+        "shortName": "K. Lee",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 31488,
+        "gender": "M",
+        "sofascoreId": "kanginlee",
+        "id": 917087,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كانغ إن لي",
+            "bn": "ক্যাং-ইন লি",
+            "hi": "कांग-इन ली",
+            "ru": "Кан-ин Ли"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. لي",
+            "bn": "কে. লি",
+            "hi": "के. ली",
+            "ru": "К. Ли"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13,
+        "y": 54.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 40.3,
+        "z": 18.1
+      },
+      "xg": 0.076029255986214,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7578363,
+      "time": 8,
+      "timeSeconds": 423,
+      "draw": {
+        "start": {
+          "x": 54.6,
+          "y": 13
+        },
+        "end": {
+          "x": 59.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 59.7,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2277,
+      "periodTimeSeconds": 423,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Hyeon-gyu Oh",
+        "slug": "hyun-gyu-oh",
+        "shortName": "H. Oh",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 9237,
+        "gender": "M",
+        "id": 1010634,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيون-غيو أوه",
+            "bn": "হিয়ুন-গিউ ওহ",
+            "hi": "ह्युन-ग्यू ओह",
+            "ru": "О Хён Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "هيون-غيو أوه",
+            "ru": "О Хён Кю"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.8,
+        "y": 55.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 80.5,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 4.2,
+        "y": 27.8,
+        "z": 0
+      },
+      "xg": 0.20753446221352,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7578422,
+      "time": 7,
+      "timeSeconds": 419,
+      "draw": {
+        "start": {
+          "x": 55.5,
+          "y": 3.8
+        },
+        "block": {
+          "x": 27.8,
+          "y": 4.2
+        },
+        "end": {
+          "x": 19.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 19.5,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2281,
+      "periodTimeSeconds": 419,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Relebohile Mofokeng",
+        "slug": "relebohile-mofokeng",
+        "shortName": "R. Mofokeng",
+        "position": "M",
+        "jerseyNumber": "38",
+        "userCount": 17408,
+        "gender": "M",
+        "id": 1564998,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريليبوهيلي موفوكينج",
+            "bn": "রেলেবোহিল মোফোকেং",
+            "hi": "रेलेबोहिले मोफोकेंग",
+            "ru": "Релебохиле Мофокенг"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. موفوكينج",
+            "bn": "আর. মোফোকেং",
+            "hi": "आर. मोफोकेंग",
+            "ru": "Р. Мофокенг"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 20.9,
+        "y": 61.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.9,
+        "y": 55.2,
+        "z": 0
+      },
+      "xg": 0.053279541432858,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kim Seung-gyu",
+        "firstName": "Kim",
+        "lastName": "Seung-gyu",
+        "slug": "kim-seung-gyu",
+        "shortName": "K. Seung-gyu",
+        "position": "G",
+        "jerseyNumber": "81",
+        "userCount": 619,
+        "gender": "M",
+        "id": 235686,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "সেউং-গিউ কিম",
+            "hi": "सुंग-ग्यू किम",
+            "ru": "Ким Сын Кю"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم سيونج جيو",
+            "bn": "এস. কিম",
+            "hi": "एस. किम",
+            "ru": "К. Сын Кю"
+          }
+        }
+      },
+      "id": 7578361,
+      "time": 6,
+      "timeSeconds": 335,
+      "draw": {
+        "start": {
+          "x": 61.3,
+          "y": 20.9
+        },
+        "block": {
+          "x": 55.2,
+          "y": 11.9
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2365,
+      "periodTimeSeconds": 335,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Kim Min-jae",
+        "firstName": "Kim",
+        "lastName": "Min-jae",
+        "slug": "kim-min-jae",
+        "shortName": "K. Min-jae",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 17958,
+        "gender": "M",
+        "sofascoreId": "kiminjae3",
+        "id": 896569,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم مين جاي",
+            "bn": "মিন-জায়ে কিম",
+            "hi": "मिन-जे किम",
+            "ru": "Ким Мин-джэ"
+          },
+          "shortNameTranslation": {
+            "ar": "كيم مين جاي",
+            "bn": "এম. কিম",
+            "hi": "एम. किम",
+            "ru": "К. Мин-джэ"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.1,
+        "y": 43.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 0.90000000000001,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.034543167799711,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7578353,
+      "time": 2,
+      "timeSeconds": 108,
+      "draw": {
+        "start": {
+          "x": 43.6,
+          "y": 8.1
+        },
+        "block": {
+          "x": 46.7,
+          "y": 0.90000000000001
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2592,
+      "periodTimeSeconds": 108,
+      "incidentType": "shot"
+    }
+  ]
+}

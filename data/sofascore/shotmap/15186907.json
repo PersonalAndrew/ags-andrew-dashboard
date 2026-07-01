@@ -1,0 +1,1749 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Pascal Groß",
+        "slug": "pascal-gro",
+        "shortName": "P. Groß",
+        "position": "M",
+        "jerseyNumber": "30",
+        "userCount": 5149,
+        "gender": "M",
+        "sofascoreId": "pascalgross65",
+        "id": 48480,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باسكال غروس",
+            "bn": "প্যাসকেল গ্রোস",
+            "hi": "पास्कल ग्रोस",
+            "ru": "Паскаль Гросс"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غروس",
+            "bn": "পি. গ্রোস",
+            "hi": "पी. ग्रोस",
+            "ru": "П. Гросс"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 23,
+        "y": 58.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.3,
+        "z": 90.3
+      },
+      "xg": 0.016303479671478,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hernán Galíndez",
+        "firstName": "Hernan",
+        "lastName": "Galindez",
+        "slug": "hernan-galindez",
+        "shortName": "H. Galíndez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2837,
+        "gender": "M",
+        "id": 588618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرنان غالينديس",
+            "bn": "হার্নান গ্যালিন্ডেজ",
+            "hi": "हर्नान गैलिन्डेज़",
+            "ru": "Эрнан Галиндес"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. غالينديس",
+            "bn": "এইচ. গ্যালিন্ডেজ",
+            "hi": "एच. गैलिन्डेज़",
+            "ru": "Э. Галиндес"
+          }
+        }
+      },
+      "id": 7582388,
+      "time": 90,
+      "addedTime": 5,
+      "timeSeconds": 5671,
+      "draw": {
+        "start": {
+          "x": 58.8,
+          "y": 23
+        },
+        "end": {
+          "x": 47.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.7,
+          "y": 9.7
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 629,
+      "periodTimeSeconds": 271,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Deniz Undav",
+        "firstName": "Deniz",
+        "lastName": "Undav",
+        "slug": "deniz-undav",
+        "shortName": "D. Undav",
+        "position": "F",
+        "jerseyNumber": "26",
+        "userCount": 26543,
+        "gender": "M",
+        "sofascoreId": "denizundav",
+        "id": 794298,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دينيز أونداف",
+            "bn": "ডেনিজ উন্দাভ",
+            "hi": "डेनिस उंदाव",
+            "ru": "Дениз Ундав"
+          },
+          "shortNameTranslation": {
+            "ar": "د. أونداف",
+            "bn": "ডি. উন্দাভ",
+            "hi": "डी. उंदाव",
+            "ru": "Д. Ундав"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.4,
+        "y": 31.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57.5,
+        "z": 18.1
+      },
+      "xg": 0.025815036147833,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hernán Galíndez",
+        "firstName": "Hernan",
+        "lastName": "Galindez",
+        "slug": "hernan-galindez",
+        "shortName": "H. Galíndez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2837,
+        "gender": "M",
+        "id": 588618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرنان غالينديس",
+            "bn": "হার্নান গ্যালিন্ডেজ",
+            "hi": "हर्नान गैलिन्डेज़",
+            "ru": "Эрнан Галиндес"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. غالينديس",
+            "bn": "এইচ. গ্যালিন্ডেজ",
+            "hi": "एच. गैलिन्डेज़",
+            "ru": "Э. Галиндес"
+          }
+        }
+      },
+      "id": 7582386,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5534,
+      "draw": {
+        "start": {
+          "x": 31.3,
+          "y": 3.4
+        },
+        "end": {
+          "x": 42.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 42.5,
+          "y": 81.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 766,
+      "periodTimeSeconds": 134,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Gonzalo Plata",
+        "firstName": "Gonzalo",
+        "lastName": "Plata",
+        "slug": "gonzalo-plata",
+        "shortName": "G. Plata",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 24924,
+        "gender": "M",
+        "sofascoreId": "gonzaloplata",
+        "id": 937937,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غونزالو بلاتا",
+            "bn": "গঞ্জালো প্লাটা",
+            "hi": "गोंजालो प्लाटा",
+            "ru": "Гонсало Плата"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. بلاتا",
+            "bn": "জি.প্লাটা",
+            "hi": "जी. प्लाटा",
+            "ru": "Г. Плата"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 1.4,
+        "y": 52.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46,
+        "z": 28.5
+      },
+      "xg": 0.56921994686127,
+      "xgot": 0.93349039554596,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7582380,
+      "time": 77,
+      "timeSeconds": 4619,
+      "draw": {
+        "start": {
+          "x": 52.8,
+          "y": 1.4
+        },
+        "end": {
+          "x": 54,
+          "y": 0
+        },
+        "goal": {
+          "x": 54,
+          "y": 71.5
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 781,
+      "periodTimeSeconds": 1919,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Kevin Rodriguez",
+        "firstName": "Kevin Rodríguez",
+        "lastName": "",
+        "slug": "rodriguez-kevin",
+        "shortName": "K. Rodríguez",
+        "position": "F",
+        "jerseyNumber": "13",
+        "userCount": 3610,
+        "gender": "M",
+        "id": 1431770,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيفين رودريغز",
+            "bn": "রদ্রিগেজ, কেভিন",
+            "hi": "रोड्रिग्ज़, केविन",
+            "ru": "Кевин Родригес"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. رودريغز",
+            "bn": "কে. রদ্রিগেজ",
+            "hi": "के. रोड्रिग्ज़",
+            "ru": "К. Родригес"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.6,
+        "y": 46.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.4,
+        "y": 47.3,
+        "z": 0
+      },
+      "xg": 0.28812775015831,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7582378,
+      "time": 77,
+      "timeSeconds": 4574,
+      "draw": {
+        "start": {
+          "x": 46.6,
+          "y": 4.6
+        },
+        "block": {
+          "x": 47.3,
+          "y": 3.4
+        },
+        "end": {
+          "x": 49.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 826,
+      "periodTimeSeconds": 1874,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Leroy Sané",
+        "slug": "leroy-sane",
+        "shortName": "L. Sané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 45052,
+        "gender": "M",
+        "sofascoreId": "LeroySane",
+        "id": 293519,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليروي ساني",
+            "bn": "লিরোয় সানে",
+            "hi": "लेरॉय साने",
+            "ru": "Лерой Зане"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساني",
+            "bn": "এল. সানে",
+            "hi": "एल. साने",
+            "ru": "Л. Зане"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 14.2,
+        "y": 40.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 15.8
+      },
+      "blockCoordinates": {
+        "x": 4.6,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.1611712127924,
+      "xgot": 0.037028655409813,
+      "goalkeeper": {
+        "name": "Hernán Galíndez",
+        "firstName": "Hernan",
+        "lastName": "Galindez",
+        "slug": "hernan-galindez",
+        "shortName": "H. Galíndez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2837,
+        "gender": "M",
+        "id": 588618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرنان غالينديس",
+            "bn": "হার্নান গ্যালিন্ডেজ",
+            "hi": "हर्नान गैलिन्डेज़",
+            "ru": "Эрнан Галиндес"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. غالينديس",
+            "bn": "এইচ. গ্যালিন্ডেজ",
+            "hi": "एच. गैलिन्डेज़",
+            "ru": "Э. Галиндес"
+          }
+        }
+      },
+      "id": 7582377,
+      "time": 76,
+      "timeSeconds": 4538,
+      "draw": {
+        "start": {
+          "x": 40.5,
+          "y": 14.2
+        },
+        "block": {
+          "x": 46.7,
+          "y": 4.6
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 84.2
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 862,
+      "periodTimeSeconds": 1838,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Gonzalo Plata",
+        "firstName": "Gonzalo",
+        "lastName": "Plata",
+        "slug": "gonzalo-plata",
+        "shortName": "G. Plata",
+        "position": "M",
+        "jerseyNumber": "19",
+        "userCount": 24924,
+        "gender": "M",
+        "sofascoreId": "gonzaloplata",
+        "id": 937937,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غونزالو بلاتا",
+            "bn": "গঞ্জালো প্লাটা",
+            "hi": "गोंजालो प्लाटा",
+            "ru": "Гонсало Плата"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. بلاتا",
+            "bn": "জি.প্লাটা",
+            "hi": "जी. प्लाटा",
+            "ru": "Г. Плата"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.6,
+        "y": 51.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.2,
+        "z": 68.1
+      },
+      "xg": 0.29998663067818,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7582284,
+      "time": 73,
+      "timeSeconds": 4324,
+      "draw": {
+        "start": {
+          "x": 51.7,
+          "y": 4.6
+        },
+        "end": {
+          "x": 57.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.8,
+          "y": 31.9
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1076,
+      "periodTimeSeconds": 1624,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Florian Wirtz",
+        "slug": "florian-wirtz",
+        "shortName": "F. Wirtz",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 157189,
+        "gender": "M",
+        "sofascoreId": "FWirtz",
+        "id": 1019322,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلوريان فيرتز",
+            "bn": "ফ্লোরিয়ান উইর্টজ",
+            "hi": "फ्लोरियन विर्ट्ज़",
+            "ru": "Флориан Вирц"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيرتز",
+            "bn": "এফ. উইর্টজ",
+            "hi": "एफ. विर्ट्ज़",
+            "ru": "Ф. Вирц"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 20.3,
+        "y": 45.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 18.4,
+        "y": 45.8,
+        "z": 0
+      },
+      "xg": 0.059495955705643,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hernán Galíndez",
+        "firstName": "Hernan",
+        "lastName": "Galindez",
+        "slug": "hernan-galindez",
+        "shortName": "H. Galíndez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2837,
+        "gender": "M",
+        "id": 588618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرنان غالينديس",
+            "bn": "হার্নান গ্যালিন্ডেজ",
+            "hi": "हर्नान गैलिन्डेज़",
+            "ru": "Эрнан Галиндес"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. غالينديس",
+            "bn": "এইচ. গ্যালিন্ডেজ",
+            "hi": "एच. गैलिन्डेज़",
+            "ru": "Э. Галиндес"
+          }
+        }
+      },
+      "id": 7582281,
+      "time": 63,
+      "timeSeconds": 3775,
+      "draw": {
+        "start": {
+          "x": 45.5,
+          "y": 20.3
+        },
+        "block": {
+          "x": 45.8,
+          "y": 18.4
+        },
+        "end": {
+          "x": 49.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1625,
+      "periodTimeSeconds": 1075,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Enner Valencia",
+        "firstName": "Enner",
+        "lastName": "Valencia",
+        "slug": "enner-valencia",
+        "shortName": "E. Valencia",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 14278,
+        "gender": "M",
+        "sofascoreId": "ennervalencia",
+        "id": 106456,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إينير فالنسيا",
+            "bn": "এনার ভ্যালেন্সিয়া",
+            "hi": "एनंर वेलेंसिया",
+            "ru": "Эннер Валенсия"
+          },
+          "shortNameTranslation": {
+            "ar": "إينر فالنسيا",
+            "bn": "এনার ভ্যালেন্সিয়া",
+            "hi": "एन्नर वेलेंसिया",
+            "ru": "Э. Валенсия"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 61.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 13.3
+      },
+      "blockCoordinates": {
+        "x": 2.5,
+        "y": 53.1,
+        "z": 0
+      },
+      "xg": 0.04612585529685,
+      "xgot": 0.16995160281658,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7582280,
+      "time": 62,
+      "timeSeconds": 3711,
+      "draw": {
+        "start": {
+          "x": 61.7,
+          "y": 22.2
+        },
+        "block": {
+          "x": 53.1,
+          "y": 2.5
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 86.7
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1689,
+      "periodTimeSeconds": 1011,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Moisés Caicedo",
+        "firstName": "Moises",
+        "lastName": "Caicedo",
+        "slug": "moises-caicedo",
+        "shortName": "M. Caicedo",
+        "position": "M",
+        "jerseyNumber": "25",
+        "userCount": 86888,
+        "gender": "M",
+        "sofascoreId": "MoisesCaicedo55",
+        "id": 987650,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مويسيس كايسيدو",
+            "bn": "মোজেস কাইসেডো",
+            "hi": "मोइसेस कैसेडो",
+            "ru": "Моисес Кайседо"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كايسيدو",
+            "bn": "এম. কাইসেডো",
+            "hi": "एम. कैसेडो",
+            "ru": "М. Кайседо"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.4,
+        "y": 34.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 59.2,
+        "z": 9.7
+      },
+      "xg": 0.021613201126456,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7582199,
+      "time": 54,
+      "timeSeconds": 3230,
+      "draw": {
+        "start": {
+          "x": 34.9,
+          "y": 3.4
+        },
+        "end": {
+          "x": 40.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 40.8,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2170,
+      "periodTimeSeconds": 530,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Florian Wirtz",
+        "slug": "florian-wirtz",
+        "shortName": "F. Wirtz",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 157189,
+        "gender": "M",
+        "sofascoreId": "FWirtz",
+        "id": 1019322,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلوريان فيرتز",
+            "bn": "ফ্লোরিয়ান উইর্টজ",
+            "hi": "फ्लोरियन विर्ट्ज़",
+            "ru": "Флориан Вирц"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيرتز",
+            "bn": "এফ. উইর্টজ",
+            "hi": "एफ. विर्ट्ज़",
+            "ru": "Ф. Вирц"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.5,
+        "y": 61.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.8,
+        "y": 59.7,
+        "z": 0
+      },
+      "xg": 0.072388246655464,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hernán Galíndez",
+        "firstName": "Hernan",
+        "lastName": "Galindez",
+        "slug": "hernan-galindez",
+        "shortName": "H. Galíndez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2837,
+        "gender": "M",
+        "id": 588618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرنان غالينديس",
+            "bn": "হার্নান গ্যালিন্ডেজ",
+            "hi": "हर्नान गैलिन्डेज़",
+            "ru": "Эрнан Галиндес"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. غالينديس",
+            "bn": "এইচ. গ্যালিন্ডেজ",
+            "hi": "एच. गैलिन्डेज़",
+            "ru": "Э. Галиндес"
+          }
+        }
+      },
+      "id": 7582094,
+      "time": 45,
+      "addedTime": 4,
+      "timeSeconds": 2920,
+      "draw": {
+        "start": {
+          "x": 61.5,
+          "y": 10.5
+        },
+        "block": {
+          "x": 59.7,
+          "y": 8.8
+        },
+        "end": {
+          "x": 50.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2480,
+      "periodTimeSeconds": 220,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Felix Nmecha",
+        "firstName": "Felix",
+        "lastName": "Nmecha",
+        "slug": "felix-nmecha",
+        "shortName": "F. Nmecha",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 10717,
+        "gender": "M",
+        "id": 907463,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليكس نميشا",
+            "bn": "নেমেচা, ফেলিক্স",
+            "hi": "नेमेचा, फेलिक्स",
+            "ru": "Феликс Нмеча"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. نميشا",
+            "bn": "এফ. নেমেচা",
+            "hi": "एफ. नेमेचा",
+            "ru": "Ф. Нмеча"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.7,
+        "y": 63.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 16.2,
+        "y": 60.5,
+        "z": 0
+      },
+      "xg": 0.022430453449488,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hernán Galíndez",
+        "firstName": "Hernan",
+        "lastName": "Galindez",
+        "slug": "hernan-galindez",
+        "shortName": "H. Galíndez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2837,
+        "gender": "M",
+        "id": 588618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرنان غالينديس",
+            "bn": "হার্নান গ্যালিন্ডেজ",
+            "hi": "हर्नान गैलिन्डेज़",
+            "ru": "Эрнан Галиндес"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. غالينديس",
+            "bn": "এইচ. গ্যালিন্ডেজ",
+            "hi": "एच. गैलिन्डेज़",
+            "ru": "Э. Галиндес"
+          }
+        }
+      },
+      "id": 7582089,
+      "time": 38,
+      "timeSeconds": 2268,
+      "draw": {
+        "start": {
+          "x": 63.8,
+          "y": 20.7
+        },
+        "block": {
+          "x": 60.5,
+          "y": 16.2
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 432,
+      "periodTimeSeconds": 2268,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Jamal Musiala",
+        "slug": "jamal-musiala",
+        "shortName": "J. Musiala",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 130091,
+        "gender": "M",
+        "sofascoreId": "Bambi",
+        "id": 1010231,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جمال موسيالا",
+            "bn": "জামাল মুসিয়ালা",
+            "hi": "जमाल मुसियाला",
+            "ru": "Джамал Мусиала"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. موسيالا",
+            "bn": "জে. মুসিয়ালা",
+            "hi": "जे. मुसियाला",
+            "ru": "Д. Мусиала"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.4,
+        "y": 34.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12,
+        "y": 36.6,
+        "z": 0
+      },
+      "xg": 0.027801383286715,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hernán Galíndez",
+        "firstName": "Hernan",
+        "lastName": "Galindez",
+        "slug": "hernan-galindez",
+        "shortName": "H. Galíndez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2837,
+        "gender": "M",
+        "id": 588618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرنان غالينديس",
+            "bn": "হার্নান গ্যালিন্ডেজ",
+            "hi": "हर्नान गैलिन्डेज़",
+            "ru": "Эрнан Галиндес"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. غالينديس",
+            "bn": "এইচ. গ্যালিন্ডেজ",
+            "hi": "एच. गैलिन्डेज़",
+            "ru": "Э. Галиндес"
+          }
+        }
+      },
+      "id": 7582086,
+      "time": 35,
+      "timeSeconds": 2061,
+      "draw": {
+        "start": {
+          "x": 34.9,
+          "y": 13.4
+        },
+        "block": {
+          "x": 36.6,
+          "y": 12
+        },
+        "end": {
+          "x": 51.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 639,
+      "periodTimeSeconds": 2061,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Enner Valencia",
+        "firstName": "Enner",
+        "lastName": "Valencia",
+        "slug": "enner-valencia",
+        "shortName": "E. Valencia",
+        "position": "F",
+        "jerseyNumber": "10",
+        "userCount": 14278,
+        "gender": "M",
+        "sofascoreId": "ennervalencia",
+        "id": 106456,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إينير فالنسيا",
+            "bn": "এনার ভ্যালেন্সিয়া",
+            "hi": "एनंर वेलेंसिया",
+            "ru": "Эннер Валенсия"
+          },
+          "shortNameTranslation": {
+            "ar": "إينر فالنسيا",
+            "bn": "এনার ভ্যালেন্সিয়া",
+            "hi": "एन्नर वेलेंसिया",
+            "ru": "Э. Валенсия"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.2,
+        "y": 71.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.9,
+        "y": 69,
+        "z": 0
+      },
+      "xg": 0.019715569913387,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7582084,
+      "time": 32,
+      "timeSeconds": 1893,
+      "draw": {
+        "start": {
+          "x": 71.6,
+          "y": 10.2
+        },
+        "block": {
+          "x": 69,
+          "y": 8.9
+        },
+        "end": {
+          "x": 50.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 807,
+      "periodTimeSeconds": 1893,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Kai Havertz",
+        "firstName": "Kai",
+        "lastName": "Havertz",
+        "slug": "kai-havertz",
+        "shortName": "K. Havertz",
+        "position": "F",
+        "jerseyNumber": "29",
+        "userCount": 79430,
+        "gender": "M",
+        "sofascoreId": "KaiHav",
+        "id": 836705,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاي هافيرتس",
+            "bn": "কাই হাভার্টজ",
+            "hi": "काई हावर्ट्ज़",
+            "ru": "Кай Хаверц"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هافيرتس",
+            "bn": "কে. হাভার্টজ",
+            "hi": "के. हावर्ट्ज़",
+            "ru": "К. Хаверц"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.2,
+        "y": 51.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.3,
+        "z": 20.3
+      },
+      "blockCoordinates": {
+        "x": 1,
+        "y": 50.7,
+        "z": 0
+      },
+      "xg": 0.087646625936031,
+      "xgot": 0.36776396632195,
+      "goalkeeper": {
+        "name": "Hernán Galíndez",
+        "firstName": "Hernan",
+        "lastName": "Galindez",
+        "slug": "hernan-galindez",
+        "shortName": "H. Galíndez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2837,
+        "gender": "M",
+        "id": 588618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرنان غالينديس",
+            "bn": "হার্নান গ্যালিন্ডেজ",
+            "hi": "हर्नान गैलिन्डेज़",
+            "ru": "Эрнан Галиндес"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. غالينديس",
+            "bn": "এইচ. গ্যালিন্ডেজ",
+            "hi": "एच. गैलिन्डेज़",
+            "ru": "Э. Галиндес"
+          }
+        }
+      },
+      "id": 7582079,
+      "time": 25,
+      "timeSeconds": 1475,
+      "draw": {
+        "start": {
+          "x": 51.3,
+          "y": 8.2
+        },
+        "block": {
+          "x": 50.7,
+          "y": 1
+        },
+        "end": {
+          "x": 47.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.7,
+          "y": 79.7
+        }
+      },
+      "reversedPeriodTime": 21,
+      "reversedPeriodTimeSeconds": 1225,
+      "periodTimeSeconds": 1475,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Felix Nmecha",
+        "firstName": "Felix",
+        "lastName": "Nmecha",
+        "slug": "felix-nmecha",
+        "shortName": "F. Nmecha",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 10717,
+        "gender": "M",
+        "id": 907463,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليكس نميشا",
+            "bn": "নেমেচা, ফেলিক্স",
+            "hi": "नेमेचा, फेलिक्स",
+            "ru": "Феликс Нмеча"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. نميشا",
+            "bn": "এফ. নেমেচা",
+            "hi": "एफ. नेमेचा",
+            "ru": "Ф. Нмеча"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.3,
+        "y": 71.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 59.7,
+        "z": 1.4
+      },
+      "xg": 0.035722158849239,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hernán Galíndez",
+        "firstName": "Hernan",
+        "lastName": "Galindez",
+        "slug": "hernan-galindez",
+        "shortName": "H. Galíndez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2837,
+        "gender": "M",
+        "id": 588618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرنان غالينديس",
+            "bn": "হার্নান গ্যালিন্ডেজ",
+            "hi": "हर्नान गैलिन्डेज़",
+            "ru": "Эрнан Галиндес"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. غالينديس",
+            "bn": "এইচ. গ্যালিন্ডেজ",
+            "hi": "एच. गैलिन्डेज़",
+            "ru": "Э. Галиндес"
+          }
+        }
+      },
+      "id": 7582075,
+      "time": 14,
+      "timeSeconds": 823,
+      "draw": {
+        "start": {
+          "x": 71.5,
+          "y": 19.3
+        },
+        "end": {
+          "x": 40.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 40.3,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1877,
+      "periodTimeSeconds": 823,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nilson Angulo",
+        "firstName": "Nilson Angulo",
+        "lastName": "",
+        "slug": "nilson-angulo",
+        "shortName": "N. Angulo",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 6724,
+        "gender": "M",
+        "id": 1116571,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيلسون أنغولو",
+            "bn": "নিলসন অ্যাঙ্গুলো",
+            "hi": "निल्सन एंगुलो",
+            "ru": "Нилсон Ангуло"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. أنغولو",
+            "bn": "এন. অ্যাঙ্গুলো",
+            "hi": "एन. एंगुलो",
+            "ru": "Н. Ангуло"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.1,
+        "y": 41.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.3,
+        "z": 4.4
+      },
+      "xg": 0.025310298427939,
+      "xgot": 0.52274709939957,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7582073,
+      "time": 9,
+      "timeSeconds": 506,
+      "draw": {
+        "start": {
+          "x": 41.1,
+          "y": 22.1
+        },
+        "end": {
+          "x": 53.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.7,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2194,
+      "periodTimeSeconds": 506,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Florian Wirtz",
+        "slug": "florian-wirtz",
+        "shortName": "F. Wirtz",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 157189,
+        "gender": "M",
+        "sofascoreId": "FWirtz",
+        "id": 1019322,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلوريان فيرتز",
+            "bn": "ফ্লোরিয়ান উইর্টজ",
+            "hi": "फ्लोरियन विर्ट्ज़",
+            "ru": "Флориан Вирц"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيرتز",
+            "bn": "এফ. উইর্টজ",
+            "hi": "एफ. विर्ट्ज़",
+            "ru": "Ф. Вирц"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 20.2,
+        "y": 42.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.6,
+        "y": 43.1,
+        "z": 0
+      },
+      "xg": 0.033944636583328,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Hernán Galíndez",
+        "firstName": "Hernan",
+        "lastName": "Galindez",
+        "slug": "hernan-galindez",
+        "shortName": "H. Galíndez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2837,
+        "gender": "M",
+        "id": 588618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرنان غالينديس",
+            "bn": "হার্নান গ্যালিন্ডেজ",
+            "hi": "हर्नान गैलिन्डेज़",
+            "ru": "Эрнан Галиндес"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. غالينديس",
+            "bn": "এইচ. গ্যালিন্ডেজ",
+            "hi": "एच. गैलिन्डेज़",
+            "ru": "Э. Галиндес"
+          }
+        }
+      },
+      "id": 7582071,
+      "time": 7,
+      "timeSeconds": 392,
+      "draw": {
+        "start": {
+          "x": 42.3,
+          "y": 20.2
+        },
+        "block": {
+          "x": 43.1,
+          "y": 17.6
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2308,
+      "periodTimeSeconds": 392,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Leroy Sané",
+        "slug": "leroy-sane",
+        "shortName": "L. Sané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 45052,
+        "gender": "M",
+        "sofascoreId": "LeroySane",
+        "id": 293519,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليروي ساني",
+            "bn": "লিরোয় সানে",
+            "hi": "लेरॉय साने",
+            "ru": "Лерой Зане"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساني",
+            "bn": "এল. সানে",
+            "hi": "एल. साने",
+            "ru": "Л. Зане"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 15,
+        "y": 49.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.3,
+        "z": 0.6
+      },
+      "xg": 0.10711923241615,
+      "xgot": 0.5402427315712,
+      "goalkeeper": {
+        "name": "Hernán Galíndez",
+        "firstName": "Hernan",
+        "lastName": "Galindez",
+        "slug": "hernan-galindez",
+        "shortName": "H. Galíndez",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 2837,
+        "gender": "M",
+        "id": 588618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيرنان غالينديس",
+            "bn": "হার্নান গ্যালিন্ডেজ",
+            "hi": "हर्नान गैलिन्डेज़",
+            "ru": "Эрнан Галиндес"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. غالينديس",
+            "bn": "এইচ. গ্যালিন্ডেজ",
+            "hi": "एच. गैलिन्डेज़",
+            "ru": "Э. Галиндес"
+          }
+        }
+      },
+      "id": 7582033,
+      "time": 2,
+      "timeSeconds": 109,
+      "draw": {
+        "start": {
+          "x": 49.2,
+          "y": 15
+        },
+        "end": {
+          "x": 46.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.7,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2591,
+      "periodTimeSeconds": 109,
+      "incidentType": "shot"
+    }
+  ]
+}

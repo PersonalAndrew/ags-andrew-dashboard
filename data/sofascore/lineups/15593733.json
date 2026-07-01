@@ -1,0 +1,80 @@
+{
+  "confirmed": false,
+  "home": {
+    "players": [],
+    "supportStaff": [],
+    "playerColor": {
+      "primary": "ffffff",
+      "number": "333399",
+      "outline": "ffffff",
+      "fancyNumber": "222226"
+    },
+    "goalkeeperColor": {
+      "primary": "fafb00",
+      "number": "000000",
+      "outline": "fafb00",
+      "fancyNumber": "222226"
+    },
+    "missingPlayers": [
+      {
+        "player": {
+          "name": "Ruan Pablo",
+          "firstName": "Ruan Pablo Barbosa Sousa",
+          "slug": "ruan-pablo-barbosa-sousa",
+          "shortName": "R. Pablo",
+          "position": "M",
+          "jerseyNumber": "52",
+          "height": 183,
+          "userCount": 1680,
+          "gender": "M",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "id": 1633616,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1216684800,
+          "proposedMarketValueRaw": {
+            "value": 7300000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "روان بابلو",
+              "ru": "Руан Пабло"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. بابلو",
+              "ru": "Р. Пабло"
+            }
+          }
+        },
+        "type": "missing",
+        "reason": 1,
+        "description": "Sprained Ankle",
+        "externalType": 114,
+        "expectedEndDate": "2026-07-20T00:00:00+00:00"
+      }
+    ]
+  },
+  "away": {
+    "players": [],
+    "supportStaff": [],
+    "playerColor": {
+      "primary": "ffffff",
+      "number": "ffffff",
+      "outline": "0033cc",
+      "fancyNumber": "222226"
+    },
+    "goalkeeperColor": {
+      "primary": "00ff00",
+      "number": "000000",
+      "outline": "fafb00",
+      "fancyNumber": "222226"
+    },
+    "missingPlayers": []
+  },
+  "statisticalVersion": 2
+}

@@ -19,6 +19,7 @@ dependencies = [
     "streamlit>=1.58.0",
     "statsbombpy>=1.19.0",
     "plotly>=6.8.0",
+    "curl-cffi>=0.15.0",
 ]
 
 [build-system]

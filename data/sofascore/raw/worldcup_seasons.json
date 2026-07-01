@@ -1,0 +1,164 @@
+{
+  "seasons": [
+    {
+      "name": "World Cup 2026",
+      "year": "2026",
+      "editor": false,
+      "seasonCoverageInfo": {},
+      "id": 58210
+    },
+    {
+      "name": "World Cup 2022",
+      "year": "2022",
+      "editor": false,
+      "id": 41087
+    },
+    {
+      "name": "World Cup 2018",
+      "year": "2018",
+      "editor": false,
+      "id": 15586
+    },
+    {
+      "name": "World Cup 2014",
+      "year": "2014",
+      "editor": false,
+      "id": 7528
+    },
+    {
+      "name": "World Cup 2010",
+      "year": "2010",
+      "editor": false,
+      "id": 2531
+    },
+    {
+      "name": "World Cup 2006",
+      "year": "2006",
+      "editor": false,
+      "id": 16
+    },
+    {
+      "name": "World Cup 2002",
+      "year": "2002",
+      "editor": false,
+      "id": 2636
+    },
+    {
+      "name": "World Cup 1998",
+      "year": "1998",
+      "editor": false,
+      "id": 1151
+    },
+    {
+      "name": "World Cup 1994",
+      "year": "1994",
+      "editor": false,
+      "id": 17571
+    },
+    {
+      "name": "World Cup 1990",
+      "year": "1990",
+      "editor": false,
+      "id": 17570
+    },
+    {
+      "name": "World Cup 1986",
+      "year": "1986",
+      "editor": false,
+      "id": 17569
+    },
+    {
+      "name": "World Cup 1982",
+      "year": "1982",
+      "editor": false,
+      "id": 17568
+    },
+    {
+      "name": "World Cup 1978",
+      "year": "1978",
+      "editor": false,
+      "id": 17567
+    },
+    {
+      "name": "World Cup 1974",
+      "year": "1974",
+      "editor": false,
+      "id": 17566
+    },
+    {
+      "name": "World Cup 1970",
+      "year": "1970",
+      "editor": false,
+      "id": 17565
+    },
+    {
+      "name": "World Cup 1966",
+      "year": "1966",
+      "editor": false,
+      "id": 17564
+    },
+    {
+      "name": "World Cup 1962",
+      "year": "1962",
+      "editor": false,
+      "seasonCoverageInfo": {
+        "editorCoverageLevel": 5
+      },
+      "id": 17563
+    },
+    {
+      "name": "World Cup 1958",
+      "year": "1958",
+      "editor": false,
+      "seasonCoverageInfo": {
+        "editorCoverageLevel": 5
+      },
+      "id": 17562
+    },
+    {
+      "name": "World Cup 1954",
+      "year": "1954",
+      "editor": false,
+      "seasonCoverageInfo": {
+        "editorCoverageLevel": 5
+      },
+      "id": 17561
+    },
+    {
+      "name": "World Cup 1950",
+      "year": "1950",
+      "editor": false,
+      "seasonCoverageInfo": {
+        "editorCoverageLevel": 5
+      },
+      "id": 40714
+    },
+    {
+      "name": "World Cup 1938",
+      "year": "1938",
+      "editor": false,
+      "seasonCoverageInfo": {
+        "editorCoverageLevel": 5
+      },
+      "id": 17560
+    },
+    {
+      "name": "World Cup 1934",
+      "year": "1934",
+      "editor": false,
+      "seasonCoverageInfo": {
+        "editorCoverageLevel": 5
+      },
+      "id": 17559
+    },
+    {
+      "name": "World Cup 1930",
+      "year": "1930",
+      "editor": false,
+      "seasonCoverageInfo": {
+        "editorCoverageLevel": 5
+      },
+      "id": 40712
+    }
+  ]
+}

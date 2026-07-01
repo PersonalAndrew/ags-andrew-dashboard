@@ -1,0 +1,1722 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Jeremy Antonisse",
+        "firstName": "Jeremy",
+        "lastName": "Antonisse",
+        "slug": "jeremy-antonisse",
+        "shortName": "J. Antonisse",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 268,
+        "gender": "M",
+        "id": 1092638,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي أنطونيس",
+            "bn": "জেরেমি অ্যান্টোনিস",
+            "hi": "जेरेमी एंटोनिस",
+            "ru": " Джереми Антониссе"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. أنطونيس",
+            "bn": "জে. অ্যান্টোনিস",
+            "hi": "जे. एंटोनिस",
+            "ru": " Д. Антониссе"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 16.3,
+        "y": 37.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.4,
+        "z": 16.7
+      },
+      "blockCoordinates": {
+        "x": 12,
+        "y": 42.4,
+        "z": 0
+      },
+      "xg": 0.052020031958818,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "firstName": "Yahia",
+        "lastName": "Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 4608,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना",
+            "ru": "Яхья Фофана"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना",
+            "ru": "Я. Фофана"
+          }
+        }
+      },
+      "id": 7582387,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5550,
+      "draw": {
+        "start": {
+          "x": 37.8,
+          "y": 16.3
+        },
+        "block": {
+          "x": 42.4,
+          "y": 12
+        },
+        "end": {
+          "x": 54.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.6,
+          "y": 83.3
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 750,
+      "periodTimeSeconds": 150,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Gervane Kastaneer",
+        "slug": "gervane-kastaneer",
+        "shortName": "G. Kastaneer",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 453,
+        "gender": "M",
+        "id": 798178,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيرفان كاستانير",
+            "ru": "Джервейн Кастанир"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. كاستانير",
+            "ru": "Д. Кастанир"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.9,
+        "y": 48.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 63.2,
+        "z": 1.4
+      },
+      "xg": 0.041067514568567,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "firstName": "Yahia",
+        "lastName": "Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 4608,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना",
+            "ru": "Яхья Фофана"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना",
+            "ru": "Я. Фофана"
+          }
+        }
+      },
+      "id": 7582385,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5499,
+      "draw": {
+        "start": {
+          "x": 48.5,
+          "y": 18.9
+        },
+        "end": {
+          "x": 36.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 36.8,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 801,
+      "periodTimeSeconds": 99,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Elye Wahi",
+        "slug": "elye-wahi",
+        "shortName": "E. Wahi",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 5458,
+        "gender": "M",
+        "sofascoreId": "e.wahi7",
+        "id": 979315,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيلي واهي",
+            "bn": "এলিয়ে ওয়াহি",
+            "hi": "एली वाही",
+            "ru": "Элье Ваи"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. واهي",
+            "bn": "ই. ওয়াহি",
+            "hi": "ई. वाही",
+            "ru": "Э. Ваи"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 7.7,
+        "y": 67,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.4,
+        "z": 4.4
+      },
+      "blockCoordinates": {
+        "x": 4.7,
+        "y": 61.6,
+        "z": 0
+      },
+      "xg": 0.25995796918869,
+      "xgot": 0.30123719573021,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7582383,
+      "time": 89,
+      "timeSeconds": 5309,
+      "draw": {
+        "start": {
+          "x": 67,
+          "y": 7.7
+        },
+        "block": {
+          "x": 61.6,
+          "y": 4.7
+        },
+        "end": {
+          "x": 52.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.6,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 91,
+      "periodTimeSeconds": 2609,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Juninho Bacuna",
+        "firstName": "Juninho",
+        "lastName": "Bacuna",
+        "slug": "juninho-bacuna",
+        "shortName": "J. Bacuna",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 1076,
+        "gender": "M",
+        "id": 788971,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جونينهو باكونا",
+            "bn": "জুনিনহো বাকুনা",
+            "hi": "जुनिन्हो बाकुना",
+            "ru": "Жуниньо Бакуна"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. باكونا",
+            "bn": "জে. বাকুনা",
+            "hi": "जे. बाकुना",
+            "ru": "Ж. Бакуна"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 8,
+        "y": 51.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.6,
+        "z": 56.9
+      },
+      "xg": 0.080468237400055,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "firstName": "Yahia",
+        "lastName": "Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 4608,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना",
+            "ru": "Яхья Фофана"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना",
+            "ru": "Я. Фофана"
+          }
+        }
+      },
+      "id": 7582382,
+      "time": 79,
+      "timeSeconds": 4688,
+      "draw": {
+        "start": {
+          "x": 51.3,
+          "y": 8
+        },
+        "end": {
+          "x": 51.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.4,
+          "y": 43.1
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 712,
+      "periodTimeSeconds": 1988,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Leandro Bacuna",
+        "slug": "leandro-bacuna",
+        "shortName": "L. Bacuna",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 859,
+        "gender": "M",
+        "id": 74545,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لياندرو باكونا",
+            "bn": "লিয়েন্দ্রো বাকুনা",
+            "hi": "लिआंड्रो बाकुना",
+            "ru": "Леандро Бакуна"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. باكونا",
+            "bn": "এল. বাকুনা",
+            "hi": "एल. बाकुना",
+            "ru": "Л. Бакуна"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 7.7,
+        "y": 51.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 99,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 8.8,
+        "y": 53.8,
+        "z": 0
+      },
+      "xg": 0.1032542809844,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "firstName": "Yahia",
+        "lastName": "Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 4608,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना",
+            "ru": "Яхья Фофана"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना",
+            "ru": "Я. Фофана"
+          }
+        }
+      },
+      "id": 7582381,
+      "time": 79,
+      "timeSeconds": 4686,
+      "draw": {
+        "start": {
+          "x": 51.4,
+          "y": 7.7
+        },
+        "block": {
+          "x": 53.8,
+          "y": 8.8
+        },
+        "end": {
+          "x": 1,
+          "y": 0
+        },
+        "goal": {
+          "x": 1,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 714,
+      "periodTimeSeconds": 1986,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Tahith Chong",
+        "firstName": "Tahith",
+        "lastName": "Chong",
+        "slug": "tahith-chong",
+        "shortName": "T. Chong",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 4875,
+        "gender": "M",
+        "id": 825845,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تايث تشونغ",
+            "bn": "তাহিথ চং",
+            "hi": "ताहित चोंग",
+            "ru": "Тахит Чонг"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. تشونغ",
+            "bn": "টি. চং",
+            "hi": "टी. चोंग",
+            "ru": "Т. Чонг"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.3,
+        "y": 72.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48,
+        "z": 15.2
+      },
+      "blockCoordinates": {
+        "x": 2.5,
+        "y": 53.4,
+        "z": 0
+      },
+      "xg": 0.014905677177012,
+      "xgot": 0.03896065056324,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "firstName": "Yahia",
+        "lastName": "Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 4608,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना",
+            "ru": "Яхья Фофана"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना",
+            "ru": "Я. Фофана"
+          }
+        }
+      },
+      "id": 7582285,
+      "time": 74,
+      "timeSeconds": 4411,
+      "draw": {
+        "start": {
+          "x": 72.6,
+          "y": 17.3
+        },
+        "block": {
+          "x": 53.4,
+          "y": 2.5
+        },
+        "end": {
+          "x": 52,
+          "y": 0
+        },
+        "goal": {
+          "x": 52,
+          "y": 84.8
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 989,
+      "periodTimeSeconds": 1711,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nicolas Pépé",
+        "firstName": "Nicolas",
+        "lastName": "Pepe",
+        "slug": "nicolas-pepe",
+        "shortName": "N. Pépé",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 15674,
+        "gender": "M",
+        "sofascoreId": "nicolas_pepe19",
+        "id": 593526,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولاس بيبي",
+            "bn": "নিকোলাস পেপে",
+            "hi": "निकोलस पेपे",
+            "ru": "Николя Пепе"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. بيبي",
+            "bn": "এন. পেপে",
+            "hi": "एन. पेपे",
+            "ru": "Н. Пепе"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.9,
+        "y": 66,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.3,
+        "z": 22.2
+      },
+      "xg": 0.1299302726984,
+      "xgot": 0.57324343919754,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7582282,
+      "time": 64,
+      "timeSeconds": 3792,
+      "draw": {
+        "start": {
+          "x": 66,
+          "y": 10.9
+        },
+        "end": {
+          "x": 46.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.7,
+          "y": 77.8
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1608,
+      "periodTimeSeconds": 1092,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Sherel Constancio Floranus",
+        "firstName": "Sherel Constancio",
+        "lastName": "Floranus",
+        "slug": "sherel-constancio-floranus",
+        "shortName": "S. Floranus",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 337,
+        "gender": "M",
+        "id": 803021,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شيريل كونستانسيو فلورانوس",
+            "bn": "শেরেল ফ্লোরানাস",
+            "hi": "शेरेल फ्लोरानस",
+            "ru": "Шерел Флоранус"
+          },
+          "shortNameTranslation": {
+            "ar": "ش. فلورانوس",
+            "bn": "এস. ফ্লোরানাস",
+            "hi": "एस. फ्लोरानस",
+            "ru": "Ш. Флоранус"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.1,
+        "y": 47.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 52.8
+      },
+      "xg": 0.07176112383604,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "firstName": "Yahia",
+        "lastName": "Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 4608,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना",
+            "ru": "Яхья Фофана"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना",
+            "ru": "Я. Фофана"
+          }
+        }
+      },
+      "id": 7582279,
+      "time": 55,
+      "timeSeconds": 3266,
+      "draw": {
+        "start": {
+          "x": 47.4,
+          "y": 22.1
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 47.2
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2134,
+      "periodTimeSeconds": 566,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Franck Kessié",
+        "slug": "franck-kessie",
+        "shortName": "F. Kessié",
+        "position": "M",
+        "userCount": 55266,
+        "gender": "M",
+        "sofascoreId": "franckkessie",
+        "id": 359226,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فرانك كيسيه",
+            "bn": "ফ্রাঙ্ক কেসি",
+            "hi": "फ्रैंक केसी",
+            "ru": "Франк Кессье"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. كيسيه",
+            "bn": "এফ. কেসি",
+            "hi": "एफ. केसी",
+            "ru": "Ф. Кессье"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.9,
+        "y": 47.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 12.3,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.11729658395052,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7582197,
+      "time": 53,
+      "timeSeconds": 3129,
+      "draw": {
+        "start": {
+          "x": 47.8,
+          "y": 14.9
+        },
+        "block": {
+          "x": 48.4,
+          "y": 12.3
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2271,
+      "periodTimeSeconds": 429,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Jurien Gaari",
+        "slug": "jurien-gaari",
+        "shortName": "J. Gaari",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 275,
+        "gender": "M",
+        "id": 884944,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوريان قاري",
+            "bn": "জুরিয়েন গ্যারি",
+            "hi": "ज्यूरियन गारी",
+            "ru": "Жюрьен Гаари"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. قاري",
+            "bn": "জে. গ্যারি",
+            "hi": "जे. गारी",
+            "ru": "Ж. Гаари"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.2,
+        "y": 39.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.4,
+        "y": 41.1,
+        "z": 0
+      },
+      "xg": 0.037042625248432,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "firstName": "Yahia",
+        "lastName": "Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 4608,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना",
+            "ru": "Яхья Фофана"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना",
+            "ru": "Я. Фофана"
+          }
+        }
+      },
+      "id": 7582196,
+      "time": 45,
+      "addedTime": 3,
+      "timeSeconds": 2875,
+      "draw": {
+        "start": {
+          "x": 39.7,
+          "y": 4.2
+        },
+        "block": {
+          "x": 41.1,
+          "y": 3.4
+        },
+        "end": {
+          "x": 47.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2525,
+      "periodTimeSeconds": 175,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Leandro Bacuna",
+        "slug": "leandro-bacuna",
+        "shortName": "L. Bacuna",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 859,
+        "gender": "M",
+        "id": 74545,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لياندرو باكونا",
+            "bn": "লিয়েন্দ্রো বাকুনা",
+            "hi": "लिआंड्रो बाकुना",
+            "ru": "Леандро Бакуна"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. باكونا",
+            "bn": "এল. বাকুনা",
+            "hi": "एल. बाकुना",
+            "ru": "Л. Бакуна"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.5,
+        "y": 30.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 59.2,
+        "z": 2.8
+      },
+      "xg": 0.024549193680286,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "firstName": "Yahia",
+        "lastName": "Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 4608,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना",
+            "ru": "Яхья Фофана"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना",
+            "ru": "Я. Фофана"
+          }
+        }
+      },
+      "id": 7582091,
+      "time": 44,
+      "timeSeconds": 2596,
+      "draw": {
+        "start": {
+          "x": 30.9,
+          "y": 10.5
+        },
+        "end": {
+          "x": 40.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 40.8,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 104,
+      "periodTimeSeconds": 2596,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Tahith Chong",
+        "firstName": "Tahith",
+        "lastName": "Chong",
+        "slug": "tahith-chong",
+        "shortName": "T. Chong",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 4875,
+        "gender": "M",
+        "id": 825845,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تايث تشونغ",
+            "bn": "তাহিথ চং",
+            "hi": "ताहित चोंग",
+            "ru": "Тахит Чонг"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. تشونغ",
+            "bn": "টি. চং",
+            "hi": "टी. चोंग",
+            "ru": "Т. Чонг"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.7,
+        "y": 56.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 61.7,
+        "z": 29.2
+      },
+      "xg": 0.016619762405753,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "firstName": "Yahia",
+        "lastName": "Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 4608,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना",
+            "ru": "Яхья Фофана"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना",
+            "ru": "Я. Фофана"
+          }
+        }
+      },
+      "id": 7582090,
+      "time": 40,
+      "timeSeconds": 2340,
+      "draw": {
+        "start": {
+          "x": 56.2,
+          "y": 25.7
+        },
+        "end": {
+          "x": 38.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 38.3,
+          "y": 70.8
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 360,
+      "periodTimeSeconds": 2340,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Amad Diallo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "diallo-amad",
+        "shortName": "A. Diallo",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 120085,
+        "gender": "M",
+        "sofascoreId": "AmadDiallo19",
+        "id": 971037,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أماد ديالو",
+            "bn": "ডায়ালো, আমাদ",
+            "hi": "डायलो, अमाद",
+            "ru": "Амад Диалло"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ديالو",
+            "bn": "এ. ডায়ালো",
+            "hi": "ए. अमाद",
+            "ru": "А. Диалло"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.5,
+        "y": 55.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 59,
+        "z": 31.9
+      },
+      "blockCoordinates": {
+        "x": 10.7,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.12750960886478,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7582078,
+      "time": 23,
+      "timeSeconds": 1330,
+      "draw": {
+        "start": {
+          "x": 55.2,
+          "y": 17.5
+        },
+        "block": {
+          "x": 49.8,
+          "y": 10.7
+        },
+        "end": {
+          "x": 41,
+          "y": 0
+        },
+        "goal": {
+          "x": 41,
+          "y": 68.1
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1370,
+      "periodTimeSeconds": 1330,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Amad Diallo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "diallo-amad",
+        "shortName": "A. Diallo",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 120085,
+        "gender": "M",
+        "sofascoreId": "AmadDiallo19",
+        "id": 971037,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أماد ديالو",
+            "bn": "ডায়ালো, আমাদ",
+            "hi": "डायलो, अमाद",
+            "ru": "Амад Диалло"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ديالو",
+            "bn": "এ. ডায়ালো",
+            "hi": "ए. अमाद",
+            "ru": "А. Диалло"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.3,
+        "y": 51.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 25.6,
+        "z": 4.2
+      },
+      "xg": 0.20393051207066,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7582077,
+      "time": 18,
+      "timeSeconds": 1064,
+      "draw": {
+        "start": {
+          "x": 51.9,
+          "y": 9.3
+        },
+        "end": {
+          "x": 74.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 74.4,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1636,
+      "periodTimeSeconds": 1064,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Jurien Gaari",
+        "slug": "jurien-gaari",
+        "shortName": "J. Gaari",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 275,
+        "gender": "M",
+        "id": 884944,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوريان قاري",
+            "bn": "জুরিয়েন গ্যারি",
+            "hi": "ज्यूरियन गारी",
+            "ru": "Жюрьен Гаари"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. قاري",
+            "bn": "জে. গ্যারি",
+            "hi": "जे. गारी",
+            "ru": "Ж. Гаари"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 25.3,
+        "y": 67.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60.5,
+        "z": 5.6
+      },
+      "xg": 0.017455803230405,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "firstName": "Yahia",
+        "lastName": "Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 4608,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना",
+            "ru": "Яхья Фофана"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना",
+            "ru": "Я. Фофана"
+          }
+        }
+      },
+      "id": 7582076,
+      "time": 14,
+      "timeSeconds": 827,
+      "draw": {
+        "start": {
+          "x": 67.9,
+          "y": 25.3
+        },
+        "end": {
+          "x": 39.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 39.5,
+          "y": 94.4
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1873,
+      "periodTimeSeconds": 827,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Amad Diallo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "diallo-amad",
+        "shortName": "A. Diallo",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 120085,
+        "gender": "M",
+        "sofascoreId": "AmadDiallo19",
+        "id": 971037,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أماد ديالو",
+            "bn": "ডায়ালো, আমাদ",
+            "hi": "डायलो, अमाद",
+            "ru": "Амад Диалло"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. ديالو",
+            "bn": "এ. ডায়ালো",
+            "hi": "ए. अमाद",
+            "ru": "А. Диалло"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.1,
+        "y": 65.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57.8,
+        "z": 2.8
+      },
+      "xg": 0.042691230773926,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7582074,
+      "time": 10,
+      "timeSeconds": 545,
+      "draw": {
+        "start": {
+          "x": 65.2,
+          "y": 18.1
+        },
+        "end": {
+          "x": 42.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 42.2,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2155,
+      "periodTimeSeconds": 545,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nicolas Pépé",
+        "firstName": "Nicolas",
+        "lastName": "Pepe",
+        "slug": "nicolas-pepe",
+        "shortName": "N. Pépé",
+        "position": "F",
+        "jerseyNumber": "19",
+        "userCount": 15674,
+        "gender": "M",
+        "sofascoreId": "nicolas_pepe19",
+        "id": 593526,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولاس بيبي",
+            "bn": "নিকোলাস পেপে",
+            "hi": "निकोलस पेपे",
+            "ru": "Николя Пепе"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. بيبي",
+            "bn": "এন. পেপে",
+            "hi": "एन. पेपे",
+            "ru": "Н. Пепе"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.5,
+        "y": 47.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 1.9
+      },
+      "xg": 0.42798513174057,
+      "xgot": 0.98124009370804,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7582072,
+      "time": 7,
+      "timeSeconds": 364,
+      "draw": {
+        "start": {
+          "x": 47.3,
+          "y": 4.5
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2336,
+      "periodTimeSeconds": 364,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Tahith Chong",
+        "firstName": "Tahith",
+        "lastName": "Chong",
+        "slug": "tahith-chong",
+        "shortName": "T. Chong",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 4875,
+        "gender": "M",
+        "id": 825845,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تايث تشونغ",
+            "bn": "তাহিথ চং",
+            "hi": "ताहित चोंग",
+            "ru": "Тахит Чонг"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. تشونغ",
+            "bn": "টি. চং",
+            "hi": "टी. चोंग",
+            "ru": "Т. Чонг"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 21.9,
+        "y": 40.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 19.6
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 50.4,
+        "z": 0
+      },
+      "xg": 0.041193552315235,
+      "xgot": 0.022868007421494,
+      "goalkeeper": {
+        "name": "Yahia Fofana",
+        "firstName": "Yahia",
+        "lastName": "Fofana",
+        "slug": "yahia-fofana",
+        "shortName": "Y. Fofana",
+        "position": "G",
+        "jerseyNumber": "75",
+        "userCount": 4608,
+        "gender": "M",
+        "sofascoreId": "yahia.fofana_",
+        "id": 877977,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يحيى فوفانا",
+            "bn": "ইয়াহিয়া ফোফানা",
+            "hi": "याहिया फ़ोफ़ाना",
+            "ru": "Яхья Фофана"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. فوفانا",
+            "bn": "ওয়াই. ফোফানা",
+            "hi": "वाई. फ़ोफ़ाना",
+            "ru": "Я. Фофана"
+          }
+        }
+      },
+      "id": 7582034,
+      "time": 2,
+      "timeSeconds": 94,
+      "draw": {
+        "start": {
+          "x": 40.1,
+          "y": 21.9
+        },
+        "block": {
+          "x": 50.4,
+          "y": 1.9
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 80.4
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2606,
+      "periodTimeSeconds": 94,
+      "incidentType": "shot"
+    }
+  ]
+}
