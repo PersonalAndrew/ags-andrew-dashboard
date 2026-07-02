@@ -1343,6 +1343,8 @@ async function initSofascoreSection() {
 
         renderSofascoreSelect();
         renderSofascoreSummary();
+        setupCopaCompetitionTabs();
+        renderActiveCopaStage();
 
     } catch (error) {
         console.error(error);
@@ -1355,4 +1357,473 @@ async function initSofascoreSection() {
 
 document.addEventListener("DOMContentLoaded", () => {
     initSofascoreSection();
+});
+
+// =======================================================
+// ORGANIZAÇÃO POR ABAS — COPA 2026
+// =======================================================
+
+const copaStageTabs = ["groups", "r32", "r16", "qf", "sf", "final"];
+
+const copaStageLabels = {
+    groups: {
+        kicker: "Fase de grupos",
+        title: "Grupos da Copa 2026",
+        description: "Times e jogos organizados automaticamente pelas rodadas 1, 2 e 3.",
+    },
+    r32: {
+        kicker: "Mata-mata",
+        title: "16 avos de final",
+        description: "Jogos da primeira fase eliminatória da Copa 2026.",
+    },
+    r16: {
+        kicker: "Mata-mata",
+        title: "Oitavas de final",
+        description: "Jogos das oitavas de final.",
+    },
+    qf: {
+        kicker: "Mata-mata",
+        title: "Quartas de final",
+        description: "Jogos das quartas de final.",
+    },
+    sf: {
+        kicker: "Mata-mata",
+        title: "Semifinais",
+        description: "Jogos das semifinais.",
+    },
+    final: {
+        kicker: "Decisão",
+        title: "Final e disputa de terceiro lugar",
+        description: "Jogos finais da competição.",
+    },
+};
+
+function setupCopaCompetitionTabs() {
+    const buttons = document.querySelectorAll(".copa-tab-button");
+
+    if (!buttons.length) return;
+
+    assignCopaTabSections();
+
+    buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+            const tab = button.dataset.copaTab || "overview";
+            setActiveCopaTab(tab);
+        });
+    });
+
+    const currentActive = document.querySelector(".copa-tab-button.active");
+    const initialTab = currentActive?.dataset?.copaTab || "overview";
+
+    setActiveCopaTab(initialTab);
+}
+
+function assignCopaTabSections() {
+    const sections = Array.from(document.querySelectorAll("main.page-shell > section"));
+
+    sections.forEach((section) => {
+        if (section.classList.contains("hero-section")) return;
+        if (section.classList.contains("copa-tabs-panel")) return;
+        if (section.dataset.copaDynamicStage === "true") return;
+
+        if (section.classList.contains("sofascore-live-panel")) {
+            section.dataset.copaTabContent = "overview";
+            return;
+        }
+
+        const headerText = section.textContent || "";
+
+        if (headerText.includes("Metodologia")) {
+            section.dataset.copaTabContent = "overview";
+            return;
+        }
+
+        section.dataset.copaTabContent = "model";
+    });
+}
+
+function setActiveCopaTab(tab) {
+    const buttons = document.querySelectorAll(".copa-tab-button");
+    const dynamicPanel = document.getElementById("copaDynamicStagePanel");
+
+    buttons.forEach((button) => {
+        button.classList.toggle("active", button.dataset.copaTab === tab);
+    });
+
+    document.querySelectorAll("[data-copa-tab-content]").forEach((section) => {
+        const contentTab = section.dataset.copaTabContent;
+        section.hidden = contentTab !== tab;
+    });
+
+    if (dynamicPanel) {
+        const isStageTab = copaStageTabs.includes(tab);
+        dynamicPanel.hidden = !isStageTab;
+
+        if (isStageTab) {
+            renderCopaStage(tab);
+        }
+    }
+}
+
+function renderActiveCopaStage() {
+    const activeButton = document.querySelector(".copa-tab-button.active");
+    const activeTab = activeButton?.dataset?.copaTab || "overview";
+
+    if (copaStageTabs.includes(activeTab)) {
+        renderCopaStage(activeTab);
+    }
+}
+
+function renderCopaStage(tab) {
+    const label = copaStageLabels[tab];
+    const kicker = document.getElementById("copaStageKicker");
+    const title = document.getElementById("copaStageTitle");
+    const description = document.getElementById("copaStageDescription");
+    const grid = document.getElementById("copaStageGrid");
+
+    if (!grid || !label) return;
+
+    if (kicker) kicker.textContent = label.kicker;
+    if (title) title.textContent = label.title;
+    if (description) description.textContent = label.description;
+
+    if (tab === "groups") {
+        renderGroupStage(grid);
+        return;
+    }
+
+    renderKnockoutStage(tab, grid);
+}
+
+function getGroupStageMatches() {
+    return (sofascoreState.matches || []).filter((match) => {
+        const roundNumber = Number(match.round_number || 0);
+        const hasKnockoutName = Boolean(match.round);
+
+        return !hasKnockoutName && [1, 2, 3].includes(roundNumber);
+    });
+}
+
+function buildGroupsFromMatches(matches) {
+    const teamGraph = new Map();
+    const teamNames = new Map();
+
+    matches.forEach((match) => {
+        const home = match.home_team;
+        const away = match.away_team;
+
+        if (!home || !away) return;
+
+        teamNames.set(home, home);
+        teamNames.set(away, away);
+
+        if (!teamGraph.has(home)) teamGraph.set(home, new Set());
+        if (!teamGraph.has(away)) teamGraph.set(away, new Set());
+
+        teamGraph.get(home).add(away);
+        teamGraph.get(away).add(home);
+    });
+
+    const visited = new Set();
+    const groups = [];
+
+    for (const team of teamGraph.keys()) {
+        if (visited.has(team)) continue;
+
+        const stack = [team];
+        const teams = [];
+
+        while (stack.length) {
+            const current = stack.pop();
+
+            if (visited.has(current)) continue;
+
+            visited.add(current);
+            teams.push(current);
+
+            for (const nextTeam of teamGraph.get(current) || []) {
+                if (!visited.has(nextTeam)) {
+                    stack.push(nextTeam);
+                }
+            }
+        }
+
+        const groupMatches = matches.filter((match) => {
+            return teams.includes(match.home_team) && teams.includes(match.away_team);
+        });
+
+        const firstTimestamp = Math.min(
+            ...groupMatches.map((match) => match.start_timestamp || Number.MAX_SAFE_INTEGER)
+        );
+
+        groups.push({
+            teams: teams.sort((a, b) => a.localeCompare(b)),
+            matches: groupMatches.sort((a, b) => (a.start_timestamp || 0) - (b.start_timestamp || 0)),
+            firstTimestamp,
+        });
+    }
+
+    return groups.sort((a, b) => a.firstTimestamp - b.firstTimestamp);
+}
+
+function calculateGroupTable(group) {
+    const table = new Map();
+
+    group.teams.forEach((team) => {
+        table.set(team, {
+            team,
+            points: 0,
+            played: 0,
+            wins: 0,
+            draws: 0,
+            losses: 0,
+            goalsFor: 0,
+            goalsAgainst: 0,
+            goalDifference: 0,
+        });
+    });
+
+    group.matches.forEach((match) => {
+        if (match.status_type !== "finished") return;
+
+        const home = table.get(match.home_team);
+        const away = table.get(match.away_team);
+
+        if (!home || !away) return;
+
+        const homeScore = Number(match.home_score || 0);
+        const awayScore = Number(match.away_score || 0);
+
+        home.played += 1;
+        away.played += 1;
+
+        home.goalsFor += homeScore;
+        home.goalsAgainst += awayScore;
+
+        away.goalsFor += awayScore;
+        away.goalsAgainst += homeScore;
+
+        if (homeScore > awayScore) {
+            home.points += 3;
+            home.wins += 1;
+            away.losses += 1;
+        } else if (awayScore > homeScore) {
+            away.points += 3;
+            away.wins += 1;
+            home.losses += 1;
+        } else {
+            home.points += 1;
+            away.points += 1;
+            home.draws += 1;
+            away.draws += 1;
+        }
+    });
+
+    return Array.from(table.values())
+        .map((row) => ({
+            ...row,
+            goalDifference: row.goalsFor - row.goalsAgainst,
+        }))
+        .sort((a, b) => {
+            if (b.points !== a.points) return b.points - a.points;
+            if (b.goalDifference !== a.goalDifference) return b.goalDifference - a.goalDifference;
+            if (b.goalsFor !== a.goalsFor) return b.goalsFor - a.goalsFor;
+
+            return a.team.localeCompare(b.team);
+        });
+}
+
+function renderGroupStage(grid) {
+    const groupMatches = getGroupStageMatches();
+    const groups = buildGroupsFromMatches(groupMatches);
+
+    if (!groups.length) {
+        grid.innerHTML = `<div class="loading-card">Nenhum grupo encontrado nos dados atuais.</div>`;
+        return;
+    }
+
+    grid.innerHTML = groups
+        .map((group, index) => {
+            const groupLetter = String.fromCharCode(65 + index);
+            const table = calculateGroupTable(group);
+
+            const tableRows = table
+                .map((row, rowIndex) => `
+                    <tr>
+                        <td>${rowIndex + 1}</td>
+                        <td>${row.team}</td>
+                        <td>${row.points}</td>
+                        <td>${row.played}</td>
+                        <td>${row.wins}</td>
+                        <td>${row.draws}</td>
+                        <td>${row.losses}</td>
+                        <td>${row.goalDifference}</td>
+                    </tr>
+                `)
+                .join("");
+
+            const fixtures = group.matches
+                .map((match) => renderCompactMatchButton(match))
+                .join("");
+
+            return `
+                <article class="copa-group-card">
+                    <div class="copa-group-header">
+                        <span>Grupo ${groupLetter}</span>
+                        <strong>${group.teams.length} seleções</strong>
+                    </div>
+
+                    <div class="copa-group-teams">
+                        ${group.teams.map((team) => `<span>${team}</span>`).join("")}
+                    </div>
+
+                    <div class="copa-group-table-wrapper">
+                        <table class="copa-group-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Seleção</th>
+                                    <th>Pts</th>
+                                    <th>J</th>
+                                    <th>V</th>
+                                    <th>E</th>
+                                    <th>D</th>
+                                    <th>SG</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${tableRows}
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="copa-group-fixtures">
+                        ${fixtures}
+                    </div>
+                </article>
+            `;
+        })
+        .join("");
+
+    bindCompactMatchButtons();
+}
+
+function renderKnockoutStage(tab, grid) {
+    const matches = getKnockoutMatchesByTab(tab);
+
+    if (!matches.length) {
+        grid.innerHTML = `<div class="loading-card">Nenhum jogo encontrado para esta fase.</div>`;
+        return;
+    }
+
+    grid.innerHTML = `
+        <div class="copa-knockout-grid">
+            ${matches.map((match) => renderKnockoutMatchCard(match)).join("")}
+        </div>
+    `;
+
+    bindCompactMatchButtons();
+}
+
+function getKnockoutMatchesByTab(tab) {
+    const matches = sofascoreState.matches || [];
+
+    return matches
+        .filter((match) => {
+            const round = String(match.round || "").toLowerCase();
+            const roundNumber = Number(match.round_number || 0);
+
+            if (tab === "r32") {
+                return round.includes("round of 32") || roundNumber === 6;
+            }
+
+            if (tab === "r16") {
+                return round.includes("round of 16") || roundNumber === 7;
+            }
+
+            if (tab === "qf") {
+                return round.includes("quarter") || roundNumber === 8;
+            }
+
+            if (tab === "sf") {
+                return round.includes("semi") || roundNumber === 9;
+            }
+
+            if (tab === "final") {
+                return round.includes("final") || roundNumber >= 10;
+            }
+
+            return false;
+        })
+        .sort((a, b) => (a.start_timestamp || 0) - (b.start_timestamp || 0));
+}
+
+function renderCompactMatchButton(match) {
+    const status = getSofascoreStatusLabel(match.status_type, match.status);
+    const score = match.status_type === "finished" || match.status_type === "inprogress"
+        ? `${match.home_score ?? "-"} x ${match.away_score ?? "-"}`
+        : "x";
+
+    return `
+        <button class="copa-match-button" data-match-id="${match.match_id}">
+            <span>${formatSofascoreDate(match.start_datetime_utc)}</span>
+            <strong>${match.home_team || "-"} ${score} ${match.away_team || "-"}</strong>
+            <em>${status}</em>
+        </button>
+    `;
+}
+
+function renderKnockoutMatchCard(match) {
+    const status = getSofascoreStatusLabel(match.status_type, match.status);
+    const score = match.status_type === "finished" || match.status_type === "inprogress"
+        ? `${match.home_score ?? "-"} x ${match.away_score ?? "-"}`
+        : "x";
+
+    return `
+        <article class="copa-knockout-card">
+            <div class="copa-knockout-top">
+                <span>${match.round || "Mata-mata"}</span>
+                <strong>${status}</strong>
+            </div>
+
+            <div class="copa-knockout-score">
+                <span>${match.home_team || "-"}</span>
+                <strong>${score}</strong>
+                <span>${match.away_team || "-"}</span>
+            </div>
+
+            <button class="copa-match-button copa-match-button-full" data-match-id="${match.match_id}">
+                Abrir no seletor da visão geral
+            </button>
+        </article>
+    `;
+}
+
+function bindCompactMatchButtons() {
+    document.querySelectorAll(".copa-match-button").forEach((button) => {
+        button.addEventListener("click", () => {
+            const matchId = button.dataset.matchId;
+            const select = document.getElementById("sofascoreMatchSelect");
+
+            if (!matchId || !select) return;
+
+            select.value = String(matchId);
+            select.dispatchEvent(new Event("change"));
+
+            setActiveCopaTab("overview");
+
+            const panel = document.querySelector(".sofascore-live-panel");
+
+            if (panel) {
+                panel.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                });
+            }
+        });
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    setupCopaCompetitionTabs();
 });

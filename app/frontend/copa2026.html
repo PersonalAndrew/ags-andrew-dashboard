@@ -12,7 +12,7 @@
 
     <link
         rel="stylesheet"
-        href="/dashboard/assets/css/copa2026.css?v=9"
+        href="/dashboard/assets/css/copa2026.css?v=10"
     >
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -59,6 +59,48 @@
                         <h2>Croácia</h2>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- NAVEGAÇÃO COPA 2026 -->
+        <section class="copa-tabs-panel">
+            <div class="copa-tabs-header">
+                <span>Organização da competição</span>
+                <h2>Copa 2026 por fases</h2>
+                <p>
+                    Navegue pela visão geral, fase de grupos, mata-mata e modelo de análise da partida.
+                </p>
+            </div>
+
+            <div class="copa-tabs-nav">
+                <button class="copa-tab-button active" data-copa-tab="overview">Visão geral</button>
+                <button class="copa-tab-button" data-copa-tab="groups">Fase de grupos</button>
+                <button class="copa-tab-button" data-copa-tab="r32">16 avos</button>
+                <button class="copa-tab-button" data-copa-tab="r16">Oitavas</button>
+                <button class="copa-tab-button" data-copa-tab="qf">Quartas</button>
+                <button class="copa-tab-button" data-copa-tab="sf">Semifinais</button>
+                <button class="copa-tab-button" data-copa-tab="final">Final</button>
+                <button class="copa-tab-button" data-copa-tab="model">Modelo de análise</button>
+            </div>
+        </section>
+
+        <!-- PAINEL DINÂMICO DAS FASES -->
+        <section
+            id="copaDynamicStagePanel"
+            class="section-panel full-panel copa-dynamic-stage-panel"
+            data-copa-dynamic-stage="true"
+            hidden
+        >
+            <div class="section-header">
+                <span id="copaStageKicker">Fase</span>
+                <h2 id="copaStageTitle">Jogos da fase</h2>
+                <p id="copaStageDescription">
+                    Organização automática dos jogos sincronizados pelo SofaScore.
+                </p>
+            </div>
+
+            <div id="copaStageGrid" class="copa-stage-grid">
+                <div class="loading-card">Carregando fase...</div>
             </div>
         </section>
 
@@ -385,6 +427,6 @@
         </footer>
     </main>
 
-    <script src="/dashboard/assets/js/copa2026-app.js?v=9"></script>
+    <script src="/dashboard/assets/js/copa2026-app.js?v=10"></script>
 </body>
 </html>
