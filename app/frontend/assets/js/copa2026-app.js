@@ -1316,12 +1316,14 @@ function renderSofascoreSelect() {
     select.value = String(firstMatch.match_id);
 
     renderSofascoreMatchCard(firstMatch);
+    loadSelectedMatchAnalysis(firstMatch);
 
     select.addEventListener("change", () => {
         const selectedId = Number(select.value);
         const selectedMatch = matches.find((match) => Number(match.match_id) === selectedId);
 
         renderSofascoreMatchCard(selectedMatch);
+        loadSelectedMatchAnalysis(selectedMatch);
     });
 }
 
@@ -1426,7 +1428,12 @@ function assignCopaTabSections() {
         if (section.classList.contains("copa-tabs-panel")) return;
         if (section.dataset.copaDynamicStage === "true") return;
 
-        if (section.classList.contains("sofascore-live-panel")) {
+                if (section.classList.contains("sofascore-live-panel")) {
+            section.dataset.copaTabContent = "overview";
+            return;
+        }
+
+        if (section.classList.contains("selected-match-analysis-panel")) {
             section.dataset.copaTabContent = "overview";
             return;
         }
@@ -1827,3 +1834,497 @@ function bindCompactMatchButtons() {
 document.addEventListener("DOMContentLoaded", () => {
     setupCopaCompetitionTabs();
 });
+
+// =======================================================
+// ANÁLISE DINÂMICA DA PARTIDA SELECIONADA
+// =======================================================
+
+async function loadSelectedMatchAnalysis(match) {
+    const content = document.getElementById("selectedMatchAnalysisContent");
+    const title = document.getElementById("selectedMatchAnalysisTitle");
+    const description = document.getElementById("selectedMatchAnalysisDescription");
+
+    if (!content) return;
+
+    if (!match || !match.match_id) {
+        content.innerHTML = `
+            <div class="loading-card">
+                Selecione uma partida para iniciar a análise dinâmica.
+            </div>
+        `;
+        return;
+    }
+
+    if (title) {
+        title.textContent = `${match.home_team || "Mandante"} x ${match.away_team || "Visitante"}`;
+    }
+
+    if (description) {
+        description.textContent = `Dados dinâmicos carregados pelo SofaScore para a partida ID ${match.match_id}.`;
+    }
+
+    content.innerHTML = `
+        <div class="loading-card">
+            Carregando análise da partida selecionada...
+        </div>
+    `;
+
+    try {
+        const [statistics, lineups, shotmap, momentum] = await Promise.all([
+            fetchSofascoreDetail(match.match_id, "statistics"),
+            fetchSofascoreDetail(match.match_id, "lineups"),
+            fetchSofascoreDetail(match.match_id, "shotmap"),
+            fetchSofascoreDetail(match.match_id, "momentum"),
+        ]);
+
+        renderSelectedMatchAnalysis({
+            match,
+            statistics,
+            lineups,
+            shotmap,
+            momentum,
+        });
+    } catch (error) {
+        console.error("Erro ao carregar análise dinâmica:", error);
+
+        content.innerHTML = `
+            <div class="loading-card">
+                Não foi possível carregar a análise dinâmica desta partida.
+            </div>
+        `;
+    }
+}
+
+async function fetchSofascoreDetail(matchId, detailType) {
+    try {
+        const response = await fetch(`${SOFASCORE_API_BASE}/matches/${matchId}/${detailType}`);
+
+        if (!response.ok) {
+            return null;
+        }
+
+        return await response.json();
+    } catch (error) {
+        console.warn(`Detalhe indisponível: ${detailType}`, error);
+        return null;
+    }
+}
+
+function renderSelectedMatchAnalysis(data) {
+    const content = document.getElementById("selectedMatchAnalysisContent");
+
+    if (!content) return;
+
+    const { match, statistics, lineups, shotmap, momentum } = data;
+
+    content.innerHTML = `
+        ${renderDynamicMatchHeader(match)}
+        ${renderDynamicDataAvailability(statistics, lineups, shotmap, momentum)}
+        ${renderDynamicStatsSection(statistics)}
+        ${renderDynamicShotmapSection(shotmap)}
+        ${renderDynamicLineupsSection(lineups)}
+        ${renderDynamicMomentumSection(momentum)}
+    `;
+}
+
+function renderDynamicMatchHeader(match) {
+    const status = getSofascoreStatusLabel(match.status_type, match.status);
+    const date = formatSofascoreDate(match.start_datetime_utc);
+    const score = match.status_type === "finished" || match.status_type === "inprogress"
+        ? `${match.home_score ?? "-"} x ${match.away_score ?? "-"}`
+        : "x";
+
+    return `
+        <div class="dynamic-match-hero">
+            <div class="dynamic-match-team">
+                <span>Mandante</span>
+                <strong>${match.home_team || "-"}</strong>
+            </div>
+
+            <div class="dynamic-match-score">
+                <span>${status}</span>
+                <strong>${score}</strong>
+                <small>${date}</small>
+            </div>
+
+            <div class="dynamic-match-team">
+                <span>Visitante</span>
+                <strong>${match.away_team || "-"}</strong>
+            </div>
+        </div>
+
+        <div class="dynamic-match-meta-grid">
+            <div>
+                <span>Competição</span>
+                <strong>${match.tournament_name || "World Cup 2026"}</strong>
+            </div>
+
+            <div>
+                <span>Rodada/Fase</span>
+                <strong>${match.round || match.round_number || "-"}</strong>
+            </div>
+
+            <div>
+                <span>Status</span>
+                <strong>${status}</strong>
+            </div>
+
+            <div>
+                <span>ID SofaScore</span>
+                <strong>${match.match_id || "-"}</strong>
+            </div>
+        </div>
+    `;
+}
+
+function renderDynamicDataAvailability(statistics, lineups, shotmap, momentum) {
+    const items = [
+        {
+            label: "Estatísticas",
+            available: hasUsefulData(statistics),
+        },
+        {
+            label: "Escalações",
+            available: hasUsefulData(lineups),
+        },
+        {
+            label: "Finalizações",
+            available: hasUsefulData(shotmap),
+        },
+        {
+            label: "Momentum",
+            available: hasUsefulData(momentum),
+        },
+    ];
+
+    return `
+        <div class="dynamic-availability-grid">
+            ${items
+                .map((item) => `
+                    <div class="dynamic-availability-card ${item.available ? "is-available" : "is-missing"}">
+                        <span>${item.label}</span>
+                        <strong>${item.available ? "Disponível" : "Indisponível"}</strong>
+                    </div>
+                `)
+                .join("")}
+        </div>
+    `;
+}
+
+function hasUsefulData(data) {
+    if (!data) return false;
+
+    if (Array.isArray(data)) return data.length > 0;
+
+    if (typeof data === "object") {
+        return Object.keys(data).length > 0;
+    }
+
+    return false;
+}
+
+function renderDynamicStatsSection(statistics) {
+    const rows = extractMainStatistics(statistics);
+
+    if (!rows.length) {
+        return renderDynamicEmptySection(
+            "Estatísticas principais",
+            "Nenhuma estatística disponível para esta partida."
+        );
+    }
+
+    return `
+        <div class="dynamic-analysis-section">
+            <div class="dynamic-section-title">
+                <span>Estatísticas</span>
+                <h3>Comparativo principal</h3>
+            </div>
+
+            <div class="dynamic-stats-list">
+                ${rows
+                    .map((row) => `
+                        <div class="dynamic-stat-row">
+                            <strong>${row.home}</strong>
+                            <span>${row.name}</span>
+                            <strong>${row.away}</strong>
+                        </div>
+                    `)
+                    .join("")}
+            </div>
+        </div>
+    `;
+}
+
+function extractMainStatistics(statistics) {
+    if (!statistics) return [];
+
+    const groups = statistics.statistics || statistics.stats || statistics;
+
+    const rows = [];
+
+    function walkStats(node) {
+        if (!node) return;
+
+        if (Array.isArray(node)) {
+            node.forEach(walkStats);
+            return;
+        }
+
+        if (typeof node !== "object") return;
+
+        const name = node.name || node.key || node.title || node.groupName;
+        const home = node.home || node.homeValue || node.homeTeamValue;
+        const away = node.away || node.awayValue || node.awayTeamValue;
+
+        if (name && home !== undefined && away !== undefined) {
+            rows.push({
+                name,
+                home,
+                away,
+            });
+        }
+
+        Object.values(node).forEach((value) => {
+            if (Array.isArray(value) || typeof value === "object") {
+                walkStats(value);
+            }
+        });
+    }
+
+    walkStats(groups);
+
+    return rows.slice(0, 14);
+}
+
+function renderDynamicShotmapSection(shotmap) {
+    const shots = extractShots(shotmap);
+
+    if (!shots.length) {
+        return renderDynamicEmptySection(
+            "Finalizações",
+            "Nenhum dado de finalização disponível para esta partida."
+        );
+    }
+
+    const totalShots = shots.length;
+    const goals = shots.filter((shot) => String(shot.shotType || shot.type || "").toLowerCase().includes("goal")).length;
+    const onTarget = shots.filter((shot) => {
+        const type = String(shot.shotType || shot.type || "").toLowerCase();
+        return type.includes("save") || type.includes("goal");
+    }).length;
+
+    const topShots = shots.slice(0, 10);
+
+    return `
+        <div class="dynamic-analysis-section">
+            <div class="dynamic-section-title">
+                <span>Finalizações</span>
+                <h3>Resumo dos chutes</h3>
+            </div>
+
+            <div class="dynamic-mini-kpi-grid">
+                <div>
+                    <span>Total de chutes</span>
+                    <strong>${totalShots}</strong>
+                </div>
+
+                <div>
+                    <span>Gols</span>
+                    <strong>${goals}</strong>
+                </div>
+
+                <div>
+                    <span>No alvo</span>
+                    <strong>${onTarget}</strong>
+                </div>
+            </div>
+
+            <div class="dynamic-shot-list">
+                ${topShots
+                    .map((shot) => {
+                        const player = shot.player?.name || shot.playerName || "Jogador não identificado";
+                        const minute = shot.time || shot.minute || "-";
+                        const shotType = shot.shotType || shot.type || shot.situation || "-";
+                        const xg = shot.xg || shot.expectedGoals || shot.xG || null;
+
+                        return `
+                            <div class="dynamic-shot-item">
+                                <strong>${player}</strong>
+                                <span>Minuto ${minute} · ${shotType}</span>
+                                <em>${xg !== null ? `xG ${Number(xg).toFixed(2)}` : "xG -"}</em>
+                            </div>
+                        `;
+                    })
+                    .join("")}
+            </div>
+        </div>
+    `;
+}
+
+function extractShots(shotmap) {
+    if (!shotmap) return [];
+
+    if (Array.isArray(shotmap)) return shotmap;
+
+    if (Array.isArray(shotmap.shotmap)) return shotmap.shotmap;
+    if (Array.isArray(shotmap.shots)) return shotmap.shots;
+    if (Array.isArray(shotmap.events)) return shotmap.events;
+
+    return [];
+}
+
+function renderDynamicLineupsSection(lineups) {
+    const extracted = extractLineups(lineups);
+
+    if (!extracted.home.length && !extracted.away.length) {
+        return renderDynamicEmptySection(
+            "Escalações",
+            "Nenhuma escalação disponível para esta partida."
+        );
+    }
+
+    return `
+        <div class="dynamic-analysis-section">
+            <div class="dynamic-section-title">
+                <span>Escalações</span>
+                <h3>Jogadores relacionados</h3>
+            </div>
+
+            <div class="dynamic-lineups-grid">
+                <div class="dynamic-lineup-card">
+                    <h4>Mandante</h4>
+                    ${renderDynamicPlayersList(extracted.home)}
+                </div>
+
+                <div class="dynamic-lineup-card">
+                    <h4>Visitante</h4>
+                    ${renderDynamicPlayersList(extracted.away)}
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function extractLineups(lineups) {
+    if (!lineups) {
+        return {
+            home: [],
+            away: [],
+        };
+    }
+
+    const homePlayers = lineups.home?.players || lineups.homePlayers || [];
+    const awayPlayers = lineups.away?.players || lineups.awayPlayers || [];
+
+    return {
+        home: normalizeLineupPlayers(homePlayers).slice(0, 18),
+        away: normalizeLineupPlayers(awayPlayers).slice(0, 18),
+    };
+}
+
+function normalizeLineupPlayers(players) {
+    if (!Array.isArray(players)) return [];
+
+    return players.map((item) => {
+        const player = item.player || item;
+
+        return {
+            name: player.name || player.shortName || "Jogador",
+            shirtNumber: item.shirtNumber || item.jerseyNumber || player.shirtNumber || "-",
+            position: item.position || player.position || "-",
+            substitute: Boolean(item.substitute),
+        };
+    });
+}
+
+function renderDynamicPlayersList(players) {
+    if (!players.length) {
+        return `<div class="dynamic-empty-small">Sem jogadores disponíveis.</div>`;
+    }
+
+    return `
+        <div class="dynamic-player-list">
+            ${players
+                .map((player) => `
+                    <div class="dynamic-player-row">
+                        <strong>${player.shirtNumber}</strong>
+                        <span>${player.name}</span>
+                        <em>${player.substitute ? "Banco" : "Titular"}</em>
+                    </div>
+                `)
+                .join("")}
+        </div>
+    `;
+}
+
+function renderDynamicMomentumSection(momentum) {
+    const items = extractMomentum(momentum);
+
+    if (!items.length) {
+        return renderDynamicEmptySection(
+            "Momentum",
+            "Nenhum dado de momentum disponível para esta partida."
+        );
+    }
+
+    const maxValue = Math.max(
+        ...items.map((item) => Math.abs(Number(item.value || item.home || item.away || 0))),
+        1
+    );
+
+    return `
+        <div class="dynamic-analysis-section">
+            <div class="dynamic-section-title">
+                <span>Momentum</span>
+                <h3>Controle emocional e territorial do jogo</h3>
+            </div>
+
+            <div class="dynamic-momentum-list">
+                ${items.slice(0, 80)
+                    .map((item) => {
+                        const minute = item.minute || item.time || "-";
+                        const value = Number(item.value || item.home || item.away || 0);
+                        const width = Math.min(Math.abs(value) / maxValue * 100, 100);
+
+                        return `
+                            <div class="dynamic-momentum-row">
+                                <span>${minute}'</span>
+                                <div class="dynamic-momentum-bar-track">
+                                    <div
+                                        class="dynamic-momentum-bar ${value >= 0 ? "home" : "away"}"
+                                        style="width: ${width}%"
+                                    ></div>
+                                </div>
+                                <strong>${value}</strong>
+                            </div>
+                        `;
+                    })
+                    .join("")}
+            </div>
+        </div>
+    `;
+}
+
+function extractMomentum(momentum) {
+    if (!momentum) return [];
+
+    if (Array.isArray(momentum)) return momentum;
+    if (Array.isArray(momentum.graphPoints)) return momentum.graphPoints;
+    if (Array.isArray(momentum.momentum)) return momentum.momentum;
+    if (Array.isArray(momentum.data)) return momentum.data;
+
+    return [];
+}
+
+function renderDynamicEmptySection(title, message) {
+    return `
+        <div class="dynamic-analysis-section dynamic-analysis-empty">
+            <div class="dynamic-section-title">
+                <span>${title}</span>
+                <h3>Dados indisponíveis</h3>
+            </div>
+
+            <p>${message}</p>
+        </div>
+    `;
+}

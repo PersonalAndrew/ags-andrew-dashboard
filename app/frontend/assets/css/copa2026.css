@@ -2037,3 +2037,356 @@ a {
         grid-template-columns: 1fr;
     }
 }
+
+/* =======================================================
+   ANÁLISE DINÂMICA DA PARTIDA SELECIONADA
+======================================================= */
+
+.selected-match-analysis-panel {
+    border-color: rgba(212, 175, 55, 0.30);
+    background:
+        radial-gradient(circle at top left, rgba(212, 175, 55, 0.12), transparent 34%),
+        rgba(5, 8, 16, 0.96);
+}
+
+.selected-match-analysis-content {
+    display: grid;
+    gap: 1rem;
+}
+
+.dynamic-match-hero {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1rem;
+    align-items: center;
+    border: 1px solid rgba(212, 175, 55, 0.22);
+    border-radius: 24px;
+    padding: 1.2rem;
+    background: rgba(0, 0, 0, 0.24);
+}
+
+.dynamic-match-team {
+    text-align: center;
+}
+
+.dynamic-match-team span,
+.dynamic-match-score span,
+.dynamic-match-score small,
+.dynamic-match-meta-grid span {
+    display: block;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 0.72rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+.dynamic-match-team strong {
+    display: block;
+    color: #ffffff;
+    font-size: clamp(1.1rem, 2.5vw, 1.8rem);
+    margin-top: 0.35rem;
+}
+
+.dynamic-match-score {
+    text-align: center;
+    min-width: 160px;
+}
+
+.dynamic-match-score strong {
+    display: block;
+    color: #d4af37;
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    line-height: 1;
+    margin: 0.35rem 0;
+}
+
+.dynamic-match-meta-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+}
+
+.dynamic-match-meta-grid div,
+.dynamic-availability-card,
+.dynamic-mini-kpi-grid div {
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 18px;
+    padding: 0.9rem;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.dynamic-match-meta-grid strong {
+    display: block;
+    color: #ffffff;
+    margin-top: 0.35rem;
+    font-size: 0.92rem;
+}
+
+.dynamic-availability-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+}
+
+.dynamic-availability-card span {
+    display: block;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 0.72rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+.dynamic-availability-card strong {
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 0.95rem;
+}
+
+.dynamic-availability-card.is-available strong {
+    color: #d4af37;
+}
+
+.dynamic-availability-card.is-missing strong {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.dynamic-analysis-section {
+    border: 1px solid rgba(212, 175, 55, 0.18);
+    border-radius: 24px;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.22);
+}
+
+.dynamic-section-title {
+    margin-bottom: 1rem;
+}
+
+.dynamic-section-title span {
+    display: block;
+    color: #d4af37;
+    font-size: 0.72rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.25rem;
+}
+
+.dynamic-section-title h3 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.dynamic-stats-list {
+    display: grid;
+    gap: 0.55rem;
+}
+
+.dynamic-stat-row {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 1fr;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 14px;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.045);
+}
+
+.dynamic-stat-row strong {
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.dynamic-stat-row span {
+    color: rgba(255, 255, 255, 0.64);
+    text-align: center;
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.dynamic-mini-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.dynamic-mini-kpi-grid span {
+    display: block;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 0.72rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+.dynamic-mini-kpi-grid strong {
+    display: block;
+    color: #d4af37;
+    font-size: 1.8rem;
+    margin-top: 0.25rem;
+}
+
+.dynamic-shot-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.65rem;
+}
+
+.dynamic-shot-item {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 0.85rem;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.dynamic-shot-item strong {
+    display: block;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.dynamic-shot-item span {
+    display: block;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 0.76rem;
+    margin-top: 0.25rem;
+}
+
+.dynamic-shot-item em {
+    display: block;
+    color: #d4af37;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 0.76rem;
+    margin-top: 0.35rem;
+}
+
+.dynamic-lineups-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.dynamic-lineup-card {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    padding: 0.9rem;
+    background: rgba(255, 255, 255, 0.035);
+}
+
+.dynamic-lineup-card h4 {
+    color: #d4af37;
+    margin: 0 0 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    font-size: 0.8rem;
+}
+
+.dynamic-player-list {
+    display: grid;
+    gap: 0.45rem;
+    max-height: 420px;
+    overflow: auto;
+    padding-right: 0.2rem;
+}
+
+.dynamic-player-row {
+    display: grid;
+    grid-template-columns: 42px 1fr auto;
+    align-items: center;
+    gap: 0.65rem;
+    border-radius: 12px;
+    padding: 0.6rem;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.dynamic-player-row strong {
+    color: #d4af37;
+    text-align: center;
+}
+
+.dynamic-player-row span {
+    color: #ffffff;
+    font-size: 0.84rem;
+    font-weight: 800;
+}
+
+.dynamic-player-row em {
+    color: rgba(255, 255, 255, 0.52);
+    font-size: 0.68rem;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.dynamic-momentum-list {
+    display: grid;
+    gap: 0.45rem;
+    max-height: 460px;
+    overflow: auto;
+    padding-right: 0.2rem;
+}
+
+.dynamic-momentum-row {
+    display: grid;
+    grid-template-columns: 52px 1fr 48px;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.dynamic-momentum-row span,
+.dynamic-momentum-row strong {
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 0.76rem;
+    font-weight: 900;
+}
+
+.dynamic-momentum-bar-track {
+    height: 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+}
+
+.dynamic-momentum-bar {
+    height: 100%;
+    border-radius: 999px;
+}
+
+.dynamic-momentum-bar.home {
+    background: rgba(212, 175, 55, 0.85);
+}
+
+.dynamic-momentum-bar.away {
+    background: rgba(255, 255, 255, 0.55);
+}
+
+.dynamic-analysis-empty p,
+.dynamic-empty-small {
+    color: rgba(255, 255, 255, 0.58);
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .dynamic-match-hero,
+    .dynamic-match-meta-grid,
+    .dynamic-availability-grid,
+    .dynamic-mini-kpi-grid,
+    .dynamic-shot-list,
+    .dynamic-lineups-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dynamic-match-score {
+        min-width: auto;
+    }
+
+    .dynamic-stat-row {
+        grid-template-columns: 1fr;
+    }
+}

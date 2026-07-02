@@ -12,7 +12,7 @@
 
     <link
         rel="stylesheet"
-        href="/dashboard/assets/css/copa2026.css?v=10"
+        href="/dashboard/assets/css/copa2026.css?v=11"
     >
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -383,6 +383,26 @@
             </div>
         </section>
 
+        <!-- ANÁLISE DINÂMICA DA PARTIDA SELECIONADA -->
+        <section
+            id="selectedMatchAnalysisPanel"
+            class="section-panel full-panel selected-match-analysis-panel"
+        >
+            <div class="section-header">
+                <span>Análise dinâmica</span>
+                <h2 id="selectedMatchAnalysisTitle">Análise da partida selecionada</h2>
+                <p id="selectedMatchAnalysisDescription">
+                    Selecione uma partida da Copa 2026 para carregar estatísticas, finalizações, escalações e momentum.
+                </p>
+            </div>
+
+            <div id="selectedMatchAnalysisContent" class="selected-match-analysis-content">
+                <div class="loading-card">
+                    Selecione uma partida para iniciar a análise dinâmica.
+                </div>
+            </div>
+        </section>
+
         <!-- METODOLOGIA -->
         <section class="section-panel full-panel">
             <div class="section-header">
@@ -427,6 +447,6 @@
         </footer>
     </main>
 
-    <script src="/dashboard/assets/js/copa2026-app.js?v=10"></script>
+    <script src="/dashboard/assets/js/copa2026-app.js?v=11"></script>
 </body>
 </html>
