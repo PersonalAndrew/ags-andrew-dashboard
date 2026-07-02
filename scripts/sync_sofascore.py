@@ -154,38 +154,50 @@ def fetch_worldcup_events() -> list[dict[str, Any]]:
     """
     Busca jogos da Copa do Mundo 2026 pelo Tournament ID e Season ID.
 
-    last/0 = jogos anteriores/finalizados recentes
-    next/0 = próximos jogos
+    Coleta várias páginas:
+    - last/0, last/1, last/2... até parar
+    - next/0, next/1... até parar
     """
-
-    endpoints = [
-        f"/unique-tournament/{TOURNAMENT_ID}/season/{SEASON_ID}/events/last/0",
-        f"/unique-tournament/{TOURNAMENT_ID}/season/{SEASON_ID}/events/next/0",
-    ]
 
     all_matches: dict[int, dict[str, Any]] = {}
 
-    for endpoint in endpoints:
-        try:
-            data = request_json(endpoint)
+    directions = ["last", "next"]
+    max_pages = 10
 
-            safe_name = endpoint.replace("/", "_").strip("_")
-            save_json(RAW_DIR / f"{safe_name}.json", data)
+    for direction in directions:
+        for page in range(max_pages):
+            endpoint = (
+                f"/unique-tournament/{TOURNAMENT_ID}"
+                f"/season/{SEASON_ID}"
+                f"/events/{direction}/{page}"
+            )
 
-            events = data.get("events", [])
+            try:
+                data = request_json(endpoint)
 
-            print(f"Eventos encontrados: {len(events)}")
+                safe_name = endpoint.replace("/", "_").strip("_")
+                save_json(RAW_DIR / f"{safe_name}.json", data)
 
-            for event in events:
-                normalized = normalize_event(event)
+                events = data.get("events", [])
 
-                match_id = normalized.get("match_id")
+                print(
+                    f"Eventos encontrados em {direction}/{page}: "
+                    f"{len(events)}"
+                )
 
-                if match_id:
-                    all_matches[int(match_id)] = normalized
+                if not events:
+                    break
 
-        except Exception as error:
-            print(f"Erro ao buscar endpoint {endpoint}: {error}")
+                for event in events:
+                    normalized = normalize_event(event)
+                    match_id = normalized.get("match_id")
+
+                    if match_id:
+                        all_matches[int(match_id)] = normalized
+
+            except Exception as error:
+                print(f"Fim ou erro em {direction}/{page}: {error}")
+                break
 
     ordered_matches = sorted(
         all_matches.values(),

@@ -1,0 +1,3001 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Mbekezeli Mbokazi",
+        "firstName": "Mbekezeli",
+        "lastName": "Mbokazi",
+        "slug": "mbekezeli-mbokazi",
+        "shortName": "M. Mbokazi",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 11905,
+        "gender": "M",
+        "id": 2058228,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مبيكيزيلي مبوكازي",
+            "ru": "Мбекезели Мбокази"
+          },
+          "shortNameTranslation": {
+            "ar": "م. مبوكازي",
+            "ru": "М. Мбокази"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 26.8,
+        "y": 65.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.5,
+        "y": 62.8,
+        "z": 0
+      },
+      "xg": 0.01971797645092,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534166,
+      "time": 90,
+      "addedTime": 7,
+      "timeSeconds": 5803,
+      "draw": {
+        "start": {
+          "x": 65.8,
+          "y": 26.8
+        },
+        "block": {
+          "x": 62.8,
+          "y": 21.5
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 497,
+      "periodTimeSeconds": 403,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Aubrey Modiba",
+        "firstName": "Aubrey",
+        "lastName": "Modiba",
+        "slug": "aubrey-modiba",
+        "shortName": "A. Modiba",
+        "position": "D",
+        "jerseyNumber": "6",
+        "userCount": 1183,
+        "gender": "M",
+        "id": 837099,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوبري موديبا",
+            "bn": "অব্রে মোদিবা",
+            "hi": "ऑब्रे मोदीबा",
+            "ru": "Обри Модиба"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موديبا",
+            "bn": "এ. মোদিবা",
+            "hi": "ए. मोदीबा",
+            "ru": "О. Модиба"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 14.1,
+        "y": 43.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.3,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 6.6,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.10087492316961,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534165,
+      "time": 90,
+      "addedTime": 7,
+      "timeSeconds": 5763,
+      "draw": {
+        "start": {
+          "x": 43.8,
+          "y": 14.1
+        },
+        "block": {
+          "x": 46.7,
+          "y": 6.6
+        },
+        "end": {
+          "x": 47.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.7,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 537,
+      "periodTimeSeconds": 363,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Evidence Makgopa",
+        "firstName": "Evidence",
+        "lastName": "Makgopa",
+        "slug": "evidence-makgopa",
+        "shortName": "E. Makgopa",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 1863,
+        "gender": "M",
+        "id": 1022170,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفيدنس ماكجوبا",
+            "bn": "এভিডেন্স মাকগোপা",
+            "hi": "एविडेंस मक्गोपा",
+            "ru": "Эвиденс Макгопа"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ماكجوبا",
+            "bn": "ই. মাকগোপা",
+            "hi": "ई. मक्गोपा",
+            "ru": "Э. Макгопа"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.7,
+        "y": 66.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 7
+      },
+      "blockCoordinates": {
+        "x": 2.1,
+        "y": 52.3,
+        "z": 0
+      },
+      "xg": 0.076389543712139,
+      "xgot": 0.049082491546869,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534164,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5716,
+      "draw": {
+        "start": {
+          "x": 66.7,
+          "y": 14.7
+        },
+        "block": {
+          "x": 52.3,
+          "y": 2.1
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 93
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 584,
+      "periodTimeSeconds": 316,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Lukáš Provod",
+        "firstName": "Lukas",
+        "lastName": "Provod",
+        "slug": "lukas-provod",
+        "shortName": "L. Provod",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 872,
+        "gender": "M",
+        "id": 846122,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاش بروفود",
+            "bn": "লুকাস প্রভোড",
+            "hi": "लुकास प्रोवोड",
+            "ru": "Лукаш Провод"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بروفود",
+            "bn": "এল. প্রোভড",
+            "hi": "एल. प्रोवोड",
+            "ru": "Л. Провод"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.9,
+        "y": 27,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 41,
+        "z": 2.8
+      },
+      "xg": 0.027834601700306,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7534162,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5609,
+      "draw": {
+        "start": {
+          "x": 27,
+          "y": 17.9
+        },
+        "end": {
+          "x": 59,
+          "y": 0
+        },
+        "goal": {
+          "x": 59,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 691,
+      "periodTimeSeconds": 209,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Jaroslav Zelený",
+        "slug": "jaroslav-zeleny",
+        "shortName": "J. Zelený",
+        "position": "D",
+        "jerseyNumber": "30",
+        "userCount": 201,
+        "gender": "M",
+        "id": 118204,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياروسلاف زيليني",
+            "bn": "জারোস্লাভ জেলেনি",
+            "hi": "जारोस्लाव ज़ेलेनी",
+            "ru": "Ярослав Зеленый"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. زيليني",
+            "bn": "জে. জেলেনি",
+            "hi": "जे. ज़ेलेनी",
+            "ru": "Я. Зеленый"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 14.3,
+        "y": 53.8,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39.8,
+        "z": 11.1
+      },
+      "blockCoordinates": {
+        "x": 8.1,
+        "y": 55.6,
+        "z": 0
+      },
+      "xg": 0.010348536074162,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7534161,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5443,
+      "draw": {
+        "start": {
+          "x": 53.8,
+          "y": 14.3
+        },
+        "block": {
+          "x": 55.6,
+          "y": 8.1
+        },
+        "end": {
+          "x": 60.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 60.2,
+          "y": 88.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 857,
+      "periodTimeSeconds": 43,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ladislav Krejčí",
+        "firstName": "Ladislav",
+        "lastName": "Krejci",
+        "slug": "ladislav-krejci",
+        "shortName": "L. Krejčí",
+        "position": "D",
+        "jerseyNumber": "37",
+        "userCount": 4048,
+        "gender": "M",
+        "id": 856250,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لاديسلاف كريتشي",
+            "bn": "লাদিস্লাভ ক্রেজচি",
+            "hi": "लादिस्लाव क्रेजी",
+            "ru": "Ладислав Крейчи"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كريتشي",
+            "bn": "এল. ক্রেজচি",
+            "hi": "एल. क्रेजी",
+            "ru": "Л. Крейчи"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.1,
+        "y": 50.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 1,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 17.6,
+        "y": 57.4,
+        "z": 0
+      },
+      "xg": 0.099352180957794,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7534163,
+      "time": 90,
+      "timeSeconds": 5389,
+      "draw": {
+        "start": {
+          "x": 50.7,
+          "y": 9.1
+        },
+        "block": {
+          "x": 57.4,
+          "y": 17.6
+        },
+        "end": {
+          "x": 99,
+          "y": 0
+        },
+        "goal": {
+          "x": 99,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 11,
+      "periodTimeSeconds": 2689,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Relebohile Mofokeng",
+        "slug": "relebohile-mofokeng",
+        "shortName": "R. Mofokeng",
+        "position": "M",
+        "jerseyNumber": "38",
+        "userCount": 17408,
+        "gender": "M",
+        "id": 1564998,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريليبوهيلي موفوكينج",
+            "bn": "রেলেবোহিল মোফোকেং",
+            "hi": "रेलेबोहिले मोफोकेंग",
+            "ru": "Релебохиле Мофокенг"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. موفوكينج",
+            "bn": "আর. মোফোকেং",
+            "hi": "आर. मोफोकेंग",
+            "ru": "Р. Мофокенг"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 21.2,
+        "y": 58.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.6,
+        "z": 7.6
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 51.3,
+        "z": 0
+      },
+      "xg": 0.048302762210369,
+      "xgot": 0.30319139361382,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534160,
+      "time": 88,
+      "timeSeconds": 5272,
+      "draw": {
+        "start": {
+          "x": 58.3,
+          "y": 21.2
+        },
+        "block": {
+          "x": 51.3,
+          "y": 1.9
+        },
+        "end": {
+          "x": 46.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.4,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 128,
+      "periodTimeSeconds": 2572,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Thalente Mbatha",
+        "firstName": "Thalente",
+        "lastName": "Mbatha",
+        "slug": "thalente-mbatha",
+        "shortName": "T. Mbatha",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 1568,
+        "gender": "M",
+        "id": 1014410,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تالينتي مباثا",
+            "ru": "Тхаленте Мбатха"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. مباثا",
+            "ru": "Т. Мбатха"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 28,
+        "y": 50.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 26.7,
+        "y": 50.4,
+        "z": 0
+      },
+      "xg": 0.011872000992298,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534159,
+      "time": 86,
+      "timeSeconds": 5119,
+      "draw": {
+        "start": {
+          "x": 50.3,
+          "y": 28
+        },
+        "block": {
+          "x": 50.4,
+          "y": 26.7
+        },
+        "end": {
+          "x": 51.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 281,
+      "periodTimeSeconds": 2419,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Teboho Mokoena",
+        "firstName": "Teboho",
+        "lastName": "Mokoena",
+        "slug": "teboho-mokoena",
+        "shortName": "T. Mokoena",
+        "position": "M",
+        "jerseyNumber": "4",
+        "userCount": 3456,
+        "gender": "M",
+        "id": 881117,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيبوهو موكوينا",
+            "bn": "তেবোহো মোকয়েনা",
+            "hi": "तेबोहो मोकोएना",
+            "ru": "Тебохо Мокоена"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. موكوينا",
+            "bn": "টি. মোকয়েনা",
+            "hi": "टी. मोकोएना",
+            "ru": "Т. Мокоена"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.5,
+        "z": 7.6
+      },
+      "xg": 0.7884,
+      "xgot": 0.74993824958801,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534158,
+      "time": 83,
+      "timeSeconds": 4968,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 46.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.5,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 432,
+      "periodTimeSeconds": 2268,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Thapelo Maseko",
+        "firstName": "",
+        "lastName": "",
+        "slug": "thapelo-maseko",
+        "shortName": "T. Maseko",
+        "position": "M",
+        "jerseyNumber": "33",
+        "userCount": 1533,
+        "gender": "M",
+        "id": 1179164,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثابيلو ماسيكو",
+            "ru": "Тхапело Масеко"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. ماسيكو",
+            "ru": "Т. Масеко"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.5,
+        "y": 71.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 15.8,
+        "y": 68.8,
+        "z": 0
+      },
+      "xg": 0.022894971072674,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534157,
+      "time": 81,
+      "timeSeconds": 4842,
+      "draw": {
+        "start": {
+          "x": 71.8,
+          "y": 18.5
+        },
+        "block": {
+          "x": 68.8,
+          "y": 15.8
+        },
+        "end": {
+          "x": 51.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 558,
+      "periodTimeSeconds": 2142,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mbekezeli Mbokazi",
+        "firstName": "Mbekezeli",
+        "lastName": "Mbokazi",
+        "slug": "mbekezeli-mbokazi",
+        "shortName": "M. Mbokazi",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 11905,
+        "gender": "M",
+        "id": 2058228,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مبيكيزيلي مبوكازي",
+            "ru": "Мбекезели Мбокази"
+          },
+          "shortNameTranslation": {
+            "ar": "م. مبوكازي",
+            "ru": "М. Мбокази"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 29.6,
+        "y": 43,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.5,
+        "y": 44.9,
+        "z": 0
+      },
+      "xg": 0.015803284943104,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534156,
+      "time": 76,
+      "timeSeconds": 4543,
+      "draw": {
+        "start": {
+          "x": 43,
+          "y": 29.6
+        },
+        "block": {
+          "x": 44.9,
+          "y": 21.5
+        },
+        "end": {
+          "x": 50.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 857,
+      "periodTimeSeconds": 1843,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Evidence Makgopa",
+        "firstName": "Evidence",
+        "lastName": "Makgopa",
+        "slug": "evidence-makgopa",
+        "shortName": "E. Makgopa",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 1863,
+        "gender": "M",
+        "id": 1022170,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيفيدنس ماكجوبا",
+            "bn": "এভিডেন্স মাকগোপা",
+            "hi": "एविडेंस मक्गोपा",
+            "ru": "Эвиденс Макгопа"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ماكجوبا",
+            "bn": "ই. মাকগোপা",
+            "hi": "ई. मक्गोपा",
+            "ru": "Э. Макгопа"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.4,
+        "y": 36.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 7.6
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 45.7,
+        "z": 0
+      },
+      "xg": 0.043956886976957,
+      "xgot": 0.032468095421791,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534155,
+      "time": 74,
+      "timeSeconds": 4404,
+      "draw": {
+        "start": {
+          "x": 36.4,
+          "y": 10.4
+        },
+        "block": {
+          "x": 45.7,
+          "y": 1.9
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 17,
+      "reversedPeriodTimeSeconds": 996,
+      "periodTimeSeconds": 1704,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ladislav Krejčí",
+        "firstName": "Ladislav",
+        "lastName": "Krejci",
+        "slug": "ladislav-krejci",
+        "shortName": "L. Krejčí",
+        "position": "D",
+        "jerseyNumber": "37",
+        "userCount": 4048,
+        "gender": "M",
+        "id": 856250,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لاديسلاف كريتشي",
+            "bn": "লাদিস্লাভ ক্রেজচি",
+            "hi": "लादिस्लाव क्रेजी",
+            "ru": "Ладислав Крейчи"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كريتشي",
+            "bn": "এল. ক্রেজচি",
+            "hi": "एल. क्रेजी",
+            "ru": "Л. Крейчи"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 8.4,
+        "y": 55.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.6,
+        "y": 52.3,
+        "z": 0
+      },
+      "xg": 0.056922174990177,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7534094,
+      "time": 68,
+      "timeSeconds": 4032,
+      "draw": {
+        "start": {
+          "x": 55.5,
+          "y": 8.4
+        },
+        "block": {
+          "x": 52.3,
+          "y": 3.6
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1368,
+      "periodTimeSeconds": 1332,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Aubrey Modiba",
+        "firstName": "Aubrey",
+        "lastName": "Modiba",
+        "slug": "aubrey-modiba",
+        "shortName": "A. Modiba",
+        "position": "D",
+        "jerseyNumber": "6",
+        "userCount": 1183,
+        "gender": "M",
+        "id": 837099,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوبري موديبا",
+            "bn": "অব্রে মোদিবা",
+            "hi": "ऑब्रे मोदीबा",
+            "ru": "Обри Модиба"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موديبا",
+            "bn": "এ. মোদিবা",
+            "hi": "ए. मोदीबा",
+            "ru": "О. Модиба"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 30.2,
+        "y": 27.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 38.5,
+        "z": 1.4
+      },
+      "xg": 0.015353715978563,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534093,
+      "time": 60,
+      "timeSeconds": 3589,
+      "draw": {
+        "start": {
+          "x": 27.6,
+          "y": 30.2
+        },
+        "end": {
+          "x": 61.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 61.5,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1811,
+      "periodTimeSeconds": 889,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Michal Sadílek",
+        "firstName": "Michal",
+        "lastName": "Sadilek",
+        "slug": "michal-sadilek",
+        "shortName": "M. Sadílek",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 586,
+        "gender": "M",
+        "id": 825731,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميشال ساديليك",
+            "bn": "মিচল সাদিলেক",
+            "hi": "मिशल साडिलेक",
+            "ru": "Михал Садилек"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ساديليك",
+            "bn": "এম. সাদিলেক",
+            "hi": "एम. साडिलेक",
+            "ru": "М. Садилек"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.6,
+        "y": 46.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.4,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 11.1,
+        "y": 48.2,
+        "z": 0
+      },
+      "xg": 0.10670418292284,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7534092,
+      "time": 59,
+      "timeSeconds": 3522,
+      "draw": {
+        "start": {
+          "x": 46.9,
+          "y": 14.6
+        },
+        "block": {
+          "x": 48.2,
+          "y": 11.1
+        },
+        "end": {
+          "x": 47.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.6,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1878,
+      "periodTimeSeconds": 822,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Thapelo Maseko",
+        "firstName": "",
+        "lastName": "",
+        "slug": "thapelo-maseko",
+        "shortName": "T. Maseko",
+        "position": "M",
+        "jerseyNumber": "33",
+        "userCount": 1533,
+        "gender": "M",
+        "id": 1179164,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثابيلو ماسيكو",
+            "ru": "Тхапело Масеко"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. ماسيكو",
+            "ru": "Т. Масеко"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21,
+        "y": 64.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 83.3
+      },
+      "xg": 0.017133358865976,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534091,
+      "time": 54,
+      "timeSeconds": 3213,
+      "draw": {
+        "start": {
+          "x": 64.4,
+          "y": 21
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 16.7
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2187,
+      "periodTimeSeconds": 513,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ladislav Krejčí",
+        "firstName": "Ladislav",
+        "lastName": "Krejci",
+        "slug": "ladislav-krejci",
+        "shortName": "L. Krejčí",
+        "position": "D",
+        "jerseyNumber": "37",
+        "userCount": 4048,
+        "gender": "M",
+        "id": 856250,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لاديسلاف كريتشي",
+            "bn": "লাদিস্লাভ ক্রেজচি",
+            "hi": "लादिस्लाव क्रेजी",
+            "ru": "Ладислав Крейчи"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كريتشي",
+            "bn": "এল. ক্রেজচি",
+            "hi": "एल. क्रेजी",
+            "ru": "Л. Крейчи"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 10,
+        "y": 44.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.6,
+        "z": 56.9
+      },
+      "xg": 0.023308319970965,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7534090,
+      "time": 53,
+      "timeSeconds": 3133,
+      "draw": {
+        "start": {
+          "x": 44.1,
+          "y": 10
+        },
+        "end": {
+          "x": 50.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.4,
+          "y": 43.1
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2267,
+      "periodTimeSeconds": 433,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mbekezeli Mbokazi",
+        "firstName": "Mbekezeli",
+        "lastName": "Mbokazi",
+        "slug": "mbekezeli-mbokazi",
+        "shortName": "M. Mbokazi",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 11905,
+        "gender": "M",
+        "id": 2058228,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مبيكيزيلي مبوكازي",
+            "ru": "Мбекезели Мбокази"
+          },
+          "shortNameTranslation": {
+            "ar": "م. مبوكازي",
+            "ru": "М. Мбокази"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 28.4,
+        "y": 54.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 41.9,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 17.6,
+        "y": 56.7,
+        "z": 0
+      },
+      "xg": 0.013910789042711,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534089,
+      "time": 50,
+      "timeSeconds": 2951,
+      "draw": {
+        "start": {
+          "x": 54.1,
+          "y": 28.4
+        },
+        "block": {
+          "x": 56.7,
+          "y": 17.6
+        },
+        "end": {
+          "x": 58.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 58.1,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2449,
+      "periodTimeSeconds": 251,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Patrik Schick",
+        "firstName": "Patrik",
+        "lastName": "Schick",
+        "slug": "patrik-schick",
+        "shortName": "P. Schick",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 14835,
+        "gender": "M",
+        "sofascoreId": "p_shicky",
+        "id": 280609,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باتريك شيك",
+            "bn": "প্যাট্রিক শিক",
+            "hi": "पैट्रिक शिक",
+            "ru": "Патрик Шик"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. شيك",
+            "bn": "পি. শিক",
+            "hi": "पी. शिक",
+            "ru": "П. Шик"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.6,
+        "y": 47.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 12
+      },
+      "blockCoordinates": {
+        "x": 1,
+        "y": 49.3,
+        "z": 0
+      },
+      "xg": 0.11093524098396,
+      "xgot": 0.032293546944857,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7534088,
+      "time": 48,
+      "timeSeconds": 2846,
+      "draw": {
+        "start": {
+          "x": 47.4,
+          "y": 8.6
+        },
+        "block": {
+          "x": 49.3,
+          "y": 1
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 88
+        }
+      },
+      "reversedPeriodTime": 43,
+      "reversedPeriodTimeSeconds": 2554,
+      "periodTimeSeconds": 146,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Lukáš Červ",
+        "firstName": "Lukas",
+        "lastName": "Cerv",
+        "slug": "lukas-cerv",
+        "shortName": "L. Červ",
+        "position": "M",
+        "jerseyNumber": "6",
+        "userCount": 376,
+        "gender": "M",
+        "id": 952114,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاش تشيرف",
+            "ru": "Лукаш Черв"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. تشيرف",
+            "ru": "Л. Черв"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 27.8,
+        "y": 49.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 29.8
+      },
+      "blockCoordinates": {
+        "x": 2.1,
+        "y": 50.9,
+        "z": 0
+      },
+      "xg": 0.029186436906457,
+      "xgot": 0.03598390892148,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7534087,
+      "time": 47,
+      "timeSeconds": 2792,
+      "draw": {
+        "start": {
+          "x": 49.7,
+          "y": 27.8
+        },
+        "block": {
+          "x": 50.9,
+          "y": 2.1
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 70.2
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2608,
+      "periodTimeSeconds": 92,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Vladimír Darida",
+        "slug": "vladimir-darida",
+        "shortName": "V. Darida",
+        "position": "M",
+        "jerseyNumber": "16",
+        "userCount": 411,
+        "gender": "M",
+        "id": 109002,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلاديمير داريدا",
+            "bn": "ভ্লাদিমির দারিদা",
+            "hi": "व्लादिमीर दारिडा",
+            "ru": "Владимир Дарида"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. داريدا",
+            "bn": "ভি. দারিদা",
+            "hi": "वी. दारिडा",
+            "ru": "В. Дарида"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.4,
+        "y": 45.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 11.1
+      },
+      "blockCoordinates": {
+        "x": 10.2,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.14612290263176,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7534086,
+      "time": 47,
+      "timeSeconds": 2785,
+      "draw": {
+        "start": {
+          "x": 45.9,
+          "y": 13.4
+        },
+        "block": {
+          "x": 46.6,
+          "y": 10.2
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 88.9
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2615,
+      "periodTimeSeconds": 85,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Thapelo Maseko",
+        "firstName": "",
+        "lastName": "",
+        "slug": "thapelo-maseko",
+        "shortName": "T. Maseko",
+        "position": "M",
+        "jerseyNumber": "33",
+        "userCount": 1533,
+        "gender": "M",
+        "id": 1179164,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ثابيلو ماسيكو",
+            "ru": "Тхапело Масеко"
+          },
+          "shortNameTranslation": {
+            "ar": "ث. ماسيكو",
+            "ru": "Т. Масеко"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 10.2,
+        "y": 55.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.5,
+        "y": 54.5,
+        "z": 0
+      },
+      "xg": 0.11159133166075,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534034,
+      "time": 45,
+      "addedTime": 4,
+      "timeSeconds": 2936,
+      "draw": {
+        "start": {
+          "x": 55.8,
+          "y": 10.2
+        },
+        "block": {
+          "x": 54.5,
+          "y": 8.5
+        },
+        "end": {
+          "x": 48,
+          "y": 0
+        },
+        "goal": {
+          "x": 48,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2464,
+      "periodTimeSeconds": 236,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Teboho Mokoena",
+        "firstName": "Teboho",
+        "lastName": "Mokoena",
+        "slug": "teboho-mokoena",
+        "shortName": "T. Mokoena",
+        "position": "M",
+        "jerseyNumber": "4",
+        "userCount": 3456,
+        "gender": "M",
+        "id": 881117,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيبوهو موكوينا",
+            "bn": "তেবোহো মোকয়েনা",
+            "hi": "तेबोहो मोकोएना",
+            "ru": "Тебохо Мокоена"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. موكوينا",
+            "bn": "টি. মোকয়েনা",
+            "hi": "टी. मोकोएना",
+            "ru": "Т. Мокоена"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 29.9,
+        "y": 46.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.2,
+        "z": 77.8
+      },
+      "xg": 0.012333997525275,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534033,
+      "time": 45,
+      "timeSeconds": 2658,
+      "draw": {
+        "start": {
+          "x": 46.2,
+          "y": 29.9
+        },
+        "end": {
+          "x": 51.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.8,
+          "y": 22.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 42,
+      "periodTimeSeconds": 2658,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Adam Hložek",
+        "firstName": "Adam",
+        "lastName": "Hlozek",
+        "slug": "adam-hlozek",
+        "shortName": "A. Hložek",
+        "position": "F",
+        "jerseyNumber": "23",
+        "userCount": 3666,
+        "gender": "M",
+        "sofascoreId": "ahlozek",
+        "id": 963801,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آدم هلوزيك",
+            "bn": "অ্যাডাম হলোজেক",
+            "hi": "एडम होलोजेक",
+            "ru": "Адам Гложек"
+          },
+          "shortNameTranslation": {
+            "ar": "آ. هلوزيك",
+            "bn": "এ. হলোজেক",
+            "hi": "ए. होलोजेक",
+            "ru": "А. Гложек"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 28.2,
+        "y": 55,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.9,
+        "z": 88.9
+      },
+      "xg": 0.035935707390308,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7534032,
+      "time": 41,
+      "timeSeconds": 2459,
+      "draw": {
+        "start": {
+          "x": 55,
+          "y": 28.2
+        },
+        "end": {
+          "x": 52.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.1,
+          "y": 11.1
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 241,
+      "periodTimeSeconds": 2459,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Iqraam Rayners",
+        "firstName": "Iqraam",
+        "lastName": "Rayners",
+        "slug": "iqraam-rayners",
+        "shortName": "I. Rayners",
+        "position": "F",
+        "jerseyNumber": "13",
+        "userCount": 1815,
+        "gender": "M",
+        "id": 991024,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إكرام راينرز",
+            "ru": "Икраам Рейнерс"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. راينرز",
+            "ru": "И. Рейнерс"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.4,
+        "y": 46.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.058765780180693,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7534008,
+      "time": 22,
+      "timeSeconds": 1293,
+      "draw": {
+        "start": {
+          "x": 46.2,
+          "y": 9.4
+        },
+        "block": {
+          "x": 46.6,
+          "y": 8
+        },
+        "end": {
+          "x": 48.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1407,
+      "periodTimeSeconds": 1293,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Aubrey Modiba",
+        "firstName": "Aubrey",
+        "lastName": "Modiba",
+        "slug": "aubrey-modiba",
+        "shortName": "A. Modiba",
+        "position": "D",
+        "jerseyNumber": "6",
+        "userCount": 1183,
+        "gender": "M",
+        "id": 837099,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوبري موديبا",
+            "bn": "অব্রে মোদিবা",
+            "hi": "ऑब्रे मोदीबा",
+            "ru": "Обри Модиба"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موديبا",
+            "bn": "এ. মোদিবা",
+            "hi": "ए. मोदीबा",
+            "ru": "О. Модиба"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 34.9,
+        "y": 53.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 61.3,
+        "z": 87.5
+      },
+      "xg": 0.013625109568238,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7533965,
+      "time": 13,
+      "timeSeconds": 750,
+      "draw": {
+        "start": {
+          "x": 53.4,
+          "y": 34.9
+        },
+        "end": {
+          "x": 38.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 38.7,
+          "y": 12.5
+        }
+      },
+      "reversedPeriodTime": 33,
+      "reversedPeriodTimeSeconds": 1950,
+      "periodTimeSeconds": 750,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Oswin Appollis",
+        "firstName": "Oswin",
+        "lastName": "Appollis",
+        "slug": "oswin-appollis",
+        "shortName": "O. Appollis",
+        "position": "M",
+        "jerseyNumber": "12",
+        "userCount": 4541,
+        "gender": "M",
+        "id": 984505,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوسوين أبوليس",
+            "ru": "Освин Апполис"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. أبوليس",
+            "ru": "О. Апполис"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.1,
+        "y": 55.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 24.2,
+        "y": 54.5,
+        "z": 0
+      },
+      "xg": 0.019257197156549,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Matěj Kovář",
+        "firstName": "Matej",
+        "lastName": "Kovar",
+        "slug": "matej-kovar",
+        "shortName": "M. Kovář",
+        "position": "G",
+        "jerseyNumber": "32",
+        "userCount": 2431,
+        "gender": "M",
+        "id": 927366,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتاي كوفار",
+            "bn": "ম্যাথিউ কোভার",
+            "hi": "मातेज कोवर",
+            "ru": "Матей Коварж"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كوفار",
+            "bn": "এম. কোভার",
+            "hi": "एम. कोवर",
+            "ru": "М. Коварж"
+          }
+        }
+      },
+      "id": 7533945,
+      "time": 12,
+      "timeSeconds": 709,
+      "draw": {
+        "start": {
+          "x": 55.2,
+          "y": 27.1
+        },
+        "block": {
+          "x": 54.5,
+          "y": 24.2
+        },
+        "end": {
+          "x": 48.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 1991,
+      "periodTimeSeconds": 709,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Michal Sadílek",
+        "firstName": "Michal",
+        "lastName": "Sadilek",
+        "slug": "michal-sadilek",
+        "shortName": "M. Sadílek",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 586,
+        "gender": "M",
+        "id": 825731,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميشال ساديليك",
+            "bn": "মিচল সাদিলেক",
+            "hi": "मिशल साडिलेक",
+            "ru": "Михал Садилек"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ساديليك",
+            "bn": "এম. সাদিলেক",
+            "hi": "एम. साडिलेक",
+            "ru": "М. Садилек"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 11.4,
+        "y": 41.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 10.8
+      },
+      "xg": 0.18390356004238,
+      "xgot": 0.465745896101,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7533918,
+      "time": 6,
+      "timeSeconds": 307,
+      "draw": {
+        "start": {
+          "x": 41.1,
+          "y": 11.4
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 89.2
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2393,
+      "periodTimeSeconds": 307,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Michal Sadílek",
+        "firstName": "Michal",
+        "lastName": "Sadilek",
+        "slug": "michal-sadilek",
+        "shortName": "M. Sadílek",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 586,
+        "gender": "M",
+        "id": 825731,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميشال ساديليك",
+            "bn": "মিচল সাদিলেক",
+            "hi": "मिशल साडिलेक",
+            "ru": "Михал Садилек"
+          },
+          "shortNameTranslation": {
+            "ar": "م. ساديليك",
+            "bn": "এম. সাদিলেক",
+            "hi": "एम. साडिलेक",
+            "ru": "М. Садилек"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 15.4,
+        "y": 39.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 64.4,
+        "z": 4.2
+      },
+      "xg": 0.021681351587176,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7533917,
+      "time": 5,
+      "timeSeconds": 266,
+      "draw": {
+        "start": {
+          "x": 39.7,
+          "y": 15.4
+        },
+        "end": {
+          "x": 35.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 35.6,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2434,
+      "periodTimeSeconds": 266,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ladislav Krejčí",
+        "firstName": "Ladislav",
+        "lastName": "Krejci",
+        "slug": "ladislav-krejci",
+        "shortName": "L. Krejčí",
+        "position": "D",
+        "jerseyNumber": "37",
+        "userCount": 4048,
+        "gender": "M",
+        "id": 856250,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لاديسلاف كريتشي",
+            "bn": "লাদিস্লাভ ক্রেজচি",
+            "hi": "लादिस्लाव क्रेजी",
+            "ru": "Ладислав Крейчи"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كريتشي",
+            "bn": "এল. ক্রেজচি",
+            "hi": "एल. क्रेजी",
+            "ru": "Л. Крейчи"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.7,
+        "y": 53.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 82.7,
+        "z": 5.6
+      },
+      "blockCoordinates": {
+        "x": 8.4,
+        "y": 50.7,
+        "z": 0
+      },
+      "xg": 0.074468769133091,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7533944,
+      "time": 5,
+      "timeSeconds": 264,
+      "draw": {
+        "start": {
+          "x": 53.4,
+          "y": 8.7
+        },
+        "block": {
+          "x": 50.7,
+          "y": 8.4
+        },
+        "end": {
+          "x": 17.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 17.3,
+          "y": 94.4
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2436,
+      "periodTimeSeconds": 264,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Patrik Schick",
+        "firstName": "Patrik",
+        "lastName": "Schick",
+        "slug": "patrik-schick",
+        "shortName": "P. Schick",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 14835,
+        "gender": "M",
+        "sofascoreId": "p_shicky",
+        "id": 280609,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باتريك شيك",
+            "bn": "প্যাট্রিক শিক",
+            "hi": "पैट्रिक शिक",
+            "ru": "Патрик Шик"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. شيك",
+            "bn": "পি. শিক",
+            "hi": "पी. शिक",
+            "ru": "П. Шик"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.9,
+        "y": 59.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.7,
+        "z": 8.3
+      },
+      "xg": 0.089055627584457,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Ronwen Williams",
+        "firstName": "Ronwen",
+        "lastName": "Williams",
+        "slug": "ronwen-williams",
+        "shortName": "R. Williams",
+        "position": "G",
+        "jerseyNumber": "30",
+        "userCount": 3187,
+        "gender": "M",
+        "id": 539792,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رونوين ويليامز",
+            "bn": "উইলিয়ামস, রনওয়েন",
+            "hi": "विलियम्स, रोनवेन",
+            "ru": "Ронвен Уильямс"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. ويليامز",
+            "bn": "আর. উইলিয়ামস",
+            "hi": "आर. विलियम्स",
+            "ru": "Р. Уильямс"
+          }
+        }
+      },
+      "id": 7533916,
+      "time": 1,
+      "timeSeconds": 45,
+      "draw": {
+        "start": {
+          "x": 59.1,
+          "y": 7.9
+        },
+        "end": {
+          "x": 57.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.3,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 45,
+      "reversedPeriodTimeSeconds": 2655,
+      "periodTimeSeconds": 45,
+      "incidentType": "shot"
+    }
+  ]
+}

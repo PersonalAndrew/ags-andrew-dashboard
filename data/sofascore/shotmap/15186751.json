@@ -1,0 +1,3681 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Marko Arnautović",
+        "slug": "marko-arnautovic",
+        "shortName": "M. Arnautović",
+        "position": "F",
+        "jerseyNumber": "89",
+        "userCount": 9853,
+        "gender": "M",
+        "sofascoreId": "m.arnautovic7",
+        "id": 21927,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو أرناؤوتوفيتش",
+            "bn": "মার্কো আরনাউটোভিচ",
+            "hi": "मार्को अर्नौटोविक",
+            "ru": "Марко Арнаутович"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أرناؤوتوفيتش",
+            "bn": "এম. আরনাউটোভিচ",
+            "hi": "एम. अर्नौटोविक",
+            "ru": "М. Арнаутович"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53,
+        "z": 13.9
+      },
+      "xg": 0.7884,
+      "xgot": 0.59778082370758,
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569687,
+      "time": 90,
+      "addedTime": 12,
+      "timeSeconds": 6107,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 47,
+          "y": 0
+        },
+        "goal": {
+          "x": 47,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 193,
+      "periodTimeSeconds": 707,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Marko Arnautović",
+        "slug": "marko-arnautovic",
+        "shortName": "M. Arnautović",
+        "position": "F",
+        "jerseyNumber": "89",
+        "userCount": 9853,
+        "gender": "M",
+        "sofascoreId": "m.arnautovic7",
+        "id": 21927,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو أرناؤوتوفيتش",
+            "bn": "মার্কো আরনাউটোভিচ",
+            "hi": "मार्को अर्नौटोविक",
+            "ru": "Марко Арнаутович"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أرناؤوتوفيتش",
+            "bn": "এম. আরনাউটোভিচ",
+            "hi": "एम. अर्नौटोविक",
+            "ru": "М. Арнаутович"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 10,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.4,
+        "z": 4.5
+      },
+      "xg": 0.76,
+      "xgot": 0.81,
+      "id": 7529298,
+      "time": 90,
+      "addedTime": 12,
+      "timeSeconds": 6107,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 10
+        },
+        "end": {
+          "x": 45.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.6,
+          "y": 95.5
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 193,
+      "periodTimeSeconds": 707,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Konrad Laimer",
+        "firstName": "Konrad",
+        "lastName": "Laimer",
+        "slug": "konrad-laimer",
+        "shortName": "K. Laimer",
+        "position": "D",
+        "jerseyNumber": "27",
+        "userCount": 10883,
+        "gender": "M",
+        "sofascoreId": "KonradLaimer",
+        "id": 355492,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كونراد لايمر",
+            "bn": "কনরাড লাইমার",
+            "hi": "कोनराड लैमर",
+            "ru": "Конрад Лаймер"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. لايمر",
+            "bn": "কে. লাইমার",
+            "hi": "के. लैमर",
+            "ru": "К. Лаймер"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 25.3,
+        "y": 45.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 23.2,
+        "z": 73.6
+      },
+      "xg": 0.011337967589498,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569686,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5633,
+      "draw": {
+        "start": {
+          "x": 45.2,
+          "y": 25.3
+        },
+        "end": {
+          "x": 76.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 76.8,
+          "y": 26.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 667,
+      "periodTimeSeconds": 233,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Konrad Laimer",
+        "firstName": "Konrad",
+        "lastName": "Laimer",
+        "slug": "konrad-laimer",
+        "shortName": "K. Laimer",
+        "position": "D",
+        "jerseyNumber": "27",
+        "userCount": 10883,
+        "gender": "M",
+        "sofascoreId": "KonradLaimer",
+        "id": 355492,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كونراد لايمر",
+            "bn": "কনরাড লাইমার",
+            "hi": "कोनराड लैमर",
+            "ru": "Конрад Лаймер"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. لايمر",
+            "bn": "কে. লাইমার",
+            "hi": "के. लैमर",
+            "ru": "К. Лаймер"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 24,
+        "y": 46,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 41.5,
+        "z": 3.6
+      },
+      "xg": 0.01663,
+      "id": 7529296,
+      "time": 90,
+      "addedTime": 4,
+      "timeSeconds": 5632,
+      "draw": {
+        "start": {
+          "x": 46,
+          "y": 24
+        },
+        "end": {
+          "x": 58.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 58.5,
+          "y": 96.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 668,
+      "periodTimeSeconds": 232,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Al Azaizeh",
+        "firstName": "Ali Al-Azaizeh",
+        "slug": "ali-al-azaizah",
+        "shortName": "A. Al-Azaizeh",
+        "position": "M",
+        "jerseyNumber": "99",
+        "userCount": 788,
+        "gender": "M",
+        "id": 1457997,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي عزايزة",
+            "ru": "Али Азайзе"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. عزايزة",
+            "ru": "А. Азайзе"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 29.1,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 40.8,
+        "z": 4.2
+      },
+      "xg": 0.016802946105599,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "firstName": "Alexander",
+        "lastName": "Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 562,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर",
+            "ru": "Александр Шлагер"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर",
+            "ru": "А. Шлагер"
+          }
+        }
+      },
+      "id": 7569685,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5561,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 29.1
+        },
+        "end": {
+          "x": 59.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 59.2,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 739,
+      "periodTimeSeconds": 161,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali  Al Azaizeh",
+        "firstName": "Ali",
+        "slug": "ali-al-azaizeh",
+        "shortName": "A. A. Azaizeh",
+        "position": "F",
+        "userCount": 1,
+        "id": 1652199,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي العزايزة",
+            "ru": "Али Аль Азаизех"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. العزايزة",
+            "ru": "А. Азаизех"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 27,
+        "y": 56,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.5,
+        "z": 0.4
+      },
+      "xg": 0.02574,
+      "id": 7529295,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5560,
+      "draw": {
+        "start": {
+          "x": 56,
+          "y": 27
+        },
+        "end": {
+          "x": 56.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.5,
+          "y": 99.6
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 740,
+      "periodTimeSeconds": 160,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Marko Arnautović",
+        "slug": "marko-arnautovic",
+        "shortName": "M. Arnautović",
+        "position": "F",
+        "jerseyNumber": "89",
+        "userCount": 9853,
+        "gender": "M",
+        "sofascoreId": "m.arnautovic7",
+        "id": 21927,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو أرناؤوتوفيتش",
+            "bn": "মার্কো আরনাউটোভিচ",
+            "hi": "मार्को अर्नौटोविक",
+            "ru": "Марко Арнаутович"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أرناؤوتوفيتش",
+            "bn": "এম. আরনাউটোভিচ",
+            "hi": "एम. अर्नौटोविक",
+            "ru": "М. Арнаутович"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 13.3,
+        "y": 41.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.7,
+        "z": 4.4
+      },
+      "blockCoordinates": {
+        "x": 6.8,
+        "y": 44.9,
+        "z": 0
+      },
+      "xg": 0.31685337424278,
+      "xgot": 0.27082312107086,
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569684,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5467,
+      "draw": {
+        "start": {
+          "x": 41.3,
+          "y": 13.3
+        },
+        "block": {
+          "x": 44.9,
+          "y": 6.8
+        },
+        "end": {
+          "x": 48.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.3,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 833,
+      "periodTimeSeconds": 67,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Marko Arnautović",
+        "slug": "marko-arnautovic",
+        "shortName": "M. Arnautović",
+        "position": "F",
+        "jerseyNumber": "89",
+        "userCount": 9853,
+        "gender": "M",
+        "sofascoreId": "m.arnautovic7",
+        "id": 21927,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو أرناؤوتوفيتش",
+            "bn": "মার্কো আরনাউটোভিচ",
+            "hi": "मार्को अर्नौटोविक",
+            "ru": "Марко Арнаутович"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أرناؤوتوفيتش",
+            "bn": "এম. আরনাউটোভিচ",
+            "hi": "एम. अर्नौटोविक",
+            "ru": "М. Арнаутович"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 12,
+        "y": 42,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.5,
+        "z": 14.7
+      },
+      "xg": 0.2686,
+      "xgot": 0.1294,
+      "id": 7529294,
+      "time": 90,
+      "addedTime": 2,
+      "timeSeconds": 5466,
+      "draw": {
+        "start": {
+          "x": 42,
+          "y": 12
+        },
+        "end": {
+          "x": 51.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.5,
+          "y": 85.3
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 834,
+      "periodTimeSeconds": 66,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yazan Al-Arab",
+        "firstName": "Yazan",
+        "lastName": "Al-Arab",
+        "slug": "yazan-al-arab",
+        "shortName": "Y. Al-Arab",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 3068,
+        "gender": "M",
+        "id": 888906,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزن العرب",
+            "bn": "ইয়াযান আলরাব",
+            "hi": "यज़ान अलराब",
+            "ru": "Язан Аль-Араб"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. العرب",
+            "ru": "Я. Аль-Араб"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "own",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.6,
+        "y": 44.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.5,
+        "z": 21.5
+      },
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569683,
+      "time": 76,
+      "timeSeconds": 4553,
+      "draw": {
+        "start": {
+          "x": 44.9,
+          "y": 4.6
+        },
+        "end": {
+          "x": 53.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.5,
+          "y": 78.5
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 847,
+      "periodTimeSeconds": 1853,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yazan Al-Arab",
+        "firstName": "Yazan",
+        "lastName": "Al-Arab",
+        "slug": "yazan-al-arab",
+        "shortName": "Y. Al-Arab",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 3068,
+        "gender": "M",
+        "id": 888906,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزن العرب",
+            "bn": "ইয়াযান আলরাব",
+            "hi": "यज़ान अलराब",
+            "ru": "Язан Аль-Араб"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. العرب",
+            "ru": "Я. Аль-Араб"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "own",
+      "situation": "own-goal",
+      "playerCoordinates": {
+        "x": 4,
+        "y": 49,
+        "z": 0
+      },
+      "bodyPart": "other",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 20
+      },
+      "id": 7529297,
+      "time": 76,
+      "timeSeconds": 4553,
+      "draw": {
+        "start": {
+          "x": 49,
+          "y": 4
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 80
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 847,
+      "periodTimeSeconds": 1853,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Carney Chukwuemeka",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carney-chukwuemeka",
+        "shortName": "C. Chukwuemeka",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 11265,
+        "gender": "M",
+        "sofascoreId": "chukwuemeka10",
+        "id": 994556,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارني تشوكويميكا",
+            "bn": "কার্নি চুকউয়েমেকা",
+            "hi": "कार्नी चुक्वुमेका",
+            "ru": "Карни Чуквуэмека"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. تشوكويميكا",
+            "bn": "সি. চুকউয়েমেকা",
+            "hi": "सी. चुक्वुमेका",
+            "ru": "К. Чуквуэмека"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11,
+        "y": 58.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 6.2,
+        "y": 56.1,
+        "z": 0
+      },
+      "xg": 0.20270270109177,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569682,
+      "time": 63,
+      "timeSeconds": 3767,
+      "draw": {
+        "start": {
+          "x": 58.3,
+          "y": 11
+        },
+        "block": {
+          "x": 56.1,
+          "y": 6.2
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1633,
+      "periodTimeSeconds": 1067,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Carney Chukwuemeka",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carney-chukwuemeka",
+        "shortName": "C. Chukwuemeka",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 11265,
+        "gender": "M",
+        "sofascoreId": "chukwuemeka10",
+        "id": 994556,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارني تشوكويميكا",
+            "bn": "কার্নি চুকউয়েমেকা",
+            "hi": "कार्नी चुक्वुमेका",
+            "ru": "Карни Чуквуэмека"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. تشوكويميكا",
+            "bn": "সি. চুকউয়েমেকা",
+            "hi": "सी. चुक्वुमेका",
+            "ru": "К. Чуквуэмека"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 9,
+        "y": 58,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 20
+      },
+      "blockCoordinates": {
+        "x": 9,
+        "y": 58,
+        "z": 0
+      },
+      "xg": 0.2326,
+      "id": 7529293,
+      "time": 63,
+      "timeSeconds": 3766,
+      "draw": {
+        "start": {
+          "x": 58,
+          "y": 9
+        },
+        "block": {
+          "x": 58,
+          "y": 9
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 80
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1634,
+      "periodTimeSeconds": 1066,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Stefan Posch",
+        "firstName": "Stefan",
+        "lastName": "Posch",
+        "slug": "stefan-posch",
+        "shortName": "S. Posch",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 1615,
+        "gender": "M",
+        "id": 355486,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيفان بوش",
+            "bn": "স্টেফান পোশ",
+            "hi": "स्टीफन पॉश",
+            "ru": "Штефан Пош"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بوش",
+            "bn": "এস. পোশ",
+            "hi": "एस. पॉश",
+            "ru": "Ш. Пош"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.8,
+        "y": 64.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.1,
+        "z": 88.9
+      },
+      "xg": 0.097078666090965,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569681,
+      "time": 60,
+      "timeSeconds": 3577,
+      "draw": {
+        "start": {
+          "x": 64.2,
+          "y": 13.8
+        },
+        "end": {
+          "x": 53.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.9,
+          "y": 11.1
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1823,
+      "periodTimeSeconds": 877,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Stefan Posch",
+        "firstName": "Stefan",
+        "lastName": "Posch",
+        "slug": "stefan-posch",
+        "shortName": "S. Posch",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 1615,
+        "gender": "M",
+        "id": 355486,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيفان بوش",
+            "bn": "স্টেফান পোশ",
+            "hi": "स्टीफन पॉश",
+            "ru": "Штефан Пош"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بوش",
+            "bn": "এস. পোশ",
+            "hi": "एस. पॉश",
+            "ru": "Ш. Пош"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 13,
+        "y": 65,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 41,
+        "z": 52.8
+      },
+      "xg": 0.1019,
+      "id": 7529292,
+      "time": 60,
+      "timeSeconds": 3574,
+      "draw": {
+        "start": {
+          "x": 65,
+          "y": 13
+        },
+        "end": {
+          "x": 59,
+          "y": 0
+        },
+        "goal": {
+          "x": 59,
+          "y": 47.2
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1826,
+      "periodTimeSeconds": 874,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Olwan",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ali-olwan",
+        "shortName": "A. Olwan",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1692,
+        "gender": "M",
+        "id": 980728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي علوان",
+            "bn": "আলী ওলওয়ান",
+            "hi": "अली ओलवान",
+            "ru": "Али Олван"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. علوان",
+            "bn": "এ. ওলওয়ান",
+            "hi": "ए. ओलवान",
+            "ru": "А. Олван"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.8,
+        "y": 52.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.1,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.05922257900238,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "firstName": "Alexander",
+        "lastName": "Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 562,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर",
+            "ru": "Александр Шлагер"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर",
+            "ru": "А. Шлагер"
+          }
+        }
+      },
+      "id": 7569680,
+      "time": 55,
+      "timeSeconds": 3272,
+      "draw": {
+        "start": {
+          "x": 52.8,
+          "y": 14.8
+        },
+        "block": {
+          "x": 52.5,
+          "y": 13.1
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2128,
+      "periodTimeSeconds": 572,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Olwan",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ali-olwan",
+        "shortName": "A. Olwan",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1692,
+        "gender": "M",
+        "id": 980728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي علوان",
+            "bn": "আলী ওলওয়ান",
+            "hi": "अली ओलवान",
+            "ru": "Али Олван"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. علوان",
+            "bn": "এ. ওলওয়ান",
+            "hi": "ए. ओलवान",
+            "ru": "А. Олван"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 13,
+        "y": 53,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 20
+      },
+      "blockCoordinates": {
+        "x": 13,
+        "y": 53,
+        "z": 0
+      },
+      "xg": 0.1778,
+      "id": 7529291,
+      "time": 55,
+      "timeSeconds": 3271,
+      "draw": {
+        "start": {
+          "x": 53,
+          "y": 13
+        },
+        "block": {
+          "x": 53,
+          "y": 13
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 80
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2129,
+      "periodTimeSeconds": 571,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Olwan",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ali-olwan",
+        "shortName": "A. Olwan",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1692,
+        "gender": "M",
+        "id": 980728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي علوان",
+            "bn": "আলী ওলওয়ান",
+            "hi": "अली ओलवान",
+            "ru": "Али Олван"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. علوان",
+            "bn": "এ. ওলওয়ান",
+            "hi": "ए. ओलवान",
+            "ru": "А. Олван"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 13.6,
+        "y": 36,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.4,
+        "z": 18.4
+      },
+      "xg": 0.085413329303265,
+      "xgot": 0.78430026769638,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "firstName": "Alexander",
+        "lastName": "Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 562,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर",
+            "ru": "Александр Шлагер"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर",
+            "ru": "А. Шлагер"
+          }
+        }
+      },
+      "id": 7569679,
+      "time": 50,
+      "timeSeconds": 2949,
+      "draw": {
+        "start": {
+          "x": 36,
+          "y": 13.6
+        },
+        "end": {
+          "x": 54.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.6,
+          "y": 81.6
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2451,
+      "periodTimeSeconds": 249,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Olwan",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ali-olwan",
+        "shortName": "A. Olwan",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1692,
+        "gender": "M",
+        "id": 980728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي علوان",
+            "bn": "আলী ওলওয়ান",
+            "hi": "अली ओलवान",
+            "ru": "Али Олван"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. علوان",
+            "bn": "এ. ওলওয়ান",
+            "hi": "ए. ओलवान",
+            "ru": "А. Олван"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 12,
+        "y": 34,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.1,
+        "z": 14.3
+      },
+      "xg": 0.1266,
+      "xgot": 0.4882,
+      "id": 7529290,
+      "time": 50,
+      "timeSeconds": 2950,
+      "draw": {
+        "start": {
+          "x": 34,
+          "y": 12
+        },
+        "end": {
+          "x": 53.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.9,
+          "y": 85.7
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2450,
+      "periodTimeSeconds": 250,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Saša Kalajdžić",
+        "firstName": "Sasa",
+        "lastName": "Kalajdzic",
+        "slug": "sasa-kalajdzic",
+        "shortName": "S. Kalajdžić",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1660,
+        "gender": "M",
+        "id": 870038,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساشا كالادزيتش",
+            "bn": "সাশা কালাজদজিচ",
+            "hi": "साशा कालाजदज़िक",
+            "ru": "Саша Калайджич"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كالادزيتش",
+            "bn": "এস. কালাজদজিচ",
+            "hi": "एस. कालाजदज़िक",
+            "ru": "С. Калайджич"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.8,
+        "y": 26.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39,
+        "z": 76.4
+      },
+      "xg": 0.015353715978563,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569678,
+      "time": 45,
+      "addedTime": 4,
+      "timeSeconds": 2934,
+      "draw": {
+        "start": {
+          "x": 26.8,
+          "y": 27.8
+        },
+        "end": {
+          "x": 61,
+          "y": 0
+        },
+        "goal": {
+          "x": 61,
+          "y": 23.6
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2466,
+      "periodTimeSeconds": 234,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Saša Kalajdžić",
+        "firstName": "Sasa",
+        "lastName": "Kalajdzic",
+        "slug": "sasa-kalajdzic",
+        "shortName": "S. Kalajdžić",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1660,
+        "gender": "M",
+        "id": 870038,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساشا كالادزيتش",
+            "bn": "সাশা কালাজদজিচ",
+            "hi": "साशा कालाजदज़िक",
+            "ru": "Саша Калайджич"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كالادزيتش",
+            "bn": "এস. কালাজদজিচ",
+            "hi": "एस. कालाजदज़िक",
+            "ru": "С. Калайджич"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 28,
+        "y": 28,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.3,
+        "z": 47.3
+      },
+      "xg": 0.005908,
+      "id": 7529289,
+      "time": 45,
+      "addedTime": 4,
+      "timeSeconds": 2934,
+      "draw": {
+        "start": {
+          "x": 28,
+          "y": 28
+        },
+        "end": {
+          "x": 57.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.7,
+          "y": 52.7
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2466,
+      "periodTimeSeconds": 234,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mousa Tamari",
+        "slug": "mousa-al-taamari",
+        "shortName": "M. Tamari",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 7662,
+        "gender": "M",
+        "id": 876600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسى التعمري",
+            "bn": "মূসা আল-তামারি",
+            "hi": "मूसा अल-तामारी",
+            "ru": "Мусса Аль-Тамари"
+          },
+          "shortNameTranslation": {
+            "ar": "م. التعمري",
+            "bn": "এম. আল-তামারি",
+            "hi": "एम. अल-तामारी",
+            "ru": "М. Аль-Тамари"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.6,
+        "y": 65,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.2,
+        "z": 2.8
+      },
+      "xg": 0.026479877531528,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "firstName": "Alexander",
+        "lastName": "Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 562,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर",
+            "ru": "Александр Шлагер"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर",
+            "ru": "А. Шлагер"
+          }
+        }
+      },
+      "id": 7569677,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2719,
+      "draw": {
+        "start": {
+          "x": 65,
+          "y": 15.6
+        },
+        "end": {
+          "x": 57.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.8,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2681,
+      "periodTimeSeconds": 19,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mousa Tamari",
+        "slug": "mousa-al-taamari",
+        "shortName": "M. Tamari",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 7662,
+        "gender": "M",
+        "id": 876600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسى التعمري",
+            "bn": "মূসা আল-তামারি",
+            "hi": "मूसा अल-तामारी",
+            "ru": "Мусса Аль-Тамари"
+          },
+          "shortNameTranslation": {
+            "ar": "م. التعمري",
+            "bn": "এম. আল-তামারি",
+            "hi": "एम. अल-तामारी",
+            "ru": "М. Аль-Тамари"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 15,
+        "y": 66,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.8,
+        "z": 14.7
+      },
+      "xg": 0.03001,
+      "id": 7529288,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2717,
+      "draw": {
+        "start": {
+          "x": 66,
+          "y": 15
+        },
+        "end": {
+          "x": 56.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.2,
+          "y": 85.3
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2683,
+      "periodTimeSeconds": 17,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mousa Tamari",
+        "slug": "mousa-al-taamari",
+        "shortName": "M. Tamari",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 7662,
+        "gender": "M",
+        "id": 876600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسى التعمري",
+            "bn": "মূসা আল-তামারি",
+            "hi": "मूसा अल-तामारी",
+            "ru": "Мусса Аль-Тамари"
+          },
+          "shortNameTranslation": {
+            "ar": "م. التعمري",
+            "bn": "এম. আল-তামারি",
+            "hi": "एम. अल-तामारी",
+            "ru": "М. Аль-Тамари"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 24.1,
+        "y": 29.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 35.1,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 14.4,
+        "y": 43,
+        "z": 0
+      },
+      "xg": 0.0072611691430211,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "firstName": "Alexander",
+        "lastName": "Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 562,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर",
+            "ru": "Александр Шлагер"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर",
+            "ru": "А. Шлагер"
+          }
+        }
+      },
+      "id": 7569676,
+      "time": 44,
+      "timeSeconds": 2620,
+      "draw": {
+        "start": {
+          "x": 29.1,
+          "y": 24.1
+        },
+        "block": {
+          "x": 43,
+          "y": 14.4
+        },
+        "end": {
+          "x": 64.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 64.9,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 80,
+      "periodTimeSeconds": 2620,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mousa Tamari",
+        "slug": "mousa-al-taamari",
+        "shortName": "M. Tamari",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 7662,
+        "gender": "M",
+        "id": 876600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسى التعمري",
+            "bn": "মূসা আল-তামারি",
+            "hi": "मूसा अल-तामारी",
+            "ru": "Мусса Аль-Тамари"
+          },
+          "shortNameTranslation": {
+            "ar": "م. التعمري",
+            "bn": "এম. আল-তামারি",
+            "hi": "एम. अल-तामारी",
+            "ru": "М. Аль-Тамари"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 25,
+        "y": 26,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 20
+      },
+      "blockCoordinates": {
+        "x": 25,
+        "y": 26,
+        "z": 0
+      },
+      "xg": 0.004359,
+      "id": 7529287,
+      "time": 44,
+      "timeSeconds": 2618,
+      "draw": {
+        "start": {
+          "x": 26,
+          "y": 25
+        },
+        "block": {
+          "x": 26,
+          "y": 25
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 80
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 82,
+      "periodTimeSeconds": 2618,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mousa Tamari",
+        "slug": "mousa-al-taamari",
+        "shortName": "M. Tamari",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 7662,
+        "gender": "M",
+        "id": 876600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسى التعمري",
+            "bn": "মূসা আল-তামারি",
+            "hi": "मूसा अल-तामारी",
+            "ru": "Мусса Аль-Тамари"
+          },
+          "shortNameTranslation": {
+            "ar": "م. التعمري",
+            "bn": "এম. আল-তামারি",
+            "hi": "एम. अल-तामारी",
+            "ru": "М. Аль-Тамари"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 11.1,
+        "y": 54.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 6.6,
+        "y": 53.6,
+        "z": 0
+      },
+      "xg": 0.093741238117218,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "firstName": "Alexander",
+        "lastName": "Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 562,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर",
+            "ru": "Александр Шлагер"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर",
+            "ru": "А. Шлагер"
+          }
+        }
+      },
+      "id": 7569675,
+      "time": 34,
+      "timeSeconds": 2036,
+      "draw": {
+        "start": {
+          "x": 54.8,
+          "y": 11.1
+        },
+        "block": {
+          "x": 53.6,
+          "y": 6.6
+        },
+        "end": {
+          "x": 51.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 664,
+      "periodTimeSeconds": 2036,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Olwan",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ali-olwan",
+        "shortName": "A. Olwan",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1692,
+        "gender": "M",
+        "id": 980728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي علوان",
+            "bn": "আলী ওলওয়ান",
+            "hi": "अली ओलवान",
+            "ru": "Али Олван"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. علوان",
+            "bn": "এ. ওলওয়ান",
+            "hi": "ए. ओलवान",
+            "ru": "А. Олван"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.1,
+        "y": 70.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.3,
+        "z": 15.8
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 53.8,
+        "z": 0
+      },
+      "xg": 0.03737772628665,
+      "xgot": 0.086795523762703,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "firstName": "Alexander",
+        "lastName": "Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 562,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर",
+            "ru": "Александр Шлагер"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर",
+            "ru": "А. Шлагер"
+          }
+        }
+      },
+      "id": 7569674,
+      "time": 34,
+      "timeSeconds": 2034,
+      "draw": {
+        "start": {
+          "x": 70.1,
+          "y": 11.1
+        },
+        "block": {
+          "x": 53.8,
+          "y": 1.8
+        },
+        "end": {
+          "x": 47.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.7,
+          "y": 84.2
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 666,
+      "periodTimeSeconds": 2034,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mousa Tamari",
+        "slug": "mousa-al-taamari",
+        "shortName": "M. Tamari",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 7662,
+        "gender": "M",
+        "id": 876600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسى التعمري",
+            "bn": "মূসা আল-তামারি",
+            "hi": "मूसा अल-तामारी",
+            "ru": "Мусса Аль-Тамари"
+          },
+          "shortNameTranslation": {
+            "ar": "م. التعمري",
+            "bn": "এম. আল-তামারি",
+            "hi": "एम. अल-तामारी",
+            "ru": "М. Аль-Тамари"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 9,
+        "y": 60,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 20
+      },
+      "blockCoordinates": {
+        "x": 9,
+        "y": 60,
+        "z": 0
+      },
+      "xg": 0.4169,
+      "id": 7529286,
+      "time": 34,
+      "timeSeconds": 2035,
+      "draw": {
+        "start": {
+          "x": 60,
+          "y": 9
+        },
+        "block": {
+          "x": 60,
+          "y": 9
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 80
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 665,
+      "periodTimeSeconds": 2035,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Olwan",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ali-olwan",
+        "shortName": "A. Olwan",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1692,
+        "gender": "M",
+        "id": 980728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي علوان",
+            "bn": "আলী ওলওয়ান",
+            "hi": "अली ओलवान",
+            "ru": "Али Олван"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. علوان",
+            "bn": "এ. ওলওয়ান",
+            "hi": "ए. ओलवान",
+            "ru": "А. Олван"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 10,
+        "y": 69,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 9.8
+      },
+      "xg": 0.04738,
+      "xgot": 0.04417,
+      "id": 7529285,
+      "time": 34,
+      "timeSeconds": 2033,
+      "draw": {
+        "start": {
+          "x": 69,
+          "y": 10
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 90.2
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 667,
+      "periodTimeSeconds": 2033,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Stefan Posch",
+        "firstName": "Stefan",
+        "lastName": "Posch",
+        "slug": "stefan-posch",
+        "shortName": "S. Posch",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 1615,
+        "gender": "M",
+        "id": 355486,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيفان بوش",
+            "bn": "স্টেফান পোশ",
+            "hi": "स्टीफन पॉश",
+            "ru": "Штефан Пош"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بوش",
+            "bn": "এস. পোশ",
+            "hi": "एस. पॉश",
+            "ru": "Ш. Пош"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 7.3,
+        "y": 62.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 66.9,
+        "z": 70.8
+      },
+      "xg": 0.070665836334229,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569673,
+      "time": 33,
+      "timeSeconds": 1932,
+      "draw": {
+        "start": {
+          "x": 62.7,
+          "y": 7.3
+        },
+        "end": {
+          "x": 33.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 33.1,
+          "y": 29.2
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 768,
+      "periodTimeSeconds": 1932,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Stefan Posch",
+        "firstName": "Stefan",
+        "lastName": "Posch",
+        "slug": "stefan-posch",
+        "shortName": "S. Posch",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 1615,
+        "gender": "M",
+        "id": 355486,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيفان بوش",
+            "bn": "স্টেফান পোশ",
+            "hi": "स्टीफन पॉश",
+            "ru": "Штефан Пош"
+          },
+          "shortNameTranslation": {
+            "ar": "س. بوش",
+            "bn": "এস. পোশ",
+            "hi": "एस. पॉश",
+            "ru": "Ш. Пош"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 8,
+        "y": 65,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 58.4,
+        "z": 59.3
+      },
+      "xg": 0.239,
+      "id": 7529284,
+      "time": 33,
+      "timeSeconds": 1928,
+      "draw": {
+        "start": {
+          "x": 65,
+          "y": 8
+        },
+        "end": {
+          "x": 41.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 41.6,
+          "y": 40.7
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 772,
+      "periodTimeSeconds": 1928,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Saša Kalajdžić",
+        "firstName": "Sasa",
+        "lastName": "Kalajdzic",
+        "slug": "sasa-kalajdzic",
+        "shortName": "S. Kalajdžić",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1660,
+        "gender": "M",
+        "id": 870038,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساشا كالادزيتش",
+            "bn": "সাশা কালাজদজিচ",
+            "hi": "साशा कालाजदज़िक",
+            "ru": "Саша Калайджич"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كالادزيتش",
+            "bn": "এস. কালাজদজিচ",
+            "hi": "एस. कालाजदज़िक",
+            "ru": "С. Калайджич"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.9,
+        "y": 49,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 3.9,
+        "z": 1.4
+      },
+      "blockCoordinates": {
+        "x": 14.5,
+        "y": 83.6,
+        "z": 0
+      },
+      "xg": 0.1088934391737,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569672,
+      "time": 30,
+      "timeSeconds": 1768,
+      "draw": {
+        "start": {
+          "x": 49,
+          "y": 9.9
+        },
+        "block": {
+          "x": 83.6,
+          "y": 14.5
+        },
+        "end": {
+          "x": 96.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 96.1,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 932,
+      "periodTimeSeconds": 1768,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Olwan",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ali-olwan",
+        "shortName": "A. Olwan",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1692,
+        "gender": "M",
+        "id": 980728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي علوان",
+            "bn": "আলী ওলওয়ান",
+            "hi": "अली ओलवान",
+            "ru": "Али Олван"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. علوان",
+            "bn": "এ. ওলওয়ান",
+            "hi": "ए. ओलवान",
+            "ru": "А. Олван"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "post",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.2,
+        "y": 39.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.4,
+        "z": 39.2
+      },
+      "xg": 0.066097654402256,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "firstName": "Alexander",
+        "lastName": "Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 562,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर",
+            "ru": "Александр Шлагер"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर",
+            "ru": "А. Шлагер"
+          }
+        }
+      },
+      "id": 7569671,
+      "time": 22,
+      "timeSeconds": 1314,
+      "draw": {
+        "start": {
+          "x": 39.4,
+          "y": 4.2
+        },
+        "end": {
+          "x": 51.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.6,
+          "y": 60.8
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1386,
+      "periodTimeSeconds": 1314,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ali Olwan",
+        "firstName": "",
+        "lastName": "",
+        "slug": "ali-olwan",
+        "shortName": "A. Olwan",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1692,
+        "gender": "M",
+        "id": 980728,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي علوان",
+            "bn": "আলী ওলওয়ান",
+            "hi": "अली ओलवान",
+            "ru": "Али Олван"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. علوان",
+            "bn": "এ. ওলওয়ান",
+            "hi": "ए. ओलवान",
+            "ru": "А. Олван"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "post",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 5,
+        "y": 38,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 39.6
+      },
+      "xg": 0.07886,
+      "id": 7529283,
+      "time": 22,
+      "timeSeconds": 1313,
+      "draw": {
+        "start": {
+          "x": 38,
+          "y": 5
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 60.4
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1387,
+      "periodTimeSeconds": 1313,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Romano Schmid",
+        "firstName": "Romano",
+        "lastName": "Schmid",
+        "slug": "romano-schmid",
+        "shortName": "R. Schmid",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 1942,
+        "gender": "M",
+        "id": 830127,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رومانو شميد",
+            "bn": "রোমানো স্মিড",
+            "hi": "रोमानो श्मिड",
+            "ru": "Романо Шмид"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. شميد",
+            "bn": "আর. শ্মিড",
+            "hi": "आर. श्मिड",
+            "ru": "Р. Шмид"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 46.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.3,
+        "z": 23.4
+      },
+      "xg": 0.048197325319052,
+      "xgot": 0.41893416643143,
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569670,
+      "time": 21,
+      "timeSeconds": 1201,
+      "draw": {
+        "start": {
+          "x": 46.6,
+          "y": 22.2
+        },
+        "end": {
+          "x": 53.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.7,
+          "y": 76.6
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1499,
+      "periodTimeSeconds": 1201,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Romano Schmid",
+        "firstName": "Romano",
+        "lastName": "Schmid",
+        "slug": "romano-schmid",
+        "shortName": "R. Schmid",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 1942,
+        "gender": "M",
+        "id": 830127,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رومانو شميد",
+            "bn": "রোমানো স্মিড",
+            "hi": "रोमानो श्मिड",
+            "ru": "Романо Шмид"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. شميد",
+            "bn": "আর. শ্মিড",
+            "hi": "आर. श्मिड",
+            "ru": "Р. Шмид"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 19,
+        "y": 45,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.3,
+        "z": 36.3
+      },
+      "xg": 0.03985,
+      "xgot": 0.629,
+      "id": 7529282,
+      "time": 20,
+      "timeSeconds": 1200,
+      "draw": {
+        "start": {
+          "x": 45,
+          "y": 19
+        },
+        "end": {
+          "x": 53.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.7,
+          "y": 63.7
+        }
+      },
+      "reversedPeriodTime": 26,
+      "reversedPeriodTimeSeconds": 1500,
+      "periodTimeSeconds": 1200,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Marcel Sabitzer",
+        "firstName": "Marcel",
+        "lastName": "Sabitzer",
+        "slug": "marcel-sabitzer",
+        "shortName": "M. Sabitzer",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 10552,
+        "gender": "M",
+        "sofascoreId": "marcel7sabitzer",
+        "id": 133908,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسيل سابيتزر",
+            "bn": "মার্সেল সাবিৎজার",
+            "hi": "मार्सेल सबिट्ज़र",
+            "ru": "Марсель Забитцер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سابيتزر",
+            "bn": "এম. সাবিৎজার",
+            "hi": "एम. सबिट्ज़र",
+            "ru": "М. Забитцер"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.1,
+        "y": 30.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 45.6,
+        "z": 19.4
+      },
+      "blockCoordinates": {
+        "x": 18.5,
+        "y": 31.9,
+        "z": 0
+      },
+      "xg": 0.013182814233005,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569669,
+      "time": 19,
+      "timeSeconds": 1116,
+      "draw": {
+        "start": {
+          "x": 30.4,
+          "y": 20.1
+        },
+        "block": {
+          "x": 31.9,
+          "y": 18.5
+        },
+        "end": {
+          "x": 54.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 54.4,
+          "y": 80.6
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1584,
+      "periodTimeSeconds": 1116,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Marcel Sabitzer",
+        "firstName": "Marcel",
+        "lastName": "Sabitzer",
+        "slug": "marcel-sabitzer",
+        "shortName": "M. Sabitzer",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 10552,
+        "gender": "M",
+        "sofascoreId": "marcel7sabitzer",
+        "id": 133908,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارسيل سابيتزر",
+            "bn": "মার্সেল সাবিৎজার",
+            "hi": "मार्सेल सबिट्ज़र",
+            "ru": "Марсель Забитцер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سابيتزر",
+            "bn": "এম. সাবিৎজার",
+            "hi": "एम. सबिट्ज़र",
+            "ru": "М. Забитцер"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 19,
+        "y": 36,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 20
+      },
+      "blockCoordinates": {
+        "x": 19,
+        "y": 36,
+        "z": 0
+      },
+      "xg": 0.002324,
+      "id": 7529281,
+      "time": 19,
+      "timeSeconds": 1115,
+      "draw": {
+        "start": {
+          "x": 36,
+          "y": 19
+        },
+        "block": {
+          "x": 36,
+          "y": 19
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 80
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1585,
+      "periodTimeSeconds": 1115,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Odeh Fakhoury",
+        "firstName": "Odeh Al Fakhouri",
+        "slug": "odeh-al-fakhouri",
+        "shortName": "O. A. Fakhouri",
+        "position": "F",
+        "jerseyNumber": "25",
+        "userCount": 2033,
+        "gender": "M",
+        "id": 1937497,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عودة الفاخوري",
+            "ru": "Оде Аль-Фахури"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الفاخوري",
+            "ru": "О. Аль-Фахури"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 19.2,
+        "y": 57.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.1,
+        "z": 32.3
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 51.3,
+        "z": 0
+      },
+      "xg": 0.044495582580566,
+      "xgot": 0.25105676054955,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "firstName": "Alexander",
+        "lastName": "Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 562,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर",
+            "ru": "Александр Шлагер"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर",
+            "ru": "А. Шлагер"
+          }
+        }
+      },
+      "id": 7569668,
+      "time": 17,
+      "timeSeconds": 990,
+      "draw": {
+        "start": {
+          "x": 57.3,
+          "y": 19.2
+        },
+        "block": {
+          "x": 51.3,
+          "y": 2
+        },
+        "end": {
+          "x": 48.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.9,
+          "y": 67.7
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1710,
+      "periodTimeSeconds": 990,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Odeh Shehadeh Burhan Fakhoury",
+        "firstName": "Odeh Shehadeh",
+        "lastName": "Burhan Fakhoury",
+        "slug": "odeh-shehadeh-burhan-fakhoury",
+        "shortName": "O. S. B. Fakhoury",
+        "position": "F",
+        "userCount": 6,
+        "gender": "M",
+        "id": 2048990,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "علي شحادة برهان فاخوري"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. فاخوري"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 17,
+        "y": 58,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.5,
+        "z": 34.2
+      },
+      "xg": 0.1527,
+      "xgot": 0.133,
+      "id": 7529280,
+      "time": 17,
+      "timeSeconds": 989,
+      "draw": {
+        "start": {
+          "x": 58,
+          "y": 17
+        },
+        "end": {
+          "x": 50.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.5,
+          "y": 65.8
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1711,
+      "periodTimeSeconds": 989,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "David Alaba",
+        "slug": "david-alaba",
+        "shortName": "D. Alaba",
+        "position": "D",
+        "userCount": 100606,
+        "gender": "M",
+        "sofascoreId": "DAlaba",
+        "id": 66492,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد ألابا",
+            "bn": "ডেভিড আলাবা",
+            "hi": "डेविड अलाबा",
+            "ru": "Давид Алаба"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ألابا",
+            "bn": "ডি. আলাবা",
+            "hi": "डी. अलाबा",
+            "ru": "Д. Алаба"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 30.4,
+        "y": 50.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 40.2,
+        "z": 4.2
+      },
+      "blockCoordinates": {
+        "x": 18.1,
+        "y": 54,
+        "z": 0
+      },
+      "xg": 0.017743429169059,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Yazeed Abu Laila",
+        "firstName": "Yazeed",
+        "lastName": "Abu Laila",
+        "slug": "yazeed-abu-laila",
+        "shortName": "Y. Abu Laila",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 710,
+        "gender": "M",
+        "id": 828294,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يزيد أبو ليلى",
+            "bn": "ইয়াযীদ আবুলাইলা",
+            "hi": "यज़ीद अबुलाइला",
+            "ru": "Язид Абу Лайла"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. أبو ليلى",
+            "bn": "ওয়াই. আবুলাইলা",
+            "hi": "य. अबुलाइला",
+            "ru": "Я. Лайла"
+          }
+        }
+      },
+      "id": 7569667,
+      "time": 11,
+      "timeSeconds": 632,
+      "draw": {
+        "start": {
+          "x": 50.9,
+          "y": 30.4
+        },
+        "block": {
+          "x": 54,
+          "y": 18.1
+        },
+        "end": {
+          "x": 59.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 59.8,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2068,
+      "periodTimeSeconds": 632,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "David Alaba",
+        "slug": "david-alaba",
+        "shortName": "D. Alaba",
+        "position": "D",
+        "userCount": 100606,
+        "gender": "M",
+        "sofascoreId": "DAlaba",
+        "id": 66492,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد ألابا",
+            "bn": "ডেভিড আলাবা",
+            "hi": "डेविड अलाबा",
+            "ru": "Давид Алаба"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ألابا",
+            "bn": "ডি. আলাবা",
+            "hi": "डी. अलाबा",
+            "ru": "Д. Алаба"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 29,
+        "y": 48,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 20
+      },
+      "blockCoordinates": {
+        "x": 29,
+        "y": 48,
+        "z": 0
+      },
+      "xg": 0.02106,
+      "id": 7529279,
+      "time": 11,
+      "timeSeconds": 632,
+      "draw": {
+        "start": {
+          "x": 48,
+          "y": 29
+        },
+        "block": {
+          "x": 48,
+          "y": 29
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 80
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2068,
+      "periodTimeSeconds": 632,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mousa Tamari",
+        "slug": "mousa-al-taamari",
+        "shortName": "M. Tamari",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 7662,
+        "gender": "M",
+        "id": 876600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسى التعمري",
+            "bn": "মূসা আল-তামারি",
+            "hi": "मूसा अल-तामारी",
+            "ru": "Мусса Аль-Тамари"
+          },
+          "shortNameTranslation": {
+            "ar": "م. التعمري",
+            "bn": "এম. আল-তামারি",
+            "hi": "एम. अल-तामारी",
+            "ru": "М. Аль-Тамари"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.2,
+        "y": 76.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.8,
+        "z": 1.9
+      },
+      "blockCoordinates": {
+        "x": 1.6,
+        "y": 53.2,
+        "z": 0
+      },
+      "xg": 0.011145495809615,
+      "xgot": 0.055049162358046,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "firstName": "Alexander",
+        "lastName": "Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 562,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर",
+            "ru": "Александр Шлагер"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर",
+            "ru": "А. Шлагер"
+          }
+        }
+      },
+      "id": 7569666,
+      "time": 9,
+      "timeSeconds": 521,
+      "draw": {
+        "start": {
+          "x": 76.4,
+          "y": 20.2
+        },
+        "block": {
+          "x": 53.2,
+          "y": 1.6
+        },
+        "end": {
+          "x": 52.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.2,
+          "y": 98.1
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2179,
+      "periodTimeSeconds": 521,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mousa Tamari",
+        "slug": "mousa-al-taamari",
+        "shortName": "M. Tamari",
+        "position": "F",
+        "jerseyNumber": "11",
+        "userCount": 7662,
+        "gender": "M",
+        "id": 876600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسى التعمري",
+            "bn": "মূসা আল-তামারি",
+            "hi": "मूसा अल-तामारी",
+            "ru": "Мусса Аль-Тамари"
+          },
+          "shortNameTranslation": {
+            "ar": "م. التعمري",
+            "bn": "এম. আল-তামারি",
+            "hi": "एम. अल-तामारी",
+            "ru": "М. Аль-Тамари"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 18,
+        "y": 79,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.5,
+        "z": 4
+      },
+      "xg": 0.00147,
+      "xgot": 0.02911,
+      "id": 7529278,
+      "time": 9,
+      "timeSeconds": 520,
+      "draw": {
+        "start": {
+          "x": 79,
+          "y": 18
+        },
+        "end": {
+          "x": 53.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.5,
+          "y": 96
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2180,
+      "periodTimeSeconds": 520,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ehsan Haddad",
+        "firstName": "Ehsan",
+        "lastName": "Haddad",
+        "slug": "ehsan-haddad",
+        "shortName": "E. Haddad",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 292,
+        "gender": "M",
+        "id": 812997,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إحسان حداد",
+            "bn": "এহসান হাদ্দাদ",
+            "hi": "एहसान हद्दाद",
+            "ru": "Эхсан Хаддад"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. حداد",
+            "bn": "ই. হাদ্দাদ",
+            "hi": "ए. हद्दाद",
+            "ru": "Э. Хаддад"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 3.9,
+        "y": 69.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.7,
+        "z": 2.8
+      },
+      "xg": 0.017227867618203,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Alexander Schlager",
+        "firstName": "Alexander",
+        "lastName": "Schlager",
+        "slug": "alexander-schlager",
+        "shortName": "A. Schlager",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 562,
+        "gender": "M",
+        "id": 282073,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكسندر شلاغر",
+            "bn": "আলেকজান্ডার শ্ল্যাগার",
+            "hi": "अलेक्जेंडर श्लेगर",
+            "ru": "Александр Шлагер"
+          },
+          "shortNameTranslation": {
+            "ar": "ا. شلاغر",
+            "bn": "এ. শ্ল্যাগার",
+            "hi": "ए. श्लेगर",
+            "ru": "А. Шлагер"
+          }
+        }
+      },
+      "id": 7569665,
+      "time": 2,
+      "timeSeconds": 90,
+      "draw": {
+        "start": {
+          "x": 69.9,
+          "y": 3.9
+        },
+        "end": {
+          "x": 56.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.3,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2610,
+      "periodTimeSeconds": 90,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ehsan Haddad",
+        "firstName": "Ehsan",
+        "lastName": "Haddad",
+        "slug": "ehsan-haddad",
+        "shortName": "E. Haddad",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 292,
+        "gender": "M",
+        "id": 812997,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إحسان حداد",
+            "bn": "এহসান হাদ্দাদ",
+            "hi": "एहसान हद्दाद",
+            "ru": "Эхсан Хаддад"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. حداد",
+            "bn": "ই. হাদ্দাদ",
+            "hi": "ए. हद्दाद",
+            "ru": "Э. Хаддад"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 6,
+        "y": 67,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.5,
+        "z": 12.7
+      },
+      "xg": 0.08507,
+      "id": 7529277,
+      "time": 2,
+      "timeSeconds": 88,
+      "draw": {
+        "start": {
+          "x": 67,
+          "y": 6
+        },
+        "end": {
+          "x": 56.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.5,
+          "y": 87.3
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2612,
+      "periodTimeSeconds": 88,
+      "incidentType": "shot"
+    }
+  ]
+}

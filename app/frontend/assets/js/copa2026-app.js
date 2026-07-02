@@ -1155,3 +1155,204 @@ async function initCopa2026Dashboard() {
 }
 
 document.addEventListener("DOMContentLoaded", initCopa2026Dashboard);
+
+// =======================================================
+// BASE SOFASCORE — COPA 2026
+// =======================================================
+
+const SOFASCORE_API_BASE = "/api/sofascore";
+
+const sofascoreState = {
+    matches: [],
+    trends: null,
+};
+
+function formatSofascoreDate(dateText) {
+    if (!dateText) return "-";
+
+    const date = new Date(dateText);
+
+    if (Number.isNaN(date.getTime())) {
+        return "-";
+    }
+
+    return date.toLocaleString("pt-BR", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+    });
+}
+
+function getSofascoreStatusLabel(statusType, status) {
+    if (statusType === "finished") return "Finalizado";
+    if (statusType === "inprogress") return "Ao vivo";
+    if (statusType === "notstarted") return "Não iniciado";
+
+    return status || "-";
+}
+
+function buildSofascoreOptionLabel(match) {
+    const home = match.home_team || "Mandante";
+    const away = match.away_team || "Visitante";
+    const status = getSofascoreStatusLabel(match.status_type, match.status);
+
+    if (match.status_type === "finished" || match.status_type === "inprogress") {
+        return `${home} ${match.home_score ?? "-"} x ${match.away_score ?? "-"} ${away} — ${status}`;
+    }
+
+    return `${home} x ${away} — ${status}`;
+}
+
+function renderSofascoreMatchCard(match) {
+    const card = document.getElementById("sofascoreMatchCard");
+
+    if (!card) return;
+
+    if (!match) {
+        card.innerHTML = `
+            <div class="sofascore-empty">
+                Nenhum jogo selecionado.
+            </div>
+        `;
+        return;
+    }
+
+    const statusLabel = getSofascoreStatusLabel(match.status_type, match.status);
+    const dateLabel = formatSofascoreDate(match.start_datetime_utc);
+
+    const homeScore = match.home_score ?? "-";
+    const awayScore = match.away_score ?? "-";
+
+    card.innerHTML = `
+        <div class="sofascore-match-topline">
+            <span>${match.tournament_name || "World Cup 2026"}</span>
+            <strong>${statusLabel}</strong>
+        </div>
+
+        <div class="sofascore-scoreboard">
+            <div class="sofascore-team">
+                <span>Mandante</span>
+                <strong>${match.home_team || "-"}</strong>
+            </div>
+
+            <div class="sofascore-score">
+                <strong>${homeScore}</strong>
+                <span>x</span>
+                <strong>${awayScore}</strong>
+            </div>
+
+            <div class="sofascore-team">
+                <span>Visitante</span>
+                <strong>${match.away_team || "-"}</strong>
+            </div>
+        </div>
+
+        <div class="sofascore-info-row">
+            <div>
+                <span>Data</span>
+                <strong>${dateLabel}</strong>
+            </div>
+
+            <div>
+                <span>Rodada</span>
+                <strong>${match.round || match.round_number || "-"}</strong>
+            </div>
+
+            <div>
+                <span>ID da partida</span>
+                <strong>${match.match_id || "-"}</strong>
+            </div>
+        </div>
+    `;
+}
+
+function renderSofascoreSummary() {
+    const totalElement = document.getElementById("sofascoreTotalMatches");
+    const finishedElement = document.getElementById("sofascoreFinishedMatches");
+    const liveElement = document.getElementById("sofascoreLiveMatches");
+    const scheduledElement = document.getElementById("sofascoreScheduledMatches");
+
+    const matches = sofascoreState.matches || [];
+
+    const total = matches.length;
+    const finished = matches.filter((match) => match.status_type === "finished").length;
+    const live = matches.filter((match) => match.status_type === "inprogress").length;
+    const scheduled = matches.filter((match) => match.status_type !== "finished" && match.status_type !== "inprogress").length;
+
+    if (totalElement) totalElement.textContent = total;
+    if (finishedElement) finishedElement.textContent = finished;
+    if (liveElement) liveElement.textContent = live;
+    if (scheduledElement) scheduledElement.textContent = scheduled;
+}
+
+function renderSofascoreSelect() {
+    const select = document.getElementById("sofascoreMatchSelect");
+
+    if (!select) return;
+
+    const matches = sofascoreState.matches || [];
+
+    if (!matches.length) {
+        select.innerHTML = `<option value="">Nenhum jogo encontrado</option>`;
+        renderSofascoreMatchCard(null);
+        return;
+    }
+
+    select.innerHTML = matches
+        .map((match) => {
+            return `
+                <option value="${match.match_id}">
+                    ${buildSofascoreOptionLabel(match)}
+                </option>
+            `;
+        })
+        .join("");
+
+    const firstFinishedMatch = matches.find((match) => match.status_type === "finished");
+    const firstMatch = firstFinishedMatch || matches[0];
+
+    select.value = String(firstMatch.match_id);
+
+    renderSofascoreMatchCard(firstMatch);
+
+    select.addEventListener("change", () => {
+        const selectedId = Number(select.value);
+        const selectedMatch = matches.find((match) => Number(match.match_id) === selectedId);
+
+        renderSofascoreMatchCard(selectedMatch);
+    });
+}
+
+async function initSofascoreSection() {
+    const select = document.getElementById("sofascoreMatchSelect");
+
+    if (!select) return;
+
+    try {
+        const matchesResponse = await fetch(`${SOFASCORE_API_BASE}/matches`);
+
+        if (!matchesResponse.ok) {
+            throw new Error("Erro ao carregar jogos SofaScore.");
+        }
+
+        const matches = await matchesResponse.json();
+
+        sofascoreState.matches = Array.isArray(matches) ? matches : [];
+
+        renderSofascoreSelect();
+        renderSofascoreSummary();
+
+    } catch (error) {
+        console.error(error);
+
+        select.innerHTML = `<option value="">Erro ao carregar jogos</option>`;
+
+        renderSofascoreMatchCard(null);
+    }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    initSofascoreSection();
+});

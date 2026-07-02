@@ -1,0 +1,3196 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Kai Havertz",
+        "firstName": "Kai",
+        "lastName": "Havertz",
+        "slug": "kai-havertz",
+        "shortName": "K. Havertz",
+        "position": "F",
+        "jerseyNumber": "29",
+        "userCount": 79430,
+        "gender": "M",
+        "sofascoreId": "KaiHav",
+        "id": 836705,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاي هافيرتس",
+            "bn": "কাই হাভার্টজ",
+            "hi": "काई हावर्ट्ज़",
+            "ru": "Кай Хаверц"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هافيرتس",
+            "bn": "কে. হাভার্টজ",
+            "hi": "के. हावर्ट्ज़",
+            "ru": "К. Хаверц"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 11.4,
+        "y": 37,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50,
+        "z": 7
+      },
+      "xg": 0.17678968608379,
+      "xgot": 0.52879363298416,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7507252,
+      "time": 88,
+      "timeSeconds": 5263,
+      "draw": {
+        "start": {
+          "x": 37,
+          "y": 11.4
+        },
+        "end": {
+          "x": 50,
+          "y": 0
+        },
+        "goal": {
+          "x": 50,
+          "y": 93
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 137,
+      "periodTimeSeconds": 2563,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "David Raum",
+        "firstName": "David",
+        "lastName": "Raum",
+        "slug": "david-raum",
+        "shortName": "D. Raum",
+        "position": "D",
+        "jerseyNumber": "22",
+        "userCount": 3154,
+        "gender": "M",
+        "id": 856076,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ديفيد راوم",
+            "bn": "ডেভিড রাউম",
+            "hi": "डेविड राउम",
+            "ru": "Давид Раум"
+          },
+          "shortNameTranslation": {
+            "ar": "د. راوم",
+            "bn": "ডি. রাউম",
+            "hi": "डी. राउम",
+            "ru": "Д. Раум"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8,
+        "y": 30.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 45.5,
+        "z": 0
+      },
+      "xg": 0.029004463925958,
+      "xgot": 0.24949313700199,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7507249,
+      "time": 86,
+      "timeSeconds": 5103,
+      "draw": {
+        "start": {
+          "x": 30.9,
+          "y": 8
+        },
+        "block": {
+          "x": 45.5,
+          "y": 1.2
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 297,
+      "periodTimeSeconds": 2403,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Deniz Undav",
+        "firstName": "Deniz",
+        "lastName": "Undav",
+        "slug": "deniz-undav",
+        "shortName": "D. Undav",
+        "position": "F",
+        "jerseyNumber": "26",
+        "userCount": 26543,
+        "gender": "M",
+        "sofascoreId": "denizundav",
+        "id": 794298,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دينيز أونداف",
+            "bn": "ডেনিজ উন্দাভ",
+            "hi": "डेनिस उंदाव",
+            "ru": "Дениз Ундав"
+          },
+          "shortNameTranslation": {
+            "ar": "د. أونداف",
+            "bn": "ডি. উন্দাভ",
+            "hi": "डी. उंदाव",
+            "ru": "Д. Ундав"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6.6,
+        "y": 47,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 14.6
+      },
+      "xg": 0.50236421823502,
+      "xgot": 0.9882595539093,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7507246,
+      "time": 78,
+      "timeSeconds": 4626,
+      "draw": {
+        "start": {
+          "x": 47,
+          "y": 6.6
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 85.4
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 774,
+      "periodTimeSeconds": 1926,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Jearl Margaritha",
+        "firstName": "Jearl Margaritha",
+        "slug": "jearl-margaritha",
+        "shortName": "J. Margaritha",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 406,
+        "gender": "M",
+        "id": 1036004,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيرال مارغاريثا",
+            "ru": "Джерл Маргарита"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. مارغاريثا",
+            "ru": "Д. Маргарита"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.4,
+        "y": 29.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.2,
+        "z": 56.9
+      },
+      "xg": 0.03737772628665,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7507245,
+      "time": 76,
+      "timeSeconds": 4520,
+      "draw": {
+        "start": {
+          "x": 29.1,
+          "y": 11.4
+        },
+        "end": {
+          "x": 56.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.8,
+          "y": 43.1
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 880,
+      "periodTimeSeconds": 1820,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Tahith Chong",
+        "firstName": "Tahith",
+        "lastName": "Chong",
+        "slug": "tahith-chong",
+        "shortName": "T. Chong",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 4875,
+        "gender": "M",
+        "id": 825845,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تايث تشونغ",
+            "bn": "তাহিথ চং",
+            "hi": "ताहित चोंग",
+            "ru": "Тахит Чонг"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. تشونغ",
+            "bn": "টি. চং",
+            "hi": "टी. चोंग",
+            "ru": "Т. Чонг"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 12.1,
+        "y": 75.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 63.7,
+        "z": 12.5
+      },
+      "xg": 0.045807138085365,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7507248,
+      "time": 75,
+      "timeSeconds": 4480,
+      "draw": {
+        "start": {
+          "x": 75.4,
+          "y": 12.1
+        },
+        "end": {
+          "x": 36.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 36.3,
+          "y": 87.5
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 920,
+      "periodTimeSeconds": 1780,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nathaniel Brown",
+        "slug": "nathaniel-brown",
+        "shortName": "N. Brown",
+        "position": "D",
+        "jerseyNumber": "21",
+        "userCount": 7294,
+        "gender": "M",
+        "id": 1159759,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناثانيال براون",
+            "ru": "Натаниэль Браун"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. براون",
+            "ru": "Н. Браун"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.7,
+        "y": 44.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.7,
+        "z": 4.4
+      },
+      "xg": 0.18207858502865,
+      "xgot": 0.24170500040054,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7507216,
+      "time": 68,
+      "timeSeconds": 4062,
+      "draw": {
+        "start": {
+          "x": 44.4,
+          "y": 11.7
+        },
+        "end": {
+          "x": 53.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.3,
+          "y": 95.6
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1338,
+      "periodTimeSeconds": 1362,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Livano Comenencia",
+        "firstName": "Livano",
+        "lastName": "Comenencia",
+        "slug": "livano-comenencia",
+        "shortName": "L. Comenencia",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 1070,
+        "gender": "M",
+        "id": 1136642,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليفانو كوميننسيا",
+            "bn": "লিভানো কমেনেন্সিয়া",
+            "hi": "लिवानो कोमेनेंसिया",
+            "ru": "Ливано Комененсия"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كوميننسيا",
+            "bn": "এল. কমেনেন্সিয়া",
+            "hi": "एल. कोमेनेंसिया",
+            "ru": "Л. Комененсия"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 22.8,
+        "y": 51.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 61.7,
+        "z": 15.3
+      },
+      "blockCoordinates": {
+        "x": 7.6,
+        "y": 44,
+        "z": 0
+      },
+      "xg": 0.010472079738975,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7507215,
+      "time": 67,
+      "timeSeconds": 3964,
+      "draw": {
+        "start": {
+          "x": 51.5,
+          "y": 22.8
+        },
+        "block": {
+          "x": 44,
+          "y": 7.6
+        },
+        "end": {
+          "x": 38.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 38.3,
+          "y": 84.7
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1436,
+      "periodTimeSeconds": 1264,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Leroy Sané",
+        "slug": "leroy-sane",
+        "shortName": "L. Sané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 45052,
+        "gender": "M",
+        "sofascoreId": "LeroySane",
+        "id": 293519,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليروي ساني",
+            "bn": "লিরোয় সানে",
+            "hi": "लेरॉय साने",
+            "ru": "Лерой Зане"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساني",
+            "bn": "এল. সানে",
+            "hi": "एल. साने",
+            "ru": "Л. Зане"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.4,
+        "y": 56.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57.7,
+        "z": 26.4
+      },
+      "xg": 0.54510647058487,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7507212,
+      "time": 63,
+      "timeSeconds": 3753,
+      "draw": {
+        "start": {
+          "x": 56.8,
+          "y": 14.4
+        },
+        "end": {
+          "x": 42.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 42.3,
+          "y": 73.6
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1647,
+      "periodTimeSeconds": 1053,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Leandro Bacuna",
+        "slug": "leandro-bacuna",
+        "shortName": "L. Bacuna",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 859,
+        "gender": "M",
+        "id": 74545,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لياندرو باكونا",
+            "bn": "লিয়েন্দ্রো বাকুনা",
+            "hi": "लिआंड्रो बाकुना",
+            "ru": "Леандро Бакуна"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. باكونا",
+            "bn": "এল. বাকুনা",
+            "hi": "एल. बाकुना",
+            "ru": "Л. Бакуна"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 8.3,
+        "y": 47,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 59.7
+      },
+      "xg": 0.16763181984425,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7507209,
+      "time": 62,
+      "timeSeconds": 3712,
+      "draw": {
+        "start": {
+          "x": 47,
+          "y": 8.3
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 40.3
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1688,
+      "periodTimeSeconds": 1012,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Aleksandar Pavlović",
+        "slug": "aleksandar-pavlovic",
+        "shortName": "A. Pavlović",
+        "position": "M",
+        "jerseyNumber": "45",
+        "userCount": 19694,
+        "gender": "M",
+        "sofascoreId": "alekspavlovic_",
+        "id": 1142251,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر بافلوفيتش",
+            "bn": "আলেকসান্ডার পাভলোভিচ",
+            "hi": "एलेक्ज़ेंडर पावलोविच",
+            "ru": "Александар Павлович"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بافلوفيتش",
+            "bn": "এ. পাভলোভিচ",
+            "hi": "ए. पावलोविच",
+            "ru": "А. Павлович"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.7,
+        "y": 48.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 44.9,
+        "z": 75
+      },
+      "xg": 0.12573504447937,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7507128,
+      "time": 54,
+      "timeSeconds": 3222,
+      "draw": {
+        "start": {
+          "x": 48.1,
+          "y": 18.7
+        },
+        "end": {
+          "x": 55.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 55.1,
+          "y": 25
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2178,
+      "periodTimeSeconds": 522,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Kai Havertz",
+        "firstName": "Kai",
+        "lastName": "Havertz",
+        "slug": "kai-havertz",
+        "shortName": "K. Havertz",
+        "position": "F",
+        "jerseyNumber": "29",
+        "userCount": 79430,
+        "gender": "M",
+        "sofascoreId": "KaiHav",
+        "id": 836705,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاي هافيرتس",
+            "bn": "কাই হাভার্টজ",
+            "hi": "काई हावर्ट्ज़",
+            "ru": "Кай Хаверц"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هافيرتس",
+            "bn": "কে. হাভার্টজ",
+            "hi": "के. हावर्ट्ज़",
+            "ru": "К. Хаверц"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 11,
+        "y": 72.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.7,
+        "y": 70,
+        "z": 0
+      },
+      "xg": 0.020150519907475,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7507129,
+      "time": 54,
+      "timeSeconds": 3218,
+      "draw": {
+        "start": {
+          "x": 72.6,
+          "y": 11
+        },
+        "block": {
+          "x": 70,
+          "y": 9.7
+        },
+        "end": {
+          "x": 51.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2182,
+      "periodTimeSeconds": 518,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Florian Wirtz",
+        "slug": "florian-wirtz",
+        "shortName": "F. Wirtz",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 157189,
+        "gender": "M",
+        "sofascoreId": "FWirtz",
+        "id": 1019322,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلوريان فيرتز",
+            "bn": "ফ্লোরিয়ান উইর্টজ",
+            "hi": "फ्लोरियन विर्ट्ज़",
+            "ru": "Флориан Вирц"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيرتز",
+            "bn": "এফ. উইর্টজ",
+            "hi": "एफ. विर्ट्ज़",
+            "ru": "Ф. Вирц"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 11.2,
+        "y": 53.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9,
+        "y": 52.3,
+        "z": 0
+      },
+      "xg": 0.10809750109911,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7507126,
+      "time": 53,
+      "timeSeconds": 3178,
+      "draw": {
+        "start": {
+          "x": 53.2,
+          "y": 11.2
+        },
+        "block": {
+          "x": 52.3,
+          "y": 9
+        },
+        "end": {
+          "x": 48.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2222,
+      "periodTimeSeconds": 478,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Felix Nmecha",
+        "firstName": "Felix",
+        "lastName": "Nmecha",
+        "slug": "felix-nmecha",
+        "shortName": "F. Nmecha",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 10717,
+        "gender": "M",
+        "id": 907463,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليكس نميشا",
+            "bn": "নেমেচা, ফেলিক্স",
+            "hi": "नेमेचा, फेलिक्स",
+            "ru": "Феликс Нмеча"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. نميشا",
+            "bn": "এফ. নেমেচা",
+            "hi": "एफ. नेमेचा",
+            "ru": "Ф. Нмеча"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 2.7,
+        "y": 70.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.7,
+        "z": 27.9
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 54.5,
+        "z": 0
+      },
+      "xg": 0.0060089905746281,
+      "xgot": 0.11704315245152,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7507125,
+      "time": 50,
+      "timeSeconds": 2972,
+      "draw": {
+        "start": {
+          "x": 70.5,
+          "y": 2.7
+        },
+        "block": {
+          "x": 54.5,
+          "y": 0.5
+        },
+        "end": {
+          "x": 51.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.3,
+          "y": 72.1
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2428,
+      "periodTimeSeconds": 272,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Jamal Musiala",
+        "slug": "jamal-musiala",
+        "shortName": "J. Musiala",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 130091,
+        "gender": "M",
+        "sofascoreId": "Bambi",
+        "id": 1010231,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جمال موسيالا",
+            "bn": "জামাল মুসিয়ালা",
+            "hi": "जमाल मुसियाला",
+            "ru": "Джамал Мусиала"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. موسيالا",
+            "bn": "জে. মুসিয়ালা",
+            "hi": "जे. मुसियाला",
+            "ru": "Д. Мусиала"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 6.4,
+        "y": 66,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 3.2
+      },
+      "xg": 0.072219751775265,
+      "xgot": 0.55885100364685,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7507036,
+      "time": 47,
+      "timeSeconds": 2768,
+      "draw": {
+        "start": {
+          "x": 66,
+          "y": 6.4
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2632,
+      "periodTimeSeconds": 68,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Kai Havertz",
+        "firstName": "Kai",
+        "lastName": "Havertz",
+        "slug": "kai-havertz",
+        "shortName": "K. Havertz",
+        "position": "F",
+        "jerseyNumber": "29",
+        "userCount": 79430,
+        "gender": "M",
+        "sofascoreId": "KaiHav",
+        "id": 836705,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاي هافيرتس",
+            "bn": "কাই হাভার্টজ",
+            "hi": "काई हावर्ट्ज़",
+            "ru": "Кай Хаверц"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هافيرتس",
+            "bn": "কে. হাভার্টজ",
+            "hi": "के. हावर्ट्ज़",
+            "ru": "К. Хаверц"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "penalty",
+      "situation": "penalty",
+      "playerCoordinates": {
+        "x": 11.5,
+        "y": 50,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.7,
+        "z": 2.5
+      },
+      "xg": 0.7884,
+      "xgot": 0.85281491279602,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506997,
+      "time": 45,
+      "addedTime": 5,
+      "timeSeconds": 2949,
+      "draw": {
+        "start": {
+          "x": 50,
+          "y": 11.5
+        },
+        "end": {
+          "x": 46.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.3,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2451,
+      "periodTimeSeconds": 249,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Sontje Hansen",
+        "firstName": "Sontje",
+        "lastName": "Hansen",
+        "slug": "sontje-hansen",
+        "shortName": "S. Hansen",
+        "position": "F",
+        "jerseyNumber": "27",
+        "userCount": 843,
+        "gender": "M",
+        "id": 1199057,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سونتجي هانسن",
+            "ru": "Сонче Хансен"
+          },
+          "shortNameTranslation": {
+            "ar": "س. هانسن",
+            "ru": "С. Хансен"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.5,
+        "y": 31.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.4,
+        "z": 1.3
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 48.2,
+        "z": 0
+      },
+      "xg": 0.026124633848667,
+      "xgot": 0.20540344715118,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7506995,
+      "time": 45,
+      "addedTime": 2,
+      "timeSeconds": 2779,
+      "draw": {
+        "start": {
+          "x": 31.1,
+          "y": 19.5
+        },
+        "block": {
+          "x": 48.2,
+          "y": 1.1
+        },
+        "end": {
+          "x": 52.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.6,
+          "y": 98.7
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2621,
+      "periodTimeSeconds": 79,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Kai Havertz",
+        "firstName": "Kai",
+        "lastName": "Havertz",
+        "slug": "kai-havertz",
+        "shortName": "K. Havertz",
+        "position": "F",
+        "jerseyNumber": "29",
+        "userCount": 79430,
+        "gender": "M",
+        "sofascoreId": "KaiHav",
+        "id": 836705,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاي هافيرتس",
+            "bn": "কাই হাভার্টজ",
+            "hi": "काई हावर्ट्ज़",
+            "ru": "Кай Хаверц"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هافيرتس",
+            "bn": "কে. হাভার্টজ",
+            "hi": "के. हावर्ट्ज़",
+            "ru": "К. Хаверц"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 9.2,
+        "y": 40.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.5,
+        "y": 41.9,
+        "z": 0
+      },
+      "xg": 0.026648744940758,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506994,
+      "time": 45,
+      "timeSeconds": 2696,
+      "draw": {
+        "start": {
+          "x": 40.7,
+          "y": 9.2
+        },
+        "block": {
+          "x": 41.9,
+          "y": 7.5
+        },
+        "end": {
+          "x": 47,
+          "y": 0
+        },
+        "goal": {
+          "x": 47,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 4,
+      "periodTimeSeconds": 2696,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Aleksandar Pavlović",
+        "slug": "aleksandar-pavlovic",
+        "shortName": "A. Pavlović",
+        "position": "M",
+        "jerseyNumber": "45",
+        "userCount": 19694,
+        "gender": "M",
+        "sofascoreId": "alekspavlovic_",
+        "id": 1142251,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر بافلوفيتش",
+            "bn": "আলেকসান্ডার পাভলোভিচ",
+            "hi": "एलेक्ज़ेंडर पावलोविच",
+            "ru": "Александар Павлович"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بافلوفيتش",
+            "bn": "এ. পাভলোভিচ",
+            "hi": "ए. पावलोविच",
+            "ru": "А. Павлович"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.1,
+        "y": 51.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.7,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.13910302519798,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506993,
+      "time": 45,
+      "timeSeconds": 2693,
+      "draw": {
+        "start": {
+          "x": 51.3,
+          "y": 15.1
+        },
+        "block": {
+          "x": 52.5,
+          "y": 3.7
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 7,
+      "periodTimeSeconds": 2693,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nathaniel Brown",
+        "slug": "nathaniel-brown",
+        "shortName": "N. Brown",
+        "position": "D",
+        "jerseyNumber": "21",
+        "userCount": 7294,
+        "gender": "M",
+        "id": 1159759,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ناثانيال براون",
+            "ru": "Натаниэль Браун"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. براون",
+            "ru": "Н. Браун"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 11.3,
+        "y": 42.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.9,
+        "y": 44.6,
+        "z": 0
+      },
+      "xg": 0.24188336730003,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506992,
+      "time": 45,
+      "timeSeconds": 2691,
+      "draw": {
+        "start": {
+          "x": 42.6,
+          "y": 11.3
+        },
+        "block": {
+          "x": 44.6,
+          "y": 7.9
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 9,
+      "periodTimeSeconds": 2691,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nico Schlotterbeck",
+        "firstName": "Nico",
+        "lastName": "Schlotterbeck",
+        "slug": "nico-schlotterbeck",
+        "shortName": "N. Schlotterbeck",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 14343,
+        "gender": "M",
+        "sofascoreId": "nico.schlotterbeck",
+        "id": 940871,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكو شلوتربيك",
+            "bn": "নিকো শ্লোটারবেক",
+            "hi": "निको श्लोटरबेक",
+            "ru": "Нико Шлоттербек"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. شلوتربيك",
+            "bn": "এন. শ্লোটারবেক",
+            "hi": "एन. श्लोटरबेक",
+            "ru": "Н. Шлоттербек"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.8,
+        "y": 54.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.3,
+        "z": 11.4
+      },
+      "xg": 0.25032988190651,
+      "xgot": 0.88725084066391,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506919,
+      "time": 38,
+      "timeSeconds": 2250,
+      "draw": {
+        "start": {
+          "x": 54.2,
+          "y": 4.8
+        },
+        "end": {
+          "x": 47.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.7,
+          "y": 88.6
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 450,
+      "periodTimeSeconds": 2250,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Juninho Bacuna",
+        "firstName": "Juninho",
+        "lastName": "Bacuna",
+        "slug": "juninho-bacuna",
+        "shortName": "J. Bacuna",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 1076,
+        "gender": "M",
+        "id": 788971,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جونينهو باكونا",
+            "bn": "জুনিনহো বাকুনা",
+            "hi": "जुनिन्हो बाकुना",
+            "ru": "Жуниньо Бакуна"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. باكونا",
+            "bn": "জে. বাকুনা",
+            "hi": "जे. बाकुना",
+            "ru": "Ж. Бакуна"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26.6,
+        "y": 43.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 41.9,
+        "z": 77.8
+      },
+      "xg": 0.015315701253712,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7506914,
+      "time": 36,
+      "timeSeconds": 2104,
+      "draw": {
+        "start": {
+          "x": 43.4,
+          "y": 26.6
+        },
+        "end": {
+          "x": 58.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 58.1,
+          "y": 22.2
+        }
+      },
+      "reversedPeriodTime": 10,
+      "reversedPeriodTimeSeconds": 596,
+      "periodTimeSeconds": 2104,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Leroy Sané",
+        "slug": "leroy-sane",
+        "shortName": "L. Sané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 45052,
+        "gender": "M",
+        "sofascoreId": "LeroySane",
+        "id": 293519,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليروي ساني",
+            "bn": "লিরোয় সানে",
+            "hi": "लेरॉय साने",
+            "ru": "Лерой Зане"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساني",
+            "bn": "এল. সানে",
+            "hi": "एल. साने",
+            "ru": "Л. Зане"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.4,
+        "y": 43.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39.3,
+        "z": 12.5
+      },
+      "blockCoordinates": {
+        "x": 11.2,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.17975924909115,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506911,
+      "time": 32,
+      "timeSeconds": 1919,
+      "draw": {
+        "start": {
+          "x": 43.7,
+          "y": 13.4
+        },
+        "block": {
+          "x": 46.6,
+          "y": 11.2
+        },
+        "end": {
+          "x": 60.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 60.7,
+          "y": 87.5
+        }
+      },
+      "reversedPeriodTime": 14,
+      "reversedPeriodTimeSeconds": 781,
+      "periodTimeSeconds": 1919,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Aleksandar Pavlović",
+        "slug": "aleksandar-pavlovic",
+        "shortName": "A. Pavlović",
+        "position": "M",
+        "jerseyNumber": "45",
+        "userCount": 19694,
+        "gender": "M",
+        "sofascoreId": "alekspavlovic_",
+        "id": 1142251,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر بافلوفيتش",
+            "bn": "আলেকসান্ডার পাভলোভিচ",
+            "hi": "एलेक्ज़ेंडर पावलोविच",
+            "ru": "Александар Павлович"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بافلوفيتش",
+            "bn": "এ. পাভলোভিচ",
+            "hi": "ए. पावलोविच",
+            "ru": "А. Павлович"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.8,
+        "y": 48.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.6,
+        "y": 49.1,
+        "z": 0
+      },
+      "xg": 0.13303944468498,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506878,
+      "time": 30,
+      "timeSeconds": 1775,
+      "draw": {
+        "start": {
+          "x": 48.1,
+          "y": 18.8
+        },
+        "block": {
+          "x": 49.1,
+          "y": 7.6
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 925,
+      "periodTimeSeconds": 1775,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nico Schlotterbeck",
+        "firstName": "Nico",
+        "lastName": "Schlotterbeck",
+        "slug": "nico-schlotterbeck",
+        "shortName": "N. Schlotterbeck",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 14343,
+        "gender": "M",
+        "sofascoreId": "nico.schlotterbeck",
+        "id": 940871,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكو شلوتربيك",
+            "bn": "নিকো শ্লোটারবেক",
+            "hi": "निको श्लोटरबेक",
+            "ru": "Нико Шлоттербек"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. شلوتربيك",
+            "bn": "এন. শ্লোটারবেক",
+            "hi": "एन. श्लोटरबेक",
+            "ru": "Н. Шлоттербек"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 7,
+        "y": 42.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 34.2
+      },
+      "blockCoordinates": {
+        "x": 1,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.059103313833475,
+      "xgot": 0.12743157148361,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506876,
+      "time": 28,
+      "timeSeconds": 1633,
+      "draw": {
+        "start": {
+          "x": 42.5,
+          "y": 7
+        },
+        "block": {
+          "x": 48.4,
+          "y": 1
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 65.8
+        }
+      },
+      "reversedPeriodTime": 18,
+      "reversedPeriodTimeSeconds": 1067,
+      "periodTimeSeconds": 1633,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Livano Comenencia",
+        "firstName": "Livano",
+        "lastName": "Comenencia",
+        "slug": "livano-comenencia",
+        "shortName": "L. Comenencia",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 1070,
+        "gender": "M",
+        "id": 1136642,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليفانو كوميننسيا",
+            "bn": "লিভানো কমেনেন্সিয়া",
+            "hi": "लिवानो कोमेनेंसिया",
+            "ru": "Ливано Комененсия"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كوميننسيا",
+            "bn": "এল. কমেনেন্সিয়া",
+            "hi": "एल. कोमेनेंसिया",
+            "ru": "Л. Комененсия"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 15.4,
+        "y": 60.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 17.7
+      },
+      "xg": 0.083985224366188,
+      "xgot": 0.29564955830574,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7506868,
+      "time": 21,
+      "timeSeconds": 1244,
+      "draw": {
+        "start": {
+          "x": 60.9,
+          "y": 15.4
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1456,
+      "periodTimeSeconds": 1244,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Leandro Bacuna",
+        "slug": "leandro-bacuna",
+        "shortName": "L. Bacuna",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 859,
+        "gender": "M",
+        "id": 74545,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لياندرو باكونا",
+            "bn": "লিয়েন্দ্রো বাকুনা",
+            "hi": "लिआंड्रो बाकुना",
+            "ru": "Леандро Бакуна"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. باكونا",
+            "bn": "এল. বাকুনা",
+            "hi": "एल. बाकुना",
+            "ru": "Л. Бакуна"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 27.5,
+        "y": 48.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57,
+        "z": 76.4
+      },
+      "xg": 0.023016763851047,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Manuel Neuer",
+        "slug": "manuel-neuer",
+        "shortName": "M. Neuer",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 58321,
+        "gender": "M",
+        "sofascoreId": "MNeuer",
+        "id": 8959,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل نوير",
+            "bn": "ম্যানুয়েল নিউয়ার",
+            "hi": "मैनुअल नॉयर",
+            "ru": "Мануэль Нойер"
+          },
+          "shortNameTranslation": {
+            "ar": "م. نوير",
+            "bn": "এম. নিউয়ার",
+            "hi": "एम. नॉयर",
+            "ru": "М. Нойер"
+          }
+        }
+      },
+      "id": 7506701,
+      "time": 19,
+      "timeSeconds": 1138,
+      "draw": {
+        "start": {
+          "x": 48.3,
+          "y": 27.5
+        },
+        "end": {
+          "x": 43,
+          "y": 0
+        },
+        "goal": {
+          "x": 43,
+          "y": 23.6
+        }
+      },
+      "reversedPeriodTime": 27,
+      "reversedPeriodTimeSeconds": 1562,
+      "periodTimeSeconds": 1138,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Florian Wirtz",
+        "slug": "florian-wirtz",
+        "shortName": "F. Wirtz",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 157189,
+        "gender": "M",
+        "sofascoreId": "FWirtz",
+        "id": 1019322,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلوريان فيرتز",
+            "bn": "ফ্লোরিয়ান উইর্টজ",
+            "hi": "फ्लोरियन विर्ट्ज़",
+            "ru": "Флориан Вирц"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيرتز",
+            "bn": "এফ. উইর্টজ",
+            "hi": "एफ. विर्ट्ज़",
+            "ru": "Ф. Вирц"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 17.2,
+        "y": 26.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.2,
+        "z": 15.3
+      },
+      "xg": 0.022403724491596,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506696,
+      "time": 14,
+      "timeSeconds": 827,
+      "draw": {
+        "start": {
+          "x": 26.4,
+          "y": 17.2
+        },
+        "end": {
+          "x": 57.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.8,
+          "y": 84.7
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1873,
+      "periodTimeSeconds": 827,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Felix Nmecha",
+        "firstName": "Felix",
+        "lastName": "Nmecha",
+        "slug": "felix-nmecha",
+        "shortName": "F. Nmecha",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 10717,
+        "gender": "M",
+        "id": 907463,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليكس نميشا",
+            "bn": "নেমেচা, ফেলিক্স",
+            "hi": "नेमेचा, फेलिक्स",
+            "ru": "Феликс Нмеча"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. نميشا",
+            "bn": "এফ. নেমেচা",
+            "hi": "एफ. नेमेचा",
+            "ru": "Ф. Нмеча"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.7,
+        "y": 55.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.9,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.17854969203472,
+      "xgot": 0.14871425926685,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506695,
+      "time": 12,
+      "timeSeconds": 702,
+      "draw": {
+        "start": {
+          "x": 55.6,
+          "y": 9.7
+        },
+        "block": {
+          "x": 51.4,
+          "y": 1.4
+        },
+        "end": {
+          "x": 50.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.1,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 1998,
+      "periodTimeSeconds": 702,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Leroy Sané",
+        "slug": "leroy-sane",
+        "shortName": "L. Sané",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 45052,
+        "gender": "M",
+        "sofascoreId": "LeroySane",
+        "id": 293519,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليروي ساني",
+            "bn": "লিরোয় সানে",
+            "hi": "लेरॉय साने",
+            "ru": "Лерой Зане"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ساني",
+            "bn": "এল. সানে",
+            "hi": "एल. साने",
+            "ru": "Л. Зане"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.3,
+        "y": 56.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60.2,
+        "z": 4.2
+      },
+      "xg": 0.095816314220428,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506641,
+      "time": 11,
+      "timeSeconds": 621,
+      "draw": {
+        "start": {
+          "x": 56.4,
+          "y": 11.3
+        },
+        "end": {
+          "x": 39.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 39.8,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2079,
+      "periodTimeSeconds": 621,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Florian Wirtz",
+        "slug": "florian-wirtz",
+        "shortName": "F. Wirtz",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 157189,
+        "gender": "M",
+        "sofascoreId": "FWirtz",
+        "id": 1019322,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فلوريان فيرتز",
+            "bn": "ফ্লোরিয়ান উইর্টজ",
+            "hi": "फ्लोरियन विर्ट्ज़",
+            "ru": "Флориан Вирц"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيرتز",
+            "bn": "এফ. উইর্টজ",
+            "hi": "एफ. विर्ट्ज़",
+            "ru": "Ф. Вирц"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 18.8,
+        "y": 54.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.3,
+        "y": 54.5,
+        "z": 0
+      },
+      "xg": 0.044712103903294,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506640,
+      "time": 10,
+      "timeSeconds": 588,
+      "draw": {
+        "start": {
+          "x": 54.8,
+          "y": 18.8
+        },
+        "block": {
+          "x": 54.5,
+          "y": 17.3
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 36,
+      "reversedPeriodTimeSeconds": 2112,
+      "periodTimeSeconds": 588,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Felix Nmecha",
+        "firstName": "Felix",
+        "lastName": "Nmecha",
+        "slug": "felix-nmecha",
+        "shortName": "F. Nmecha",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 10717,
+        "gender": "M",
+        "id": 907463,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليكس نميشا",
+            "bn": "নেমেচা, ফেলিক্স",
+            "hi": "नेमेचा, फेलिक्स",
+            "ru": "Феликс Нмеча"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. نميشا",
+            "bn": "এফ. নেমেচা",
+            "hi": "एफ. नेमेचा",
+            "ru": "Ф. Нмеча"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.6,
+        "y": 65,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 56.6,
+        "z": 25
+      },
+      "xg": 0.017771789804101,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506639,
+      "time": 9,
+      "timeSeconds": 488,
+      "draw": {
+        "start": {
+          "x": 65,
+          "y": 21.6
+        },
+        "end": {
+          "x": 43.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 43.4,
+          "y": 75
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2212,
+      "periodTimeSeconds": 488,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Jamal Musiala",
+        "slug": "jamal-musiala",
+        "shortName": "J. Musiala",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 130091,
+        "gender": "M",
+        "sofascoreId": "Bambi",
+        "id": 1010231,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جمال موسيالا",
+            "bn": "জামাল মুসিয়ালা",
+            "hi": "जमाल मुसियाला",
+            "ru": "Джамал Мусиала"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. موسيالا",
+            "bn": "জে. মুসিয়ালা",
+            "hi": "जे. मुसियाला",
+            "ru": "Д. Мусиала"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 12.9,
+        "y": 36.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.1,
+        "y": 39.3,
+        "z": 0
+      },
+      "xg": 0.044945098459721,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506638,
+      "time": 7,
+      "timeSeconds": 405,
+      "draw": {
+        "start": {
+          "x": 36.8,
+          "y": 12.9
+        },
+        "block": {
+          "x": 39.3,
+          "y": 10.1
+        },
+        "end": {
+          "x": 48.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2295,
+      "periodTimeSeconds": 405,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Felix Nmecha",
+        "firstName": "Felix",
+        "lastName": "Nmecha",
+        "slug": "felix-nmecha",
+        "shortName": "F. Nmecha",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 10717,
+        "gender": "M",
+        "id": 907463,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيليكس نميشا",
+            "bn": "নেমেচা, ফেলিক্স",
+            "hi": "नेमेचा, फेलिक्स",
+            "ru": "Феликс Нмеча"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. نميشا",
+            "bn": "এফ. নেমেচা",
+            "hi": "एफ. नेमेचा",
+            "ru": "Ф. Нмеча"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.7,
+        "y": 38,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.5,
+        "z": 17.7
+      },
+      "xg": 0.058753792196512,
+      "xgot": 0.53691852092743,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506637,
+      "time": 6,
+      "timeSeconds": 317,
+      "draw": {
+        "start": {
+          "x": 38,
+          "y": 14.7
+        },
+        "end": {
+          "x": 53.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.5,
+          "y": 82.3
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2383,
+      "periodTimeSeconds": 317,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Jamal Musiala",
+        "slug": "jamal-musiala",
+        "shortName": "J. Musiala",
+        "position": "M",
+        "jerseyNumber": "10",
+        "userCount": 130091,
+        "gender": "M",
+        "sofascoreId": "Bambi",
+        "id": 1010231,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جمال موسيالا",
+            "bn": "জামাল মুসিয়ালা",
+            "hi": "जमाल मुसियाला",
+            "ru": "Джамал Мусиала"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. موسيالا",
+            "bn": "জে. মুসিয়ালা",
+            "hi": "जे. मुसियाला",
+            "ru": "Д. Мусиала"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.9,
+        "y": 44.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 9.9,
+        "y": 46,
+        "z": 0
+      },
+      "xg": 0.17261733114719,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Eloy Room",
+        "slug": "eloy-room",
+        "shortName": "E. Room",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 9093,
+        "gender": "M",
+        "id": 40859,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلوي روم",
+            "bn": "এলয় রুম",
+            "hi": "एलॉय रूम",
+            "ru": "Элой Рум"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. روم",
+            "bn": "ই. রুম",
+            "hi": "ई. रूम",
+            "ru": "Э. Рум"
+          }
+        }
+      },
+      "id": 7506636,
+      "time": 6,
+      "timeSeconds": 304,
+      "draw": {
+        "start": {
+          "x": 44.5,
+          "y": 14.9
+        },
+        "block": {
+          "x": 46,
+          "y": 9.9
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 40,
+      "reversedPeriodTimeSeconds": 2396,
+      "periodTimeSeconds": 304,
+      "incidentType": "shot"
+    }
+  ]
+}

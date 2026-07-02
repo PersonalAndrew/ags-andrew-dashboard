@@ -1558,3 +1558,208 @@ a {
         border-radius: 18px;
     }
 }
+
+/* =======================================================
+   BASE SOFASCORE — COPA 2026
+======================================================= */
+
+.sofascore-live-panel {
+    border: 1px solid rgba(212, 175, 55, 0.28);
+    background:
+        radial-gradient(circle at top left, rgba(212, 175, 55, 0.12), transparent 34%),
+        linear-gradient(145deg, rgba(10, 14, 24, 0.96), rgba(4, 6, 12, 0.98));
+}
+
+.sofascore-control-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    max-width: 760px;
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
+}
+
+.sofascore-control-row label {
+    color: #d4af37;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.82rem;
+}
+
+.sofascore-select {
+    width: 100%;
+    padding: 0.95rem 1rem;
+    border-radius: 16px;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    background: rgba(4, 6, 12, 0.94);
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 700;
+    outline: none;
+}
+
+.sofascore-select:focus {
+    border-color: rgba(212, 175, 55, 0.9);
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.12);
+}
+
+.sofascore-match-card {
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.045);
+    padding: 1.35rem;
+    margin-top: 1rem;
+}
+
+.sofascore-empty {
+    color: rgba(255, 255, 255, 0.72);
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.sofascore-match-topline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.sofascore-match-topline strong {
+    color: #d4af37;
+}
+
+.sofascore-scoreboard {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.sofascore-team {
+    min-height: 110px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.22);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.sofascore-team span {
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 0.76rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 800;
+}
+
+.sofascore-team strong {
+    color: #ffffff;
+    font-size: clamp(1.1rem, 2vw, 1.7rem);
+    line-height: 1.1;
+}
+
+.sofascore-score {
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    color: #ffffff;
+}
+
+.sofascore-score strong {
+    font-size: clamp(2.4rem, 5vw, 4.2rem);
+    color: #d4af37;
+    line-height: 1;
+}
+
+.sofascore-score span {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.62);
+    font-weight: 900;
+}
+
+.sofascore-info-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.85rem;
+    margin-top: 1rem;
+}
+
+.sofascore-info-row div,
+.sofascore-mini-card {
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.22);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1rem;
+    text-align: center;
+}
+
+.sofascore-info-row span,
+.sofascore-mini-card span {
+    display: block;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+}
+
+.sofascore-info-row strong,
+.sofascore-mini-card strong {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.sofascore-detail-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.85rem;
+    margin-top: 1rem;
+}
+
+.sofascore-mini-card strong {
+    font-size: 1.8rem;
+    color: #d4af37;
+}
+
+@media (max-width: 900px) {
+    .sofascore-scoreboard {
+        grid-template-columns: 1fr;
+    }
+
+    .sofascore-score {
+        order: -1;
+        min-width: auto;
+    }
+
+    .sofascore-info-row,
+    .sofascore-detail-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 560px) {
+    .sofascore-info-row,
+    .sofascore-detail-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sofascore-match-topline {
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,0 +1,1356 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Amir Murillo",
+        "firstName": "Amir",
+        "lastName": "Murillo",
+        "slug": "amir-murillo",
+        "shortName": "A. Murillo",
+        "position": "D",
+        "jerseyNumber": "62",
+        "userCount": 5103,
+        "gender": "M",
+        "id": 839493,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أمير موريلو",
+            "bn": "আমির মুরিলো",
+            "hi": "अमीर मुरिलो",
+            "ru": "Амир Мурильо"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موريلو",
+            "bn": "এ. মুরিলো",
+            "hi": "ए. मुरिलो",
+            "ru": "А. Мурильо"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 26.8,
+        "y": 53.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.2,
+        "z": 63.9
+      },
+      "xg": 0.052202511578798,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dominik Livaković",
+        "slug": "dominik-livakovic",
+        "shortName": "D. Livaković",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 14416,
+        "gender": "M",
+        "sofascoreId": "Livakovic40",
+        "id": 190419,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك ليفاكوفيتش",
+            "bn": "ডমিনিক লিভাকোভিচ",
+            "hi": "डोमिनिक लिवाकोविच",
+            "ru": "Доминик Ливакович"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ليفاكوفيتش",
+            "bn": "ডি. লিভাকোভিচ",
+            "hi": "डी. लिवाकोविच",
+            "ru": "Д. Ливакович"
+          }
+        }
+      },
+      "id": 7572750,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5570,
+      "draw": {
+        "start": {
+          "x": 53.2,
+          "y": 26.8
+        },
+        "end": {
+          "x": 56.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.8,
+          "y": 36.1
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 730,
+      "periodTimeSeconds": 170,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Cecilio Waterman",
+        "firstName": "Cecilio",
+        "lastName": "Waterman",
+        "slug": "cecilio-waterman",
+        "shortName": "C. Waterman",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 1068,
+        "gender": "M",
+        "id": 159931,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيسيليو ووترمان",
+            "bn": "সেসিলিও ওয়াটারম্যান",
+            "hi": "सेसिलियो वॉटरमैन",
+            "ru": "Сесилио Уотерман"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ووترمان",
+            "bn": "সি. ওয়াটারম্যান",
+            "hi": "सी. वॉटरमैन",
+            "ru": "С. Уотерман"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 15.3,
+        "y": 76,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14,
+        "y": 73.8,
+        "z": 0
+      },
+      "xg": 0.016740370541811,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dominik Livaković",
+        "slug": "dominik-livakovic",
+        "shortName": "D. Livaković",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 14416,
+        "gender": "M",
+        "sofascoreId": "Livakovic40",
+        "id": 190419,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك ليفاكوفيتش",
+            "bn": "ডমিনিক লিভাকোভিচ",
+            "hi": "डोमिनिक लिवाकोविच",
+            "ru": "Доминик Ливакович"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ليفاكوفيتش",
+            "bn": "ডি. লিভাকোভিচ",
+            "hi": "डी. लिवाकोविच",
+            "ru": "Д. Ливакович"
+          }
+        }
+      },
+      "id": 7572749,
+      "time": 84,
+      "timeSeconds": 5019,
+      "draw": {
+        "start": {
+          "x": 76,
+          "y": 15.3
+        },
+        "block": {
+          "x": 73.8,
+          "y": 14
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 381,
+      "periodTimeSeconds": 2319,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Luka Sučić",
+        "firstName": "Luka",
+        "lastName": "Sucic",
+        "slug": "luka-sucic",
+        "shortName": "L. Sučić",
+        "position": "M",
+        "jerseyNumber": "24",
+        "userCount": 6952,
+        "gender": "M",
+        "sofascoreId": "luka_sucic",
+        "id": 949156,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا سوتشيتش",
+            "bn": "লুকা সুচিচ",
+            "hi": "लुका सुचिच",
+            "ru": "Лука Сучич"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. سوتشيتش",
+            "bn": "এল. সুচিচ",
+            "hi": "एल. सुचिच",
+            "ru": "Л. Сучич"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 24,
+        "y": 36.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 16.6,
+        "y": 39.3,
+        "z": 0
+      },
+      "xg": 0.054305460304022,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Orlando Mosquera",
+        "firstName": "Orlando",
+        "lastName": "Mosquera",
+        "slug": "orlando-mosquera",
+        "shortName": "O. Mosquera",
+        "position": "G",
+        "jerseyNumber": "52",
+        "userCount": 702,
+        "gender": "M",
+        "id": 886041,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أورلاندو موسكيرا",
+            "bn": "অরল্যান্ডো মস্কেরা",
+            "hi": "ऑरलैंडो मॉस्क्वेरा",
+            "ru": "Орландо Москера"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موسكيرا",
+            "bn": "ও. মস্কেরা",
+            "hi": "ओ. मॉस्क्वेरा",
+            "ru": "О. Москера"
+          }
+        }
+      },
+      "id": 7572676,
+      "time": 82,
+      "timeSeconds": 4887,
+      "draw": {
+        "start": {
+          "x": 36.6,
+          "y": 24
+        },
+        "block": {
+          "x": 39.3,
+          "y": 16.6
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 513,
+      "periodTimeSeconds": 2187,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Carlos Harvey",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carlos-harvey",
+        "shortName": "C. Harvey",
+        "position": "M",
+        "jerseyNumber": "67",
+        "userCount": 528,
+        "gender": "M",
+        "id": 985131,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس هارفي",
+            "bn": "কার্লোস হার্ভে",
+            "hi": "कार्लोस हार्वे",
+            "ru": "Карлос Харви"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هارفي",
+            "bn": "সি. হার্ভে",
+            "hi": "सी. हार्वे",
+            "ru": "К. Харви"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 5.1,
+        "y": 75,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.9,
+        "z": 25
+      },
+      "xg": 0.017240708693862,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dominik Livaković",
+        "slug": "dominik-livakovic",
+        "shortName": "D. Livaković",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 14416,
+        "gender": "M",
+        "sofascoreId": "Livakovic40",
+        "id": 190419,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك ليفاكوفيتش",
+            "bn": "ডমিনিক লিভাকোভিচ",
+            "hi": "डोमिनिक लिवाकोविच",
+            "ru": "Доминик Ливакович"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ليفاكوفيتش",
+            "bn": "ডি. লিভাকোভিচ",
+            "hi": "डी. लिवाकोविच",
+            "ru": "Д. Ливакович"
+          }
+        }
+      },
+      "id": 7572674,
+      "time": 79,
+      "timeSeconds": 4739,
+      "draw": {
+        "start": {
+          "x": 75,
+          "y": 5.1
+        },
+        "end": {
+          "x": 57.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.1,
+          "y": 75
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 661,
+      "periodTimeSeconds": 2039,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "José Luis Rodríguez",
+        "firstName": "Jose Luis",
+        "lastName": "Rodriguez",
+        "slug": "jose-luis-rodriguez",
+        "shortName": "J. L. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "11",
+        "userCount": 1002,
+        "gender": "M",
+        "id": 842253,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه لويس رودريغيز",
+            "bn": "হোসে লুইস রদ্রিগেজ",
+            "hi": "जोस लुइस रोड्रिग्ज़",
+            "ru": "Хосе Луис Родригес"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. ل. رودريغيز",
+            "bn": "জে. এল. রদ্রিগেজ",
+            "hi": "जे.एल. रोड्रिग्ज़",
+            "ru": "Х. Родригес"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.2,
+        "y": 36.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.5,
+        "z": 70.8
+      },
+      "xg": 0.048636719584465,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dominik Livaković",
+        "slug": "dominik-livakovic",
+        "shortName": "D. Livaković",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 14416,
+        "gender": "M",
+        "sofascoreId": "Livakovic40",
+        "id": 190419,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك ليفاكوفيتش",
+            "bn": "ডমিনিক লিভাকোভিচ",
+            "hi": "डोमिनिक लिवाकोविच",
+            "ru": "Доминик Ливакович"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ليفاكوفيتش",
+            "bn": "ডি. লিভাকোভিচ",
+            "hi": "डी. लिवाकोविच",
+            "ru": "Д. Ливакович"
+          }
+        }
+      },
+      "id": 7572672,
+      "time": 78,
+      "timeSeconds": 4635,
+      "draw": {
+        "start": {
+          "x": 36.6,
+          "y": 21.2
+        },
+        "end": {
+          "x": 45.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.5,
+          "y": 29.2
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 765,
+      "periodTimeSeconds": 1935,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Carlos Harvey",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carlos-harvey",
+        "shortName": "C. Harvey",
+        "position": "M",
+        "jerseyNumber": "67",
+        "userCount": 528,
+        "gender": "M",
+        "id": 985131,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس هارفي",
+            "bn": "কার্লোস হার্ভে",
+            "hi": "कार्लोस हार्वे",
+            "ru": "Карлос Харви"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. هارفي",
+            "bn": "সি. হার্ভে",
+            "hi": "सी. हार्वे",
+            "ru": "К. Харви"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 6.3,
+        "y": 47.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 51.4
+      },
+      "blockCoordinates": {
+        "x": 0.59999999999999,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.14549712836742,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dominik Livaković",
+        "slug": "dominik-livakovic",
+        "shortName": "D. Livaković",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 14416,
+        "gender": "M",
+        "sofascoreId": "Livakovic40",
+        "id": 190419,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك ليفاكوفيتش",
+            "bn": "ডমিনিক লিভাকোভিচ",
+            "hi": "डोमिनिक लिवाकोविच",
+            "ru": "Доминик Ливакович"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ليفاكوفيتش",
+            "bn": "ডি. লিভাকোভিচ",
+            "hi": "डी. लिवाकोविच",
+            "ru": "Д. Ливакович"
+          }
+        }
+      },
+      "id": 7572620,
+      "time": 68,
+      "timeSeconds": 4069,
+      "draw": {
+        "start": {
+          "x": 47.2,
+          "y": 6.3
+        },
+        "block": {
+          "x": 48.4,
+          "y": 0.59999999999999
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 48.6
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1331,
+      "periodTimeSeconds": 1369,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Amir Murillo",
+        "firstName": "Amir",
+        "lastName": "Murillo",
+        "slug": "amir-murillo",
+        "shortName": "A. Murillo",
+        "position": "D",
+        "jerseyNumber": "62",
+        "userCount": 5103,
+        "gender": "M",
+        "id": 839493,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أمير موريلو",
+            "bn": "আমির মুরিলো",
+            "hi": "अमीर मुरिलो",
+            "ru": "Амир Мурильо"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موريلو",
+            "bn": "এ. মুরিলো",
+            "hi": "ए. मुरिलो",
+            "ru": "А. Мурильо"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 13,
+        "y": 71.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.9,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 0.59999999999999,
+        "y": 53.4,
+        "z": 0
+      },
+      "xg": 0.027461921796203,
+      "xgot": 0.038298133760691,
+      "goalkeeper": {
+        "name": "Dominik Livaković",
+        "slug": "dominik-livakovic",
+        "shortName": "D. Livaković",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 14416,
+        "gender": "M",
+        "sofascoreId": "Livakovic40",
+        "id": 190419,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك ليفاكوفيتش",
+            "bn": "ডমিনিক লিভাকোভিচ",
+            "hi": "डोमिनिक लिवाकोविच",
+            "ru": "Доминик Ливакович"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ليفاكوفيتش",
+            "bn": "ডি. লিভাকোভিচ",
+            "hi": "डी. लिवाकोविच",
+            "ru": "Д. Ливакович"
+          }
+        }
+      },
+      "id": 7572619,
+      "time": 68,
+      "timeSeconds": 4044,
+      "draw": {
+        "start": {
+          "x": 71.6,
+          "y": 13
+        },
+        "block": {
+          "x": 53.4,
+          "y": 0.59999999999999
+        },
+        "end": {
+          "x": 53.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.1,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1356,
+      "periodTimeSeconds": 1344,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "José Fajardo",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jose-fajardo",
+        "shortName": "J. Fajardo",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 739,
+        "gender": "M",
+        "id": 936184,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه فاجاردو",
+            "bn": "হোসে ফাজার্ডো",
+            "hi": "जोस फजार्डो",
+            "ru": "Хосе Фахардо"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. فاجاردو",
+            "bn": "জে. ফজার্ডো",
+            "hi": "जे. फजार्डो",
+            "ru": "Х. Фахардо"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 8.3,
+        "y": 51.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 88.9,
+        "z": 1.4
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 22.6,
+        "z": 0
+      },
+      "xg": 0.19611440598965,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dominik Livaković",
+        "slug": "dominik-livakovic",
+        "shortName": "D. Livaković",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 14416,
+        "gender": "M",
+        "sofascoreId": "Livakovic40",
+        "id": 190419,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك ليفاكوفيتش",
+            "bn": "ডমিনিক লিভাকোভিচ",
+            "hi": "डोमिनिक लिवाकोविच",
+            "ru": "Доминик Ливакович"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ليفاكوفيتش",
+            "bn": "ডি. লিভাকোভিচ",
+            "hi": "डी. लिवाकोविच",
+            "ru": "Д. Ливакович"
+          }
+        }
+      },
+      "id": 7572589,
+      "time": 60,
+      "timeSeconds": 3547,
+      "draw": {
+        "start": {
+          "x": 51.7,
+          "y": 8.3
+        },
+        "block": {
+          "x": 22.6,
+          "y": 2
+        },
+        "end": {
+          "x": 11.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 11.1,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1853,
+      "periodTimeSeconds": 847,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Marco Pašalić",
+        "firstName": "Marco",
+        "lastName": "Pasalic",
+        "slug": "marco-pasalic",
+        "shortName": "M. Pašalić",
+        "position": "M",
+        "jerseyNumber": "87",
+        "userCount": 4761,
+        "gender": "M",
+        "id": 1066802,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو باشاليتش",
+            "bn": "মার্কো পাশালিচ",
+            "hi": "मार्को पासालिक",
+            "ru": "Марко Пашалич"
+          },
+          "shortNameTranslation": {
+            "ar": "م. باشاليتش",
+            "bn": "এম. পাশালিচ",
+            "hi": "एम. पासालिक",
+            "ru": "М. Пашалич"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 3.2,
+        "y": 37.8,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57.3,
+        "z": 34.7
+      },
+      "xg": 0.47665643692017,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Orlando Mosquera",
+        "firstName": "Orlando",
+        "lastName": "Mosquera",
+        "slug": "orlando-mosquera",
+        "shortName": "O. Mosquera",
+        "position": "G",
+        "jerseyNumber": "52",
+        "userCount": 702,
+        "gender": "M",
+        "id": 886041,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أورلاندو موسكيرا",
+            "bn": "অরল্যান্ডো মস্কেরা",
+            "hi": "ऑरलैंडो मॉस्क्वेरा",
+            "ru": "Орландо Москера"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موسكيرا",
+            "bn": "ও. মস্কেরা",
+            "hi": "ओ. मॉस्क्वेरा",
+            "ru": "О. Москера"
+          }
+        }
+      },
+      "id": 7572588,
+      "time": 57,
+      "timeSeconds": 3397,
+      "draw": {
+        "start": {
+          "x": 37.8,
+          "y": 3.2
+        },
+        "end": {
+          "x": 42.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 42.7,
+          "y": 65.3
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2003,
+      "periodTimeSeconds": 697,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Marco Pašalić",
+        "firstName": "Marco",
+        "lastName": "Pasalic",
+        "slug": "marco-pasalic",
+        "shortName": "M. Pašalić",
+        "position": "M",
+        "jerseyNumber": "87",
+        "userCount": 4761,
+        "gender": "M",
+        "id": 1066802,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركو باشاليتش",
+            "bn": "মার্কো পাশালিচ",
+            "hi": "मार्को पासालिक",
+            "ru": "Марко Пашалич"
+          },
+          "shortNameTranslation": {
+            "ar": "م. باشاليتش",
+            "bn": "এম. পাশালিচ",
+            "hi": "एम. पासालिक",
+            "ru": "М. Пашалич"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 14.2,
+        "y": 45.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.7,
+        "z": 18.4
+      },
+      "blockCoordinates": {
+        "x": 8.1,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.50777155160904,
+      "xgot": 0.21998240053654,
+      "goalkeeper": {
+        "name": "Orlando Mosquera",
+        "firstName": "Orlando",
+        "lastName": "Mosquera",
+        "slug": "orlando-mosquera",
+        "shortName": "O. Mosquera",
+        "position": "G",
+        "jerseyNumber": "52",
+        "userCount": 702,
+        "gender": "M",
+        "id": 886041,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أورلاندو موسكيرا",
+            "bn": "অরল্যান্ডো মস্কেরা",
+            "hi": "ऑरलैंडो मॉस्क्वेरा",
+            "ru": "Орландо Москера"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موسكيرا",
+            "bn": "ও. মস্কেরা",
+            "hi": "ओ. मॉस्क्वेरा",
+            "ru": "О. Москера"
+          }
+        }
+      },
+      "id": 7572587,
+      "time": 57,
+      "timeSeconds": 3395,
+      "draw": {
+        "start": {
+          "x": 45.2,
+          "y": 14.2
+        },
+        "block": {
+          "x": 46.6,
+          "y": 8.1
+        },
+        "end": {
+          "x": 49.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.3,
+          "y": 81.6
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2005,
+      "periodTimeSeconds": 695,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ante Budimir",
+        "slug": "ante-budimir",
+        "shortName": "A. Budimir",
+        "position": "F",
+        "jerseyNumber": "17",
+        "userCount": 10853,
+        "gender": "M",
+        "sofascoreId": "budimir_ante",
+        "id": 37318,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتي بوديمير",
+            "bn": "আন্তে বুদিমির",
+            "hi": "अन्ते बुदिमीर",
+            "ru": "Анте Будимир"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. بوديمير",
+            "bn": "এ. বুদিমির",
+            "hi": "ए. बुदिमीर",
+            "ru": "А. Будимир"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 5.2,
+        "y": 47.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.3,
+        "z": 10.8
+      },
+      "xg": 0.80009752511978,
+      "xgot": 0.99433183670044,
+      "goalkeeper": {
+        "name": "Orlando Mosquera",
+        "firstName": "Orlando",
+        "lastName": "Mosquera",
+        "slug": "orlando-mosquera",
+        "shortName": "O. Mosquera",
+        "position": "G",
+        "jerseyNumber": "52",
+        "userCount": 702,
+        "gender": "M",
+        "id": 886041,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أورلاندو موسكيرا",
+            "bn": "অরল্যান্ডো মস্কেরা",
+            "hi": "ऑरलैंडो मॉस्क्वेरा",
+            "ru": "Орландо Москера"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موسكيرا",
+            "bn": "ও. মস্কেরা",
+            "hi": "ओ. मॉस्क्वेरा",
+            "ru": "О. Москера"
+          }
+        }
+      },
+      "id": 7572586,
+      "time": 54,
+      "timeSeconds": 3220,
+      "draw": {
+        "start": {
+          "x": 47.2,
+          "y": 5.2
+        },
+        "end": {
+          "x": 46.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.7,
+          "y": 89.2
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2180,
+      "periodTimeSeconds": 520,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Martin Baturina",
+        "slug": "martin-baturina",
+        "shortName": "M. Baturina",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 13082,
+        "gender": "M",
+        "sofascoreId": "martinbaturina",
+        "id": 1090019,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارتن باتورينا",
+            "bn": "মার্টিন বাতুরিনা",
+            "hi": "मार्टिन बतुरिना",
+            "ru": "Мартин Батурина"
+          },
+          "shortNameTranslation": {
+            "ar": "م. باتورينا",
+            "bn": "এম. বাতুরিনা",
+            "hi": "एम. बतुरिना",
+            "ru": "М. Батурина"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.8,
+        "y": 31.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 58.2,
+        "z": 2.8
+      },
+      "blockCoordinates": {
+        "x": 0.7,
+        "y": 44.2,
+        "z": 0
+      },
+      "xg": 0.031263183802366,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Orlando Mosquera",
+        "firstName": "Orlando",
+        "lastName": "Mosquera",
+        "slug": "orlando-mosquera",
+        "shortName": "O. Mosquera",
+        "position": "G",
+        "jerseyNumber": "52",
+        "userCount": 702,
+        "gender": "M",
+        "id": 886041,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أورلاندو موسكيرا",
+            "bn": "অরল্যান্ডো মস্কেরা",
+            "hi": "ऑरलैंडो मॉस्क्वेरा",
+            "ru": "Орландо Москера"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موسكيرا",
+            "bn": "ও. মস্কেরা",
+            "hi": "ओ. मॉस्क्वेरा",
+            "ru": "О. Москера"
+          }
+        }
+      },
+      "id": 7572529,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2757,
+      "draw": {
+        "start": {
+          "x": 31.3,
+          "y": 24.8
+        },
+        "block": {
+          "x": 44.2,
+          "y": 0.7
+        },
+        "end": {
+          "x": 41.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 41.8,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2643,
+      "periodTimeSeconds": 57,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Amir Murillo",
+        "firstName": "Amir",
+        "lastName": "Murillo",
+        "slug": "amir-murillo",
+        "shortName": "A. Murillo",
+        "position": "D",
+        "jerseyNumber": "62",
+        "userCount": 5103,
+        "gender": "M",
+        "id": 839493,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أمير موريلو",
+            "bn": "আমির মুরিলো",
+            "hi": "अमीर मुरिलो",
+            "ru": "Амир Мурильо"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موريلو",
+            "bn": "এ. মুরিলো",
+            "hi": "ए. मुरिलो",
+            "ru": "А. Мурильо"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 14.4,
+        "y": 34.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 10.8,
+        "y": 37.7,
+        "z": 0
+      },
+      "xg": 0.050077624619007,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Dominik Livaković",
+        "slug": "dominik-livakovic",
+        "shortName": "D. Livaković",
+        "position": "G",
+        "jerseyNumber": "40",
+        "userCount": 14416,
+        "gender": "M",
+        "sofascoreId": "Livakovic40",
+        "id": 190419,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك ليفاكوفيتش",
+            "bn": "ডমিনিক লিভাকোভিচ",
+            "hi": "डोमिनिक लिवाकोविच",
+            "ru": "Доминик Ливакович"
+          },
+          "shortNameTranslation": {
+            "ar": "د. ليفاكوفيتش",
+            "bn": "ডি. লিভাকোভিচ",
+            "hi": "डी. लिवाकोविच",
+            "ru": "Д. Ливакович"
+          }
+        }
+      },
+      "id": 7572383,
+      "time": 4,
+      "timeSeconds": 192,
+      "draw": {
+        "start": {
+          "x": 34.6,
+          "y": 14.4
+        },
+        "block": {
+          "x": 37.7,
+          "y": 10.8
+        },
+        "end": {
+          "x": 47.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 42,
+      "reversedPeriodTimeSeconds": 2508,
+      "periodTimeSeconds": 192,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Luka Modrić",
+        "slug": "luka-modric",
+        "shortName": "L. Modrić",
+        "position": "M",
+        "userCount": 364724,
+        "gender": "M",
+        "sofascoreId": "LModric10",
+        "id": 15466,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا مودريتش",
+            "bn": "লুকা মডরিচ",
+            "hi": "लुका मोड्रिक",
+            "ru": "Лука Модрич"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. مودريتش",
+            "bn": "এল. মডরিচ",
+            "hi": "एल. मोड्रिक",
+            "ru": "Л. Модрич"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.7,
+        "y": 66.7,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.7,
+        "z": 79.2
+      },
+      "xg": 0.018807983025908,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Orlando Mosquera",
+        "firstName": "Orlando",
+        "lastName": "Mosquera",
+        "slug": "orlando-mosquera",
+        "shortName": "O. Mosquera",
+        "position": "G",
+        "jerseyNumber": "52",
+        "userCount": 702,
+        "gender": "M",
+        "id": 886041,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أورلاندو موسكيرا",
+            "bn": "অরল্যান্ডো মস্কেরা",
+            "hi": "ऑरलैंडो मॉस्क्वेरा",
+            "ru": "Орландо Москера"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. موسكيرا",
+            "bn": "ও. মস্কেরা",
+            "hi": "ओ. मॉस्क्वेरा",
+            "ru": "О. Москера"
+          }
+        }
+      },
+      "id": 7572357,
+      "time": 2,
+      "timeSeconds": 71,
+      "draw": {
+        "start": {
+          "x": 66.7,
+          "y": 9.7
+        },
+        "end": {
+          "x": 56.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.3,
+          "y": 20.8
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2629,
+      "periodTimeSeconds": 71,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -12,7 +12,7 @@
 
     <link
         rel="stylesheet"
-        href="/dashboard/assets/css/copa2026.css?v=8"
+        href="/dashboard/assets/css/copa2026.css?v=9"
     >
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -294,6 +294,53 @@
             </div>
         </section>
 
+        <!-- BASE SOFASCORE COPA 2026 -->
+        <section class="section-panel full-panel sofascore-live-panel">
+            <div class="section-header">
+                <span>Base SofaScore</span>
+                <h2>Copa 2026 — jogos sincronizados</h2>
+                <p>
+                    Dados coletados automaticamente do SofaScore e disponibilizados pelo backend FastAPI.
+                    Selecione uma partida para visualizar placar, status, data e informações principais.
+                </p>
+            </div>
+
+            <div class="sofascore-control-row">
+                <label for="sofascoreMatchSelect">Selecionar jogo</label>
+                <select id="sofascoreMatchSelect" class="sofascore-select">
+                    <option value="">Carregando jogos...</option>
+                </select>
+            </div>
+
+            <div id="sofascoreMatchCard" class="sofascore-match-card">
+                <div class="sofascore-empty">
+                    Carregando base da Copa 2026...
+                </div>
+            </div>
+
+            <div class="sofascore-detail-grid">
+                <div class="sofascore-mini-card">
+                    <span>Total de jogos</span>
+                    <strong id="sofascoreTotalMatches">-</strong>
+                </div>
+
+                <div class="sofascore-mini-card">
+                    <span>Finalizados</span>
+                    <strong id="sofascoreFinishedMatches">-</strong>
+                </div>
+
+                <div class="sofascore-mini-card">
+                    <span>Ao vivo</span>
+                    <strong id="sofascoreLiveMatches">-</strong>
+                </div>
+
+                <div class="sofascore-mini-card">
+                    <span>Próximos</span>
+                    <strong id="sofascoreScheduledMatches">-</strong>
+                </div>
+            </div>
+        </section>
+
         <!-- METODOLOGIA -->
         <section class="section-panel full-panel">
             <div class="section-header">
@@ -338,6 +385,6 @@
         </footer>
     </main>
 
-    <script src="/dashboard/assets/js/copa2026-app.js?v=8"></script>
+    <script src="/dashboard/assets/js/copa2026-app.js?v=9"></script>
 </body>
 </html>

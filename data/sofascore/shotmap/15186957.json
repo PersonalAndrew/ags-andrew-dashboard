@@ -1,0 +1,2476 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Gustaf Lagerbielke",
+        "firstName": "Gustaf",
+        "lastName": "Lagerbielke",
+        "slug": "gustaf-lagerbielke",
+        "shortName": "G. Lagerbielke",
+        "position": "D",
+        "jerseyNumber": "14",
+        "userCount": 912,
+        "gender": "M",
+        "id": 965263,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غوستاف لاجربيلكي",
+            "bn": "গুস্তাফ লেগারবিয়েলকে",
+            "hi": "गुस्ताफ़ लेगरबीलके",
+            "ru": "Густаф Лагербильке"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. لاجربيلكي",
+            "bn": "জি. লেগারবিয়েলকে",
+            "hi": "जी. लेगरबीलके",
+            "ru": "Г. Лагербильке"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.2,
+        "y": 45.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.2,
+        "z": 8.2
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 48.7,
+        "z": 0
+      },
+      "xg": 0.050437584519386,
+      "xgot": 0.18542759120464,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544271,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5713,
+      "draw": {
+        "start": {
+          "x": 45.2,
+          "y": 8.2
+        },
+        "block": {
+          "x": 48.7,
+          "y": 1.2
+        },
+        "end": {
+          "x": 51.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.8,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 587,
+      "periodTimeSeconds": 313,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Viktor Gyökeres",
+        "firstName": "Viktor",
+        "lastName": "Gyokeres",
+        "slug": "viktor-gyokeres",
+        "shortName": "V. Gyökeres",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 224715,
+        "gender": "M",
+        "sofascoreId": "VGyökeres",
+        "id": 804508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غيوكيريس",
+            "bn": "ভিক্টর গোকেরেস",
+            "hi": "विक्टर ग्योकेरेस",
+            "ru": "Виктор Дьёкереш"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غيوكيريس",
+            "bn": "ভি. গোকেরেস",
+            "hi": "वी. ग्योकेरेस",
+            "ru": "В. Дьёкереш"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 17.4,
+        "y": 30.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.6,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 14.9,
+        "y": 33.6,
+        "z": 0
+      },
+      "xg": 0.035072769969702,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544269,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5458,
+      "draw": {
+        "start": {
+          "x": 30.2,
+          "y": 17.4
+        },
+        "block": {
+          "x": 33.6,
+          "y": 14.9
+        },
+        "end": {
+          "x": 53.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.4,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 842,
+      "periodTimeSeconds": 58,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Crysencio Summerville",
+        "firstName": "Crysencio",
+        "lastName": "Summerville",
+        "slug": "crysencio-summerville",
+        "shortName": "C. Summerville",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 13688,
+        "gender": "M",
+        "sofascoreId": "csummerville7",
+        "id": 917005,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريسينسيو سامرفيل",
+            "bn": "ক্রিসেনসিও সামারভিল",
+            "hi": "क्राइसेन्सियो समरविले",
+            "ru": "Крисенсио Саммервилл"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. سامرفيل",
+            "bn": "সি. সামারভিল",
+            "hi": "सी. समरविले",
+            "ru": "К. Саммервилл"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.4,
+        "y": 47.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 3.8
+      },
+      "xg": 0.086289674043655,
+      "xgot": 0.67971670627594,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7544268,
+      "time": 89,
+      "timeSeconds": 5312,
+      "draw": {
+        "start": {
+          "x": 47.6,
+          "y": 18.4
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 2,
+      "reversedPeriodTimeSeconds": 88,
+      "periodTimeSeconds": 2612,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Besfort Zeneli",
+        "firstName": "Besfort Zeneli",
+        "lastName": "",
+        "slug": "besfort-zeneli",
+        "shortName": "B. Zeneli",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 737,
+        "gender": "M",
+        "id": 1173223,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيسفورت زينيلي",
+            "ru": "Бесфорт Зенели"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. زينيلي",
+            "ru": "Б. Зенели"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 27.2,
+        "y": 59.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.1,
+        "z": 23.4
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 50.5,
+        "z": 0
+      },
+      "xg": 0.014283142983913,
+      "xgot": 0.096117854118347,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544267,
+      "time": 85,
+      "timeSeconds": 5066,
+      "draw": {
+        "start": {
+          "x": 59.5,
+          "y": 27.2
+        },
+        "block": {
+          "x": 50.5,
+          "y": 1.8
+        },
+        "end": {
+          "x": 52.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.9,
+          "y": 76.6
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 334,
+      "periodTimeSeconds": 2366,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Alexander Isak",
+        "firstName": "Alexander",
+        "lastName": "Isak",
+        "slug": "alexander-isak",
+        "shortName": "A. Isak",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 110723,
+        "gender": "M",
+        "sofascoreId": "AlexIsak",
+        "id": 823941,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر إيزاك",
+            "bn": "আলেকজান্ডার ইসাক",
+            "hi": "अलेक्जेंडर इसाक",
+            "ru": "Александр Исак"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إيزاك",
+            "bn": "এ. ইসাক",
+            "hi": "ए. इसाक",
+            "ru": "А. Исак"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.5,
+        "y": 30.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.3,
+        "z": 24.1
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 48.2,
+        "z": 0
+      },
+      "xg": 0.024060029536486,
+      "xgot": 0.12498995661736,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544266,
+      "time": 84,
+      "timeSeconds": 5026,
+      "draw": {
+        "start": {
+          "x": 30.3,
+          "y": 19.5
+        },
+        "block": {
+          "x": 48.2,
+          "y": 1.5
+        },
+        "end": {
+          "x": 52.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.7,
+          "y": 75.9
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 374,
+      "periodTimeSeconds": 2326,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Anthony Elanga",
+        "firstName": "",
+        "lastName": "",
+        "slug": "anthony-elanga",
+        "shortName": "A. Elanga",
+        "position": "F",
+        "jerseyNumber": "20",
+        "userCount": 14968,
+        "gender": "M",
+        "sofascoreId": "anthonyelanga",
+        "id": 979232,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتوني إلانغا",
+            "bn": "অ্যান্টনি এলাঙ্গা",
+            "hi": "एंथनी एलंगा",
+            "ru": "Энтони Эланга"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إلانغا",
+            "bn": "এ. এলাঙ্গা",
+            "hi": "ए. एलंगा",
+            "ru": "Э. Эланга"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 13.6,
+        "y": 39.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.4,
+        "z": 19
+      },
+      "xg": 0.29997882246971,
+      "xgot": 0.64458328485489,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544265,
+      "time": 59,
+      "timeSeconds": 3488,
+      "draw": {
+        "start": {
+          "x": 39.3,
+          "y": 13.6
+        },
+        "end": {
+          "x": 46.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1912,
+      "periodTimeSeconds": 788,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Ryan Gravenberch",
+        "firstName": "Ryan",
+        "lastName": "Gravenberch",
+        "slug": "ryan-gravenberch",
+        "shortName": "R. Gravenberch",
+        "position": "M",
+        "jerseyNumber": "38",
+        "userCount": 34636,
+        "gender": "M",
+        "sofascoreId": "ryanjiro",
+        "id": 904897,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريان جرافينبيرش",
+            "bn": "রায়ান গ্রেভেনবার্চ",
+            "hi": "रयान ग्रेवेनबेर्च",
+            "ru": "Райан Гравенберх"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. جرافينبيرش",
+            "bn": "আর. গ্রেভেনবেচ",
+            "hi": "आर. ग्रेवेनबेर्च",
+            "ru": "Р. Гравенберх"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.9,
+        "y": 67.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.6,
+        "z": 79.2
+      },
+      "xg": 0.034507427364588,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7544264,
+      "time": 57,
+      "timeSeconds": 3406,
+      "draw": {
+        "start": {
+          "x": 67.7,
+          "y": 21.9
+        },
+        "end": {
+          "x": 52.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.4,
+          "y": 20.8
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 1994,
+      "periodTimeSeconds": 706,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yasin Ayari",
+        "slug": "yasin-ayari",
+        "shortName": "Y. Ayari",
+        "position": "M",
+        "jerseyNumber": "26",
+        "userCount": 11329,
+        "gender": "M",
+        "id": 1036269,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياسين عياري",
+            "bn": "ইয়াসিন আয়ারি",
+            "hi": "यासीन अयारी",
+            "ru": "Ясин Аяри"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. عياري",
+            "bn": "ওয়াই. আয়ারি",
+            "hi": "वाई. अयारी",
+            "ru": "Я. Аяри"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.3,
+        "y": 65.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 55,
+        "z": 56.9
+      },
+      "xg": 0.048940218985081,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544263,
+      "time": 57,
+      "timeSeconds": 3363,
+      "draw": {
+        "start": {
+          "x": 65.2,
+          "y": 20.3
+        },
+        "end": {
+          "x": 45,
+          "y": 0
+        },
+        "goal": {
+          "x": 45,
+          "y": 43.1
+        }
+      },
+      "reversedPeriodTime": 34,
+      "reversedPeriodTimeSeconds": 2037,
+      "periodTimeSeconds": 663,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Cody Gakpo",
+        "firstName": "Cody",
+        "lastName": "Gakpo",
+        "slug": "cody-gakpo",
+        "shortName": "C. Gakpo",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 57913,
+        "gender": "M",
+        "sofascoreId": "CodyGakpo",
+        "id": 862967,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كودي جاكبو",
+            "bn": "কোডি গাকপো",
+            "hi": "कोडी गाकपो",
+            "ru": "Коди Гакпо"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. جاكبو",
+            "bn": "সি. গাকপো",
+            "hi": "सी. गाकपो",
+            "ru": "К. Гакпо"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 13.8,
+        "y": 36.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 2.5
+      },
+      "xg": 0.13121670484543,
+      "xgot": 0.66160207986832,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7544262,
+      "time": 54,
+      "timeSeconds": 3224,
+      "draw": {
+        "start": {
+          "x": 36.8,
+          "y": 13.8
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 97.5
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2176,
+      "periodTimeSeconds": 524,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yasin Ayari",
+        "slug": "yasin-ayari",
+        "shortName": "Y. Ayari",
+        "position": "M",
+        "jerseyNumber": "26",
+        "userCount": 11329,
+        "gender": "M",
+        "id": 1036269,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياسين عياري",
+            "bn": "ইয়াসিন আয়ারি",
+            "hi": "यासीन अयारी",
+            "ru": "Ясин Аяри"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. عياري",
+            "bn": "ওয়াই. আয়ারি",
+            "hi": "वाई. अयारी",
+            "ru": "Я. Аяри"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 22.2,
+        "y": 44,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 16.3,
+        "y": 45.5,
+        "z": 0
+      },
+      "xg": 0.056621085852385,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544261,
+      "time": 52,
+      "timeSeconds": 3096,
+      "draw": {
+        "start": {
+          "x": 44,
+          "y": 22.2
+        },
+        "block": {
+          "x": 45.5,
+          "y": 16.3
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2304,
+      "periodTimeSeconds": 396,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Cody Gakpo",
+        "firstName": "Cody",
+        "lastName": "Gakpo",
+        "slug": "cody-gakpo",
+        "shortName": "C. Gakpo",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 57913,
+        "gender": "M",
+        "sofascoreId": "CodyGakpo",
+        "id": 862967,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كودي جاكبو",
+            "bn": "কোডি গাকপো",
+            "hi": "कोडी गाकपो",
+            "ru": "Коди Гакпо"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. جاكبو",
+            "bn": "সি. গাকপো",
+            "hi": "सी. गाकपो",
+            "ru": "К. Гакпо"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.5,
+        "y": 39.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.3,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.9,
+        "y": 39.9,
+        "z": 0
+      },
+      "xg": 0.033809788525105,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7544260,
+      "time": 50,
+      "timeSeconds": 2956,
+      "draw": {
+        "start": {
+          "x": 39.5,
+          "y": 18.5
+        },
+        "block": {
+          "x": 39.9,
+          "y": 17.9
+        },
+        "end": {
+          "x": 50.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.7,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2444,
+      "periodTimeSeconds": 256,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Cody Gakpo",
+        "firstName": "Cody",
+        "lastName": "Gakpo",
+        "slug": "cody-gakpo",
+        "shortName": "C. Gakpo",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 57913,
+        "gender": "M",
+        "sofascoreId": "CodyGakpo",
+        "id": 862967,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كودي جاكبو",
+            "bn": "কোডি গাকপো",
+            "hi": "कोडी गाकपो",
+            "ru": "Коди Гакпо"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. جاكبو",
+            "bn": "সি. গাকপো",
+            "hi": "सी. गाकपो",
+            "ru": "К. Гакпо"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 1.3,
+        "y": 47.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 3.8
+      },
+      "xg": 0.94686257839203,
+      "xgot": 0.9790678024292,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7544259,
+      "time": 47,
+      "timeSeconds": 2814,
+      "draw": {
+        "start": {
+          "x": 47.2,
+          "y": 1.3
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 44,
+      "reversedPeriodTimeSeconds": 2586,
+      "periodTimeSeconds": 114,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yasin Ayari",
+        "slug": "yasin-ayari",
+        "shortName": "Y. Ayari",
+        "position": "M",
+        "jerseyNumber": "26",
+        "userCount": 11329,
+        "gender": "M",
+        "id": 1036269,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياسين عياري",
+            "bn": "ইয়াসিন আয়ারি",
+            "hi": "यासीन अयारी",
+            "ru": "Ясин Аяри"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. عياري",
+            "bn": "ওয়াই. আয়ারি",
+            "hi": "वाई. अयारी",
+            "ru": "Я. Аяри"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.8,
+        "y": 32.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.2,
+        "z": 0.6
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.022873437032104,
+      "xgot": 0.30160441994667,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544223,
+      "time": 45,
+      "addedTime": 5,
+      "timeSeconds": 2958,
+      "draw": {
+        "start": {
+          "x": 32.8,
+          "y": 19.8
+        },
+        "block": {
+          "x": 49.8,
+          "y": 1.4
+        },
+        "end": {
+          "x": 45.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.8,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2442,
+      "periodTimeSeconds": 258,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Benjamin Nygren",
+        "firstName": "Benjamin",
+        "lastName": "Nygren",
+        "slug": "benjamin-nygren",
+        "shortName": "B. Nygren",
+        "position": "F",
+        "jerseyNumber": "8",
+        "userCount": 2491,
+        "gender": "M",
+        "id": 918517,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بنيامين نيجرين",
+            "ru": "Беньямин Нюгрен"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. نيجرين",
+            "ru": "Б. Нюгрен"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 18.9,
+        "y": 61.5,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 37,
+        "z": 27.8
+      },
+      "xg": 0.047213416546583,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544222,
+      "time": 45,
+      "addedTime": 4,
+      "timeSeconds": 2886,
+      "draw": {
+        "start": {
+          "x": 61.5,
+          "y": 18.9
+        },
+        "end": {
+          "x": 63,
+          "y": 0
+        },
+        "goal": {
+          "x": 63,
+          "y": 72.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2514,
+      "periodTimeSeconds": 186,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Viktor Gyökeres",
+        "firstName": "Viktor",
+        "lastName": "Gyokeres",
+        "slug": "viktor-gyokeres",
+        "shortName": "V. Gyökeres",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 224715,
+        "gender": "M",
+        "sofascoreId": "VGyökeres",
+        "id": 804508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غيوكيريس",
+            "bn": "ভিক্টর গোকেরেস",
+            "hi": "विक्टर ग्योकेरेस",
+            "ru": "Виктор Дьёкереш"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غيوكيريس",
+            "bn": "ভি. গোকেরেস",
+            "hi": "वी. ग्योकेरेस",
+            "ru": "В. Дьёкереш"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 18.5,
+        "y": 32,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.4,
+        "z": 10.1
+      },
+      "blockCoordinates": {
+        "x": 1.2,
+        "y": 48.9,
+        "z": 0
+      },
+      "xg": 0.059625774621964,
+      "xgot": 0.089869067072868,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544221,
+      "time": 45,
+      "addedTime": 3,
+      "timeSeconds": 2856,
+      "draw": {
+        "start": {
+          "x": 32,
+          "y": 18.5
+        },
+        "block": {
+          "x": 48.9,
+          "y": 1.2
+        },
+        "end": {
+          "x": 52.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.6,
+          "y": 89.9
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2544,
+      "periodTimeSeconds": 156,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yasin Ayari",
+        "slug": "yasin-ayari",
+        "shortName": "Y. Ayari",
+        "position": "M",
+        "jerseyNumber": "26",
+        "userCount": 11329,
+        "gender": "M",
+        "id": 1036269,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياسين عياري",
+            "bn": "ইয়াসিন আয়ারি",
+            "hi": "यासीन अयारी",
+            "ru": "Ясин Аяри"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. عياري",
+            "bn": "ওয়াই. আয়ারি",
+            "hi": "वाई. अयारी",
+            "ru": "Я. Аяри"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.2,
+        "y": 46,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.9,
+        "z": 65.3
+      },
+      "xg": 0.075616247951984,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544196,
+      "time": 41,
+      "timeSeconds": 2436,
+      "draw": {
+        "start": {
+          "x": 46,
+          "y": 18.2
+        },
+        "end": {
+          "x": 49.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.1,
+          "y": 34.7
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 264,
+      "periodTimeSeconds": 2436,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Cody Gakpo",
+        "firstName": "Cody",
+        "lastName": "Gakpo",
+        "slug": "cody-gakpo",
+        "shortName": "C. Gakpo",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 57913,
+        "gender": "M",
+        "sofascoreId": "CodyGakpo",
+        "id": 862967,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كودي جاكبو",
+            "bn": "কোডি গাকপো",
+            "hi": "कोडी गाकपो",
+            "ru": "Коди Гакпо"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. جاكبو",
+            "bn": "সি. গাকপো",
+            "hi": "सी. गाकपो",
+            "ru": "К. Гакпо"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 19.8,
+        "y": 27.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 48.2,
+        "z": 0
+      },
+      "xg": 0.029675191268325,
+      "xgot": 0.016485305503011,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7544195,
+      "time": 38,
+      "timeSeconds": 2276,
+      "draw": {
+        "start": {
+          "x": 27.3,
+          "y": 19.8
+        },
+        "block": {
+          "x": 48.2,
+          "y": 1.8
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 424,
+      "periodTimeSeconds": 2276,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Viktor Gyökeres",
+        "firstName": "Viktor",
+        "lastName": "Gyokeres",
+        "slug": "viktor-gyokeres",
+        "shortName": "V. Gyökeres",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 224715,
+        "gender": "M",
+        "sofascoreId": "VGyökeres",
+        "id": 804508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غيوكيريس",
+            "bn": "ভিক্টর গোকেরেস",
+            "hi": "विक्टर ग्योकेरेस",
+            "ru": "Виктор Дьёкереш"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غيوكيريس",
+            "bn": "ভি. গোকেরেস",
+            "hi": "वी. ग्योकेरेस",
+            "ru": "В. Дьёкереш"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.1,
+        "y": 31.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.3,
+        "z": 13.3
+      },
+      "blockCoordinates": {
+        "x": 2,
+        "y": 46.6,
+        "z": 0
+      },
+      "xg": 0.062842547893524,
+      "xgot": 0.17620094120502,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544194,
+      "time": 37,
+      "timeSeconds": 2171,
+      "draw": {
+        "start": {
+          "x": 31.6,
+          "y": 14.1
+        },
+        "block": {
+          "x": 46.6,
+          "y": 2
+        },
+        "end": {
+          "x": 52.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.7,
+          "y": 86.7
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 529,
+      "periodTimeSeconds": 2171,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Viktor Gyökeres",
+        "firstName": "Viktor",
+        "lastName": "Gyokeres",
+        "slug": "viktor-gyokeres",
+        "shortName": "V. Gyökeres",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 224715,
+        "gender": "M",
+        "sofascoreId": "VGyökeres",
+        "id": 804508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غيوكيريس",
+            "bn": "ভিক্টর গোকেরেস",
+            "hi": "विक्टर ग्योकेरेस",
+            "ru": "Виктор Дьёкереш"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غيوكيريس",
+            "bn": "ভি. গোকেরেস",
+            "hi": "वी. ग्योकेरेस",
+            "ru": "В. Дьёкереш"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.5,
+        "y": 62.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43,
+        "z": 8.3
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 56.9,
+        "z": 0
+      },
+      "xg": 0.073177441954613,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544110,
+      "time": 33,
+      "timeSeconds": 1967,
+      "draw": {
+        "start": {
+          "x": 62.4,
+          "y": 10.5
+        },
+        "block": {
+          "x": 56.9,
+          "y": 1.8
+        },
+        "end": {
+          "x": 57,
+          "y": 0
+        },
+        "goal": {
+          "x": 57,
+          "y": 91.7
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 733,
+      "periodTimeSeconds": 1967,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yasin Ayari",
+        "slug": "yasin-ayari",
+        "shortName": "Y. Ayari",
+        "position": "M",
+        "jerseyNumber": "26",
+        "userCount": 11329,
+        "gender": "M",
+        "id": 1036269,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياسين عياري",
+            "bn": "ইয়াসিন আয়ারি",
+            "hi": "यासीन अयारी",
+            "ru": "Ясин Аяри"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. عياري",
+            "bn": "ওয়াই. আয়ারি",
+            "hi": "वाई. अयारी",
+            "ru": "Я. Аяри"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.4,
+        "y": 30.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 1.8,
+        "z": 6.9
+      },
+      "xg": 0.021071903407574,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544109,
+      "time": 31,
+      "timeSeconds": 1821,
+      "draw": {
+        "start": {
+          "x": 30.7,
+          "y": 14.4
+        },
+        "end": {
+          "x": 98.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 98.2,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 879,
+      "periodTimeSeconds": 1821,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Jesper Karlström",
+        "slug": "jesper-karlstrom",
+        "shortName": "J. Karlström",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 944,
+        "gender": "M",
+        "id": 227894,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يسبر كارلستروم",
+            "bn": "জেসপার কার্লস্ট্রম",
+            "hi": "जेस्पर कार्लस्ट्रोम",
+            "ru": "Йеспер Карлстрём"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. كارلستروم",
+            "bn": "জে. কার্লস্ট্রম",
+            "hi": "जे. कार्लस्ट्रोम",
+            "ru": "Й. Карлстрём"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 10,
+        "y": 51.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.7,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.081553235650063,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544108,
+      "time": 27,
+      "timeSeconds": 1606,
+      "draw": {
+        "start": {
+          "x": 51.8,
+          "y": 10
+        },
+        "block": {
+          "x": 51.4,
+          "y": 7.7
+        },
+        "end": {
+          "x": 50.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 19,
+      "reversedPeriodTimeSeconds": 1094,
+      "periodTimeSeconds": 1606,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Brian Brobbey",
+        "firstName": "Brian",
+        "lastName": "Brobbey",
+        "slug": "brian-brobbey",
+        "shortName": "B. Brobbey",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 20115,
+        "gender": "M",
+        "sofascoreId": "brianbrobbeyy",
+        "id": 910048,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريان بروبي",
+            "bn": "ব্রবি, ব্রায়ান",
+            "hi": "ब्रॉब्बी, ब्रायन",
+            "ru": "Брайан Броббей"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بروبي",
+            "bn": "বি. ব্রায়ান",
+            "hi": "बी. ब्रॉब्बी",
+            "ru": "Б. Броббей"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.1,
+        "y": 53.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.8,
+        "z": 0.6
+      },
+      "xg": 0.63332152366638,
+      "xgot": 0.98331201076508,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7544050,
+      "time": 17,
+      "timeSeconds": 972,
+      "draw": {
+        "start": {
+          "x": 53.4,
+          "y": 4.1
+        },
+        "end": {
+          "x": 46.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.2,
+          "y": 99.4
+        }
+      },
+      "reversedPeriodTime": 29,
+      "reversedPeriodTimeSeconds": 1728,
+      "periodTimeSeconds": 972,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Tijjani Reijnders",
+        "slug": "tijjani-reijnders",
+        "shortName": "T. Reijnders",
+        "position": "M",
+        "jerseyNumber": "4",
+        "userCount": 41699,
+        "gender": "M",
+        "sofascoreId": "tijjanireijnders",
+        "id": 893549,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تياني ريندرز",
+            "bn": "তিজানি রেইজেন্ডার্স",
+            "hi": "तिजानी रेइंडर्स",
+            "ru": "Тейани Рейндерс"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. ريندرز",
+            "bn": "টি. রেইজেন্ডার্স",
+            "hi": "टी. रेइंडर्स",
+            "ru": "Т. Рейндерс"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 11.3,
+        "y": 33.3,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 60.7,
+        "z": 4.2
+      },
+      "xg": 0.029244557023048,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7544049,
+      "time": 15,
+      "timeSeconds": 884,
+      "draw": {
+        "start": {
+          "x": 33.3,
+          "y": 11.3
+        },
+        "end": {
+          "x": 39.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 39.3,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1816,
+      "periodTimeSeconds": 884,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Cody Gakpo",
+        "firstName": "Cody",
+        "lastName": "Gakpo",
+        "slug": "cody-gakpo",
+        "shortName": "C. Gakpo",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 57913,
+        "gender": "M",
+        "sofascoreId": "CodyGakpo",
+        "id": 862967,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كودي جاكبو",
+            "bn": "কোডি গাকপো",
+            "hi": "कोडी गाकपो",
+            "ru": "Коди Гакпо"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. جاكبو",
+            "bn": "সি. গাকপো",
+            "hi": "सी. गाकपो",
+            "ru": "К. Гакпо"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.2,
+        "y": 41.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.3,
+        "z": 17.1
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 48.6,
+        "z": 0
+      },
+      "xg": 0.022416761144996,
+      "xgot": 0.0089799696579576,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7544048,
+      "time": 11,
+      "timeSeconds": 649,
+      "draw": {
+        "start": {
+          "x": 41.1,
+          "y": 11.2
+        },
+        "block": {
+          "x": 48.6,
+          "y": 1.1
+        },
+        "end": {
+          "x": 49.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.7,
+          "y": 82.9
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2051,
+      "periodTimeSeconds": 649,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Viktor Gyökeres",
+        "firstName": "Viktor",
+        "lastName": "Gyokeres",
+        "slug": "viktor-gyokeres",
+        "shortName": "V. Gyökeres",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 224715,
+        "gender": "M",
+        "sofascoreId": "VGyökeres",
+        "id": 804508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غيوكيريس",
+            "bn": "ভিক্টর গোকেরেস",
+            "hi": "विक्टर ग्योकेरेस",
+            "ru": "Виктор Дьёкереш"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غيوكيريس",
+            "bn": "ভি. গোকেরেস",
+            "hi": "वी. ग्योकेरेस",
+            "ru": "В. Дьёкереш"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.4,
+        "y": 69.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.6,
+        "z": 5.7
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 54.1,
+        "z": 0
+      },
+      "xg": 0.032872911542654,
+      "xgot": 0.089511752128601,
+      "goalkeeper": {
+        "name": "Bart Verbruggen",
+        "slug": "bart-verbruggen",
+        "shortName": "B. Verbruggen",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 5968,
+        "gender": "M",
+        "id": 994363,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارت فيربروغين",
+            "bn": "বার্ট ভারব্রুগেন",
+            "hi": "बार्ट वर्ब्रुगेन",
+            "ru": "Барт Вербругген"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيربروغين",
+            "bn": "বি. ভারব্রুগেন",
+            "hi": "बी. वर्ब्रुगेन",
+            "ru": "Б. Вербругген"
+          }
+        }
+      },
+      "id": 7544047,
+      "time": 7,
+      "timeSeconds": 398,
+      "draw": {
+        "start": {
+          "x": 69.5,
+          "y": 10.4
+        },
+        "block": {
+          "x": 54.1,
+          "y": 1.5
+        },
+        "end": {
+          "x": 53.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.4,
+          "y": 94.3
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2302,
+      "periodTimeSeconds": 398,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Brian Brobbey",
+        "firstName": "Brian",
+        "lastName": "Brobbey",
+        "slug": "brian-brobbey",
+        "shortName": "B. Brobbey",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 20115,
+        "gender": "M",
+        "sofascoreId": "brianbrobbeyy",
+        "id": 910048,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريان بروبي",
+            "bn": "ব্রবি, ব্রায়ান",
+            "hi": "ब्रॉब्बी, ब्रायन",
+            "ru": "Брайан Броббей"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. بروبي",
+            "bn": "বি. ব্রায়ান",
+            "hi": "बी. ब्रॉब्बी",
+            "ru": "Б. Броббей"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 4.9,
+        "y": 50.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 9.5
+      },
+      "xg": 0.65940833091736,
+      "xgot": 0.86699950695038,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7544046,
+      "time": 5,
+      "timeSeconds": 298,
+      "draw": {
+        "start": {
+          "x": 50.2,
+          "y": 4.9
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 90.5
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2402,
+      "periodTimeSeconds": 298,
+      "incidentType": "shot"
+    }
+  ]
+}

@@ -1,0 +1,1758 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Yasin Ayari",
+        "slug": "yasin-ayari",
+        "shortName": "Y. Ayari",
+        "position": "M",
+        "jerseyNumber": "26",
+        "userCount": 11329,
+        "gender": "M",
+        "id": 1036269,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياسين عياري",
+            "bn": "ইয়াসিন আয়ারি",
+            "hi": "यासीन अयारी",
+            "ru": "Ясин Аяри"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. عياري",
+            "bn": "ওয়াই. আয়ারি",
+            "hi": "वाई. अयारी",
+            "ru": "Я. Аяри"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.4,
+        "y": 68.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 19.6
+      },
+      "xg": 0.014675469137728,
+      "xgot": 0.19652524590492,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509844,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5706,
+      "draw": {
+        "start": {
+          "x": 68.6,
+          "y": 21.4
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 80.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 594,
+      "periodTimeSeconds": 306,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Elias Achouri",
+        "firstName": "Elias",
+        "lastName": "Achouri",
+        "slug": "elias-achouri",
+        "shortName": "E. Achouri",
+        "position": "M",
+        "jerseyNumber": "30",
+        "userCount": 7740,
+        "gender": "M",
+        "sofascoreId": "EliasAchouri",
+        "id": 945204,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلياس العاشوري",
+            "bn": "ইলিয়াস আচৌরী",
+            "hi": "इलियास अचौरी",
+            "ru": "Элиас Ашури"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. العاشوري",
+            "bn": "ই. আচৌরি",
+            "hi": "ई. अचौरी",
+            "ru": "Э. Ашури"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 27.5,
+        "y": 31.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 26
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 48.6,
+        "z": 0
+      },
+      "xg": 0.013685022480786,
+      "xgot": 0.018281335011125,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7509843,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5527,
+      "draw": {
+        "start": {
+          "x": 31.5,
+          "y": 27.5
+        },
+        "block": {
+          "x": 48.6,
+          "y": 1.4
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 74
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 773,
+      "periodTimeSeconds": 127,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Lucas Bergvall",
+        "firstName": "Lucas",
+        "lastName": "Bergvall",
+        "slug": "lucas-bergvall",
+        "shortName": "L. Bergvall",
+        "position": "M",
+        "jerseyNumber": "15",
+        "userCount": 11379,
+        "gender": "M",
+        "sofascoreId": "lucasbergvall",
+        "id": 1391251,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس بيرغفال",
+            "bn": "বার্গভাল, লুকাস",
+            "hi": "बर्गवैल, लुकास",
+            "ru": "Лукас Бергвалль"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. بيرغفال",
+            "bn": "এল. বার্গভাল",
+            "hi": "एल. बर्गवैल",
+            "ru": "Л. Бергвалль"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.5,
+        "y": 43,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.9,
+        "y": 44,
+        "z": 0
+      },
+      "xg": 0.094726249575615,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509841,
+      "time": 90,
+      "timeSeconds": 5346,
+      "draw": {
+        "start": {
+          "x": 43,
+          "y": 10.5
+        },
+        "block": {
+          "x": 44,
+          "y": 8.9
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 54,
+      "periodTimeSeconds": 2646,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Alexander Isak",
+        "firstName": "Alexander",
+        "lastName": "Isak",
+        "slug": "alexander-isak",
+        "shortName": "A. Isak",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 110723,
+        "gender": "M",
+        "sofascoreId": "AlexIsak",
+        "id": 823941,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر إيزاك",
+            "bn": "আলেকজান্ডার ইসাক",
+            "hi": "अलेक्जेंडर इसाक",
+            "ru": "Александр Исак"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إيزاك",
+            "bn": "এ. ইসাক",
+            "hi": "ए. इसाक",
+            "ru": "А. Исак"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 14.3,
+        "y": 37.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.1,
+        "z": 12
+      },
+      "blockCoordinates": {
+        "x": 2.3,
+        "y": 47.8,
+        "z": 0
+      },
+      "xg": 0.13632722198963,
+      "xgot": 0.20739847421646,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509842,
+      "time": 88,
+      "timeSeconds": 5252,
+      "draw": {
+        "start": {
+          "x": 37.5,
+          "y": 14.3
+        },
+        "block": {
+          "x": 47.8,
+          "y": 2.3
+        },
+        "end": {
+          "x": 51.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.9,
+          "y": 88
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 148,
+      "periodTimeSeconds": 2552,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mattias Svanberg",
+        "firstName": "Mattias",
+        "lastName": "Svanberg",
+        "slug": "mattias-svanberg",
+        "shortName": "M. Svanberg",
+        "position": "M",
+        "jerseyNumber": "32",
+        "userCount": 891,
+        "gender": "M",
+        "id": 796987,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماثياس سفانبرج",
+            "bn": "সোয়ানবার্গ, ম্যাটিয়াস",
+            "hi": "स्वानबर्ग, मैटियास",
+            "ru": "Маттиас Сванберг"
+          },
+          "shortNameTranslation": {
+            "ar": "م. سفانبرج",
+            "bn": "এম. সোয়ানবার্গ",
+            "hi": "एम. स्वानबर्ग",
+            "ru": "М. Сванберг"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 11,
+        "y": 54.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.3,
+        "z": 3.2
+      },
+      "xg": 0.085916742682457,
+      "xgot": 0.70420324802399,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509840,
+      "time": 84,
+      "timeSeconds": 5011,
+      "draw": {
+        "start": {
+          "x": 54.4,
+          "y": 11
+        },
+        "end": {
+          "x": 48.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.7,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 389,
+      "periodTimeSeconds": 2311,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Alexander Isak",
+        "firstName": "Alexander",
+        "lastName": "Isak",
+        "slug": "alexander-isak",
+        "shortName": "A. Isak",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 110723,
+        "gender": "M",
+        "sofascoreId": "AlexIsak",
+        "id": 823941,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر إيزاك",
+            "bn": "আলেকজান্ডার ইসাক",
+            "hi": "अलेक्जेंडर इसाक",
+            "ru": "Александр Исак"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إيزاك",
+            "bn": "এ. ইসাক",
+            "hi": "ए. इसाक",
+            "ru": "А. Исак"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 13,
+        "y": 43.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 11.2,
+        "y": 44,
+        "z": 0
+      },
+      "xg": 0.14112210273743,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509811,
+      "time": 68,
+      "timeSeconds": 4023,
+      "draw": {
+        "start": {
+          "x": 43.5,
+          "y": 13
+        },
+        "block": {
+          "x": 44,
+          "y": 11.2
+        },
+        "end": {
+          "x": 47.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 23,
+      "reversedPeriodTimeSeconds": 1377,
+      "periodTimeSeconds": 1323,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Viktor Gyökeres",
+        "firstName": "Viktor",
+        "lastName": "Gyokeres",
+        "slug": "viktor-gyokeres",
+        "shortName": "V. Gyökeres",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 224715,
+        "gender": "M",
+        "sofascoreId": "VGyökeres",
+        "id": 804508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غيوكيريس",
+            "bn": "ভিক্টর গোকেরেস",
+            "hi": "विक्टर ग्योकेरेस",
+            "ru": "Виктор Дьёкереш"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غيوكيريس",
+            "bn": "ভি. গোকেরেস",
+            "hi": "वी. ग्योकेरेस",
+            "ru": "В. Дьёкереш"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 9.5,
+        "y": 64.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.4,
+        "z": 81.9
+      },
+      "xg": 0.082957103848457,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509810,
+      "time": 66,
+      "timeSeconds": 3924,
+      "draw": {
+        "start": {
+          "x": 64.4,
+          "y": 9.5
+        },
+        "end": {
+          "x": 56.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.6,
+          "y": 18.1
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1476,
+      "periodTimeSeconds": 1224,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Viktor Gyökeres",
+        "firstName": "Viktor",
+        "lastName": "Gyokeres",
+        "slug": "viktor-gyokeres",
+        "shortName": "V. Gyökeres",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 224715,
+        "gender": "M",
+        "sofascoreId": "VGyökeres",
+        "id": 804508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غيوكيريس",
+            "bn": "ভিক্টর গোকেরেস",
+            "hi": "विक्टर ग्योकेरेस",
+            "ru": "Виктор Дьёкереш"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غيوكيريس",
+            "bn": "ভি. গোকেরেস",
+            "hi": "वी. ग्योकेरेस",
+            "ru": "В. Дьёкереш"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.6,
+        "y": 61.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.8,
+        "z": 8.2
+      },
+      "xg": 0.35848322510719,
+      "xgot": 0.58192354440689,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509809,
+      "time": 59,
+      "timeSeconds": 3539,
+      "draw": {
+        "start": {
+          "x": 61.4,
+          "y": 11.6
+        },
+        "end": {
+          "x": 47.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.2,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1861,
+      "periodTimeSeconds": 839,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Montassar Talbi",
+        "firstName": "Montassar",
+        "lastName": "Talbi",
+        "slug": "montassar-talbi",
+        "shortName": "M. Talbi",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 4043,
+        "gender": "M",
+        "id": 879618,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "منتصر الطالبي",
+            "bn": "মনতাসার তালবী",
+            "hi": "मोन्तास्सर तलबी",
+            "ru": "Монтассар Тальби"
+          },
+          "shortNameTranslation": {
+            "ar": "م. الطالبي",
+            "bn": "এম. তালবী",
+            "hi": "एम. तलबी",
+            "ru": "М. Тальби"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 6.7,
+        "y": 49.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 99.5,
+        "z": 6.9
+      },
+      "blockCoordinates": {
+        "x": 10.5,
+        "y": 12.8,
+        "z": 0
+      },
+      "xg": 0.15251137316227,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7509808,
+      "time": 56,
+      "timeSeconds": 3300,
+      "draw": {
+        "start": {
+          "x": 49.9,
+          "y": 6.7
+        },
+        "block": {
+          "x": 12.8,
+          "y": 10.5
+        },
+        "end": {
+          "x": 0.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 0.5,
+          "y": 93.1
+        }
+      },
+      "reversedPeriodTime": 35,
+      "reversedPeriodTimeSeconds": 2100,
+      "periodTimeSeconds": 600,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Viktor Gyökeres",
+        "firstName": "Viktor",
+        "lastName": "Gyokeres",
+        "slug": "viktor-gyokeres",
+        "shortName": "V. Gyökeres",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 224715,
+        "gender": "M",
+        "sofascoreId": "VGyökeres",
+        "id": 804508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غيوكيريس",
+            "bn": "ভিক্টর গোকেরেস",
+            "hi": "विक्टर ग्योकेरेस",
+            "ru": "Виктор Дьёкереш"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غيوكيريس",
+            "bn": "ভি. গোকেরেস",
+            "hi": "वी. ग्योकेरेस",
+            "ru": "В. Дьёкереш"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.8,
+        "y": 67.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 54.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 18.4,
+        "y": 64.8,
+        "z": 0
+      },
+      "xg": 0.031023506075144,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509777,
+      "time": 53,
+      "timeSeconds": 3179,
+      "draw": {
+        "start": {
+          "x": 67.3,
+          "y": 20.8
+        },
+        "block": {
+          "x": 64.8,
+          "y": 18.4
+        },
+        "end": {
+          "x": 45.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 45.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 38,
+      "reversedPeriodTimeSeconds": 2221,
+      "periodTimeSeconds": 479,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Hannibal Mejbri",
+        "firstName": "",
+        "lastName": "",
+        "slug": "hannibal-mejbri",
+        "shortName": "H. Mejbri",
+        "position": "M",
+        "jerseyNumber": "28",
+        "userCount": 28508,
+        "gender": "M",
+        "sofascoreId": "hannibal_mj",
+        "id": 1009386,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "حنبعل المجبري",
+            "bn": "হ্যানিবল মেজব্রি",
+            "hi": "हैनिबल मेजब्री",
+            "ru": "Ханнибал Межбри"
+          },
+          "shortNameTranslation": {
+            "ar": "ح. المجبري",
+            "bn": "এইচ. মেজব্রি",
+            "hi": "एच. मेजब्री",
+            "ru": "Х. Межбри"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 32,
+        "y": 49,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 83.3
+      },
+      "xg": 0.027546226978302,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7509776,
+      "time": 52,
+      "timeSeconds": 3118,
+      "draw": {
+        "start": {
+          "x": 49,
+          "y": 32
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 16.7
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2282,
+      "periodTimeSeconds": 418,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Omar Rekik",
+        "slug": "omar-rekik",
+        "shortName": "O. Rekik",
+        "position": "D",
+        "jerseyNumber": "44",
+        "userCount": 2131,
+        "gender": "M",
+        "id": 976251,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عمر الرقيق",
+            "bn": "ওমর রেকিক",
+            "hi": "उमर रेकीक",
+            "ru": "Омар Рекик"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الرقيق",
+            "bn": "ও. রেকিক",
+            "hi": "ओ. रेकीक",
+            "ru": "О. Рекик"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 8.2,
+        "y": 59.9,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.5,
+        "z": 3.8
+      },
+      "xg": 0.031839497387409,
+      "xgot": 0.32905527949333,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7509740,
+      "time": 43,
+      "timeSeconds": 2550,
+      "draw": {
+        "start": {
+          "x": 59.9,
+          "y": 8.2
+        },
+        "end": {
+          "x": 46.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.5,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 3,
+      "reversedPeriodTimeSeconds": 150,
+      "periodTimeSeconds": 2550,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Victor Lindelöf",
+        "slug": "victor-lindelof",
+        "shortName": "V. Lindelöf",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 9588,
+        "gender": "M",
+        "sofascoreId": "victorlindelof",
+        "id": 143334,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور ليندلوف",
+            "bn": "ভিক্টর লিন্ডেলফ",
+            "hi": "विक्टर लिंडलोफ",
+            "ru": "Виктор Линделёф"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. ليندلوف",
+            "bn": "ভি. লিন্ডেলফ",
+            "hi": "वी. लिंडलोफ",
+            "ru": "В. Линделёф"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 6.4,
+        "y": 48.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 40,
+        "z": 87.5
+      },
+      "xg": 0.13604509830475,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509713,
+      "time": 33,
+      "timeSeconds": 1964,
+      "draw": {
+        "start": {
+          "x": 48.5,
+          "y": 6.4
+        },
+        "end": {
+          "x": 60,
+          "y": 0
+        },
+        "goal": {
+          "x": 60,
+          "y": 12.5
+        }
+      },
+      "reversedPeriodTime": 13,
+      "reversedPeriodTimeSeconds": 736,
+      "periodTimeSeconds": 1964,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Rani Khedira",
+        "firstName": "Rani",
+        "lastName": "Khedira",
+        "slug": "rani-khedira",
+        "shortName": "R. Khedira",
+        "position": "M",
+        "jerseyNumber": "13",
+        "userCount": 2163,
+        "gender": "M",
+        "id": 149479,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "راني خضيرة",
+            "bn": "রানী খেদিরা",
+            "hi": "रानी खेदिरा",
+            "ru": "Рани Хедира"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. خضيرة",
+            "bn": "আর. খেদিরা",
+            "hi": "आर. खेदिरा",
+            "ru": "Р. Хедира"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.4,
+        "y": 50.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.5,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 22.7,
+        "y": 50.4,
+        "z": 0
+      },
+      "xg": 0.021465823054314,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7509712,
+      "time": 31,
+      "timeSeconds": 1855,
+      "draw": {
+        "start": {
+          "x": 50.5,
+          "y": 24.4
+        },
+        "block": {
+          "x": 50.4,
+          "y": 22.7
+        },
+        "end": {
+          "x": 48.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.5,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 15,
+      "reversedPeriodTimeSeconds": 845,
+      "periodTimeSeconds": 1855,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Alexander Isak",
+        "firstName": "Alexander",
+        "lastName": "Isak",
+        "slug": "alexander-isak",
+        "shortName": "A. Isak",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 110723,
+        "gender": "M",
+        "sofascoreId": "AlexIsak",
+        "id": 823941,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ألكسندر إيزاك",
+            "bn": "আলেকজান্ডার ইসাক",
+            "hi": "अलेक्जेंडर इसाक",
+            "ru": "Александр Исак"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. إيزاك",
+            "bn": "এ. ইসাক",
+            "hi": "ए. इसाक",
+            "ru": "А. Исак"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 17.6,
+        "y": 30.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.3,
+        "z": 7.6
+      },
+      "xg": 0.042288329452276,
+      "xgot": 0.22996976971626,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509711,
+      "time": 30,
+      "timeSeconds": 1748,
+      "draw": {
+        "start": {
+          "x": 30.4,
+          "y": 17.6
+        },
+        "end": {
+          "x": 53.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.7,
+          "y": 92.4
+        }
+      },
+      "reversedPeriodTime": 16,
+      "reversedPeriodTimeSeconds": 952,
+      "periodTimeSeconds": 1748,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Elias Saad",
+        "firstName": "Elias Saad",
+        "slug": "elias-saad",
+        "shortName": "E. Saad",
+        "position": "F",
+        "jerseyNumber": "26",
+        "userCount": 4702,
+        "gender": "M",
+        "id": 1130946,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلياس سعد",
+            "bn": "ইলিয়াস সাদ",
+            "hi": "इलियास साद",
+            "ru": "Элиас Саад"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. سعد",
+            "bn": "ই. সাদ",
+            "hi": "ई. साद",
+            "ru": "Э. Саад"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24,
+        "y": 59.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.2,
+        "z": 80.6
+      },
+      "xg": 0.030061913654208,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Kristoffer Nordfeldt",
+        "slug": "kristoffer-nordfeldt",
+        "shortName": "K. Nordfeldt",
+        "position": "G",
+        "jerseyNumber": "15",
+        "userCount": 396,
+        "gender": "M",
+        "id": 22596,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريستوفر نوردفيلت",
+            "bn": "ক্রিস্টোফার নর্ডফেল্ট",
+            "hi": "क्रिस्टोफर नॉर्डफेल्ट",
+            "ru": "Кристоффер Нордфельдт"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. نوردفيلت",
+            "bn": "কে. নর্ডফেল্ট",
+            "hi": "के. नॉर्डफेल्ट",
+            "ru": "К. Нордфельдт"
+          }
+        }
+      },
+      "id": 7509662,
+      "time": 18,
+      "timeSeconds": 1053,
+      "draw": {
+        "start": {
+          "x": 59.3,
+          "y": 24
+        },
+        "end": {
+          "x": 53.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.8,
+          "y": 19.4
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1647,
+      "periodTimeSeconds": 1053,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Yasin Ayari",
+        "slug": "yasin-ayari",
+        "shortName": "Y. Ayari",
+        "position": "M",
+        "jerseyNumber": "26",
+        "userCount": 11329,
+        "gender": "M",
+        "id": 1036269,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياسين عياري",
+            "bn": "ইয়াসিন আয়ারি",
+            "hi": "यासीन अयारी",
+            "ru": "Ясин Аяри"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. عياري",
+            "bn": "ওয়াই. আয়ারি",
+            "hi": "वाई. अयारी",
+            "ru": "Я. Аяри"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 24.4,
+        "y": 43.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 47.8,
+        "z": 24.7
+      },
+      "xg": 0.053725704550743,
+      "xgot": 0.19662664830685,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509661,
+      "time": 7,
+      "timeSeconds": 381,
+      "draw": {
+        "start": {
+          "x": 43.1,
+          "y": 24.4
+        },
+        "end": {
+          "x": 52.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 52.2,
+          "y": 75.3
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2319,
+      "periodTimeSeconds": 381,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Viktor Gyökeres",
+        "firstName": "Viktor",
+        "lastName": "Gyokeres",
+        "slug": "viktor-gyokeres",
+        "shortName": "V. Gyökeres",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 224715,
+        "gender": "M",
+        "sofascoreId": "VGyökeres",
+        "id": 804508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غيوكيريس",
+            "bn": "ভিক্টর গোকেরেস",
+            "hi": "विक्टर ग्योकेरेस",
+            "ru": "Виктор Дьёкереш"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غيوكيريس",
+            "bn": "ভি. গোকেরেস",
+            "hi": "वी. ग्योकेरेस",
+            "ru": "В. Дьёкереш"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 14.4,
+        "y": 41.4,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 2.3,
+        "y": 46.7,
+        "z": 0
+      },
+      "xg": 0.083359904587269,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509660,
+      "time": 7,
+      "timeSeconds": 379,
+      "draw": {
+        "start": {
+          "x": 41.4,
+          "y": 14.4
+        },
+        "block": {
+          "x": 46.7,
+          "y": 2.3
+        },
+        "end": {
+          "x": 47.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 39,
+      "reversedPeriodTimeSeconds": 2321,
+      "periodTimeSeconds": 379,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Viktor Gyökeres",
+        "firstName": "Viktor",
+        "lastName": "Gyokeres",
+        "slug": "viktor-gyokeres",
+        "shortName": "V. Gyökeres",
+        "position": "F",
+        "jerseyNumber": "14",
+        "userCount": 224715,
+        "gender": "M",
+        "sofascoreId": "VGyökeres",
+        "id": 804508,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيكتور غيوكيريس",
+            "bn": "ভিক্টর গোকেরেস",
+            "hi": "विक्टर ग्योकेरेस",
+            "ru": "Виктор Дьёкереш"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. غيوكيريس",
+            "bn": "ভি. গোকেরেস",
+            "hi": "वी. ग्योकेरेस",
+            "ru": "В. Дьёкереш"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "fast-break",
+      "playerCoordinates": {
+        "x": 15.1,
+        "y": 40.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 39.5,
+        "z": 81.9
+      },
+      "xg": 0.076748140156269,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Abdelmouhib Chamakh",
+        "firstName": "Abdelmouhib Chamakh",
+        "slug": "abdelmouhib-chamakh",
+        "shortName": "A. Chamakh",
+        "position": "G",
+        "jerseyNumber": "1",
+        "userCount": 1603,
+        "gender": "M",
+        "id": 2018130,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبد المهيب الشامخ",
+            "ru": "Абдельмухиб Шамах"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الشامخ",
+            "ru": "А. Шамах"
+          }
+        }
+      },
+      "id": 7509659,
+      "time": 5,
+      "timeSeconds": 255,
+      "draw": {
+        "start": {
+          "x": 40.3,
+          "y": 15.1
+        },
+        "end": {
+          "x": 60.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 60.5,
+          "y": 18.1
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2445,
+      "periodTimeSeconds": 255,
+      "incidentType": "shot"
+    }
+  ]
+}

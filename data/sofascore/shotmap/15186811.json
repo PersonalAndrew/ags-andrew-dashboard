@@ -1,0 +1,3273 @@
+{
+  "shotmap": [
+    {
+      "player": {
+        "name": "Juan Sanabria",
+        "firstName": "Juan",
+        "lastName": "Sanabria",
+        "slug": "juan-sanabria",
+        "shortName": "J. Sanabria",
+        "position": "D",
+        "jerseyNumber": "8",
+        "userCount": 732,
+        "gender": "M",
+        "id": 874568,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان سانابريا",
+            "bn": "হুয়ান ম্যানুয়েল সানাব্রিয়া",
+            "hi": "जुआन मैनुअल सनाब्रिया",
+            "ru": "Хуан Санабрия"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. سانابريا",
+            "bn": "জে. এম. সানাব্রিয়া",
+            "hi": "जे.एम. सनाब्रिया",
+            "ru": "Х. Санабрия"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 15.6,
+        "y": 68.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 8.6,
+        "y": 60.6,
+        "z": 0
+      },
+      "xg": 0.030257575213909,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518403,
+      "time": 90,
+      "addedTime": 8,
+      "timeSeconds": 5875,
+      "draw": {
+        "start": {
+          "x": 68.5,
+          "y": 15.6
+        },
+        "block": {
+          "x": 60.6,
+          "y": 8.6
+        },
+        "end": {
+          "x": 50.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 425,
+      "periodTimeSeconds": 475,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Brian Rodríguez",
+        "slug": "brian-rodriguez",
+        "shortName": "B. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 3334,
+        "gender": "M",
+        "id": 932233,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برايان رودريغيز",
+            "bn": "ব্রায়ান রদ্রিগেজ",
+            "hi": "ब्रायन रोड्रिग्ज़",
+            "ru": "Брайан Родригес"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. رودريغيز",
+            "bn": "বি. রদ্রিগেজ",
+            "hi": "बी. रोड्रिग्ज़",
+            "ru": "Б. Родригес"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 21.9,
+        "y": 24.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.5,
+        "z": 3.8
+      },
+      "blockCoordinates": {
+        "x": 1,
+        "y": 46.2,
+        "z": 0
+      },
+      "xg": 0.029352322220802,
+      "xgot": 0.037423681467772,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518365,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5750,
+      "draw": {
+        "start": {
+          "x": 24.8,
+          "y": 21.9
+        },
+        "block": {
+          "x": 46.2,
+          "y": 1
+        },
+        "end": {
+          "x": 46.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.5,
+          "y": 96.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 550,
+      "periodTimeSeconds": 350,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Guillermo Varela",
+        "firstName": "Guillermo",
+        "lastName": "Varela",
+        "slug": "guillermo-varela",
+        "shortName": "G. Varela",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 9084,
+        "gender": "M",
+        "id": 311456,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غويليرمو فاريلا",
+            "bn": "গুইলারমো ভারেলা",
+            "hi": "गिलर्मो वारेला",
+            "ru": "Гильермо Варела"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. فاريلا",
+            "bn": "জি. ভারেলা",
+            "hi": "जी. वारेला",
+            "ru": "Г. Варела"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 25.1,
+        "y": 62.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 76.3,
+        "z": 2.8
+      },
+      "blockCoordinates": {
+        "x": 19.2,
+        "y": 51.6,
+        "z": 0
+      },
+      "xg": 0.0075492379255593,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518364,
+      "time": 90,
+      "addedTime": 6,
+      "timeSeconds": 5704,
+      "draw": {
+        "start": {
+          "x": 62.8,
+          "y": 25.1
+        },
+        "block": {
+          "x": 51.6,
+          "y": 19.2
+        },
+        "end": {
+          "x": 23.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 23.7,
+          "y": 97.2
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 596,
+      "periodTimeSeconds": 304,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Federico Valverde",
+        "firstName": "Federico",
+        "lastName": "Valverde",
+        "slug": "federico-valverde",
+        "shortName": "F. Valverde",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 472667,
+        "gender": "M",
+        "sofascoreId": "Fede",
+        "id": 831808,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو فالفيردي",
+            "bn": "ফেদেরিকো ভালভার্দে",
+            "hi": "फेडेरिको वेलवेर्डे",
+            "ru": "Федерико Вальверде"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فالفيردي",
+            "bn": "এফ. ভালভার্দে",
+            "hi": "एफ. वेलवेर्डे",
+            "ru": "Ф. Вальверде"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 13.3,
+        "y": 69.3,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 13.3,
+        "y": 68.8,
+        "z": 0
+      },
+      "xg": 0.017095979303122,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518363,
+      "time": 90,
+      "addedTime": 5,
+      "timeSeconds": 5678,
+      "draw": {
+        "start": {
+          "x": 69.3,
+          "y": 13.3
+        },
+        "block": {
+          "x": 68.8,
+          "y": 13.3
+        },
+        "end": {
+          "x": 48.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 622,
+      "periodTimeSeconds": 278,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Sebastián Cáceres",
+        "firstName": "Sebastian",
+        "lastName": "Caceres",
+        "slug": "sebastian-caceres",
+        "shortName": "S. Cáceres",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 924889,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سباستيان كاسيريس",
+            "bn": "সেবাস্তিয়ান ক্যাসেরেস",
+            "hi": "सेबेस्टियन कासेरेस",
+            "ru": "Себастьян Касерес"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كاسيريس",
+            "bn": "এস. ক্যাসেরেস",
+            "hi": "एस. कासेरेस",
+            "ru": "С. Касерес"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 9.2,
+        "y": 58.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.7,
+        "z": 23.6
+      },
+      "xg": 0.032375067472458,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518362,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5578,
+      "draw": {
+        "start": {
+          "x": 58.6,
+          "y": 9.2
+        },
+        "end": {
+          "x": 57.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.3,
+          "y": 76.4
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 722,
+      "periodTimeSeconds": 178,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Federico Valverde",
+        "firstName": "Federico",
+        "lastName": "Valverde",
+        "slug": "federico-valverde",
+        "shortName": "F. Valverde",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 472667,
+        "gender": "M",
+        "sofascoreId": "Fede",
+        "id": 831808,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو فالفيردي",
+            "bn": "ফেদেরিকো ভালভার্দে",
+            "hi": "फेडेरिको वेलवेर्डे",
+            "ru": "Федерико Вальверде"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فالفيردي",
+            "bn": "এফ. ভালভার্দে",
+            "hi": "एफ. वेलवेर्डे",
+            "ru": "Ф. Вальверде"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 19.4,
+        "y": 31.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.7,
+        "z": 3.2
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 48.6,
+        "z": 0
+      },
+      "xg": 0.021231090649962,
+      "xgot": 0.079476177692413,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518361,
+      "time": 90,
+      "addedTime": 3,
+      "timeSeconds": 5547,
+      "draw": {
+        "start": {
+          "x": 31.1,
+          "y": 19.4
+        },
+        "block": {
+          "x": 48.6,
+          "y": 1.5
+        },
+        "end": {
+          "x": 53.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.3,
+          "y": 96.8
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 753,
+      "periodTimeSeconds": 147,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nicolás de la Cruz",
+        "firstName": "Nicolas",
+        "lastName": "De la Cruz",
+        "slug": "nicolas-de-la-cruz",
+        "shortName": "N. De la Cruz",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 18680,
+        "gender": "M",
+        "sofascoreId": "nicodelacruz10",
+        "id": 877513,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولاس دي لا كروز",
+            "bn": "নিকোলাস অফ দ্য ক্রস",
+            "hi": "निकोलस डे ला क्रूज़",
+            "ru": "Николас де ла Крус"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. دي لا كروز",
+            "bn": "এন. ডি লা ক্রুজ",
+            "hi": "एन. डे",
+            "ru": "Н. Крус"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 14.4,
+        "y": 41.9,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.2,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 47.6,
+        "z": 0
+      },
+      "xg": 0.094751015305519,
+      "xgot": 0.068212166428566,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518360,
+      "time": 90,
+      "addedTime": 1,
+      "timeSeconds": 5449,
+      "draw": {
+        "start": {
+          "x": 41.9,
+          "y": 14.4
+        },
+        "block": {
+          "x": 47.6,
+          "y": 1.1
+        },
+        "end": {
+          "x": 49.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.8,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 851,
+      "periodTimeSeconds": 49,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Saud Abdulhamid",
+        "firstName": "Saud",
+        "lastName": "Abdulhamid",
+        "slug": "saud-abdulhamid",
+        "shortName": "S. Abdulhamid",
+        "position": "M",
+        "jerseyNumber": "23",
+        "userCount": 11945,
+        "gender": "M",
+        "sofascoreId": "s.abdulhamed66",
+        "id": 966849,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سعود عبدالحميد",
+            "bn": "আব্দুল হামিদ, সৌদ",
+            "hi": "अब्दुल हमीद, सऊद",
+            "ru": "Сауд Абдулхамид"
+          },
+          "shortNameTranslation": {
+            "ar": "س. عبدالحميد",
+            "bn": "এস. আব্দুল হামিদ",
+            "hi": "एस. अब्दुल हमीद",
+            "ru": "С. Абдулхамид"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 16.9,
+        "y": 64,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.7,
+        "z": 63.9
+      },
+      "xg": 0.043825771659613,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Fernando Muslera",
+        "slug": "fernando-muslera",
+        "shortName": "F. Muslera",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 11626,
+        "gender": "M",
+        "sofascoreId": "Muslera",
+        "id": 28381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرناندو موسليرا",
+            "bn": "ফার্নান্দো মুসলেরা",
+            "hi": "फर्नांडो मुस्लेरा",
+            "ru": "Фернандо Муслера"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. موسليرا",
+            "bn": "এফ. মুসলেরা",
+            "hi": "एफ. मुस्लेरा",
+            "ru": "Ф. Муслера"
+          }
+        }
+      },
+      "id": 7518358,
+      "time": 87,
+      "timeSeconds": 5178,
+      "draw": {
+        "start": {
+          "x": 64,
+          "y": 16.9
+        },
+        "end": {
+          "x": 51.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.3,
+          "y": 36.1
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 222,
+      "periodTimeSeconds": 2478,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mohamed Kanno",
+        "firstName": "Mohamed",
+        "lastName": "Kanno",
+        "slug": "mohamed-kanno",
+        "shortName": "M. Kanno",
+        "position": "M",
+        "jerseyNumber": "28",
+        "userCount": 1999,
+        "gender": "M",
+        "id": 828524,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد كنو",
+            "bn": "মোহাম্মদ কান্নো",
+            "hi": "मोहम्मद कन्नो",
+            "ru": "Мохамед Канно"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كنو",
+            "bn": "এম. কান্নো",
+            "hi": "एम. कन्नो",
+            "ru": "М. Канно"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "block",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 26.6,
+        "y": 57.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.1,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 20.7,
+        "y": 56.1,
+        "z": 0
+      },
+      "xg": 0.019721772521734,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Fernando Muslera",
+        "slug": "fernando-muslera",
+        "shortName": "F. Muslera",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 11626,
+        "gender": "M",
+        "sofascoreId": "Muslera",
+        "id": 28381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرناندو موسليرا",
+            "bn": "ফার্নান্দো মুসলেরা",
+            "hi": "फर्नांडो मुस्लेरा",
+            "ru": "Фернандо Муслера"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. موسليرا",
+            "bn": "এফ. মুসলেরা",
+            "hi": "एफ. मुस्लेरा",
+            "ru": "Ф. Муслера"
+          }
+        }
+      },
+      "id": 7518357,
+      "time": 87,
+      "timeSeconds": 5174,
+      "draw": {
+        "start": {
+          "x": 57.9,
+          "y": 26.6
+        },
+        "block": {
+          "x": 56.1,
+          "y": 20.7
+        },
+        "end": {
+          "x": 49.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.9,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 4,
+      "reversedPeriodTimeSeconds": 226,
+      "periodTimeSeconds": 2474,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Brian Rodríguez",
+        "slug": "brian-rodriguez",
+        "shortName": "B. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "7",
+        "userCount": 3334,
+        "gender": "M",
+        "id": 932233,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برايان رودريغيز",
+            "bn": "ব্রায়ান রদ্রিগেজ",
+            "hi": "ब्रायन रोड्रिग्ज़",
+            "ru": "Брайан Родригес"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. رودريغيز",
+            "bn": "বি. রদ্রিগেজ",
+            "hi": "बी. रोड्रिग्ज़",
+            "ru": "Б. Родригес"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 20.8,
+        "y": 25.5,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 42.4,
+        "z": 19.4
+      },
+      "xg": 0.011878637596965,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518356,
+      "time": 83,
+      "timeSeconds": 4978,
+      "draw": {
+        "start": {
+          "x": 25.5,
+          "y": 20.8
+        },
+        "end": {
+          "x": 57.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 57.6,
+          "y": 80.6
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 422,
+      "periodTimeSeconds": 2278,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Sebastián Cáceres",
+        "firstName": "Sebastian",
+        "lastName": "Caceres",
+        "slug": "sebastian-caceres",
+        "shortName": "S. Cáceres",
+        "position": "D",
+        "jerseyNumber": "4",
+        "userCount": 1305,
+        "gender": "M",
+        "id": 924889,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سباستيان كاسيريس",
+            "bn": "সেবাস্তিয়ান ক্যাসেরেস",
+            "hi": "सेबेस्टियन कासेरेस",
+            "ru": "Себастьян Касерес"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كاسيريس",
+            "bn": "এস. ক্যাসেরেস",
+            "hi": "एस. कासेरेस",
+            "ru": "С. Касерес"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 7.1,
+        "y": 54.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-high",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.3,
+        "z": 59.7
+      },
+      "xg": 0.09491690248251,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518355,
+      "time": 83,
+      "timeSeconds": 4947,
+      "draw": {
+        "start": {
+          "x": 54.4,
+          "y": 7.1
+        },
+        "end": {
+          "x": 46.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.7,
+          "y": 40.3
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 453,
+      "periodTimeSeconds": 2247,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Juan Sanabria",
+        "firstName": "Juan",
+        "lastName": "Sanabria",
+        "slug": "juan-sanabria",
+        "shortName": "J. Sanabria",
+        "position": "D",
+        "jerseyNumber": "8",
+        "userCount": 732,
+        "gender": "M",
+        "id": 874568,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان سانابريا",
+            "bn": "হুয়ান ম্যানুয়েল সানাব্রিয়া",
+            "hi": "जुआन मैनुअल सनाब्रिया",
+            "ru": "Хуан Санабрия"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. سانابريا",
+            "bn": "জে. এম. সানাব্রিয়া",
+            "hi": "जे.एम. सनाब्रिया",
+            "ru": "Х. Санабрия"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 26.5,
+        "y": 30.6,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 50.4,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 21.1,
+        "y": 34.5,
+        "z": 0
+      },
+      "xg": 0.01914120092988,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518354,
+      "time": 82,
+      "timeSeconds": 4911,
+      "draw": {
+        "start": {
+          "x": 30.6,
+          "y": 26.5
+        },
+        "block": {
+          "x": 34.5,
+          "y": 21.1
+        },
+        "end": {
+          "x": 49.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 49.6,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 9,
+      "reversedPeriodTimeSeconds": 489,
+      "periodTimeSeconds": 2211,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Maximiliano Araújo",
+        "firstName": "Maxi",
+        "lastName": "Araújo",
+        "slug": "maximiliano-araujo",
+        "shortName": "M. Araújo",
+        "position": "D",
+        "jerseyNumber": "20",
+        "userCount": 9388,
+        "gender": "M",
+        "id": 929193,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماكسيميليانو أروخو",
+            "bn": "ম্যাক্সিমিলিয়ানো আরাউহো",
+            "hi": "मैक्सिमिलियानो अराउजो",
+            "ru": "Максимилиано Араужо"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أروخو",
+            "bn": "এম. আরাউহো",
+            "hi": "एम. अराउजो",
+            "ru": "М. Араужо"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 4.1,
+        "y": 37.7,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.5,
+        "z": 15.8
+      },
+      "xg": 0.17505407333374,
+      "xgot": 0.28431129455566,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518353,
+      "time": 80,
+      "timeSeconds": 4767,
+      "draw": {
+        "start": {
+          "x": 37.7,
+          "y": 4.1
+        },
+        "end": {
+          "x": 46.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.5,
+          "y": 84.2
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 633,
+      "periodTimeSeconds": 2067,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Federico Viñas",
+        "firstName": "Federico",
+        "lastName": "Vinas",
+        "slug": "federico-vinas",
+        "shortName": "F. Viñas",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 2669,
+        "gender": "M",
+        "id": 976104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو فيناس",
+            "ru": "Федерико Виньяс"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيناس",
+            "ru": "Ф. Виньяс"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 7.7,
+        "y": 51.2,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 1,
+        "y": 50.4,
+        "z": 0
+      },
+      "xg": 0.30274218320847,
+      "xgot": 0.4215644299984,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518352,
+      "time": 80,
+      "timeSeconds": 4763,
+      "draw": {
+        "start": {
+          "x": 51.2,
+          "y": 7.7
+        },
+        "block": {
+          "x": 50.4,
+          "y": 1
+        },
+        "end": {
+          "x": 48.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 11,
+      "reversedPeriodTimeSeconds": 637,
+      "periodTimeSeconds": 2063,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Nicolás de la Cruz",
+        "firstName": "Nicolas",
+        "lastName": "De la Cruz",
+        "slug": "nicolas-de-la-cruz",
+        "shortName": "N. De la Cruz",
+        "position": "M",
+        "jerseyNumber": "18",
+        "userCount": 18680,
+        "gender": "M",
+        "sofascoreId": "nicodelacruz10",
+        "id": 877513,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكولاس دي لا كروز",
+            "bn": "নিকোলাস অফ দ্য ক্রস",
+            "hi": "निकोलस डे ला क्रूज़",
+            "ru": "Николас де ла Крус"
+          },
+          "shortNameTranslation": {
+            "ar": "ن. دي لا كروز",
+            "bn": "এন. ডি লা ক্রুজ",
+            "hi": "एन. डे",
+            "ru": "Н. Крус"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 22.5,
+        "y": 60.1,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.9,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.1,
+        "y": 57.9,
+        "z": 0
+      },
+      "xg": 0.051621567457914,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518351,
+      "time": 79,
+      "timeSeconds": 4737,
+      "draw": {
+        "start": {
+          "x": 60.1,
+          "y": 22.5
+        },
+        "block": {
+          "x": 57.9,
+          "y": 17.1
+        },
+        "end": {
+          "x": 51.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.1,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 12,
+      "reversedPeriodTimeSeconds": 663,
+      "periodTimeSeconds": 2037,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Guillermo Varela",
+        "firstName": "Guillermo",
+        "lastName": "Varela",
+        "slug": "guillermo-varela",
+        "shortName": "G. Varela",
+        "position": "D",
+        "jerseyNumber": "2",
+        "userCount": 9084,
+        "gender": "M",
+        "id": 311456,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غويليرمو فاريلا",
+            "bn": "গুইলারমো ভারেলা",
+            "hi": "गिलर्मो वारेला",
+            "ru": "Гильермо Варела"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. فاريلا",
+            "bn": "জি. ভারেলা",
+            "hi": "जी. वारेला",
+            "ru": "Г. Варела"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 20.4,
+        "y": 62.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 17.6,
+        "y": 60.8,
+        "z": 0
+      },
+      "xg": 0.029963364824653,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518333,
+      "time": 67,
+      "timeSeconds": 3987,
+      "draw": {
+        "start": {
+          "x": 62.4,
+          "y": 20.4
+        },
+        "block": {
+          "x": 60.8,
+          "y": 17.6
+        },
+        "end": {
+          "x": 51,
+          "y": 0
+        },
+        "goal": {
+          "x": 51,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1413,
+      "periodTimeSeconds": 1287,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Federico Valverde",
+        "firstName": "Federico",
+        "lastName": "Valverde",
+        "slug": "federico-valverde",
+        "shortName": "F. Valverde",
+        "position": "M",
+        "jerseyNumber": "8",
+        "userCount": 472667,
+        "gender": "M",
+        "sofascoreId": "Fede",
+        "id": 831808,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو فالفيردي",
+            "bn": "ফেদেরিকো ভালভার্দে",
+            "hi": "फेडेरिको वेलवेर्डे",
+            "ru": "Федерико Вальверде"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فالفيردي",
+            "bn": "এফ. ভালভার্দে",
+            "hi": "एफ. वेलवेर्डे",
+            "ru": "Ф. Вальверде"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "free-kick",
+      "playerCoordinates": {
+        "x": 5.6,
+        "y": 14.8,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.3,
+        "z": 22.2
+      },
+      "blockCoordinates": {
+        "x": 0.59999999999999,
+        "y": 44.4,
+        "z": 0
+      },
+      "xg": 0.029636707156897,
+      "xgot": 0.045957397669554,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518332,
+      "time": 67,
+      "timeSeconds": 3983,
+      "draw": {
+        "start": {
+          "x": 14.8,
+          "y": 5.6
+        },
+        "block": {
+          "x": 44.4,
+          "y": 0.59999999999999
+        },
+        "end": {
+          "x": 47.7,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.7,
+          "y": 77.8
+        }
+      },
+      "reversedPeriodTime": 24,
+      "reversedPeriodTimeSeconds": 1417,
+      "periodTimeSeconds": 1283,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Juan Sanabria",
+        "firstName": "Juan",
+        "lastName": "Sanabria",
+        "slug": "juan-sanabria",
+        "shortName": "J. Sanabria",
+        "position": "D",
+        "jerseyNumber": "8",
+        "userCount": 732,
+        "gender": "M",
+        "id": 874568,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوان سانابريا",
+            "bn": "হুয়ান ম্যানুয়েল সানাব্রিয়া",
+            "hi": "जुआन मैनुअल सनाब्रिया",
+            "ru": "Хуан Санабрия"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. سانابريا",
+            "bn": "জে. এম. সানাব্রিয়া",
+            "hi": "जे.एम. सनाब्रिया",
+            "ru": "Х. Санабрия"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 9.8,
+        "y": 36,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 82.4,
+        "z": 4.2
+      },
+      "xg": 0.061166536062956,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518228,
+      "time": 60,
+      "timeSeconds": 3591,
+      "draw": {
+        "start": {
+          "x": 36,
+          "y": 9.8
+        },
+        "end": {
+          "x": 17.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 17.6,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1809,
+      "periodTimeSeconds": 891,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Manuel Ugarte",
+        "firstName": "Manuel",
+        "lastName": "Ugarte",
+        "slug": "manuel-ugarte",
+        "shortName": "M. Ugarte",
+        "position": "M",
+        "jerseyNumber": "25",
+        "userCount": 21217,
+        "gender": "M",
+        "sofascoreId": "ugartemanu",
+        "id": 846425,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل أوغارتي",
+            "bn": "ম্যানুয়েল উগার্তে",
+            "hi": "मैनुअल उगार्टे",
+            "ru": "Мануэль Угарте"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أوغارتي",
+            "bn": "এম. উগার্তে",
+            "hi": "एम. उगार्टे",
+            "ru": "М. Угарте"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 24.8,
+        "y": 62.2,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 53.9,
+        "z": 5.1
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 51.4,
+        "z": 0
+      },
+      "xg": 0.017358340322971,
+      "xgot": 0.16111077368259,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518227,
+      "time": 60,
+      "timeSeconds": 3587,
+      "draw": {
+        "start": {
+          "x": 62.2,
+          "y": 24.8
+        },
+        "block": {
+          "x": 51.4,
+          "y": 1.8
+        },
+        "end": {
+          "x": 46.1,
+          "y": 0
+        },
+        "goal": {
+          "x": 46.1,
+          "y": 94.9
+        }
+      },
+      "reversedPeriodTime": 31,
+      "reversedPeriodTimeSeconds": 1813,
+      "periodTimeSeconds": 887,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Agustín Canobbio",
+        "firstName": "Agustin",
+        "lastName": "Canobbio",
+        "slug": "agustin-canobbio",
+        "shortName": "A. Canobbio",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 5149,
+        "gender": "M",
+        "id": 846413,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أغوستين كانوبيو",
+            "bn": "অগাস্টিন ক্যানোবিও",
+            "hi": "अगस्टिन कैनोबियो",
+            "ru": "Агустин Каноббио"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. كانوبيو",
+            "bn": "এ. ক্যানোবিও",
+            "hi": "ए. कैनोबियो",
+            "ru": "А. Каноббио"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 10.3,
+        "y": 62.4,
+        "z": 0
+      },
+      "bodyPart": "other",
+      "goalMouthLocation": "high-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43.7,
+        "z": 61.1
+      },
+      "xg": 0.0197844337672,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518226,
+      "time": 59,
+      "timeSeconds": 3509,
+      "draw": {
+        "start": {
+          "x": 62.4,
+          "y": 10.3
+        },
+        "end": {
+          "x": 56.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 56.3,
+          "y": 38.9
+        }
+      },
+      "reversedPeriodTime": 32,
+      "reversedPeriodTimeSeconds": 1891,
+      "periodTimeSeconds": 809,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Manuel Ugarte",
+        "firstName": "Manuel",
+        "lastName": "Ugarte",
+        "slug": "manuel-ugarte",
+        "shortName": "M. Ugarte",
+        "position": "M",
+        "jerseyNumber": "25",
+        "userCount": 21217,
+        "gender": "M",
+        "sofascoreId": "ugartemanu",
+        "id": 846425,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانويل أوغارتي",
+            "bn": "ম্যানুয়েল উগার্তে",
+            "hi": "मैनुअल उगार्टे",
+            "ru": "Мануэль Угарте"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أوغارتي",
+            "bn": "এম. উগার্তে",
+            "hi": "एम. उगार्टे",
+            "ru": "М. Угарте"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 23.7,
+        "y": 43.6,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 59.2,
+        "z": 1.4
+      },
+      "blockCoordinates": {
+        "x": 1.1,
+        "y": 42.6,
+        "z": 0
+      },
+      "xg": 0.010347120463848,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518175,
+      "time": 54,
+      "timeSeconds": 3182,
+      "draw": {
+        "start": {
+          "x": 43.6,
+          "y": 23.7
+        },
+        "block": {
+          "x": 42.6,
+          "y": 1.1
+        },
+        "end": {
+          "x": 40.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 40.8,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2218,
+      "periodTimeSeconds": 482,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mathías Olivera",
+        "firstName": "Mathias",
+        "lastName": "Olivera",
+        "slug": "mathias-olivera",
+        "shortName": "M. Olivera",
+        "position": "D",
+        "jerseyNumber": "17",
+        "userCount": 4064,
+        "gender": "M",
+        "id": 805078,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتياس أوليفيرا",
+            "bn": "ম্যাথিয়াস অলিভেরা",
+            "hi": "मैथियास ओलिवेरा",
+            "ru": "Матиас Оливера"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أوليفيرا",
+            "bn": "এম. অলিভেরা",
+            "hi": "एम. ओलिवेरा",
+            "ru": "М. Оливера"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 9.9,
+        "y": 48.3,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 46.7,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 3.3,
+        "y": 51.6,
+        "z": 0
+      },
+      "xg": 0.04876584559679,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518174,
+      "time": 54,
+      "timeSeconds": 3180,
+      "draw": {
+        "start": {
+          "x": 48.3,
+          "y": 9.9
+        },
+        "block": {
+          "x": 51.6,
+          "y": 3.3
+        },
+        "end": {
+          "x": 53.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 53.3,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 37,
+      "reversedPeriodTimeSeconds": 2220,
+      "periodTimeSeconds": 480,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Federico Viñas",
+        "firstName": "Federico",
+        "lastName": "Vinas",
+        "slug": "federico-vinas",
+        "shortName": "F. Viñas",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 2669,
+        "gender": "M",
+        "id": 976104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو فيناس",
+            "ru": "Федерико Виньяс"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيناس",
+            "ru": "Ф. Виньяс"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 8.7,
+        "y": 47.5,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "close-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 57.5,
+        "z": 4.2
+      },
+      "xg": 0.059116307646036,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518173,
+      "time": 50,
+      "timeSeconds": 2986,
+      "draw": {
+        "start": {
+          "x": 47.5,
+          "y": 8.7
+        },
+        "end": {
+          "x": 42.5,
+          "y": 0
+        },
+        "goal": {
+          "x": 42.5,
+          "y": 95.8
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2414,
+      "periodTimeSeconds": 286,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Federico Viñas",
+        "firstName": "Federico",
+        "lastName": "Vinas",
+        "slug": "federico-vinas",
+        "shortName": "F. Viñas",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 2669,
+        "gender": "M",
+        "id": 976104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو فيناس",
+            "ru": "Федерико Виньяс"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيناس",
+            "ru": "Ф. Виньяс"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 11.1,
+        "y": 55.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.2,
+        "z": 13.9
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 52.5,
+        "z": 0
+      },
+      "xg": 0.038817554712296,
+      "xgot": 0.19722662866116,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518172,
+      "time": 46,
+      "timeSeconds": 2750,
+      "draw": {
+        "start": {
+          "x": 55.6,
+          "y": 11.1
+        },
+        "block": {
+          "x": 52.5,
+          "y": 1.4
+        },
+        "end": {
+          "x": 47.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.8,
+          "y": 86.1
+        }
+      },
+      "reversedPeriodTime": 45,
+      "reversedPeriodTimeSeconds": 2650,
+      "periodTimeSeconds": 50,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Darwin Núñez",
+        "firstName": "Darwin",
+        "lastName": "Nunez",
+        "slug": "darwin-nunez",
+        "shortName": "D. Núñez",
+        "position": "F",
+        "jerseyNumber": "7",
+        "userCount": 71692,
+        "gender": "M",
+        "sofascoreId": "Darwin",
+        "id": 924871,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "داروين نونيز",
+            "bn": "ডারউইন নুনেজ",
+            "hi": "डार्विन नुन्येज़",
+            "ru": "Дарвин Нуньес"
+          },
+          "shortNameTranslation": {
+            "ar": "د. نونيز",
+            "bn": "ডি. নুনেজ",
+            "hi": "डी. नुन्येज़",
+            "ru": "Д. Нуньес"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 4.8,
+        "y": 44.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 4.2,
+        "z": 9.7
+      },
+      "blockCoordinates": {
+        "x": 11,
+        "y": 93.2,
+        "z": 0
+      },
+      "xg": 0.20879560709,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518130,
+      "time": 45,
+      "addedTime": 1,
+      "timeSeconds": 2719,
+      "draw": {
+        "start": {
+          "x": 44.4,
+          "y": 4.8
+        },
+        "block": {
+          "x": 93.2,
+          "y": 11
+        },
+        "end": {
+          "x": 95.8,
+          "y": 0
+        },
+        "goal": {
+          "x": 95.8,
+          "y": 90.3
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 2681,
+      "periodTimeSeconds": 19,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Federico Viñas",
+        "firstName": "Federico",
+        "lastName": "Vinas",
+        "slug": "federico-vinas",
+        "shortName": "F. Viñas",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 2669,
+        "gender": "M",
+        "id": 976104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو فيناس",
+            "ru": "Федерико Виньяс"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيناس",
+            "ru": "Ф. Виньяс"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 8.1,
+        "y": 57.6,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "high-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 52.6,
+        "z": 26
+      },
+      "blockCoordinates": {
+        "x": 1.5,
+        "y": 52.3,
+        "z": 0
+      },
+      "xg": 0.052373897284269,
+      "xgot": 0.3310781121254,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518129,
+      "time": 45,
+      "timeSeconds": 2663,
+      "draw": {
+        "start": {
+          "x": 57.6,
+          "y": 8.1
+        },
+        "block": {
+          "x": 52.3,
+          "y": 1.5
+        },
+        "end": {
+          "x": 47.4,
+          "y": 0
+        },
+        "goal": {
+          "x": 47.4,
+          "y": 74
+        }
+      },
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 37,
+      "periodTimeSeconds": 2663,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Abdulelah Al-Amri",
+        "firstName": "Abdulelah",
+        "lastName": "Al-Amri",
+        "slug": "abdulelah-al-amri",
+        "shortName": "A. Al-Amri",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 1744,
+        "gender": "M",
+        "id": 881831,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدالإله العمري",
+            "bn": "আবদুল্লাহ আল-আমরি",
+            "hi": "अब्दुलेलाह अल-अमरी",
+            "ru": "Абдулела Аль-Амри"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. العمري",
+            "bn": "আ. আল-আমরি",
+            "hi": "ए. अल-अमरी",
+            "ru": "А. Аль-Амри"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "goal",
+      "goalType": "regular",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 3.2,
+        "y": 50.1,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 49.4,
+        "z": 8.2
+      },
+      "xg": 0.418555945158,
+      "xgot": 0.22899977862835,
+      "goalkeeper": {
+        "name": "Fernando Muslera",
+        "slug": "fernando-muslera",
+        "shortName": "F. Muslera",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 11626,
+        "gender": "M",
+        "sofascoreId": "Muslera",
+        "id": 28381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرناندو موسليرا",
+            "bn": "ফার্নান্দো মুসলেরা",
+            "hi": "फर्नांडो मुस्लेरा",
+            "ru": "Фернандо Муслера"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. موسليرا",
+            "bn": "এফ. মুসলেরা",
+            "hi": "एफ. मुस्लेरा",
+            "ru": "Ф. Муслера"
+          }
+        }
+      },
+      "id": 7518128,
+      "time": 41,
+      "timeSeconds": 2403,
+      "draw": {
+        "start": {
+          "x": 50.1,
+          "y": 3.2
+        },
+        "end": {
+          "x": 50.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 50.6,
+          "y": 91.8
+        }
+      },
+      "reversedPeriodTime": 5,
+      "reversedPeriodTimeSeconds": 297,
+      "periodTimeSeconds": 2403,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Mohamed Kanno",
+        "firstName": "Mohamed",
+        "lastName": "Kanno",
+        "slug": "mohamed-kanno",
+        "shortName": "M. Kanno",
+        "position": "M",
+        "jerseyNumber": "28",
+        "userCount": 1999,
+        "gender": "M",
+        "id": 828524,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد كنو",
+            "bn": "মোহাম্মদ কান্নো",
+            "hi": "मोहम्मद कन्नो",
+            "ru": "Мохамед Канно"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كنو",
+            "bn": "এম. কান্নো",
+            "hi": "एम. कन्नो",
+            "ru": "М. Канно"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 9.4,
+        "y": 48.1,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51,
+        "z": 18.4
+      },
+      "blockCoordinates": {
+        "x": 1.4,
+        "y": 49.8,
+        "z": 0
+      },
+      "xg": 0.089274935424328,
+      "xgot": 0.071952931582928,
+      "goalkeeper": {
+        "name": "Fernando Muslera",
+        "slug": "fernando-muslera",
+        "shortName": "F. Muslera",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 11626,
+        "gender": "M",
+        "sofascoreId": "Muslera",
+        "id": 28381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرناندو موسليرا",
+            "bn": "ফার্নান্দো মুসলেরা",
+            "hi": "फर्नांडो मुस्लेरा",
+            "ru": "Фернандо Муслера"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. موسليرا",
+            "bn": "এফ. মুসলেরা",
+            "hi": "एफ. मुस्लेरा",
+            "ru": "Ф. Муслера"
+          }
+        }
+      },
+      "id": 7518127,
+      "time": 40,
+      "timeSeconds": 2399,
+      "draw": {
+        "start": {
+          "x": 48.1,
+          "y": 9.4
+        },
+        "block": {
+          "x": 49.8,
+          "y": 1.4
+        },
+        "end": {
+          "x": 49,
+          "y": 0
+        },
+        "goal": {
+          "x": 49,
+          "y": 81.6
+        }
+      },
+      "reversedPeriodTime": 6,
+      "reversedPeriodTimeSeconds": 301,
+      "periodTimeSeconds": 2399,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Abdullah Al-Khaibari",
+        "slug": "abdullah-alkhaibari",
+        "shortName": "A. Al-Khaibari",
+        "position": "M",
+        "jerseyNumber": "17",
+        "userCount": 1582,
+        "gender": "M",
+        "id": 867179,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدالله الخيبري",
+            "bn": "আবদুল্লাহ আলখাইবারি",
+            "hi": "अब्दुल्ला अलखैबारी",
+            "ru": "Абдулла Аль-Хаибари"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. الخيبري",
+            "bn": "এ. আলখাইবারি",
+            "hi": "ए. अलखैबारी",
+            "ru": "А. Аль-Хаибари"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "throw-in-set-piece",
+      "playerCoordinates": {
+        "x": 24.6,
+        "y": 30.7,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 18.7,
+        "z": 1.4
+      },
+      "xg": 0.025435822084546,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Fernando Muslera",
+        "slug": "fernando-muslera",
+        "shortName": "F. Muslera",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 11626,
+        "gender": "M",
+        "sofascoreId": "Muslera",
+        "id": 28381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرناندو موسليرا",
+            "bn": "ফার্নান্দো মুসলেরা",
+            "hi": "फर्नांडो मुस्लेरा",
+            "ru": "Фернандо Муслера"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. موسليرا",
+            "bn": "এফ. মুসলেরা",
+            "hi": "एफ. मुस्लेरा",
+            "ru": "Ф. Муслера"
+          }
+        }
+      },
+      "id": 7518126,
+      "time": 39,
+      "timeSeconds": 2302,
+      "draw": {
+        "start": {
+          "x": 30.7,
+          "y": 24.6
+        },
+        "end": {
+          "x": 81.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 81.3,
+          "y": 98.6
+        }
+      },
+      "reversedPeriodTime": 7,
+      "reversedPeriodTimeSeconds": 398,
+      "periodTimeSeconds": 2302,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Abdulelah Al-Amri",
+        "firstName": "Abdulelah",
+        "lastName": "Al-Amri",
+        "slug": "abdulelah-al-amri",
+        "shortName": "A. Al-Amri",
+        "position": "D",
+        "jerseyNumber": "5",
+        "userCount": 1744,
+        "gender": "M",
+        "id": 881831,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عبدالإله العمري",
+            "bn": "আবদুল্লাহ আল-আমরি",
+            "hi": "अब्दुलेलाह अल-अमरी",
+            "ru": "Абдулела Аль-Амри"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. العمري",
+            "bn": "আ. আল-আমরি",
+            "hi": "ए. अल-अमरी",
+            "ru": "А. Аль-Амри"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "save",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 10.4,
+        "y": 45.9,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "high-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 48.7,
+        "z": 23.4
+      },
+      "blockCoordinates": {
+        "x": 1.9,
+        "y": 48.4,
+        "z": 0
+      },
+      "xg": 0.069997414946556,
+      "xgot": 0.34668841958046,
+      "goalkeeper": {
+        "name": "Fernando Muslera",
+        "slug": "fernando-muslera",
+        "shortName": "F. Muslera",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 11626,
+        "gender": "M",
+        "sofascoreId": "Muslera",
+        "id": 28381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرناندو موسليرا",
+            "bn": "ফার্নান্দো মুসলেরা",
+            "hi": "फर्नांडो मुस्लेरा",
+            "ru": "Фернандо Муслера"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. موسليرا",
+            "bn": "এফ. মুসলেরা",
+            "hi": "एफ. मुस्लेरा",
+            "ru": "Ф. Муслера"
+          }
+        }
+      },
+      "id": 7518065,
+      "time": 38,
+      "timeSeconds": 2234,
+      "draw": {
+        "start": {
+          "x": 45.9,
+          "y": 10.4
+        },
+        "block": {
+          "x": 48.4,
+          "y": 1.9
+        },
+        "end": {
+          "x": 51.3,
+          "y": 0
+        },
+        "goal": {
+          "x": 51.3,
+          "y": 76.6
+        }
+      },
+      "reversedPeriodTime": 8,
+      "reversedPeriodTimeSeconds": 466,
+      "periodTimeSeconds": 2234,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Rodrigo Bentancur",
+        "firstName": "Rodrigo",
+        "lastName": "Bentancur",
+        "slug": "rodrigo-bentancur",
+        "shortName": "R. Bentancur",
+        "position": "M",
+        "jerseyNumber": "30",
+        "userCount": 9427,
+        "gender": "M",
+        "sofascoreId": "rodrigo_bentancur",
+        "id": 791190,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رودريغو بينتانكور",
+            "bn": "বেন্টানকুর, রদ্রিগো",
+            "hi": "बेनटानकुर, रोड्रिगो",
+            "ru": "Родриго Бентанкур"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. بينتانكور",
+            "bn": "আর. বেন্টানকুর",
+            "hi": "आर. बेनटानकुर",
+            "ru": "Р. Бентанкур"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "miss",
+      "situation": "set-piece",
+      "playerCoordinates": {
+        "x": 7.8,
+        "y": 47.4,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 27.1,
+        "z": 22.2
+      },
+      "blockCoordinates": {
+        "x": 1.8,
+        "y": 66.8,
+        "z": 0
+      },
+      "xg": 0.20327319204807,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7518064,
+      "time": 21,
+      "timeSeconds": 1202,
+      "draw": {
+        "start": {
+          "x": 47.4,
+          "y": 7.8
+        },
+        "block": {
+          "x": 66.8,
+          "y": 1.8
+        },
+        "end": {
+          "x": 72.9,
+          "y": 0
+        },
+        "goal": {
+          "x": 72.9,
+          "y": 77.8
+        }
+      },
+      "reversedPeriodTime": 25,
+      "reversedPeriodTimeSeconds": 1498,
+      "periodTimeSeconds": 1202,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Salem Al-Dawsari",
+        "firstName": "Salem",
+        "lastName": "Al-Dawsari",
+        "slug": "salem-al-dawsari",
+        "shortName": "S. Al-Dawsari",
+        "position": "M",
+        "jerseyNumber": "29",
+        "userCount": 12003,
+        "gender": "M",
+        "sofascoreId": "29salem",
+        "id": 160893,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سالم الدوسري",
+            "bn": "সালেম আল-দাওসারী",
+            "hi": "सलेम अल-दावसरी",
+            "ru": "Салем Аль-Давсари"
+          },
+          "shortNameTranslation": {
+            "ar": "س. الدوسري",
+            "bn": "এস. আল-দাওয়সারি",
+            "hi": "एस. अल-दावसरी",
+            "ru": "С. Аль-Давсари"
+          }
+        }
+      },
+      "isHome": true,
+      "shotType": "miss",
+      "situation": "regular",
+      "playerCoordinates": {
+        "x": 21.9,
+        "y": 26.4,
+        "z": 0
+      },
+      "bodyPart": "right-foot",
+      "goalMouthLocation": "close-right",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 43,
+        "z": 27.8
+      },
+      "xg": 0.029928855597973,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Fernando Muslera",
+        "slug": "fernando-muslera",
+        "shortName": "F. Muslera",
+        "position": "G",
+        "jerseyNumber": "16",
+        "userCount": 11626,
+        "gender": "M",
+        "sofascoreId": "Muslera",
+        "id": 28381,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرناندو موسليرا",
+            "bn": "ফার্নান্দো মুসলেরা",
+            "hi": "फर्नांडो मुस्लेरा",
+            "ru": "Фернандо Муслера"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. موسليرا",
+            "bn": "এফ. মুসলেরা",
+            "hi": "एफ. मुस्लेरा",
+            "ru": "Ф. Муслера"
+          }
+        }
+      },
+      "id": 7517993,
+      "time": 18,
+      "timeSeconds": 1039,
+      "draw": {
+        "start": {
+          "x": 26.4,
+          "y": 21.9
+        },
+        "end": {
+          "x": 57,
+          "y": 0
+        },
+        "goal": {
+          "x": 57,
+          "y": 72.2
+        }
+      },
+      "reversedPeriodTime": 28,
+      "reversedPeriodTimeSeconds": 1661,
+      "periodTimeSeconds": 1039,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Federico Viñas",
+        "firstName": "Federico",
+        "lastName": "Vinas",
+        "slug": "federico-vinas",
+        "shortName": "F. Viñas",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 2669,
+        "gender": "M",
+        "id": 976104,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيديريكو فيناس",
+            "ru": "Федерико Виньяс"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. فيناس",
+            "ru": "Ф. Виньяс"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "block",
+      "situation": "corner",
+      "playerCoordinates": {
+        "x": 9.2,
+        "y": 53,
+        "z": 0
+      },
+      "bodyPart": "head",
+      "goalMouthLocation": "low-left",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.8,
+        "z": 19
+      },
+      "blockCoordinates": {
+        "x": 7.6,
+        "y": 52.2,
+        "z": 0
+      },
+      "xg": 0.048984564840794,
+      "xgot": 0,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7517905,
+      "time": 5,
+      "timeSeconds": 299,
+      "draw": {
+        "start": {
+          "x": 53,
+          "y": 9.2
+        },
+        "block": {
+          "x": 52.2,
+          "y": 7.6
+        },
+        "end": {
+          "x": 48.2,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.2,
+          "y": 81
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2401,
+      "periodTimeSeconds": 299,
+      "incidentType": "shot"
+    },
+    {
+      "player": {
+        "name": "Maximiliano Araújo",
+        "firstName": "Maxi",
+        "lastName": "Araújo",
+        "slug": "maximiliano-araujo",
+        "shortName": "M. Araújo",
+        "position": "D",
+        "jerseyNumber": "20",
+        "userCount": 9388,
+        "gender": "M",
+        "id": 929193,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماكسيميليانو أروخو",
+            "bn": "ম্যাক্সিমিলিয়ানো আরাউহো",
+            "hi": "मैक्सिमिलियानो अराउजो",
+            "ru": "Максимилиано Араужо"
+          },
+          "shortNameTranslation": {
+            "ar": "م. أروخو",
+            "bn": "এম. আরাউহো",
+            "hi": "एम. अराउजो",
+            "ru": "М. Араужо"
+          }
+        }
+      },
+      "isHome": false,
+      "shotType": "save",
+      "situation": "assisted",
+      "playerCoordinates": {
+        "x": 18.7,
+        "y": 36.2,
+        "z": 0
+      },
+      "bodyPart": "left-foot",
+      "goalMouthLocation": "low-centre",
+      "goalMouthCoordinates": {
+        "x": 0,
+        "y": 51.4,
+        "z": 19.6
+      },
+      "blockCoordinates": {
+        "x": 0.5,
+        "y": 47.1,
+        "z": 0
+      },
+      "xg": 0.061170369386673,
+      "xgot": 0.055697597563267,
+      "goalkeeper": {
+        "name": "Mohammed Al-Owais",
+        "slug": "mohammed-al-owais",
+        "shortName": "M. Al-Owais",
+        "position": "G",
+        "jerseyNumber": "33",
+        "userCount": 1293,
+        "gender": "M",
+        "id": 791416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "محمد العويس",
+            "bn": "মোহাম্মদ আল-ওয়াইস",
+            "hi": "मोहम्मद अल-ओवैस",
+            "ru": "Мохаммед Аль-Оваис"
+          },
+          "shortNameTranslation": {
+            "ar": "م. العويس",
+            "bn": "এম. আল-ওওয়াইস",
+            "hi": "एम. अल-ओवैस",
+            "ru": "М. Аль-Оваис"
+          }
+        }
+      },
+      "id": 7517904,
+      "time": 5,
+      "timeSeconds": 251,
+      "draw": {
+        "start": {
+          "x": 36.2,
+          "y": 18.7
+        },
+        "block": {
+          "x": 47.1,
+          "y": 0.5
+        },
+        "end": {
+          "x": 48.6,
+          "y": 0
+        },
+        "goal": {
+          "x": 48.6,
+          "y": 80.4
+        }
+      },
+      "reversedPeriodTime": 41,
+      "reversedPeriodTimeSeconds": 2449,
+      "periodTimeSeconds": 251,
+      "incidentType": "shot"
+    }
+  ]
+}
