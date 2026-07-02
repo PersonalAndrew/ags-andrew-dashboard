@@ -2,63 +2,15 @@
   "source": "SofaScore",
   "tournament_id": 16,
   "season_id": 58210,
-  "updated_at": "2026-07-01T19:58:20.416333+00:00",
-  "total_matches_collected": 54,
+  "updated_at": "2026-07-02T03:15:23.761668+00:00",
+  "total_matches_collected": 52,
   "finished_matches": 30,
   "live_matches": 0,
-  "scheduled_matches": 24,
-  "total_goals_finished_matches": 98,
-  "goals_per_finished_match": 3.27,
+  "scheduled_matches": 22,
+  "total_goals_finished_matches": 96,
+  "goals_per_finished_match": 3.2,
   "live_games": [],
   "next_games": [
-    {
-      "match_id": 12813013,
-      "slug": "senegal-belgium",
-      "home_team": "Belgium",
-      "away_team": "Senegal",
-      "home_team_short": "Belgium",
-      "away_team_short": "Senegal",
-      "home_team_id": 4717,
-      "away_team_id": 4739,
-      "home_score": null,
-      "away_score": null,
-      "status": "Not started",
-      "status_type": "notstarted",
-      "start_timestamp": 1782936000,
-      "start_datetime_utc": "2026-07-01T20:00:00+00:00",
-      "tournament_id": 16,
-      "tournament_name": "World Championship",
-      "season_id": 58210,
-      "category_id": 1468,
-      "category_name": "World",
-      "round": "Round of 32",
-      "round_number": 6,
-      "updated_at": "2026-07-01T19:55:51.566391+00:00"
-    },
-    {
-      "match_id": 12812992,
-      "slug": "usa-bosnia-and-herzegovina",
-      "home_team": "USA",
-      "away_team": "Bosnia & Herzegovina",
-      "home_team_short": "USA",
-      "away_team_short": "Bosnia & Herzegovina",
-      "home_team_id": 4724,
-      "away_team_id": 4479,
-      "home_score": null,
-      "away_score": null,
-      "status": "Not started",
-      "status_type": "notstarted",
-      "start_timestamp": 1782950400,
-      "start_datetime_utc": "2026-07-02T00:00:00+00:00",
-      "tournament_id": 16,
-      "tournament_name": "World Championship",
-      "season_id": 58210,
-      "category_id": 1468,
-      "category_name": "World",
-      "round": "Round of 32",
-      "round_number": 6,
-      "updated_at": "2026-07-01T19:55:51.566406+00:00"
-    },
     {
       "match_id": 12813004,
       "slug": "austria-spain",
@@ -81,7 +33,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:51.566415+00:00"
+      "updated_at": "2026-07-02T03:12:54.743389+00:00"
     },
     {
       "match_id": 12812997,
@@ -105,7 +57,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:51.566424+00:00"
+      "updated_at": "2026-07-02T03:12:54.743406+00:00"
     },
     {
       "match_id": 12813019,
@@ -129,7 +81,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:51.566432+00:00"
+      "updated_at": "2026-07-02T03:12:54.743419+00:00"
     },
     {
       "match_id": 12813018,
@@ -153,7 +105,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:51.566441+00:00"
+      "updated_at": "2026-07-02T03:12:54.743431+00:00"
     },
     {
       "match_id": 12812999,
@@ -177,7 +129,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:51.566450+00:00"
+      "updated_at": "2026-07-02T03:12:54.743443+00:00"
     },
     {
       "match_id": 12813011,
@@ -201,7 +153,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:51.566459+00:00"
+      "updated_at": "2026-07-02T03:12:54.743456+00:00"
     },
     {
       "match_id": 12813009,
@@ -225,7 +177,7 @@
       "category_name": "World",
       "round": "Round of 16",
       "round_number": 5,
-      "updated_at": "2026-07-01T19:55:51.566467+00:00"
+      "updated_at": "2026-07-02T03:12:54.743468+00:00"
     },
     {
       "match_id": 12813010,
@@ -249,58 +201,58 @@
       "category_name": "World",
       "round": "Round of 16",
       "round_number": 5,
-      "updated_at": "2026-07-01T19:55:51.566476+00:00"
+      "updated_at": "2026-07-02T03:12:54.743478+00:00"
+    },
+    {
+      "match_id": 12813006,
+      "slug": "brazil-norway",
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "home_team_short": "Brazil",
+      "away_team_short": "Norway",
+      "home_team_id": 4748,
+      "away_team_id": 4475,
+      "home_score": null,
+      "away_score": null,
+      "status": "Not started",
+      "status_type": "notstarted",
+      "start_timestamp": 1783281600,
+      "start_datetime_utc": "2026-07-05T20:00:00+00:00",
+      "tournament_id": 16,
+      "tournament_name": "World Championship",
+      "season_id": 58210,
+      "category_id": 1468,
+      "category_name": "World",
+      "round": "Round of 16",
+      "round_number": 5,
+      "updated_at": "2026-07-02T03:12:54.743489+00:00"
+    },
+    {
+      "match_id": 12813007,
+      "slug": "mexico-england",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "home_team_short": "Mexico",
+      "away_team_short": "England",
+      "home_team_id": 4781,
+      "away_team_id": 4713,
+      "home_score": null,
+      "away_score": null,
+      "status": "Not started",
+      "status_type": "notstarted",
+      "start_timestamp": 1783296000,
+      "start_datetime_utc": "2026-07-06T00:00:00+00:00",
+      "tournament_id": 16,
+      "tournament_name": "World Championship",
+      "season_id": 58210,
+      "category_id": 1468,
+      "category_name": "World",
+      "round": "Round of 16",
+      "round_number": 5,
+      "updated_at": "2026-07-02T03:12:54.743499+00:00"
     }
   ],
   "recent_finished_games": [
-    {
-      "match_id": 15186747,
-      "slug": "austria-algeria",
-      "home_team": "Algeria",
-      "away_team": "Austria",
-      "home_team_short": "Algeria",
-      "away_team_short": "Austria",
-      "home_team_id": 4691,
-      "away_team_id": 4718,
-      "home_score": 3,
-      "away_score": 3,
-      "status": "Ended",
-      "status_type": "finished",
-      "start_timestamp": 1782612000,
-      "start_datetime_utc": "2026-06-28T02:00:00+00:00",
-      "tournament_id": 16,
-      "tournament_name": "World Championship",
-      "season_id": 58210,
-      "category_id": 1468,
-      "category_name": "World",
-      "round": null,
-      "round_number": 3,
-      "updated_at": "2026-07-01T19:55:50.327289+00:00"
-    },
-    {
-      "match_id": 15186734,
-      "slug": "argentina-jordan",
-      "home_team": "Jordan",
-      "away_team": "Argentina",
-      "home_team_short": "Jordan",
-      "away_team_short": "Argentina",
-      "home_team_id": 4771,
-      "away_team_id": 4819,
-      "home_score": 1,
-      "away_score": 3,
-      "status": "Ended",
-      "status_type": "finished",
-      "start_timestamp": 1782612000,
-      "start_datetime_utc": "2026-06-28T02:00:00+00:00",
-      "tournament_id": 16,
-      "tournament_name": "World Championship",
-      "season_id": 58210,
-      "category_id": 1468,
-      "category_name": "World",
-      "round": null,
-      "round_number": 3,
-      "updated_at": "2026-07-01T19:55:50.327304+00:00"
-    },
     {
       "match_id": 12813000,
       "slug": "canada-south-africa",
@@ -323,7 +275,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:50.327325+00:00"
+      "updated_at": "2026-07-02T03:12:53.509987+00:00"
     },
     {
       "match_id": 12813012,
@@ -347,7 +299,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:50.327338+00:00"
+      "updated_at": "2026-07-02T03:12:53.509998+00:00"
     },
     {
       "match_id": 12813014,
@@ -371,7 +323,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:50.327351+00:00"
+      "updated_at": "2026-07-02T03:12:53.510011+00:00"
     },
     {
       "match_id": 12812998,
@@ -395,7 +347,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:50.327364+00:00"
+      "updated_at": "2026-07-02T03:12:53.510021+00:00"
     },
     {
       "match_id": 12812989,
@@ -419,7 +371,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:50.327379+00:00"
+      "updated_at": "2026-07-02T03:12:53.510031+00:00"
     },
     {
       "match_id": 12812995,
@@ -443,7 +395,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:50.327391+00:00"
+      "updated_at": "2026-07-02T03:12:53.510040+00:00"
     },
     {
       "match_id": 12813001,
@@ -467,7 +419,7 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:50.327404+00:00"
+      "updated_at": "2026-07-02T03:12:53.510050+00:00"
     },
     {
       "match_id": 12813020,
@@ -491,7 +443,55 @@
       "category_name": "World",
       "round": "Round of 32",
       "round_number": 6,
-      "updated_at": "2026-07-01T19:55:50.327416+00:00"
+      "updated_at": "2026-07-02T03:12:53.510059+00:00"
+    },
+    {
+      "match_id": 12813013,
+      "slug": "senegal-belgium",
+      "home_team": "Belgium",
+      "away_team": "Senegal",
+      "home_team_short": "Belgium",
+      "away_team_short": "Senegal",
+      "home_team_id": 4717,
+      "away_team_id": 4739,
+      "home_score": 3,
+      "away_score": 2,
+      "status": "AET",
+      "status_type": "finished",
+      "start_timestamp": 1782936000,
+      "start_datetime_utc": "2026-07-01T20:00:00+00:00",
+      "tournament_id": 16,
+      "tournament_name": "World Championship",
+      "season_id": 58210,
+      "category_id": 1468,
+      "category_name": "World",
+      "round": "Round of 32",
+      "round_number": 6,
+      "updated_at": "2026-07-02T03:12:53.510069+00:00"
+    },
+    {
+      "match_id": 12812992,
+      "slug": "usa-bosnia-and-herzegovina",
+      "home_team": "USA",
+      "away_team": "Bosnia & Herzegovina",
+      "home_team_short": "USA",
+      "away_team_short": "Bosnia & Herzegovina",
+      "home_team_id": 4724,
+      "away_team_id": 4479,
+      "home_score": 2,
+      "away_score": 0,
+      "status": "Ended",
+      "status_type": "finished",
+      "start_timestamp": 1782950400,
+      "start_datetime_utc": "2026-07-02T00:00:00+00:00",
+      "tournament_id": 16,
+      "tournament_name": "World Championship",
+      "season_id": 58210,
+      "category_id": 1468,
+      "category_name": "World",
+      "round": "Round of 32",
+      "round_number": 6,
+      "updated_at": "2026-07-02T03:12:53.510079+00:00"
     }
   ]
 }

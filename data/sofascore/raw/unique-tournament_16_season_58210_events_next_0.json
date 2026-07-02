@@ -143,606 +143,6 @@
         "slug": "round-of-32",
         "cupRoundType": 16
       },
-      "customId": "rUbsOUb",
-      "status": {
-        "code": 0,
-        "description": "Not started",
-        "type": "notstarted"
-      },
-      "venue": {
-        "city": {
-          "name": "Seattle",
-          "country": {
-            "alpha2": "US",
-            "alpha3": "USA",
-            "name": "USA",
-            "slug": "usa"
-          },
-          "id": 19419
-        },
-        "venueCoordinates": {
-          "latitude": 47.595346,
-          "longitude": -122.331644
-        },
-        "hidden": false,
-        "slug": "lumen-field",
-        "name": "Lumen Field",
-        "capacity": 68740,
-        "country": {
-          "alpha2": "US",
-          "alpha3": "USA",
-          "name": "USA",
-          "slug": "usa"
-        },
-        "id": 2291,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "hi": "लुमेन फील्ड",
-            "bn": "লুমেন ফিল্ড",
-            "ar": "لومن فيلد",
-            "ru": "Стадион Lumen Field"
-          },
-          "shortNameTranslation": {}
-        },
-        "stadium": {
-          "name": "Lumen Field",
-          "capacity": 68740
-        }
-      },
-      "homeTeam": {
-        "name": "Belgium",
-        "slug": "belgium",
-        "shortName": "Belgium",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 519826,
-        "nameCode": "BEL",
-        "ranking": 9,
-        "disabled": false,
-        "national": true,
-        "type": 0,
-        "country": {
-          "alpha2": "BE",
-          "alpha3": "BEL",
-          "name": "Belgium",
-          "slug": "belgium"
-        },
-        "id": 4717,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ff0033",
-          "secondary": "#000000",
-          "text": "#000000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "بلجيكا",
-            "bn": "বেলজিয়াম",
-            "hi": "बेल्जियम",
-            "ru": "Бельгия"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "awayTeam": {
-        "name": "Senegal",
-        "slug": "senegal",
-        "shortName": "Senegal",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 578661,
-        "nameCode": "SEN",
-        "ranking": 15,
-        "disabled": false,
-        "national": true,
-        "type": 0,
-        "country": {
-          "alpha2": "SN",
-          "alpha3": "SEN",
-          "name": "Senegal",
-          "slug": "senegal"
-        },
-        "id": 4739,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#047151",
-          "text": "#047151"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "السنغال",
-            "bn": "সেনেগাল",
-            "hi": "सेनेगल",
-            "ru": "Сенегал"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "homeScore": {},
-      "awayScore": {},
-      "time": {},
-      "changes": {
-        "changes": [
-          "cardsCode"
-        ],
-        "changeTimestamp": 1782931263
-      },
-      "hasGlobalHighlights": true,
-      "hasXg": true,
-      "hasEventPlayerStatistics": true,
-      "hasEventPlayerHeatMap": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 12813013,
-      "slug": "senegal-belgium",
-      "startTimestamp": 1782936000,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "cupMatchesInRound": 1,
-      "isEditor": false,
-      "eventFilters": {
-        "category": [
-          "national"
-        ],
-        "level": [
-          "top-competitions",
-          "pro"
-        ],
-        "gender": [
-          "M"
-        ]
-      }
-    },
-    {
-      "eventState": {},
-      "tournament": {
-        "name": "World Championship, Knockout",
-        "slug": "world-cup-knockout-stage",
-        "category": {
-          "name": "World",
-          "slug": "world",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "priority": 20,
-          "country": {},
-          "id": 1468,
-          "flag": "international",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "العالم",
-              "hi": "विश्व",
-              "bn": "বিশ্ব",
-              "ru": "Мир"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "World Championship",
-          "slug": "world-championship",
-          "primaryColorHex": "#d20a11",
-          "secondaryColorHex": "#e8bb57",
-          "category": {
-            "name": "World",
-            "slug": "world",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "priority": 20,
-            "country": {},
-            "id": 1468,
-            "flag": "international",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "العالم",
-                "hi": "विश्व",
-                "bn": "বিশ্ব",
-                "ru": "Мир"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 1833199,
-          "hasPerformanceGraphFeature": false,
-          "country": {},
-          "id": 16,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "pt-pt": "Mundial",
-              "ar": "كأس العالم",
-              "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
-              "hi": "वर्ल्ड चैंपियनशिप",
-              "hr": "FIFA Svjetsko prvenstvo",
-              "az": "FİFA Dünya Kuboku",
-              "nl": "Wereldkampioenschap",
-              "fr": "Coupe du monde",
-              "de": "Weltmeisterschaft",
-              "el": "Παγκόσμιο Κύπελλο",
-              "hu": "FIFA Világbajnokság",
-              "id": "Piala Dunia FIFA",
-              "it": "Coppa del Mondo FIFA",
-              "ja": "FIFAワールドカップ",
-              "ko": "FIFA 월드컵",
-              "no": "Verdensmesterskapet",
-              "pl": "Mistrzostwa Świata",
-              "pt": "Copa do Mundo FIFA",
-              "ro": "Campionatul Mondial",
-              "es": "Copa Mundial",
-              "es-la": "Copa Mundial",
-              "sv": "Världsmästerskapet",
-              "th": "ฟุตบอลโลก",
-              "tr": "FIFA Dünya Kupası",
-              "vi": "Giải Vô Địch Thế Giới",
-              "ru": "Чемпионат мира",
-              "sr": "Светско првенство"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 805,
-        "isGroup": false,
-        "isLive": false,
-        "id": 3948,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "بطولة العالم - مرحلة الإقصاء",
-            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, নকআউট স্টেজ",
-            "hi": "वर्ल्ड चैंपियनशिप, नॉकआउट स्टेज",
-            "hr": "FIFA Svjetsko prvenstvo, Eliminacije",
-            "az": "FİFA Dünya Kuboku, Pley-off",
-            "nl": "Wereldkampioenschap, Knock-outfase",
-            "fr": "Coupe du monde, Élimination directe",
-            "de": "Weltmeisterschaft, K.-o.-Phase",
-            "el": "Παγκόσμιο Κύπελλο, Νοκ άουτ φάση",
-            "hu": "Világbajnokság, Egyenes kieséses szakasz",
-            "pt-pt": "Mundial, A eliminar",
-            "tr": "FIFA Dünya Kupası, Eleme aşaması",
-            "vi": "Giải Vô Địch Thế Giới, Vòng loại trực tiếp",
-            "id": "Piala Dunia FIFA, Fase gugur",
-            "it": "Coppa del Mondo, Eliminazione diretta",
-            "ja": "FIFAワールドカップ, 決勝トーナメント",
-            "ko": "FIFA 월드컵, 토너먼트",
-            "no": "Verdensmesterskapet, Sluttspill",
-            "pl": "Mistrzostwa Świata, Faza pucharowa",
-            "pt": "Copa do Mundo FIFA, Fase eliminatória",
-            "ro": "Campionatul Mondial, Faza eliminatorie",
-            "es": "Copa Mundial, Eliminatorias",
-            "es-la": "Copa Mundial, Eliminatorias",
-            "sv": "Världsmästerskapet, Slutspel",
-            "th": "ฟุตบอลโลก, รอบแพ้คัดออก",
-            "ru": "Чемпионат мира, Плей-офф",
-            "sr": "Светско првенство, Елиминациона фаза"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "World Cup 2026",
-        "year": "2026",
-        "editor": false,
-        "seasonCoverageInfo": {},
-        "id": 58210
-      },
-      "roundInfo": {
-        "round": 6,
-        "name": "Round of 32",
-        "slug": "round-of-32",
-        "cupRoundType": 16
-      },
-      "customId": "EObszUb",
-      "status": {
-        "code": 0,
-        "description": "Not started",
-        "type": "notstarted"
-      },
-      "venue": {
-        "city": {
-          "name": "Santa Clara",
-          "country": {
-            "alpha2": "US",
-            "alpha3": "USA",
-            "name": "USA",
-            "slug": "usa"
-          },
-          "id": 20692
-        },
-        "venueCoordinates": {
-          "latitude": 37.403158,
-          "longitude": -121.969831
-        },
-        "hidden": false,
-        "slug": "levi-s-stadium",
-        "name": "Levi's Stadium",
-        "capacity": 68500,
-        "country": {
-          "alpha2": "US",
-          "alpha3": "USA",
-          "name": "USA",
-          "slug": "usa"
-        },
-        "id": 15872,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "hi": "लेवी स्टेडियम",
-            "bn": "লেভিস স্টেডিয়াম",
-            "ar": "ملعب ليفاي",
-            "ru": "Стадион Levi's"
-          },
-          "shortNameTranslation": {}
-        },
-        "stadium": {
-          "name": "Levi's Stadium",
-          "capacity": 68500
-        }
-      },
-      "homeTeam": {
-        "name": "USA",
-        "slug": "usa",
-        "shortName": "USA",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 231088,
-        "nameCode": "USA",
-        "ranking": 17,
-        "disabled": false,
-        "national": true,
-        "type": 0,
-        "country": {
-          "alpha2": "US",
-          "alpha3": "USA",
-          "name": "USA",
-          "slug": "usa"
-        },
-        "id": 4724,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#ffffff",
-          "secondary": "#ff0000",
-          "text": "#ff0000"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "الولايات المتحدة",
-            "bn": "ইউএসএ",
-            "hi": "यूएसए",
-            "ru": "США"
-          },
-          "shortNameTranslation": {
-            "ar": "الولايات المتحدة"
-          }
-        }
-      },
-      "awayTeam": {
-        "name": "Bosnia & Herzegovina",
-        "slug": "bosnia-and-herzegovina",
-        "shortName": "Bosnia & Herzegovina",
-        "gender": "M",
-        "sport": {
-          "name": "Football",
-          "slug": "football",
-          "id": 1
-        },
-        "userCount": 206610,
-        "nameCode": "BIH",
-        "ranking": 64,
-        "disabled": false,
-        "national": true,
-        "type": 0,
-        "country": {
-          "alpha2": "BA",
-          "alpha3": "BIH",
-          "name": "Bosnia & Herzegovina",
-          "slug": "bosnia-and-herzegovina"
-        },
-        "id": 4479,
-        "subTeams": [],
-        "teamColors": {
-          "primary": "#2d4a99",
-          "secondary": "#ffffff",
-          "text": "#ffffff"
-        },
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "البوسنة والهرسك",
-            "bn": "বসনিয়া ও হার্জেগোভিনা",
-            "hi": "बोस्निया और हर्जेगोविना",
-            "ru": "Босния и Герцеговина"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "homeScore": {},
-      "awayScore": {},
-      "time": {},
-      "changes": {
-        "changeTimestamp": 0
-      },
-      "hasGlobalHighlights": true,
-      "detailId": 1,
-      "crowdsourcingDataDisplayEnabled": false,
-      "id": 12812992,
-      "slug": "usa-bosnia-and-herzegovina",
-      "startTimestamp": 1782950400,
-      "finalResultOnly": false,
-      "feedLocked": true,
-      "cupMatchesInRound": 1,
-      "isEditor": false,
-      "eventFilters": {
-        "category": [
-          "national"
-        ],
-        "level": [
-          "top-competitions",
-          "pro"
-        ],
-        "gender": [
-          "M"
-        ]
-      }
-    },
-    {
-      "eventState": {},
-      "tournament": {
-        "name": "World Championship, Knockout",
-        "slug": "world-cup-knockout-stage",
-        "category": {
-          "name": "World",
-          "slug": "world",
-          "sport": {
-            "name": "Football",
-            "slug": "football",
-            "id": 1
-          },
-          "priority": 20,
-          "country": {},
-          "id": 1468,
-          "flag": "international",
-          "fieldTranslations": {
-            "nameTranslation": {
-              "ar": "العالم",
-              "hi": "विश्व",
-              "bn": "বিশ্ব",
-              "ru": "Мир"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "uniqueTournament": {
-          "name": "World Championship",
-          "slug": "world-championship",
-          "primaryColorHex": "#d20a11",
-          "secondaryColorHex": "#e8bb57",
-          "category": {
-            "name": "World",
-            "slug": "world",
-            "sport": {
-              "name": "Football",
-              "slug": "football",
-              "id": 1
-            },
-            "priority": 20,
-            "country": {},
-            "id": 1468,
-            "flag": "international",
-            "fieldTranslations": {
-              "nameTranslation": {
-                "ar": "العالم",
-                "hi": "विश्व",
-                "bn": "বিশ্ব",
-                "ru": "Мир"
-              },
-              "shortNameTranslation": {}
-            }
-          },
-          "userCount": 1833199,
-          "hasPerformanceGraphFeature": false,
-          "country": {},
-          "id": 16,
-          "hasEventPlayerStatistics": true,
-          "displayInverseHomeAwayTeams": false,
-          "fieldTranslations": {
-            "nameTranslation": {
-              "pt-pt": "Mundial",
-              "ar": "كأس العالم",
-              "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ",
-              "hi": "वर्ल्ड चैंपियनशिप",
-              "hr": "FIFA Svjetsko prvenstvo",
-              "az": "FİFA Dünya Kuboku",
-              "nl": "Wereldkampioenschap",
-              "fr": "Coupe du monde",
-              "de": "Weltmeisterschaft",
-              "el": "Παγκόσμιο Κύπελλο",
-              "hu": "FIFA Világbajnokság",
-              "id": "Piala Dunia FIFA",
-              "it": "Coppa del Mondo FIFA",
-              "ja": "FIFAワールドカップ",
-              "ko": "FIFA 월드컵",
-              "no": "Verdensmesterskapet",
-              "pl": "Mistrzostwa Świata",
-              "pt": "Copa do Mundo FIFA",
-              "ro": "Campionatul Mondial",
-              "es": "Copa Mundial",
-              "es-la": "Copa Mundial",
-              "sv": "Världsmästerskapet",
-              "th": "ฟุตบอลโลก",
-              "tr": "FIFA Dünya Kupası",
-              "vi": "Giải Vô Địch Thế Giới",
-              "ru": "Чемпионат мира",
-              "sr": "Светско првенство"
-            },
-            "shortNameTranslation": {}
-          }
-        },
-        "priority": 805,
-        "isGroup": false,
-        "isLive": false,
-        "id": 3948,
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "بطولة العالم - مرحلة الإقصاء",
-            "bn": "ওয়ার্ল্ড চ্যাম্পিয়নশিপ, নকআউট স্টেজ",
-            "hi": "वर्ल्ड चैंपियनशिप, नॉकआउट स्टेज",
-            "hr": "FIFA Svjetsko prvenstvo, Eliminacije",
-            "az": "FİFA Dünya Kuboku, Pley-off",
-            "nl": "Wereldkampioenschap, Knock-outfase",
-            "fr": "Coupe du monde, Élimination directe",
-            "de": "Weltmeisterschaft, K.-o.-Phase",
-            "el": "Παγκόσμιο Κύπελλο, Νοκ άουτ φάση",
-            "hu": "Világbajnokság, Egyenes kieséses szakasz",
-            "pt-pt": "Mundial, A eliminar",
-            "tr": "FIFA Dünya Kupası, Eleme aşaması",
-            "vi": "Giải Vô Địch Thế Giới, Vòng loại trực tiếp",
-            "id": "Piala Dunia FIFA, Fase gugur",
-            "it": "Coppa del Mondo, Eliminazione diretta",
-            "ja": "FIFAワールドカップ, 決勝トーナメント",
-            "ko": "FIFA 월드컵, 토너먼트",
-            "no": "Verdensmesterskapet, Sluttspill",
-            "pl": "Mistrzostwa Świata, Faza pucharowa",
-            "pt": "Copa do Mundo FIFA, Fase eliminatória",
-            "ro": "Campionatul Mondial, Faza eliminatorie",
-            "es": "Copa Mundial, Eliminatorias",
-            "es-la": "Copa Mundial, Eliminatorias",
-            "sv": "Världsmästerskapet, Slutspel",
-            "th": "ฟุตบอลโลก, รอบแพ้คัดออก",
-            "ru": "Чемпионат мира, Плей-офф",
-            "sr": "Светско првенство, Елиминациона фаза"
-          },
-          "shortNameTranslation": {}
-        }
-      },
-      "season": {
-        "name": "World Cup 2026",
-        "year": "2026",
-        "editor": false,
-        "seasonCoverageInfo": {},
-        "id": 58210
-      },
-      "roundInfo": {
-        "round": 6,
-        "name": "Round of 32",
-        "slug": "round-of-32",
-        "cupRoundType": 16
-      },
       "customId": "YTbstUb",
       "status": {
         "code": 0,
@@ -873,7 +273,7 @@
       "changes": {
         "changeTimestamp": 0
       },
-      "hasGlobalHighlights": false,
+      "hasGlobalHighlights": true,
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12813004,
@@ -1169,7 +569,7 @@
       "changes": {
         "changeTimestamp": 0
       },
-      "hasGlobalHighlights": false,
+      "hasGlobalHighlights": true,
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12812997,
@@ -1465,7 +865,7 @@
       "changes": {
         "changeTimestamp": 0
       },
-      "hasGlobalHighlights": false,
+      "hasGlobalHighlights": true,
       "detailId": 1,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12813019,
@@ -3551,7 +2951,7 @@
       "isEditor": false,
       "eventFilters": {
         "category": [
-          "club"
+          "national"
         ],
         "level": [
           "top-competitions",
@@ -3968,7 +3368,7 @@
         "slug": "round-of-16",
         "cupRoundType": 8
       },
-      "customId": "jeWgsneWg",
+      "customId": "rUbszUb",
       "status": {
         "code": 0,
         "description": "Not started",
@@ -4015,49 +3415,83 @@
         }
       },
       "homeTeam": {
-        "name": "W81",
-        "slug": "w81",
+        "name": "USA",
+        "slug": "usa",
+        "shortName": "USA",
         "gender": "M",
         "sport": {
           "name": "Football",
           "slug": "football",
           "id": 1
         },
-        "userCount": 1,
-        "nameCode": "W81",
-        "disabled": true,
-        "national": false,
+        "userCount": 231088,
+        "nameCode": "USA",
+        "ranking": 17,
+        "disabled": false,
+        "national": true,
         "type": 0,
-        "country": {},
-        "id": 865209,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "id": 4724,
         "subTeams": [],
         "teamColors": {
-          "primary": "#374df5",
-          "secondary": "#374df5",
-          "text": "#ffffff"
+          "primary": "#ffffff",
+          "secondary": "#ff0000",
+          "text": "#ff0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الولايات المتحدة",
+            "bn": "ইউএসএ",
+            "hi": "यूएसए",
+            "ru": "США"
+          },
+          "shortNameTranslation": {
+            "ar": "الولايات المتحدة"
+          }
         }
       },
       "awayTeam": {
-        "name": "W82",
-        "slug": "w82",
+        "name": "Belgium",
+        "slug": "belgium",
+        "shortName": "Belgium",
         "gender": "M",
         "sport": {
           "name": "Football",
           "slug": "football",
           "id": 1
         },
-        "userCount": 0,
-        "nameCode": "W82",
-        "disabled": true,
-        "national": false,
+        "userCount": 519826,
+        "nameCode": "BEL",
+        "ranking": 9,
+        "disabled": false,
+        "national": true,
         "type": 0,
-        "country": {},
-        "id": 865213,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "id": 4717,
         "subTeams": [],
         "teamColors": {
-          "primary": "#374df5",
-          "secondary": "#374df5",
-          "text": "#ffffff"
+          "primary": "#ff0033",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلجيكا",
+            "bn": "বেলজিয়াম",
+            "hi": "बेल्जियम",
+            "ru": "Бельгия"
+          },
+          "shortNameTranslation": {}
         }
       },
       "homeScore": {},
@@ -4069,7 +3503,7 @@
       "hasGlobalHighlights": false,
       "crowdsourcingDataDisplayEnabled": false,
       "id": 12813002,
-      "slug": "w82-w81",
+      "slug": "usa-belgium",
       "startTimestamp": 1783382400,
       "finalResultOnly": false,
       "feedLocked": true,
@@ -4077,7 +3511,7 @@
       "isEditor": false,
       "eventFilters": {
         "category": [
-          "club"
+          "national"
         ],
         "level": [
           "top-competitions",
@@ -4863,7 +4297,19 @@
       "finalResultOnly": false,
       "feedLocked": true,
       "cupMatchesInRound": 1,
-      "isEditor": false
+      "isEditor": false,
+      "eventFilters": {
+        "category": [
+          "club"
+        ],
+        "level": [
+          "top-competitions",
+          "pro"
+        ],
+        "gender": [
+          "M"
+        ]
+      }
     },
     {
       "eventState": {},

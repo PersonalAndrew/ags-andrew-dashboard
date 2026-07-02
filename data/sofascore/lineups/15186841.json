@@ -2897,7 +2897,7 @@
           },
           "id": 910031,
           "marketValueCurrency": "EUR",
-          "dateOfBirthTimestamp": 995587200,
+          "dateOfBirthTimestamp": 995500800,
           "proposedMarketValueRaw": {
             "value": 43000000,
             "currency": "EUR"
@@ -3448,7 +3448,7 @@
           "shortName": "F. Torres",
           "position": "F",
           "jerseyNumber": "7",
-          "height": 185,
+          "height": 183,
           "userCount": 164715,
           "gender": "M",
           "sofascoreId": "FerranTorres",

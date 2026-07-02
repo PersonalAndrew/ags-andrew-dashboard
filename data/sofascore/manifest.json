@@ -2,8 +2,8 @@
   "source": "SofaScore",
   "tournament_id": 16,
   "season_id": 58210,
-  "total_matches": 54,
-  "updated_at": "2026-07-01T19:58:20.417976+00:00",
+  "total_matches": 52,
+  "updated_at": "2026-07-02T03:15:23.763424+00:00",
   "files": {
     "matches": "data/sofascore/matches/worldcup_2026_matches.json",
     "trends": "data/sofascore/worldcup_2026_trends.json",

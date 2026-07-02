@@ -563,7 +563,6 @@
           "slug": "noor-al-deen-al-rawabdeh",
           "shortName": "N. Al Rawabdeh",
           "position": "M",
-          "jerseyNumber": "8",
           "height": 179,
           "userCount": 355,
           "gender": "M",
@@ -595,7 +594,7 @@
             }
           }
         },
-        "teamId": 3323,
+        "teamId": 241802,
         "shirtNumber": 8,
         "jerseyNumber": "8",
         "position": "M",
@@ -785,7 +784,7 @@
             }
           }
         },
-        "teamId": 34313,
+        "teamId": 40654,
         "shirtNumber": 24,
         "jerseyNumber": "24",
         "position": "F",
@@ -1656,7 +1655,7 @@
             }
           }
         },
-        "teamId": 117204,
+        "teamId": 40646,
         "shirtNumber": 18,
         "jerseyNumber": "18",
         "position": "D",
