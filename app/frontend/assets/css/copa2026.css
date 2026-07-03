@@ -2390,3 +2390,216 @@ a {
         grid-template-columns: 1fr;
     }
 }
+/* =======================================================
+   MELHORIAS VISUAIS DA ANÁLISE DINÂMICA
+======================================================= */
+
+.dynamic-shotmap-layout {
+    display: grid;
+    grid-template-columns: minmax(280px, 1.1fr) minmax(260px, 0.9fr);
+    gap: 1rem;
+    align-items: stretch;
+}
+
+.dynamic-shot-pitch {
+    position: relative;
+    min-height: 460px;
+    border: 2px solid rgba(255, 255, 255, 0.36);
+    border-radius: 22px;
+    background:
+        linear-gradient(90deg, rgba(255,255,255,0.04) 50%, transparent 50%),
+        radial-gradient(circle at center, rgba(255,255,255,0.08), transparent 12%),
+        #0d5a34;
+    overflow: hidden;
+}
+
+.dynamic-shot-pitch::before {
+    content: "";
+    position: absolute;
+    inset: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    pointer-events: none;
+}
+
+.dynamic-shot-goal {
+    position: absolute;
+    top: 18px;
+    left: 40%;
+    width: 20%;
+    height: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+}
+
+.dynamic-shot-box.big {
+    position: absolute;
+    top: 18px;
+    left: 22%;
+    width: 56%;
+    height: 32%;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    border-top: 0;
+    border-radius: 0 0 18px 18px;
+}
+
+.dynamic-shot-box.small {
+    position: absolute;
+    top: 18px;
+    left: 34%;
+    width: 32%;
+    height: 17%;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    border-top: 0;
+    border-radius: 0 0 14px 14px;
+}
+
+.dynamic-shot-arc {
+    position: absolute;
+    top: 29%;
+    left: 40%;
+    width: 20%;
+    height: 10%;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    border-top: 0;
+    border-radius: 0 0 999px 999px;
+}
+
+.dynamic-shot-dot {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 999px;
+    border: 2px solid rgba(0, 0, 0, 0.55);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 4;
+    transition: 0.18s ease;
+}
+
+.dynamic-shot-dot:hover {
+    transform: translate(-50%, -50%) scale(1.35);
+    z-index: 8;
+}
+
+.dynamic-shot-dot.goal {
+    width: 19px;
+    height: 19px;
+    background: #d4af37;
+    box-shadow: 0 0 18px rgba(212, 175, 55, 0.8);
+}
+
+.dynamic-shot-dot.on-target {
+    background: #ffffff;
+}
+
+.dynamic-shot-dot.blocked {
+    background: #9ca3af;
+}
+
+.dynamic-shot-dot.off-target {
+    background: #ef4444;
+}
+
+.dynamic-shot-list.compact {
+    max-height: 460px;
+    overflow: auto;
+    padding-right: 0.2rem;
+}
+
+.dynamic-lineup-subtitle {
+    color: #d4af37;
+    font-size: 0.72rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 0.9rem 0 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.dynamic-lineup-subtitle:first-of-type {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+}
+
+.dynamic-momentum-chart {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.035);
+    padding: 2.5rem 1rem;
+    min-height: 330px;
+    overflow: hidden;
+}
+
+.dynamic-momentum-bars {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    gap: 2px;
+    height: 240px;
+    z-index: 2;
+}
+
+.dynamic-momentum-column {
+    position: relative;
+    flex: 1;
+    min-width: 3px;
+}
+
+.dynamic-momentum-column-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 999px;
+}
+
+.dynamic-momentum-column-bar.home {
+    background: rgba(212, 175, 55, 0.92);
+}
+
+.dynamic-momentum-column-bar.away {
+    background: rgba(255, 255, 255, 0.55);
+}
+
+.dynamic-momentum-center-line {
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    top: 50%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.20);
+    z-index: 1;
+}
+
+.dynamic-momentum-team-label {
+    position: absolute;
+    left: 1rem;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.72rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.dynamic-momentum-team-label.home {
+    top: 0.8rem;
+    color: #d4af37;
+}
+
+.dynamic-momentum-team-label.away {
+    bottom: 0.8rem;
+}
+
+@media (max-width: 900px) {
+    .dynamic-shotmap-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .dynamic-shot-pitch {
+        min-height: 360px;
+    }
+}

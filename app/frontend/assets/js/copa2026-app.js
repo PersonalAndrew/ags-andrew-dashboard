@@ -1297,6 +1297,7 @@ function renderSofascoreSelect() {
     if (!matches.length) {
         select.innerHTML = `<option value="">Nenhum jogo encontrado</option>`;
         renderSofascoreMatchCard(null);
+        loadSelectedMatchAnalysis(null);
         return;
     }
 
@@ -1354,12 +1355,9 @@ async function initSofascoreSection() {
         select.innerHTML = `<option value="">Erro ao carregar jogos</option>`;
 
         renderSofascoreMatchCard(null);
+        loadSelectedMatchAnalysis(null);
     }
 }
-
-document.addEventListener("DOMContentLoaded", () => {
-    initSofascoreSection();
-});
 
 // =======================================================
 // ORGANIZAÇÃO POR ABAS — COPA 2026
@@ -1428,7 +1426,7 @@ function assignCopaTabSections() {
         if (section.classList.contains("copa-tabs-panel")) return;
         if (section.dataset.copaDynamicStage === "true") return;
 
-                if (section.classList.contains("sofascore-live-panel")) {
+        if (section.classList.contains("sofascore-live-panel")) {
             section.dataset.copaTabContent = "overview";
             return;
         }
@@ -1513,16 +1511,12 @@ function getGroupStageMatches() {
 
 function buildGroupsFromMatches(matches) {
     const teamGraph = new Map();
-    const teamNames = new Map();
 
     matches.forEach((match) => {
         const home = match.home_team;
         const away = match.away_team;
 
         if (!home || !away) return;
-
-        teamNames.set(home, home);
-        teamNames.set(away, away);
 
         if (!teamGraph.has(home)) teamGraph.set(home, new Set());
         if (!teamGraph.has(away)) teamGraph.set(away, new Set());
@@ -1831,10 +1825,6 @@ function bindCompactMatchButtons() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    setupCopaCompetitionTabs();
-});
-
 // =======================================================
 // ANÁLISE DINÂMICA DA PARTIDA SELECIONADA
 // =======================================================
@@ -1921,9 +1911,9 @@ function renderSelectedMatchAnalysis(data) {
         ${renderDynamicMatchHeader(match)}
         ${renderDynamicDataAvailability(statistics, lineups, shotmap, momentum)}
         ${renderDynamicStatsSection(statistics)}
-        ${renderDynamicShotmapSection(shotmap)}
-        ${renderDynamicLineupsSection(lineups)}
-        ${renderDynamicMomentumSection(momentum)}
+        ${renderDynamicShotmapSection(shotmap, match)}
+        ${renderDynamicLineupsSection(lineups, match)}
+        ${renderDynamicMomentumSection(momentum, match)}
     `;
 }
 
@@ -2085,7 +2075,7 @@ function extractMainStatistics(statistics) {
         }
 
         Object.values(node).forEach((value) => {
-            if (Array.isArray(value) || typeof value === "object") {
+            if (Array.isArray(value) || (value && typeof value === "object")) {
                 walkStats(value);
             }
         });
@@ -2093,10 +2083,21 @@ function extractMainStatistics(statistics) {
 
     walkStats(groups);
 
-    return rows.slice(0, 14);
+    const seen = new Set();
+
+    return rows
+        .filter((row) => {
+            const key = `${row.name}-${row.home}-${row.away}`;
+
+            if (seen.has(key)) return false;
+
+            seen.add(key);
+            return true;
+        })
+        .slice(0, 14);
 }
 
-function renderDynamicShotmapSection(shotmap) {
+function renderDynamicShotmapSection(shotmap, match) {
     const shots = extractShots(shotmap);
 
     if (!shots.length) {
@@ -2107,19 +2108,32 @@ function renderDynamicShotmapSection(shotmap) {
     }
 
     const totalShots = shots.length;
-    const goals = shots.filter((shot) => String(shot.shotType || shot.type || "").toLowerCase().includes("goal")).length;
+    const goals = shots.filter((shot) => classifyShotType(shot) === "goal").length;
     const onTarget = shots.filter((shot) => {
-        const type = String(shot.shotType || shot.type || "").toLowerCase();
-        return type.includes("save") || type.includes("goal");
+        const type = classifyShotType(shot);
+        return type === "goal" || type === "on-target";
     }).length;
 
-    const topShots = shots.slice(0, 10);
+    const shotsWithCoordinates = shots.filter((shot) => {
+        const coords = getShotCoordinates(shot);
+        return coords.x !== null && coords.y !== null;
+    });
+
+    const topShots = shots.slice(0, 12);
+
+    const shotDotsHtml = shotsWithCoordinates
+        .map((shot) => renderShotDot(shot, match))
+        .join("");
+
+    const shotListHtml = topShots
+        .map((shot) => renderShotListItem(shot))
+        .join("");
 
     return `
         <div class="dynamic-analysis-section">
             <div class="dynamic-section-title">
                 <span>Finalizações</span>
-                <h3>Resumo dos chutes</h3>
+                <h3>Mapa e resumo dos chutes</h3>
             </div>
 
             <div class="dynamic-mini-kpi-grid">
@@ -2139,23 +2153,18 @@ function renderDynamicShotmapSection(shotmap) {
                 </div>
             </div>
 
-            <div class="dynamic-shot-list">
-                ${topShots
-                    .map((shot) => {
-                        const player = shot.player?.name || shot.playerName || "Jogador não identificado";
-                        const minute = shot.time || shot.minute || "-";
-                        const shotType = shot.shotType || shot.type || shot.situation || "-";
-                        const xg = shot.xg || shot.expectedGoals || shot.xG || null;
+            <div class="dynamic-shotmap-layout">
+                <div class="dynamic-shot-pitch">
+                    <div class="dynamic-shot-goal"></div>
+                    <div class="dynamic-shot-box big"></div>
+                    <div class="dynamic-shot-box small"></div>
+                    <div class="dynamic-shot-arc"></div>
+                    ${shotDotsHtml}
+                </div>
 
-                        return `
-                            <div class="dynamic-shot-item">
-                                <strong>${player}</strong>
-                                <span>Minuto ${minute} · ${shotType}</span>
-                                <em>${xg !== null ? `xG ${Number(xg).toFixed(2)}` : "xG -"}</em>
-                            </div>
-                        `;
-                    })
-                    .join("")}
+                <div class="dynamic-shot-list compact">
+                    ${shotListHtml}
+                </div>
             </div>
         </div>
     `;
@@ -2173,7 +2182,108 @@ function extractShots(shotmap) {
     return [];
 }
 
-function renderDynamicLineupsSection(lineups) {
+function getShotCoordinates(shot) {
+    const rawX =
+        shot.playerCoordinates?.x ??
+        shot.coordinates?.x ??
+        shot.coordinate?.x ??
+        shot.x ??
+        null;
+
+    const rawY =
+        shot.playerCoordinates?.y ??
+        shot.coordinates?.y ??
+        shot.coordinate?.y ??
+        shot.y ??
+        null;
+
+    if (rawX === null || rawY === null) {
+        return {
+            x: null,
+            y: null,
+        };
+    }
+
+    let x = Number(rawX);
+    let y = Number(rawY);
+
+    if (Number.isNaN(x) || Number.isNaN(y)) {
+        return {
+            x: null,
+            y: null,
+        };
+    }
+
+    x = Math.max(0, Math.min(100, x));
+    y = Math.max(0, Math.min(100, y));
+
+    return {
+        x,
+        y,
+    };
+}
+
+function classifyShotType(shot) {
+    const rawType = String(
+        shot.shotType ||
+        shot.type ||
+        shot.result ||
+        shot.bodyPart ||
+        ""
+    ).toLowerCase();
+
+    if (rawType.includes("goal")) return "goal";
+    if (rawType.includes("save") || rawType.includes("on")) return "on-target";
+    if (rawType.includes("block")) return "blocked";
+
+    return "off-target";
+}
+
+function renderShotDot(shot, match) {
+    const coords = getShotCoordinates(shot);
+    const type = classifyShotType(shot);
+
+    if (coords.x === null || coords.y === null) {
+        return "";
+    }
+
+    const player = shot.player?.name || shot.playerName || shot.player?.shortName || "Jogador";
+    const minute = shot.time || shot.minute || shot.addedTime || "-";
+    const xg = shot.xg ?? shot.expectedGoals ?? shot.xG ?? null;
+
+    const left = coords.y;
+    const top = 100 - coords.x;
+
+    const title = `${String(player)} · ${String(minute)}' · ${
+        xg !== null ? `xG ${Number(xg).toFixed(2)}` : "xG -"
+    }`;
+
+    return `
+        <button
+            class="dynamic-shot-dot ${type}"
+            style="left: ${left}%; top: ${top}%;"
+            title="${title}"
+            aria-label="${title}"
+        ></button>
+    `;
+}
+
+function renderShotListItem(shot) {
+    const player = shot.player?.name || shot.playerName || shot.player?.shortName || "Jogador não identificado";
+    const minute = shot.time || shot.minute || shot.addedTime || "-";
+    const shotType = shot.shotType || shot.type || shot.situation || shot.goalType || "-";
+    const xg = shot.xg ?? shot.expectedGoals ?? shot.xG ?? null;
+
+    return `
+        <div class="dynamic-shot-item">
+            <strong>${String(player)}</strong>
+            <span>Minuto ${String(minute)} · ${String(shotType)}</span>
+            <em>${xg !== null ? `xG ${Number(xg).toFixed(2)}` : "xG -"}</em>
+        </div>
+    `;
+}
+
+function renderDynamicLineupsSection(lineups, match) {
     const extracted = extractLineups(lineups);
 
     if (!extracted.home.length && !extracted.away.length) {
@@ -2187,19 +2297,12 @@ function renderDynamicLineupsSection(lineups) {
         <div class="dynamic-analysis-section">
             <div class="dynamic-section-title">
                 <span>Escalações</span>
-                <h3>Jogadores relacionados</h3>
+                <h3>Titulares e reservas relacionados</h3>
             </div>
 
             <div class="dynamic-lineups-grid">
-                <div class="dynamic-lineup-card">
-                    <h4>Mandante</h4>
-                    ${renderDynamicPlayersList(extracted.home)}
-                </div>
-
-                <div class="dynamic-lineup-card">
-                    <h4>Visitante</h4>
-                    ${renderDynamicPlayersList(extracted.away)}
-                </div>
+                ${renderDynamicTeamLineupCard(match?.home_team || "Mandante", extracted.home)}
+                ${renderDynamicTeamLineupCard(match?.away_team || "Visitante", extracted.away)}
             </div>
         </div>
     `;
@@ -2217,8 +2320,8 @@ function extractLineups(lineups) {
     const awayPlayers = lineups.away?.players || lineups.awayPlayers || [];
 
     return {
-        home: normalizeLineupPlayers(homePlayers).slice(0, 18),
-        away: normalizeLineupPlayers(awayPlayers).slice(0, 18),
+        home: normalizeLineupPlayers(homePlayers),
+        away: normalizeLineupPlayers(awayPlayers),
     };
 }
 
@@ -2235,6 +2338,29 @@ function normalizeLineupPlayers(players) {
             substitute: Boolean(item.substitute),
         };
     });
+}
+
+function renderDynamicTeamLineupCard(teamName, players) {
+    const starters = players.filter((player) => !player.substitute);
+    const bench = players.filter((player) => player.substitute);
+
+    return `
+        <div class="dynamic-lineup-card">
+            <h4>${teamName}</h4>
+
+            <div class="dynamic-lineup-subtitle">
+                Titulares
+            </div>
+
+            ${renderDynamicPlayersList(starters)}
+
+            <div class="dynamic-lineup-subtitle">
+                Reservas
+            </div>
+
+            ${renderDynamicPlayersList(bench)}
+        </div>
+    `;
 }
 
 function renderDynamicPlayersList(players) {
@@ -2257,7 +2383,7 @@ function renderDynamicPlayersList(players) {
     `;
 }
 
-function renderDynamicMomentumSection(momentum) {
+function renderDynamicMomentumSection(momentum, match) {
     const items = extractMomentum(momentum);
 
     if (!items.length) {
@@ -2267,8 +2393,21 @@ function renderDynamicMomentumSection(momentum) {
         );
     }
 
+    const normalizedItems = items
+        .map((item) => {
+            const minute = item.minute || item.time || item.periodTime || "-";
+            const value = Number(item.value ?? item.home ?? item.away ?? 0);
+
+            return {
+                minute,
+                value,
+            };
+        })
+        .filter((item) => !Number.isNaN(item.value))
+        .slice(0, 100);
+
     const maxValue = Math.max(
-        ...items.map((item) => Math.abs(Number(item.value || item.home || item.away || 0))),
+        ...normalizedItems.map((item) => Math.abs(item.value)),
         1
     );
 
@@ -2276,30 +2415,40 @@ function renderDynamicMomentumSection(momentum) {
         <div class="dynamic-analysis-section">
             <div class="dynamic-section-title">
                 <span>Momentum</span>
-                <h3>Controle emocional e territorial do jogo</h3>
+                <h3>Domínio da partida por minuto</h3>
             </div>
 
-            <div class="dynamic-momentum-list">
-                ${items.slice(0, 80)
-                    .map((item) => {
-                        const minute = item.minute || item.time || "-";
-                        const value = Number(item.value || item.home || item.away || 0);
-                        const width = Math.min(Math.abs(value) / maxValue * 100, 100);
+            <div class="dynamic-momentum-chart">
+                <div class="dynamic-momentum-team-label home">
+                    ${match?.home_team || "Mandante"}
+                </div>
 
-                        return `
-                            <div class="dynamic-momentum-row">
-                                <span>${minute}'</span>
-                                <div class="dynamic-momentum-bar-track">
+                <div class="dynamic-momentum-bars">
+                    ${normalizedItems
+                        .map((item) => {
+                            const height = Math.max(Math.abs(item.value) / maxValue * 46, 3);
+                            const isHome = item.value >= 0;
+
+                            return `
+                                <div class="dynamic-momentum-column" title="${item.minute}' · ${item.value}">
                                     <div
-                                        class="dynamic-momentum-bar ${value >= 0 ? "home" : "away"}"
-                                        style="width: ${width}%"
+                                        class="dynamic-momentum-column-bar ${isHome ? "home" : "away"}"
+                                        style="
+                                            height: ${height}%;
+                                            ${isHome ? "bottom: 50%;" : "top: 50%;"}
+                                        "
                                     ></div>
                                 </div>
-                                <strong>${value}</strong>
-                            </div>
-                        `;
-                    })
-                    .join("")}
+                            `;
+                        })
+                        .join("")}
+                </div>
+
+                <div class="dynamic-momentum-center-line"></div>
+
+                <div class="dynamic-momentum-team-label away">
+                    ${match?.away_team || "Visitante"}
+                </div>
             </div>
         </div>
     `;
@@ -2328,3 +2477,12 @@ function renderDynamicEmptySection(title, message) {
         </div>
     `;
 }
+
+// =======================================================
+// INICIALIZAÇÃO
+// =======================================================
+
+document.addEventListener("DOMContentLoaded", () => {
+    initSofascoreSection();
+    setupCopaCompetitionTabs();
+});
