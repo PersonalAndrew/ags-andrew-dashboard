@@ -2603,3 +2603,553 @@ a {
         min-height: 360px;
     }
 }
+/* =======================================================
+   SELETOR PREMIUM DE PARTIDAS — TIRA CARA DE EXCEL
+======================================================= */
+
+.ags-hidden-native-select {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    overflow: hidden !important;
+}
+
+.ags-match-picker {
+    position: relative;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    z-index: 30;
+}
+
+.ags-match-picker-button {
+    width: 100%;
+    min-height: 64px;
+    border: 1px solid rgba(212, 175, 55, 0.42);
+    border-radius: 18px;
+    padding: 0.85rem 1rem;
+    background:
+        radial-gradient(circle at left, rgba(212, 175, 55, 0.13), transparent 38%),
+        linear-gradient(180deg, rgba(255,255,255,0.055), rgba(255,255,255,0.018)),
+        rgba(3, 5, 10, 0.96);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+    text-align: left;
+    transition: 0.2s ease;
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.26);
+}
+
+.ags-match-picker-button:hover,
+.ags-match-picker.is-open .ags-match-picker-button {
+    border-color: rgba(212, 175, 55, 0.78);
+    background:
+        radial-gradient(circle at left, rgba(212, 175, 55, 0.18), transparent 42%),
+        linear-gradient(180deg, rgba(255,255,255,0.075), rgba(255,255,255,0.025)),
+        rgba(3, 5, 10, 0.98);
+}
+
+.ags-match-picker-button span {
+    display: block;
+    color: #d4af37;
+    font-size: 0.68rem;
+    font-weight: 950;
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    margin-bottom: 0.25rem;
+}
+
+.ags-match-picker-button strong {
+    display: block;
+    color: #ffffff;
+    font-size: 0.98rem;
+    line-height: 1.25;
+}
+
+.ags-match-picker-button em {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 12px;
+    background: rgba(212, 175, 55, 0.12);
+    color: #d4af37;
+    font-style: normal;
+    font-size: 1.15rem;
+    font-weight: 900;
+    transition: 0.2s ease;
+}
+
+.ags-match-picker.is-open .ags-match-picker-button em {
+    transform: rotate(180deg);
+}
+
+.ags-match-picker-menu {
+    position: absolute;
+    top: calc(100% + 0.55rem);
+    left: 0;
+    right: 0;
+    max-height: 430px;
+    overflow: auto;
+    border: 1px solid rgba(212, 175, 55, 0.26);
+    border-radius: 20px;
+    padding: 0.55rem;
+    background:
+        linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.025)),
+        rgba(5, 8, 16, 0.98);
+    backdrop-filter: blur(18px);
+    box-shadow: 0 28px 80px rgba(0, 0, 0, 0.48);
+    z-index: 200;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(212, 175, 55, 0.50) rgba(255,255,255,0.05);
+}
+
+.ags-match-picker-option {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    padding: 0.82rem;
+    background: transparent;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.8rem;
+    align-items: center;
+    cursor: pointer;
+    text-align: left;
+    transition: 0.18s ease;
+}
+
+.ags-match-picker-option:hover {
+    border-color: rgba(212, 175, 55, 0.35);
+    background:
+        radial-gradient(circle at left, rgba(212, 175, 55, 0.14), transparent 42%),
+        rgba(255,255,255,0.045);
+}
+
+.ags-picker-option-main strong {
+    display: block;
+    color: #ffffff;
+    font-size: 0.88rem;
+    line-height: 1.25;
+}
+
+.ags-picker-option-main span {
+    display: block;
+    color: rgba(255,255,255,0.48);
+    font-size: 0.7rem;
+    font-weight: 800;
+    margin-top: 0.3rem;
+}
+
+.ags-picker-option-meta {
+    text-align: right;
+}
+
+.ags-picker-option-meta span {
+    display: block;
+    color: rgba(255,255,255,0.48);
+    font-size: 0.66rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+.ags-picker-option-meta em {
+    display: inline-flex;
+    width: fit-content;
+    margin-top: 0.35rem;
+    border-radius: 999px;
+    padding: 0.22rem 0.48rem;
+    background: rgba(212, 175, 55, 0.12);
+    color: #d4af37;
+    font-style: normal;
+    font-size: 0.62rem;
+    font-weight: 950;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+@media (max-width: 700px) {
+    .ags-match-picker-option {
+        grid-template-columns: 1fr;
+    }
+
+    .ags-picker-option-meta {
+        text-align: left;
+    }
+}
+/* =======================================================
+   REFINO ANÁLISE DINÂMICA — MENOS APERTADO, MAIS PREMIUM
+======================================================= */
+
+/* Dá mais largura e respiro para a análise */
+.selected-match-analysis-panel {
+    max-width: 1280px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 1.25rem !important;
+}
+
+/* Garante que os blocos fiquem em coluna limpa por enquanto */
+.selected-match-analysis-content {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+}
+
+/* Campo + lista mais equilibrados */
+.dynamic-shotmap-layout {
+    display: grid !important;
+    grid-template-columns: minmax(520px, 1.25fr) minmax(320px, 0.75fr) !important;
+    gap: 1rem !important;
+    align-items: stretch !important;
+}
+
+.dynamic-shot-pitch {
+    min-height: 430px !important;
+    border-radius: 20px !important;
+}
+
+.dynamic-shot-list.compact {
+    max-height: 430px !important;
+    overflow-y: auto !important;
+    padding-right: 0.35rem !important;
+}
+
+/* Lista de chutes mais limpa */
+.dynamic-shot-item {
+    min-height: 64px;
+    border-radius: 14px !important;
+    padding: 0.75rem !important;
+}
+
+.dynamic-shot-item strong {
+    font-size: 0.82rem !important;
+}
+
+.dynamic-shot-item span,
+.dynamic-shot-item em {
+    font-size: 0.68rem !important;
+}
+
+/* Escalações: tirar sensação de caixa sufocada */
+.dynamic-lineups-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 1rem !important;
+}
+
+.dynamic-lineup-card {
+    border-radius: 20px !important;
+    padding: 1rem !important;
+}
+
+.dynamic-player-list {
+    max-height: none !important;
+    overflow: visible !important;
+    padding-right: 0 !important;
+}
+
+/* Em vez de scroll interno, limita melhor por bloco visual */
+.dynamic-lineup-card .dynamic-player-list {
+    display: grid !important;
+    gap: 0.38rem !important;
+}
+
+.dynamic-player-row {
+    min-height: 34px;
+    border-radius: 10px !important;
+    padding: 0.45rem 0.55rem !important;
+}
+
+.dynamic-player-row strong {
+    font-size: 0.72rem !important;
+}
+
+.dynamic-player-row span {
+    font-size: 0.72rem !important;
+}
+
+.dynamic-player-row em {
+    font-size: 0.58rem !important;
+}
+
+/* Momentum mais largo e com cara de gráfico */
+.dynamic-momentum-chart {
+    min-height: 300px !important;
+    border-radius: 20px !important;
+    padding: 2.4rem 1rem !important;
+}
+
+.dynamic-momentum-bars {
+    height: 220px !important;
+    gap: 3px !important;
+}
+
+.dynamic-momentum-column {
+    min-width: 4px !important;
+}
+
+/* Cards internos mais suaves */
+.dynamic-analysis-section {
+    padding: 1rem !important;
+    border-radius: 22px !important;
+}
+
+/* No desktop, deixa finalizações e escalações respirarem */
+@media (min-width: 1180px) {
+    .dynamic-analysis-section {
+        width: 100%;
+    }
+
+    .dynamic-shotmap-layout {
+        grid-template-columns: minmax(620px, 1.35fr) minmax(340px, 0.65fr) !important;
+    }
+
+    .dynamic-shot-pitch {
+        min-height: 470px !important;
+    }
+
+    .dynamic-shot-list.compact {
+        max-height: 470px !important;
+    }
+}
+
+/* Responsivo */
+@media (max-width: 1050px) {
+    .dynamic-shotmap-layout,
+    .dynamic-lineups-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .dynamic-shot-pitch {
+        min-height: 360px !important;
+    }
+}
+/* =======================================================
+   AJUSTE ESCALAÇÕES — CENTRALIZAR TITULARES E RESERVAS
+======================================================= */
+
+.dynamic-lineup-card h4,
+.dynamic-lineup-subtitle {
+    text-align: center !important;
+}
+
+.dynamic-player-row {
+    grid-template-columns: 42px 1fr 72px !important;
+    text-align: center !important;
+}
+
+.dynamic-player-row strong {
+    text-align: center !important;
+}
+
+.dynamic-player-row span {
+    text-align: center !important;
+    justify-self: center !important;
+}
+
+.dynamic-player-row em {
+    text-align: center !important;
+    justify-self: center !important;
+}
+
+/* Deixa titulares e reservas mais organizados visualmente */
+.dynamic-lineup-subtitle {
+    width: fit-content;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    border-radius: 999px;
+    background: rgba(212, 175, 55, 0.10);
+    border: 1px solid rgba(212, 175, 55, 0.18);
+}
+/* =======================================================
+   TIMELINE FALLBACK — QUANDO NÃO HÁ MOMENTUM REAL
+======================================================= */
+
+.dynamic-match-timeline-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-bottom: 0.8rem;
+}
+
+.dynamic-match-timeline-header div {
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 0.8rem;
+    background: rgba(255,255,255,0.035);
+}
+
+.dynamic-match-timeline-header div:last-child {
+    text-align: right;
+}
+
+.dynamic-match-timeline-header strong {
+    display: block;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.dynamic-match-timeline-header span {
+    display: block;
+    color: rgba(255,255,255,0.52);
+    font-size: 0.72rem;
+    margin-top: 0.25rem;
+}
+
+.dynamic-momentum-time-axis {
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255,255,255,0.42);
+    font-size: 0.66rem;
+    font-weight: 900;
+    pointer-events: none;
+}
+
+.dynamic-fallback-timeline-card {
+    border: 1px solid rgba(212, 175, 55, 0.16);
+    border-radius: 22px;
+    padding: 1rem;
+    background:
+        radial-gradient(circle at top, rgba(212, 175, 55, 0.10), transparent 46%),
+        linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.018)),
+        rgba(0, 0, 0, 0.22);
+}
+
+.dynamic-fallback-timeline-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.dynamic-fallback-timeline-top strong {
+    display: block;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.dynamic-fallback-timeline-top span {
+    display: block;
+    color: #d4af37;
+    font-size: 0.72rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 0.25rem;
+}
+
+.dynamic-fallback-timeline-top em {
+    color: rgba(255,255,255,0.48);
+    font-size: 0.72rem;
+    font-style: normal;
+    font-weight: 800;
+    text-align: right;
+}
+
+.dynamic-fallback-timeline-line {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.35rem;
+    margin: 1rem 0;
+}
+
+.dynamic-fallback-timeline-line::before {
+    content: "";
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 18px;
+    height: 2px;
+    background: rgba(255,255,255,0.10);
+    z-index: 1;
+}
+
+.dynamic-fallback-point {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    justify-items: center;
+    gap: 0.35rem;
+    text-align: center;
+}
+
+.dynamic-fallback-point strong {
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.08);
+    color: rgba(255,255,255,0.52);
+    font-size: 0.72rem;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.dynamic-fallback-point.active strong {
+    background: #d4af37;
+    color: #050505;
+    border-color: rgba(212, 175, 55, 0.80);
+}
+
+.dynamic-fallback-point span {
+    color: rgba(255,255,255,0.52);
+    font-size: 0.66rem;
+    font-weight: 800;
+}
+
+.dynamic-fallback-point.active span {
+    color: rgba(255,255,255,0.80);
+}
+
+.dynamic-fallback-timeline-card p {
+    color: rgba(255,255,255,0.55);
+    font-size: 0.78rem;
+    line-height: 1.6;
+    margin: 1rem 0 0;
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+    .dynamic-match-timeline-header {
+        grid-template-columns: 1fr;
+    }
+
+    .dynamic-match-timeline-header div:last-child {
+        text-align: left;
+    }
+
+    .dynamic-fallback-timeline-line {
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 1rem;
+    }
+
+    .dynamic-fallback-timeline-line::before {
+        display: none;
+    }
+}
+/* =======================================================
+   MOMENTUM ESTIMADO POR FINALIZAÇÕES
+======================================================= */
+
+.dynamic-momentum-note {
+    margin: 0.85rem 0 0;
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 0.76rem;
+    line-height: 1.55;
+    text-align: center;
+}

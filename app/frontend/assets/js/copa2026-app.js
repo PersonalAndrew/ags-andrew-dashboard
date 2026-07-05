@@ -1318,6 +1318,7 @@ function renderSofascoreSelect() {
 
     renderSofascoreMatchCard(firstMatch);
     loadSelectedMatchAnalysis(firstMatch);
+    renderAgsMatchPicker(matches, firstMatch);
 
     select.addEventListener("change", () => {
         const selectedId = Number(select.value);
@@ -1325,6 +1326,7 @@ function renderSofascoreSelect() {
 
         renderSofascoreMatchCard(selectedMatch);
         loadSelectedMatchAnalysis(selectedMatch);
+        updateAgsMatchPickerLabel(selectedMatch);
     });
 }
 
@@ -1913,7 +1915,7 @@ function renderSelectedMatchAnalysis(data) {
         ${renderDynamicStatsSection(statistics)}
         ${renderDynamicShotmapSection(shotmap, match)}
         ${renderDynamicLineupsSection(lineups, match)}
-        ${renderDynamicMomentumSection(momentum, match)}
+        ${renderDynamicMomentumSection(momentum, match, shotmap)}
     `;
 }
 
@@ -2383,20 +2385,33 @@ function renderDynamicPlayersList(players) {
     `;
 }
 
-function renderDynamicMomentumSection(momentum, match) {
+function renderDynamicMomentumSection(momentum, match, shotmap = null) {
     const items = extractMomentum(momentum);
 
     if (!items.length) {
-        return renderDynamicEmptySection(
-            "Momentum",
-            "Nenhum dado de momentum disponível para esta partida."
-        );
+        return renderShotBasedMomentumTimeline(match, shotmap);
     }
 
     const normalizedItems = items
-        .map((item) => {
-            const minute = item.minute || item.time || item.periodTime || "-";
-            const value = Number(item.value ?? item.home ?? item.away ?? 0);
+        .map((item, index) => {
+            const minute =
+                item.minute ??
+                item.time ??
+                item.periodTime ??
+                item.period ??
+                item.x ??
+                index + 1;
+
+            const value = Number(
+                item.value ??
+                item.y ??
+                item.momentum ??
+                item.home ??
+                item.away ??
+                item.homeValue ??
+                item.awayValue ??
+                0
+            );
 
             return {
                 minute,
@@ -2405,6 +2420,10 @@ function renderDynamicMomentumSection(momentum, match) {
         })
         .filter((item) => !Number.isNaN(item.value))
         .slice(0, 100);
+
+    if (!normalizedItems.length) {
+        return renderShotBasedMomentumTimeline(match, shotmap);
+    }
 
     const maxValue = Math.max(
         ...normalizedItems.map((item) => Math.abs(item.value)),
@@ -2415,7 +2434,19 @@ function renderDynamicMomentumSection(momentum, match) {
         <div class="dynamic-analysis-section">
             <div class="dynamic-section-title">
                 <span>Momentum</span>
-                <h3>Domínio da partida por minuto</h3>
+                <h3>Linha de controle da partida</h3>
+            </div>
+
+            <div class="dynamic-match-timeline-header">
+                <div>
+                    <strong>${match?.home_team || "Mandante"}</strong>
+                    <span>Pressão ofensiva positiva</span>
+                </div>
+
+                <div>
+                    <strong>${match?.away_team || "Visitante"}</strong>
+                    <span>Pressão ofensiva negativa</span>
+                </div>
             </div>
 
             <div class="dynamic-momentum-chart">
@@ -2446,9 +2477,224 @@ function renderDynamicMomentumSection(momentum, match) {
 
                 <div class="dynamic-momentum-center-line"></div>
 
+                <div class="dynamic-momentum-time-axis">
+                    <span>0'</span>
+                    <span>15'</span>
+                    <span>30'</span>
+                    <span>45'</span>
+                    <span>60'</span>
+                    <span>75'</span>
+                    <span>90'</span>
+                </div>
+
                 <div class="dynamic-momentum-team-label away">
                     ${match?.away_team || "Visitante"}
                 </div>
+            </div>
+        </div>
+    `;
+}
+function renderShotBasedMomentumTimeline(match, shotmap) {
+    const shots = extractShots(shotmap);
+
+    if (!shots.length) {
+        return renderFallbackMatchTimeline(match);
+    }
+
+    const buckets = buildShotMomentumBuckets(shots);
+
+    if (!buckets.length) {
+        return renderFallbackMatchTimeline(match);
+    }
+
+    const maxValue = Math.max(
+        ...buckets.map((item) => Math.abs(item.value)),
+        1
+    );
+
+    return `
+        <div class="dynamic-analysis-section">
+            <div class="dynamic-section-title">
+                <span>Momentum estimado</span>
+                <h3>Pressão ofensiva por finalizações</h3>
+            </div>
+
+            <div class="dynamic-match-timeline-header">
+                <div>
+                    <strong>${match?.home_team || "Mandante"}</strong>
+                    <span>Volume e qualidade das finalizações</span>
+                </div>
+
+                <div>
+                    <strong>${match?.away_team || "Visitante"}</strong>
+                    <span>Volume e qualidade das finalizações</span>
+                </div>
+            </div>
+
+            <div class="dynamic-momentum-chart">
+                <div class="dynamic-momentum-team-label home">
+                    ${match?.home_team || "Mandante"}
+                </div>
+
+                <div class="dynamic-momentum-bars">
+                    ${buckets
+                        .map((item) => {
+                            const height = Math.max(Math.abs(item.value) / maxValue * 46, 3);
+                            const isHome = item.value >= 0;
+
+                            return `
+                                <div
+                                    class="dynamic-momentum-column"
+                                    title="${item.label} · ${item.value.toFixed(2)}"
+                                >
+                                    <div
+                                        class="dynamic-momentum-column-bar ${isHome ? "home" : "away"}"
+                                        style="
+                                            height: ${height}%;
+                                            ${isHome ? "bottom: 50%;" : "top: 50%;"}
+                                        "
+                                    ></div>
+                                </div>
+                            `;
+                        })
+                        .join("")}
+                </div>
+
+                <div class="dynamic-momentum-center-line"></div>
+
+                <div class="dynamic-momentum-time-axis">
+                    <span>0'</span>
+                    <span>15'</span>
+                    <span>30'</span>
+                    <span>45'</span>
+                    <span>60'</span>
+                    <span>75'</span>
+                    <span>90'</span>
+                </div>
+
+                <div class="dynamic-momentum-team-label away">
+                    ${match?.away_team || "Visitante"}
+                </div>
+            </div>
+
+            <p class="dynamic-momentum-note">
+                O SofaScore não disponibilizou o gráfico de momentum real para esta partida.
+                Este painel usa as finalizações, minutos e xG para estimar os períodos de maior pressão ofensiva.
+            </p>
+        </div>
+    `;
+}
+function buildShotMomentumBuckets(shots) {
+    const buckets = [];
+
+    for (let start = 0; start < 90; start += 5) {
+        buckets.push({
+            start,
+            end: start + 5,
+            label: `${start}-${start + 5}'`,
+            value: 0,
+        });
+    }
+
+    shots.forEach((shot) => {
+        const minute = Number(shot.time ?? shot.minute ?? 0);
+
+        if (Number.isNaN(minute)) return;
+
+        const bucketIndex = Math.min(Math.floor(minute / 5), buckets.length - 1);
+
+        if (bucketIndex < 0 || !buckets[bucketIndex]) return;
+
+        const xg = Number(shot.xg ?? shot.expectedGoals ?? shot.xG ?? 0);
+        const shotWeight = Number.isNaN(xg) ? 1 : 1 + xg * 8;
+
+        const isHome = Boolean(shot.isHome);
+
+        buckets[bucketIndex].value += isHome ? shotWeight : -shotWeight;
+    });
+
+    return buckets;
+}
+function renderFallbackMatchTimeline(match) {
+    const status = getSofascoreStatusLabel(match?.status_type, match?.status);
+    const isFinished = match?.status_type === "finished";
+    const isNotStarted = match?.status_type === "notstarted";
+
+    const timelinePoints = [
+        {
+            minute: "0'",
+            label: "Início",
+            active: isFinished || !isNotStarted,
+        },
+        {
+            minute: "15'",
+            label: "1º tempo",
+            active: isFinished || !isNotStarted,
+        },
+        {
+            minute: "30'",
+            label: "Construção",
+            active: isFinished || !isNotStarted,
+        },
+        {
+            minute: "45'",
+            label: "Intervalo",
+            active: isFinished || !isNotStarted,
+        },
+        {
+            minute: "60'",
+            label: "2º tempo",
+            active: isFinished || !isNotStarted,
+        },
+        {
+            minute: "75'",
+            label: "Momento decisivo",
+            active: isFinished || !isNotStarted,
+        },
+        {
+            minute: "90'",
+            label: "Fim",
+            active: isFinished,
+        },
+    ];
+
+    return `
+        <div class="dynamic-analysis-section">
+            <div class="dynamic-section-title">
+                <span>Linha do tempo</span>
+                <h3>Ritmo geral da partida</h3>
+            </div>
+
+            <div class="dynamic-fallback-timeline-card">
+                <div class="dynamic-fallback-timeline-top">
+                    <div>
+                        <strong>${match?.home_team || "Mandante"} x ${match?.away_team || "Visitante"}</strong>
+                        <span>${status}</span>
+                    </div>
+
+                    <em>
+                        ${isNotStarted ? "Aguardando dados ao vivo" : "Timeline estrutural da partida"}
+                    </em>
+                </div>
+
+                <div class="dynamic-fallback-timeline-line">
+                    ${timelinePoints
+                        .map((point) => `
+                            <div class="dynamic-fallback-point ${point.active ? "active" : ""}">
+                                <strong>${point.minute}</strong>
+                                <span>${point.label}</span>
+                            </div>
+                        `)
+                        .join("")}
+                </div>
+
+                <p>
+                    ${
+                        isNotStarted
+                            ? "Quando a partida começar e o SofaScore liberar os dados de pressão/momentum, este bloco será substituído automaticamente pelo gráfico real da partida."
+                            : "Esta partida não possui gráfico de momentum disponível no arquivo atual, então o dashboard mantém uma linha do tempo estrutural para preservar a leitura da análise."
+                    }
+                </p>
             </div>
         </div>
     `;
@@ -2476,6 +2722,108 @@ function renderDynamicEmptySection(title, message) {
             <p>${message}</p>
         </div>
     `;
+}
+
+// =======================================================
+// SELETOR PREMIUM DE PARTIDAS — AGS MATCH PICKER
+// =======================================================
+
+function renderAgsMatchPicker(matches, selectedMatch) {
+    const picker = document.getElementById("sofascoreCustomPicker");
+    const button = document.getElementById("agsMatchPickerButton");
+    const menu = document.getElementById("agsMatchPickerMenu");
+    const select = document.getElementById("sofascoreMatchSelect");
+
+    if (!picker || !button || !menu || !select) return;
+
+    updateAgsMatchPickerLabel(selectedMatch);
+
+    menu.innerHTML = matches
+        .map((match) => {
+            const status = getSofascoreStatusLabel(match.status_type, match.status);
+            const score = match.status_type === "finished" || match.status_type === "inprogress"
+                ? `${match.home_score ?? "-"} x ${match.away_score ?? "-"}`
+                : "x";
+
+            const date = formatSofascoreDate(match.start_datetime_utc);
+
+            return `
+                <button
+                    type="button"
+                    class="ags-match-picker-option"
+                    data-match-id="${match.match_id}"
+                >
+                    <div class="ags-picker-option-main">
+                        <strong>${match.home_team || "-"} ${score} ${match.away_team || "-"}</strong>
+                        <span>${date}</span>
+                    </div>
+
+                    <div class="ags-picker-option-meta">
+                        <span>${match.round || `Rodada ${match.round_number || "-"}`}</span>
+                        <em>${status}</em>
+                    </div>
+                </button>
+            `;
+        })
+        .join("");
+
+    button.onclick = () => {
+        const isHidden = menu.hasAttribute("hidden");
+
+        if (isHidden) {
+            menu.removeAttribute("hidden");
+            picker.classList.add("is-open");
+        } else {
+            menu.setAttribute("hidden", "");
+            picker.classList.remove("is-open");
+        }
+    };
+
+    menu.querySelectorAll(".ags-match-picker-option").forEach((option) => {
+        option.addEventListener("click", () => {
+            const matchId = option.dataset.matchId;
+            const selectedMatch = matches.find((match) => String(match.match_id) === String(matchId));
+
+            if (!selectedMatch) return;
+
+            select.value = String(matchId);
+            select.dispatchEvent(new Event("change"));
+
+            updateAgsMatchPickerLabel(selectedMatch);
+
+            menu.setAttribute("hidden", "");
+            picker.classList.remove("is-open");
+        });
+    });
+
+    document.addEventListener("click", (event) => {
+        if (!picker.contains(event.target)) {
+            menu.setAttribute("hidden", "");
+            picker.classList.remove("is-open");
+        }
+    });
+}
+
+function updateAgsMatchPickerLabel(match) {
+    const button = document.getElementById("agsMatchPickerButton");
+
+    if (!button || !match) return;
+
+    const status = getSofascoreStatusLabel(match.status_type, match.status);
+    const score = match.status_type === "finished" || match.status_type === "inprogress"
+        ? `${match.home_score ?? "-"} x ${match.away_score ?? "-"}`
+        : "x";
+
+    const strong = button.querySelector("strong");
+    const span = button.querySelector("span");
+
+    if (span) {
+        span.textContent = status;
+    }
+
+    if (strong) {
+        strong.textContent = `${match.home_team || "-"} ${score} ${match.away_team || "-"}`;
+    }
 }
 
 // =======================================================
