@@ -9,8 +9,9 @@
         "shortName": "A. Amaimouni Echghouyab",
         "position": "F",
         "jerseyNumber": "29",
-        "userCount": 7257,
+        "userCount": 7331,
         "gender": "M",
+        "sofascoreId": "q94nyv",
         "id": 1898148,
         "fieldTranslations": {
           "nameTranslation": {
@@ -47,8 +48,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -95,8 +97,9 @@
         "shortName": "C. Talbi",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 16244,
+        "userCount": 17439,
         "gender": "M",
+        "sofascoreId": "utq9t6",
         "id": 1142675,
         "fieldTranslations": {
           "nameTranslation": {
@@ -137,8 +140,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -185,8 +189,9 @@
         "shortName": "C. Talbi",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 16244,
+        "userCount": 17439,
         "gender": "M",
+        "sofascoreId": "utq9t6",
         "id": 1142675,
         "fieldTranslations": {
           "nameTranslation": {
@@ -232,8 +237,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -286,7 +292,7 @@
         "shortName": "S. McTominay",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 30539,
+        "userCount": 30592,
         "gender": "M",
         "sofascoreId": "ScottMcTominay",
         "id": 879346,
@@ -335,7 +341,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -389,8 +395,9 @@
         "shortName": "L. Dykes",
         "position": "F",
         "jerseyNumber": "99",
-        "userCount": 803,
+        "userCount": 802,
         "gender": "M",
+        "sofascoreId": "hyu5yc",
         "id": 846204,
         "fieldTranslations": {
           "nameTranslation": {
@@ -432,7 +439,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -482,7 +489,7 @@
         "shortName": "S. McTominay",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 30539,
+        "userCount": 30592,
         "gender": "M",
         "sofascoreId": "ScottMcTominay",
         "id": 879346,
@@ -531,7 +538,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -585,8 +592,9 @@
         "shortName": "R. Christie",
         "position": "M",
         "jerseyNumber": "10",
-        "userCount": 1490,
+        "userCount": 1492,
         "gender": "M",
+        "sofascoreId": "xavhjt",
         "id": 322391,
         "fieldTranslations": {
           "nameTranslation": {
@@ -628,7 +636,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -678,7 +686,7 @@
         "shortName": "A. Hakimi",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 162558,
+        "userCount": 166139,
         "gender": "M",
         "sofascoreId": "AHakimi",
         "id": 814594,
@@ -721,8 +729,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -770,7 +779,7 @@
         "shortName": "B. Díaz",
         "position": "M",
         "jerseyNumber": "21",
-        "userCount": 281907,
+        "userCount": 284763,
         "gender": "M",
         "sofascoreId": "Brahim",
         "id": 835485,
@@ -818,8 +827,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -871,7 +881,7 @@
         "shortName": "B. E. Khannouss",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 32834,
+        "userCount": 34681,
         "gender": "M",
         "sofascoreId": "bilalekns_34",
         "id": 1126569,
@@ -919,8 +929,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -972,7 +983,7 @@
         "shortName": "I. Saibari",
         "position": "M",
         "jerseyNumber": "34",
-        "userCount": 58847,
+        "userCount": 70875,
         "gender": "M",
         "sofascoreId": "ismaelsaibari",
         "id": 1063767,
@@ -1020,8 +1031,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1073,7 +1085,7 @@
         "shortName": "K. Tierney",
         "position": "D",
         "jerseyNumber": "63",
-        "userCount": 5180,
+        "userCount": 5190,
         "gender": "M",
         "sofascoreId": "kierantierney1",
         "id": 366592,
@@ -1122,7 +1134,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -1177,8 +1189,9 @@
         "shortName": "J. McGinn",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 7206,
+        "userCount": 7192,
         "gender": "M",
+        "sofascoreId": "i3tx9e",
         "id": 250223,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1220,7 +1233,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -1271,7 +1284,7 @@
         "shortName": "A. Hakimi",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 162558,
+        "userCount": 166139,
         "gender": "M",
         "sofascoreId": "AHakimi",
         "id": 814594,
@@ -1319,8 +1332,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1372,7 +1386,7 @@
         "shortName": "B. E. Khannouss",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 32834,
+        "userCount": 34681,
         "gender": "M",
         "sofascoreId": "bilalekns_34",
         "id": 1126569,
@@ -1415,8 +1429,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1464,8 +1479,9 @@
         "shortName": "N. El Aynaoui",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 21180,
+        "userCount": 22018,
         "gender": "M",
+        "sofascoreId": "n5qs9q",
         "id": 1128530,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1506,8 +1522,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1554,8 +1571,9 @@
         "shortName": "A. Bouaddi",
         "position": "M",
         "jerseyNumber": "32",
-        "userCount": 41374,
+        "userCount": 44038,
         "gender": "M",
+        "sofascoreId": "g87zpt",
         "id": 1564180,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1601,8 +1619,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1654,7 +1673,7 @@
         "shortName": "I. Saibari",
         "position": "M",
         "jerseyNumber": "34",
-        "userCount": 58847,
+        "userCount": 70875,
         "gender": "M",
         "sofascoreId": "ismaelsaibari",
         "id": 1063767,
@@ -1698,8 +1717,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {

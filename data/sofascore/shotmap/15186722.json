@@ -9,8 +9,9 @@
         "shortName": "B. Karimov",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 1612,
+        "userCount": 1743,
         "gender": "M",
+        "sofascoreId": "6gqdis",
         "id": 1597255,
         "fieldTranslations": {
           "nameTranslation": {
@@ -48,8 +49,9 @@
         "shortName": "C. Vargas",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 2378,
+        "userCount": 2459,
         "gender": "M",
+        "sofascoreId": "irvh7e",
         "id": 125787,
         "fieldTranslations": {
           "nameTranslation": {
@@ -96,8 +98,9 @@
         "shortName": "Azizbek Amanov",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 502,
+        "userCount": 503,
         "gender": "M",
+        "sofascoreId": "kwtz8j",
         "id": 871965,
         "fieldTranslations": {
           "nameTranslation": {
@@ -144,8 +147,9 @@
         "shortName": "C. Vargas",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 2378,
+        "userCount": 2459,
         "gender": "M",
+        "sofascoreId": "irvh7e",
         "id": 125787,
         "fieldTranslations": {
           "nameTranslation": {
@@ -198,8 +202,9 @@
         "shortName": "J. Campaz",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 2383,
+        "userCount": 2436,
         "gender": "M",
+        "sofascoreId": "u32vun",
         "id": 877299,
         "fieldTranslations": {
           "nameTranslation": {
@@ -242,8 +247,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -292,8 +298,9 @@
         "shortName": "D. Khamdamov",
         "position": "M",
         "jerseyNumber": "17",
-        "userCount": 281,
+        "userCount": 282,
         "gender": "M",
+        "sofascoreId": "8zjd6w",
         "id": 358880,
         "fieldTranslations": {
           "nameTranslation": {
@@ -340,8 +347,9 @@
         "shortName": "C. Vargas",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 2378,
+        "userCount": 2459,
         "gender": "M",
+        "sofascoreId": "irvh7e",
         "id": 125787,
         "fieldTranslations": {
           "nameTranslation": {
@@ -394,8 +402,9 @@
         "shortName": "A. Mozgovoy",
         "position": "M",
         "jerseyNumber": "10",
-        "userCount": 1120,
+        "userCount": 1114,
         "gender": "M",
+        "sofascoreId": "iw8jk5",
         "id": 926479,
         "fieldTranslations": {
           "nameTranslation": {
@@ -437,8 +446,9 @@
         "shortName": "C. Vargas",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 2378,
+        "userCount": 2459,
         "gender": "M",
+        "sofascoreId": "irvh7e",
         "id": 125787,
         "fieldTranslations": {
           "nameTranslation": {
@@ -486,8 +496,9 @@
         "shortName": "D. Khamdamov",
         "position": "M",
         "jerseyNumber": "17",
-        "userCount": 281,
+        "userCount": 282,
         "gender": "M",
+        "sofascoreId": "8zjd6w",
         "id": 358880,
         "fieldTranslations": {
           "nameTranslation": {
@@ -534,8 +545,9 @@
         "shortName": "C. Vargas",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 2378,
+        "userCount": 2459,
         "gender": "M",
+        "sofascoreId": "irvh7e",
         "id": 125787,
         "fieldTranslations": {
           "nameTranslation": {
@@ -587,8 +599,9 @@
         "shortName": "J. Campaz",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 2383,
+        "userCount": 2436,
         "gender": "M",
+        "sofascoreId": "u32vun",
         "id": 877299,
         "fieldTranslations": {
           "nameTranslation": {
@@ -630,8 +643,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -679,7 +693,7 @@
         "shortName": "J. Lerma",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 6206,
+        "userCount": 6304,
         "gender": "M",
         "sofascoreId": "jeffersonlerma",
         "id": 355796,
@@ -723,8 +737,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -772,8 +787,9 @@
         "shortName": "J. Mojica",
         "position": "D",
         "jerseyNumber": "22",
-        "userCount": 4623,
+        "userCount": 4719,
         "gender": "M",
+        "sofascoreId": "ixb6je",
         "id": 344847,
         "fieldTranslations": {
           "nameTranslation": {
@@ -815,8 +831,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -862,7 +879,7 @@
         "shortName": "L. Díaz",
         "position": "M",
         "jerseyNumber": "14",
-        "userCount": 178573,
+        "userCount": 180071,
         "gender": "M",
         "sofascoreId": "LuisDíaz",
         "id": 883537,
@@ -907,8 +924,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -956,7 +974,7 @@
         "shortName": "D. Sánchez",
         "position": "D",
         "jerseyNumber": "6",
-        "userCount": 13979,
+        "userCount": 14155,
         "gender": "M",
         "sofascoreId": "DAVINSON",
         "id": 566102,
@@ -1000,8 +1018,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1049,7 +1068,7 @@
         "shortName": "J. Lerma",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 6206,
+        "userCount": 6304,
         "gender": "M",
         "sofascoreId": "jeffersonlerma",
         "id": 355796,
@@ -1098,8 +1117,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1149,7 +1169,7 @@
         "shortName": "J. Arias",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 36377,
+        "userCount": 36879,
         "gender": "M",
         "sofascoreId": "jhonariasa",
         "id": 844096,
@@ -1198,8 +1218,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1251,7 +1272,7 @@
         "shortName": "A. Fayzullaev",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 38708,
+        "userCount": 39021,
         "gender": "M",
         "sofascoreId": "abbos",
         "id": 1118429,
@@ -1296,8 +1317,9 @@
         "shortName": "C. Vargas",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 2378,
+        "userCount": 2459,
         "gender": "M",
+        "sofascoreId": "irvh7e",
         "id": 125787,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1345,8 +1367,9 @@
         "shortName": "E. Shomurodov",
         "position": "F",
         "jerseyNumber": "14",
-        "userCount": 43126,
+        "userCount": 43370,
         "gender": "M",
+        "sofascoreId": "i6bzqe",
         "id": 791355,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1389,8 +1412,9 @@
         "shortName": "C. Vargas",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 2378,
+        "userCount": 2459,
         "gender": "M",
+        "sofascoreId": "irvh7e",
         "id": 125787,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1441,8 +1465,9 @@
         "shortName": "G. Puerta",
         "position": "M",
         "jerseyNumber": "19",
-        "userCount": 4598,
+        "userCount": 5340,
         "gender": "M",
+        "sofascoreId": "8jndp9",
         "id": 1174889,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1489,8 +1514,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1543,7 +1569,7 @@
         "shortName": "J. Lerma",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 6206,
+        "userCount": 6304,
         "gender": "M",
         "sofascoreId": "jeffersonlerma",
         "id": 355796,
@@ -1592,8 +1618,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1646,8 +1673,9 @@
         "shortName": "B. Karimov",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 1612,
+        "userCount": 1743,
         "gender": "M",
+        "sofascoreId": "6gqdis",
         "id": 1597255,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1690,8 +1718,9 @@
         "shortName": "C. Vargas",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 2378,
+        "userCount": 2459,
         "gender": "M",
+        "sofascoreId": "irvh7e",
         "id": 125787,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1741,8 +1770,7 @@
         "slug": "james-rodriguez",
         "shortName": "J. Rodríguez",
         "position": "M",
-        "jerseyNumber": "10",
-        "userCount": 82442,
+        "userCount": 84738,
         "gender": "M",
         "sofascoreId": "James10",
         "id": 107414,
@@ -1791,8 +1819,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1844,7 +1873,7 @@
         "shortName": "D. Muñoz",
         "position": "M",
         "jerseyNumber": "2",
-        "userCount": 15097,
+        "userCount": 15550,
         "gender": "M",
         "sofascoreId": "daniel.chitiva",
         "id": 870360,
@@ -1889,8 +1918,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1935,8 +1965,7 @@
         "slug": "james-rodriguez",
         "shortName": "J. Rodríguez",
         "position": "M",
-        "jerseyNumber": "10",
-        "userCount": 82442,
+        "userCount": 84738,
         "gender": "M",
         "sofascoreId": "James10",
         "id": 107414,
@@ -1985,8 +2014,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2036,7 +2066,7 @@
         "shortName": "L. Díaz",
         "position": "M",
         "jerseyNumber": "14",
-        "userCount": 178573,
+        "userCount": 180071,
         "gender": "M",
         "sofascoreId": "LuisDíaz",
         "id": 883537,
@@ -2080,8 +2110,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2127,7 +2158,7 @@
         "shortName": "J. Arias",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 36377,
+        "userCount": 36879,
         "gender": "M",
         "sofascoreId": "jhonariasa",
         "id": 844096,
@@ -2171,8 +2202,9 @@
         "shortName": "U. Yusupov",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2584,
+        "userCount": 2573,
         "gender": "M",
+        "sofascoreId": "ehqa38",
         "id": 791592,
         "fieldTranslations": {
           "nameTranslation": {

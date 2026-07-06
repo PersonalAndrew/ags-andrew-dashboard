@@ -6,9 +6,9 @@
         "slug": "martin-experience",
         "shortName": "M. Expérience",
         "position": "D",
-        "jerseyNumber": "19",
-        "userCount": 7739,
+        "userCount": 7864,
         "gender": "M",
+        "sofascoreId": "g8mstn",
         "id": 1110369,
         "fieldTranslations": {
           "nameTranslation": {
@@ -45,8 +45,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -95,7 +96,7 @@
         "shortName": "F. Pierrot",
         "position": "F",
         "jerseyNumber": "19",
-        "userCount": 21577,
+        "userCount": 21580,
         "gender": "M",
         "sofascoreId": "frantzdy_9",
         "id": 943278,
@@ -143,8 +144,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -197,7 +199,7 @@
         "shortName": "F. Pierrot",
         "position": "F",
         "jerseyNumber": "19",
-        "userCount": 21577,
+        "userCount": 21580,
         "gender": "M",
         "sofascoreId": "frantzdy_9",
         "id": 943278,
@@ -240,8 +242,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -289,8 +292,9 @@
         "shortName": "J. Casimir",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 13240,
+        "userCount": 13257,
         "gender": "M",
+        "sofascoreId": "n5drt3",
         "id": 1035986,
         "fieldTranslations": {
           "nameTranslation": {
@@ -336,8 +340,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -387,8 +392,9 @@
         "shortName": "R. Providence",
         "position": "M",
         "jerseyNumber": "28",
-        "userCount": 13217,
+        "userCount": 13231,
         "gender": "M",
+        "sofascoreId": "n55tr9",
         "id": 954066,
         "fieldTranslations": {
           "nameTranslation": {
@@ -434,8 +440,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -487,8 +494,9 @@
         "shortName": "J. Bellegarde",
         "position": "M",
         "jerseyNumber": "27",
-        "userCount": 38480,
+        "userCount": 38433,
         "gender": "M",
+        "sofascoreId": "bdirzq",
         "id": 845273,
         "fieldTranslations": {
           "nameTranslation": {
@@ -534,8 +542,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -585,8 +594,9 @@
         "shortName": "R. Providence",
         "position": "M",
         "jerseyNumber": "28",
-        "userCount": 13217,
+        "userCount": 13231,
         "gender": "M",
+        "sofascoreId": "n55tr9",
         "id": 954066,
         "fieldTranslations": {
           "nameTranslation": {
@@ -627,8 +637,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -676,8 +687,9 @@
         "shortName": "J. McGinn",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 7206,
+        "userCount": 7192,
         "gender": "M",
+        "sofascoreId": "i3tx9e",
         "id": 250223,
         "fieldTranslations": {
           "nameTranslation": {
@@ -716,8 +728,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -761,7 +774,7 @@
         "shortName": "B. Doak",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 7492,
+        "userCount": 7500,
         "gender": "M",
         "sofascoreId": "bendoak._",
         "id": 1154861,
@@ -807,8 +820,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -856,8 +870,9 @@
         "shortName": "J. Bellegarde",
         "position": "M",
         "jerseyNumber": "27",
-        "userCount": 38480,
+        "userCount": 38433,
         "gender": "M",
+        "sofascoreId": "bdirzq",
         "id": 845273,
         "fieldTranslations": {
           "nameTranslation": {
@@ -898,8 +913,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -947,8 +963,9 @@
         "shortName": "W. Isidor",
         "position": "F",
         "jerseyNumber": "18",
-        "userCount": 39759,
+        "userCount": 39988,
         "gender": "M",
+        "sofascoreId": "h6xd6c",
         "id": 877980,
         "fieldTranslations": {
           "nameTranslation": {
@@ -989,8 +1006,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1038,7 +1056,7 @@
         "shortName": "F. Pierrot",
         "position": "F",
         "jerseyNumber": "19",
-        "userCount": 21577,
+        "userCount": 21580,
         "gender": "M",
         "sofascoreId": "frantzdy_9",
         "id": 943278,
@@ -1086,8 +1104,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1137,8 +1156,9 @@
         "shortName": "R. Providence",
         "position": "M",
         "jerseyNumber": "28",
-        "userCount": 13217,
+        "userCount": 13231,
         "gender": "M",
+        "sofascoreId": "n55tr9",
         "id": 954066,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1184,8 +1204,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1237,8 +1258,9 @@
         "shortName": "R. Adé",
         "position": "D",
         "jerseyNumber": "4",
-        "userCount": 8037,
+        "userCount": 8066,
         "gender": "M",
+        "sofascoreId": "d59s7f",
         "id": 839638,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1284,8 +1306,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1337,8 +1360,9 @@
         "shortName": "L. Shankland",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 2489,
+        "userCount": 2491,
         "gender": "M",
+        "sofascoreId": "cmh73g",
         "id": 237098,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1377,8 +1401,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1422,8 +1447,9 @@
         "shortName": "J. McGinn",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 7206,
+        "userCount": 7192,
         "gender": "M",
+        "sofascoreId": "i3tx9e",
         "id": 250223,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1463,8 +1489,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1508,8 +1535,9 @@
         "shortName": "C. Adams",
         "position": "F",
         "jerseyNumber": "19",
-        "userCount": 5406,
+        "userCount": 5378,
         "gender": "M",
+        "sofascoreId": "g2ca7i",
         "id": 773409,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1553,8 +1581,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1602,7 +1631,7 @@
         "shortName": "S. McTominay",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 30539,
+        "userCount": 30592,
         "gender": "M",
         "sofascoreId": "ScottMcTominay",
         "id": 879346,
@@ -1643,8 +1672,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1688,8 +1718,9 @@
         "shortName": "W. Isidor",
         "position": "F",
         "jerseyNumber": "18",
-        "userCount": 39759,
+        "userCount": 39988,
         "gender": "M",
+        "sofascoreId": "h6xd6c",
         "id": 877980,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1735,8 +1766,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1788,8 +1820,9 @@
         "shortName": "J. Bellegarde",
         "position": "M",
         "jerseyNumber": "27",
-        "userCount": 38480,
+        "userCount": 38433,
         "gender": "M",
+        "sofascoreId": "bdirzq",
         "id": 845273,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1830,8 +1863,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1879,7 +1913,7 @@
         "shortName": "S. McTominay",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 30539,
+        "userCount": 30592,
         "gender": "M",
         "sofascoreId": "ScottMcTominay",
         "id": 879346,
@@ -1920,8 +1954,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1963,8 +1998,9 @@
         "shortName": "L. D. Deedson",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 7870,
+        "userCount": 7869,
         "gender": "M",
+        "sofascoreId": "iwk34u",
         "id": 991451,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2005,8 +2041,9 @@
         "slug": "angus-gunn",
         "shortName": "A. Gunn",
         "position": "G",
-        "userCount": 985,
+        "userCount": 988,
         "gender": "M",
+        "sofascoreId": "cmqrwg",
         "id": 227946,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2054,8 +2091,9 @@
         "shortName": "L. Shankland",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 2489,
+        "userCount": 2491,
         "gender": "M",
+        "sofascoreId": "cmh73g",
         "id": 237098,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2099,8 +2137,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2148,7 +2187,7 @@
         "shortName": "B. Doak",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 7492,
+        "userCount": 7500,
         "gender": "M",
         "sofascoreId": "bendoak._",
         "id": 1154861,
@@ -2194,8 +2233,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {

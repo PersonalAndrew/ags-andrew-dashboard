@@ -9,8 +9,9 @@
         "shortName": "J. Sanabria",
         "position": "D",
         "jerseyNumber": "8",
-        "userCount": 732,
+        "userCount": 733,
         "gender": "M",
+        "sofascoreId": "eitkc8",
         "id": 874568,
         "fieldTranslations": {
           "nameTranslation": {
@@ -55,8 +56,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -107,8 +109,9 @@
         "shortName": "B. Rodríguez",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 3334,
+        "userCount": 3351,
         "gender": "M",
+        "sofascoreId": "8jkxrj",
         "id": 932233,
         "fieldTranslations": {
           "nameTranslation": {
@@ -153,8 +156,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -207,8 +211,9 @@
         "shortName": "G. Varela",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 9084,
+        "userCount": 9127,
         "gender": "M",
+        "sofascoreId": "8tfr8w",
         "id": 311456,
         "fieldTranslations": {
           "nameTranslation": {
@@ -253,8 +258,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -307,7 +313,7 @@
         "shortName": "F. Valverde",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 472667,
+        "userCount": 474513,
         "gender": "M",
         "sofascoreId": "Fede",
         "id": 831808,
@@ -354,8 +360,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -408,8 +415,9 @@
         "shortName": "S. Cáceres",
         "position": "D",
         "jerseyNumber": "4",
-        "userCount": 1305,
+        "userCount": 1311,
         "gender": "M",
+        "sofascoreId": "b7p78a",
         "id": 924889,
         "fieldTranslations": {
           "nameTranslation": {
@@ -449,8 +457,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -499,7 +508,7 @@
         "shortName": "F. Valverde",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 472667,
+        "userCount": 474513,
         "gender": "M",
         "sofascoreId": "Fede",
         "id": 831808,
@@ -546,8 +555,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -600,7 +610,7 @@
         "shortName": "N. De la Cruz",
         "position": "M",
         "jerseyNumber": "18",
-        "userCount": 18680,
+        "userCount": 18801,
         "gender": "M",
         "sofascoreId": "nicodelacruz10",
         "id": 877513,
@@ -647,8 +657,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -701,7 +712,7 @@
         "shortName": "S. Abdulhamid",
         "position": "M",
         "jerseyNumber": "23",
-        "userCount": 11945,
+        "userCount": 12020,
         "gender": "M",
         "sofascoreId": "s.abdulhamed66",
         "id": 966849,
@@ -743,7 +754,7 @@
         "shortName": "F. Muslera",
         "position": "G",
         "jerseyNumber": "16",
-        "userCount": 11626,
+        "userCount": 11877,
         "gender": "M",
         "sofascoreId": "Muslera",
         "id": 28381,
@@ -793,8 +804,9 @@
         "shortName": "M. Kanno",
         "position": "M",
         "jerseyNumber": "28",
-        "userCount": 1999,
+        "userCount": 1995,
         "gender": "M",
+        "sofascoreId": "ec6mp8",
         "id": 828524,
         "fieldTranslations": {
           "nameTranslation": {
@@ -839,7 +851,7 @@
         "shortName": "F. Muslera",
         "position": "G",
         "jerseyNumber": "16",
-        "userCount": 11626,
+        "userCount": 11877,
         "gender": "M",
         "sofascoreId": "Muslera",
         "id": 28381,
@@ -891,8 +903,9 @@
         "shortName": "B. Rodríguez",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 3334,
+        "userCount": 3351,
         "gender": "M",
+        "sofascoreId": "8jkxrj",
         "id": 932233,
         "fieldTranslations": {
           "nameTranslation": {
@@ -932,8 +945,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -981,8 +995,9 @@
         "shortName": "S. Cáceres",
         "position": "D",
         "jerseyNumber": "4",
-        "userCount": 1305,
+        "userCount": 1311,
         "gender": "M",
+        "sofascoreId": "b7p78a",
         "id": 924889,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1022,8 +1037,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1071,8 +1087,9 @@
         "shortName": "J. Sanabria",
         "position": "D",
         "jerseyNumber": "8",
-        "userCount": 732,
+        "userCount": 733,
         "gender": "M",
+        "sofascoreId": "eitkc8",
         "id": 874568,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1117,8 +1134,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1170,8 +1188,9 @@
         "shortName": "M. Araújo",
         "position": "D",
         "jerseyNumber": "20",
-        "userCount": 9388,
+        "userCount": 9374,
         "gender": "M",
+        "sofascoreId": "8jksg8",
         "id": 929193,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1212,8 +1231,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1261,8 +1281,9 @@
         "shortName": "F. Viñas",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 2669,
+        "userCount": 2659,
         "gender": "M",
+        "sofascoreId": "ekk2a3",
         "id": 976104,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1303,8 +1324,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1356,7 +1378,7 @@
         "shortName": "N. De la Cruz",
         "position": "M",
         "jerseyNumber": "18",
-        "userCount": 18680,
+        "userCount": 18801,
         "gender": "M",
         "sofascoreId": "nicodelacruz10",
         "id": 877513,
@@ -1403,8 +1425,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1456,8 +1479,9 @@
         "shortName": "G. Varela",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 9084,
+        "userCount": 9127,
         "gender": "M",
+        "sofascoreId": "8tfr8w",
         "id": 311456,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1502,8 +1526,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1555,7 +1580,7 @@
         "shortName": "F. Valverde",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 472667,
+        "userCount": 474513,
         "gender": "M",
         "sofascoreId": "Fede",
         "id": 831808,
@@ -1602,8 +1627,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1655,8 +1681,9 @@
         "shortName": "J. Sanabria",
         "position": "D",
         "jerseyNumber": "8",
-        "userCount": 732,
+        "userCount": 733,
         "gender": "M",
+        "sofascoreId": "eitkc8",
         "id": 874568,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1696,8 +1723,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1745,7 +1773,7 @@
         "shortName": "M. Ugarte",
         "position": "M",
         "jerseyNumber": "25",
-        "userCount": 21217,
+        "userCount": 21305,
         "gender": "M",
         "sofascoreId": "ugartemanu",
         "id": 846425,
@@ -1792,8 +1820,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1845,8 +1874,9 @@
         "shortName": "A. Canobbio",
         "position": "M",
         "jerseyNumber": "17",
-        "userCount": 5149,
+        "userCount": 5187,
         "gender": "M",
+        "sofascoreId": "wed6ak",
         "id": 846413,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1886,8 +1916,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1935,7 +1966,7 @@
         "shortName": "M. Ugarte",
         "position": "M",
         "jerseyNumber": "25",
-        "userCount": 21217,
+        "userCount": 21305,
         "gender": "M",
         "sofascoreId": "ugartemanu",
         "id": 846425,
@@ -1982,8 +2013,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2035,8 +2067,9 @@
         "shortName": "M. Olivera",
         "position": "D",
         "jerseyNumber": "17",
-        "userCount": 4064,
+        "userCount": 4070,
         "gender": "M",
+        "sofascoreId": "dtb3yf",
         "id": 805078,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2081,8 +2114,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2134,8 +2168,9 @@
         "shortName": "F. Viñas",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 2669,
+        "userCount": 2659,
         "gender": "M",
+        "sofascoreId": "ekk2a3",
         "id": 976104,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2171,8 +2206,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2220,8 +2256,9 @@
         "shortName": "F. Viñas",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 2669,
+        "userCount": 2659,
         "gender": "M",
+        "sofascoreId": "ekk2a3",
         "id": 976104,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2262,8 +2299,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2315,7 +2353,7 @@
         "shortName": "D. Núñez",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 71692,
+        "userCount": 71781,
         "gender": "M",
         "sofascoreId": "Darwin",
         "id": 924871,
@@ -2362,8 +2400,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2416,8 +2455,9 @@
         "shortName": "F. Viñas",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 2669,
+        "userCount": 2659,
         "gender": "M",
+        "sofascoreId": "ekk2a3",
         "id": 976104,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2458,8 +2498,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2511,8 +2552,9 @@
         "shortName": "A. Al-Amri",
         "position": "D",
         "jerseyNumber": "5",
-        "userCount": 1744,
+        "userCount": 1743,
         "gender": "M",
+        "sofascoreId": "6yzdwh",
         "id": 881831,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2553,7 +2595,7 @@
         "shortName": "F. Muslera",
         "position": "G",
         "jerseyNumber": "16",
-        "userCount": 11626,
+        "userCount": 11877,
         "gender": "M",
         "sofascoreId": "Muslera",
         "id": 28381,
@@ -2603,8 +2645,9 @@
         "shortName": "M. Kanno",
         "position": "M",
         "jerseyNumber": "28",
-        "userCount": 1999,
+        "userCount": 1995,
         "gender": "M",
+        "sofascoreId": "ec6mp8",
         "id": 828524,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2649,7 +2692,7 @@
         "shortName": "F. Muslera",
         "position": "G",
         "jerseyNumber": "16",
-        "userCount": 11626,
+        "userCount": 11877,
         "gender": "M",
         "sofascoreId": "Muslera",
         "id": 28381,
@@ -2701,8 +2744,9 @@
         "shortName": "A. Al-Khaibari",
         "position": "M",
         "jerseyNumber": "17",
-        "userCount": 1582,
+        "userCount": 1580,
         "gender": "M",
+        "sofascoreId": "vmxp2s",
         "id": 867179,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2742,7 +2786,7 @@
         "shortName": "F. Muslera",
         "position": "G",
         "jerseyNumber": "16",
-        "userCount": 11626,
+        "userCount": 11877,
         "gender": "M",
         "sofascoreId": "Muslera",
         "id": 28381,
@@ -2792,8 +2836,9 @@
         "shortName": "A. Al-Amri",
         "position": "D",
         "jerseyNumber": "5",
-        "userCount": 1744,
+        "userCount": 1743,
         "gender": "M",
+        "sofascoreId": "6yzdwh",
         "id": 881831,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2838,7 +2883,7 @@
         "shortName": "F. Muslera",
         "position": "G",
         "jerseyNumber": "16",
-        "userCount": 11626,
+        "userCount": 11877,
         "gender": "M",
         "sofascoreId": "Muslera",
         "id": 28381,
@@ -2892,7 +2937,7 @@
         "shortName": "R. Bentancur",
         "position": "M",
         "jerseyNumber": "30",
-        "userCount": 9427,
+        "userCount": 9473,
         "gender": "M",
         "sofascoreId": "rodrigo_bentancur",
         "id": 791190,
@@ -2939,8 +2984,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2992,7 +3038,7 @@
         "shortName": "S. Al-Dawsari",
         "position": "M",
         "jerseyNumber": "29",
-        "userCount": 12003,
+        "userCount": 12001,
         "gender": "M",
         "sofascoreId": "29salem",
         "id": 160893,
@@ -3034,7 +3080,7 @@
         "shortName": "F. Muslera",
         "position": "G",
         "jerseyNumber": "16",
-        "userCount": 11626,
+        "userCount": 11877,
         "gender": "M",
         "sofascoreId": "Muslera",
         "id": 28381,
@@ -3084,8 +3130,9 @@
         "shortName": "F. Viñas",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 2669,
+        "userCount": 2659,
         "gender": "M",
+        "sofascoreId": "ekk2a3",
         "id": 976104,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3126,8 +3173,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3179,8 +3227,9 @@
         "shortName": "M. Araújo",
         "position": "D",
         "jerseyNumber": "20",
-        "userCount": 9388,
+        "userCount": 9374,
         "gender": "M",
+        "sofascoreId": "8jksg8",
         "id": 929193,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3225,8 +3274,9 @@
         "shortName": "M. Al-Owais",
         "position": "G",
         "jerseyNumber": "33",
-        "userCount": 1293,
+        "userCount": 1286,
         "gender": "M",
+        "sofascoreId": "5u8e8z",
         "id": 791416,
         "fieldTranslations": {
           "nameTranslation": {

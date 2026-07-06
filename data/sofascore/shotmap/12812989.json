@@ -9,8 +9,9 @@
         "shortName": "E. Guessand",
         "position": "F",
         "jerseyNumber": "29",
-        "userCount": 6221,
+        "userCount": 6227,
         "gender": "M",
+        "sofascoreId": "zbf9zt",
         "id": 930245,
         "fieldTranslations": {
           "nameTranslation": {
@@ -54,8 +55,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -108,7 +110,7 @@
         "shortName": "A. Diallo",
         "position": "M",
         "jerseyNumber": "16",
-        "userCount": 120085,
+        "userCount": 121313,
         "gender": "M",
         "sofascoreId": "AmadDiallo19",
         "id": 971037,
@@ -154,8 +156,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -208,7 +211,7 @@
         "shortName": "A. Schjelderup",
         "position": "M",
         "jerseyNumber": "21",
-        "userCount": 11313,
+        "userCount": 11336,
         "gender": "M",
         "sofascoreId": "andreasschjelderup",
         "id": 1100952,
@@ -252,7 +255,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -302,7 +305,7 @@
         "shortName": "E. Haaland",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 1025616,
+        "userCount": 1047420,
         "gender": "M",
         "sofascoreId": "EHaaland",
         "id": 839956,
@@ -347,7 +350,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -397,7 +400,7 @@
         "shortName": "A. Diallo",
         "position": "M",
         "jerseyNumber": "16",
-        "userCount": 120085,
+        "userCount": 121313,
         "gender": "M",
         "sofascoreId": "AmadDiallo19",
         "id": 971037,
@@ -439,8 +442,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -488,8 +492,9 @@
         "shortName": "G. Konan",
         "position": "D",
         "jerseyNumber": "3",
-        "userCount": 3583,
+        "userCount": 3586,
         "gender": "M",
+        "sofascoreId": "zxt8rd",
         "id": 831781,
         "fieldTranslations": {
           "nameTranslation": {
@@ -533,8 +538,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -586,8 +592,9 @@
         "shortName": "T. Heggem",
         "position": "D",
         "jerseyNumber": "14",
-        "userCount": 1672,
+        "userCount": 1667,
         "gender": "M",
+        "sofascoreId": "snup5q",
         "id": 933264,
         "fieldTranslations": {
           "nameTranslation": {
@@ -634,7 +641,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -686,8 +693,9 @@
         "shortName": "G. Doué",
         "position": "D",
         "jerseyNumber": "22",
-        "userCount": 19995,
+        "userCount": 20023,
         "gender": "M",
+        "sofascoreId": "kmvay2",
         "id": 1002033,
         "fieldTranslations": {
           "nameTranslation": {
@@ -731,8 +739,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -784,8 +793,9 @@
         "shortName": "E. Agbadou",
         "position": "D",
         "jerseyNumber": "12",
-        "userCount": 5146,
+        "userCount": 5160,
         "gender": "M",
+        "sofascoreId": "n5dtni",
         "id": 1013842,
         "fieldTranslations": {
           "nameTranslation": {
@@ -824,8 +834,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -870,7 +881,7 @@
         "slug": "franck-kessie",
         "shortName": "F. Kessié",
         "position": "M",
-        "userCount": 55266,
+        "userCount": 55231,
         "gender": "M",
         "sofascoreId": "franckkessie",
         "id": 359226,
@@ -916,8 +927,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -969,7 +981,7 @@
         "shortName": "N. Pépé",
         "position": "F",
         "jerseyNumber": "19",
-        "userCount": 15674,
+        "userCount": 16336,
         "gender": "M",
         "sofascoreId": "nicolas_pepe19",
         "id": 593526,
@@ -1015,8 +1027,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1066,7 +1079,7 @@
         "shortName": "I. Sangaré",
         "position": "M",
         "jerseyNumber": "6",
-        "userCount": 10997,
+        "userCount": 11005,
         "gender": "M",
         "sofascoreId": "ibrahim_sangare",
         "id": 843754,
@@ -1107,8 +1120,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1156,8 +1170,9 @@
         "shortName": "E. Agbadou",
         "position": "D",
         "jerseyNumber": "12",
-        "userCount": 5146,
+        "userCount": 5160,
         "gender": "M",
+        "sofascoreId": "n5dtni",
         "id": 1013842,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1196,8 +1211,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1244,7 +1260,7 @@
         "shortName": "A. Sørloth",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 26634,
+        "userCount": 26723,
         "gender": "M",
         "sofascoreId": "asorloth",
         "id": 309078,
@@ -1288,7 +1304,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -1338,7 +1354,7 @@
         "shortName": "E. Haaland",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 1025616,
+        "userCount": 1047420,
         "gender": "M",
         "sofascoreId": "EHaaland",
         "id": 839956,
@@ -1387,7 +1403,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -1441,7 +1457,7 @@
         "shortName": "A. Nusa",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 17633,
+        "userCount": 23391,
         "gender": "M",
         "sofascoreId": "nusaantonio",
         "id": 1121923,
@@ -1486,7 +1502,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -1534,7 +1550,7 @@
         "shortName": "M. Ødegaard",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 87290,
+        "userCount": 87811,
         "gender": "M",
         "sofascoreId": "Ødegaard",
         "id": 547410,
@@ -1583,7 +1599,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -1637,7 +1653,7 @@
         "shortName": "E. Haaland",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 1025616,
+        "userCount": 1047420,
         "gender": "M",
         "sofascoreId": "EHaaland",
         "id": 839956,
@@ -1686,7 +1702,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -1740,8 +1756,9 @@
         "shortName": "E. Agbadou",
         "position": "D",
         "jerseyNumber": "12",
-        "userCount": 5146,
+        "userCount": 5160,
         "gender": "M",
+        "sofascoreId": "n5dtni",
         "id": 1013842,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1785,8 +1802,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1838,7 +1856,7 @@
         "shortName": "N. Pépé",
         "position": "F",
         "jerseyNumber": "19",
-        "userCount": 15674,
+        "userCount": 16336,
         "gender": "M",
         "sofascoreId": "nicolas_pepe19",
         "id": 593526,
@@ -1884,8 +1902,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1937,8 +1956,9 @@
         "shortName": "G. Konan",
         "position": "D",
         "jerseyNumber": "3",
-        "userCount": 3583,
+        "userCount": 3586,
         "gender": "M",
+        "sofascoreId": "zxt8rd",
         "id": 831781,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1977,8 +1997,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2025,8 +2046,9 @@
         "shortName": "Y. Diomande",
         "position": "F",
         "jerseyNumber": "49",
-        "userCount": 52756,
+        "userCount": 56293,
         "gender": "M",
+        "sofascoreId": "wmxrh5",
         "id": 2087085,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2066,8 +2088,9 @@
         "slug": "rjan-nyland",
         "shortName": "Ø. Nyland",
         "position": "G",
-        "userCount": 1969,
+        "userCount": 1991,
         "gender": "M",
+        "sofascoreId": "g9ktin",
         "id": 22209,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2119,7 +2142,7 @@
         "shortName": "E. Haaland",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 1025616,
+        "userCount": 1047420,
         "gender": "M",
         "sofascoreId": "EHaaland",
         "id": 839956,
@@ -2168,7 +2191,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,

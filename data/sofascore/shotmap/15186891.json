@@ -9,8 +9,9 @@
         "shortName": "T. Yengi",
         "position": "F",
         "jerseyNumber": "99",
-        "userCount": 306,
+        "userCount": 356,
         "gender": "M",
+        "sofascoreId": "zb4uf8",
         "id": 1096517,
         "fieldTranslations": {
           "nameTranslation": {
@@ -51,8 +52,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {
@@ -99,8 +101,9 @@
         "shortName": "Mauricio",
         "position": "M",
         "jerseyNumber": "18",
-        "userCount": 7822,
+        "userCount": 8046,
         "gender": "M",
+        "sofascoreId": "b7496b",
         "id": 986233,
         "fieldTranslations": {
           "nameTranslation": {
@@ -147,8 +150,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -197,8 +201,9 @@
         "shortName": "J. Bos",
         "position": "D",
         "jerseyNumber": "15",
-        "userCount": 1372,
+        "userCount": 1656,
         "gender": "M",
+        "sofascoreId": "cemndp",
         "id": 1144138,
         "fieldTranslations": {
           "nameTranslation": {
@@ -238,8 +243,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {
@@ -283,8 +289,9 @@
         "shortName": "J. Bos",
         "position": "D",
         "jerseyNumber": "15",
-        "userCount": 1372,
+        "userCount": 1656,
         "gender": "M",
+        "sofascoreId": "cemndp",
         "id": 1144138,
         "fieldTranslations": {
           "nameTranslation": {
@@ -329,8 +336,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {
@@ -377,8 +385,8 @@
         "slug": "julio-enciso",
         "shortName": "J. Enciso",
         "position": "M",
-        "jerseyNumber": "19",
-        "userCount": 18415,
+        "jerseyNumber": "10",
+        "userCount": 22166,
         "gender": "M",
         "sofascoreId": "julioenciso.33",
         "id": 973556,
@@ -422,8 +430,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -466,8 +475,8 @@
         "slug": "julio-enciso",
         "shortName": "J. Enciso",
         "position": "M",
-        "jerseyNumber": "19",
-        "userCount": 18415,
+        "jerseyNumber": "10",
+        "userCount": 22166,
         "gender": "M",
         "sofascoreId": "julioenciso.33",
         "id": 973556,
@@ -516,8 +525,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -564,8 +574,9 @@
         "slug": "ajdin-hrustic",
         "shortName": "A. Hrustić",
         "position": "M",
-        "userCount": 445,
+        "userCount": 486,
         "gender": "M",
+        "sofascoreId": "haxm5c",
         "id": 788284,
         "fieldTranslations": {
           "nameTranslation": {
@@ -610,8 +621,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {
@@ -659,7 +671,7 @@
         "shortName": "N. Irankunda",
         "position": "F",
         "jerseyNumber": "66",
-        "userCount": 7632,
+        "userCount": 8806,
         "gender": "M",
         "sofascoreId": "nestory._",
         "id": 1144687,
@@ -706,8 +718,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {
@@ -755,7 +768,7 @@
         "shortName": "N. Irankunda",
         "position": "F",
         "jerseyNumber": "66",
-        "userCount": 7632,
+        "userCount": 8806,
         "gender": "M",
         "sofascoreId": "nestory._",
         "id": 1144687,
@@ -797,8 +810,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {
@@ -840,8 +854,9 @@
         "shortName": "Mauricio",
         "position": "M",
         "jerseyNumber": "18",
-        "userCount": 7822,
+        "userCount": 8046,
         "gender": "M",
+        "sofascoreId": "b7496b",
         "id": 986233,
         "fieldTranslations": {
           "nameTranslation": {
@@ -888,8 +903,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -935,8 +951,9 @@
         "shortName": "A. Cubas",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 1436,
+        "userCount": 1609,
         "gender": "M",
+        "sofascoreId": "shphp3",
         "id": 546416,
         "fieldTranslations": {
           "nameTranslation": {
@@ -978,8 +995,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1021,8 +1039,9 @@
         "shortName": "J. Cáceres",
         "position": "D",
         "jerseyNumber": "4",
-        "userCount": 1643,
+        "userCount": 1857,
         "gender": "M",
+        "sofascoreId": "8jr38r",
         "id": 989801,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1064,8 +1083,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1109,8 +1129,9 @@
         "shortName": "J. Irvine",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 1208,
+        "userCount": 1586,
         "gender": "M",
+        "sofascoreId": "wum8bk",
         "id": 181581,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1150,8 +1171,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1196,8 +1218,9 @@
         "shortName": "C. Volpato",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 1283,
+        "userCount": 1599,
         "gender": "M",
+        "sofascoreId": "8ju6qu",
         "id": 1155625,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1242,8 +1265,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1292,8 +1316,9 @@
         "shortName": "G. Ávalos",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 1775,
+        "userCount": 1826,
         "gender": "M",
+        "sofascoreId": "wgqqnk",
         "id": 789453,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1335,8 +1360,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1380,8 +1406,9 @@
         "shortName": "J. Bos",
         "position": "D",
         "jerseyNumber": "15",
-        "userCount": 1372,
+        "userCount": 1656,
         "gender": "M",
+        "sofascoreId": "cemndp",
         "id": 1144138,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1426,8 +1453,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1475,8 +1503,9 @@
         "shortName": "C. Metcalfe",
         "position": "M",
         "jerseyNumber": "24",
-        "userCount": 569,
+        "userCount": 827,
         "gender": "M",
+        "sofascoreId": "dzn5sf",
         "id": 888854,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1521,8 +1550,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1570,8 +1600,9 @@
         "shortName": "A. O'Neill",
         "position": "M",
         "jerseyNumber": "21",
-        "userCount": 403,
+        "userCount": 617,
         "gender": "M",
+        "sofascoreId": "rk7f8m",
         "id": 847938,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1611,8 +1642,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1656,8 +1688,9 @@
         "shortName": "J. Irvine",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 1208,
+        "userCount": 1586,
         "gender": "M",
+        "sofascoreId": "wum8bk",
         "id": 181581,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1702,8 +1735,9 @@
         "shortName": "O. Gill",
         "position": "G",
         "jerseyNumber": "12",
-        "userCount": 3508,
+        "userCount": 9224,
         "gender": "M",
+        "sofascoreId": "kmvtwa",
         "id": 991709,
         "fieldTranslations": {
           "nameTranslation": {

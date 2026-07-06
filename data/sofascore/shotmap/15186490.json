@@ -7,8 +7,9 @@
         "shortName": "H. Oh",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 9237,
+        "userCount": 9251,
         "gender": "M",
+        "sofascoreId": "ce86qw",
         "id": 1010634,
         "fieldTranslations": {
           "nameTranslation": {
@@ -51,8 +52,9 @@
         "shortName": "R. Rangel",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2536,
+        "userCount": 2843,
         "gender": "M",
+        "sofascoreId": "ekj3p4",
         "id": 990408,
         "fieldTranslations": {
           "nameTranslation": {
@@ -101,8 +103,9 @@
         "shortName": "G. Cho",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 2912,
+        "userCount": 2924,
         "gender": "M",
+        "sofascoreId": "8jmjdy",
         "id": 1014281,
         "fieldTranslations": {
           "nameTranslation": {
@@ -147,8 +150,9 @@
         "shortName": "R. Rangel",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2536,
+        "userCount": 2843,
         "gender": "M",
+        "sofascoreId": "ekj3p4",
         "id": 990408,
         "fieldTranslations": {
           "nameTranslation": {
@@ -197,8 +201,9 @@
         "shortName": "H. Lee",
         "position": "D",
         "jerseyNumber": "3",
-        "userCount": 1268,
+        "userCount": 1266,
         "gender": "M",
+        "sofascoreId": "snxg5n",
         "id": 1002448,
         "fieldTranslations": {
           "nameTranslation": {
@@ -234,8 +239,9 @@
         "shortName": "R. Rangel",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2536,
+        "userCount": 2843,
         "gender": "M",
+        "sofascoreId": "ekj3p4",
         "id": 990408,
         "fieldTranslations": {
           "nameTranslation": {
@@ -280,8 +286,9 @@
         "shortName": "Y. Hyun-Jun",
         "position": "F",
         "jerseyNumber": "13",
-        "userCount": 1771,
+        "userCount": 1778,
         "gender": "M",
+        "sofascoreId": "vuzub8",
         "id": 1103531,
         "fieldTranslations": {
           "nameTranslation": {
@@ -326,8 +333,9 @@
         "shortName": "R. Rangel",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2536,
+        "userCount": 2843,
         "gender": "M",
+        "sofascoreId": "ekj3p4",
         "id": 990408,
         "fieldTranslations": {
           "nameTranslation": {
@@ -375,8 +383,9 @@
         "shortName": "G. Cho",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 2912,
+        "userCount": 2924,
         "gender": "M",
+        "sofascoreId": "8jmjdy",
         "id": 1014281,
         "fieldTranslations": {
           "nameTranslation": {
@@ -421,8 +430,9 @@
         "shortName": "R. Rangel",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2536,
+        "userCount": 2843,
         "gender": "M",
+        "sofascoreId": "ekj3p4",
         "id": 990408,
         "fieldTranslations": {
           "nameTranslation": {
@@ -469,8 +479,9 @@
         "shortName": "O. Vargas",
         "position": "M",
         "jerseyNumber": "21",
-        "userCount": 7108,
+        "userCount": 7235,
         "gender": "M",
+        "sofascoreId": "kmn4h8",
         "id": 1119345,
         "fieldTranslations": {
           "nameTranslation": {
@@ -513,8 +524,9 @@
         "shortName": "K. Seung-gyu",
         "position": "G",
         "jerseyNumber": "81",
-        "userCount": 619,
+        "userCount": 617,
         "gender": "M",
+        "sofascoreId": "fyzynb",
         "id": 235686,
         "fieldTranslations": {
           "nameTranslation": {
@@ -564,7 +576,7 @@
         "shortName": "K. Lee",
         "position": "M",
         "jerseyNumber": "19",
-        "userCount": 31488,
+        "userCount": 31562,
         "gender": "M",
         "sofascoreId": "kanginlee",
         "id": 917087,
@@ -606,8 +618,9 @@
         "shortName": "R. Rangel",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2536,
+        "userCount": 2843,
         "gender": "M",
+        "sofascoreId": "ekj3p4",
         "id": 990408,
         "fieldTranslations": {
           "nameTranslation": {
@@ -649,7 +662,7 @@
         "shortName": "R. Jiménez",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 35816,
+        "userCount": 36397,
         "gender": "M",
         "sofascoreId": "RJimenez9",
         "id": 192442,
@@ -698,8 +711,9 @@
         "shortName": "K. Seung-gyu",
         "position": "G",
         "jerseyNumber": "81",
-        "userCount": 619,
+        "userCount": 617,
         "gender": "M",
+        "sofascoreId": "fyzynb",
         "id": 235686,
         "fieldTranslations": {
           "nameTranslation": {
@@ -751,7 +765,7 @@
         "shortName": "H. In-beom",
         "position": "M",
         "jerseyNumber": "6",
-        "userCount": 11885,
+        "userCount": 11858,
         "gender": "M",
         "sofascoreId": "Hwang",
         "id": 889689,
@@ -798,8 +812,9 @@
         "shortName": "R. Rangel",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2536,
+        "userCount": 2843,
         "gender": "M",
+        "sofascoreId": "ekj3p4",
         "id": 990408,
         "fieldTranslations": {
           "nameTranslation": {
@@ -847,8 +862,9 @@
         "shortName": "L. Romo",
         "position": "D",
         "jerseyNumber": "7",
-        "userCount": 1593,
+        "userCount": 1660,
         "gender": "M",
+        "sofascoreId": "zb2hhc",
         "id": 1172773,
         "fieldTranslations": {
           "nameTranslation": {
@@ -891,8 +907,9 @@
         "shortName": "K. Seung-gyu",
         "position": "G",
         "jerseyNumber": "81",
-        "userCount": 619,
+        "userCount": 617,
         "gender": "M",
+        "sofascoreId": "fyzynb",
         "id": 235686,
         "fieldTranslations": {
           "nameTranslation": {
@@ -938,7 +955,7 @@
         "shortName": "R. Jiménez",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 35816,
+        "userCount": 36397,
         "gender": "M",
         "sofascoreId": "RJimenez9",
         "id": 192442,
@@ -987,8 +1004,9 @@
         "shortName": "K. Seung-gyu",
         "position": "G",
         "jerseyNumber": "81",
-        "userCount": 619,
+        "userCount": 617,
         "gender": "M",
+        "sofascoreId": "fyzynb",
         "id": 235686,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1040,8 +1058,9 @@
         "shortName": "J. Gallardo",
         "position": "D",
         "jerseyNumber": "20",
-        "userCount": 1259,
+        "userCount": 1325,
         "gender": "M",
+        "sofascoreId": "wcgqik",
         "id": 770253,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1083,8 +1102,9 @@
         "shortName": "K. Seung-gyu",
         "position": "G",
         "jerseyNumber": "81",
-        "userCount": 619,
+        "userCount": 617,
         "gender": "M",
+        "sofascoreId": "fyzynb",
         "id": 235686,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1130,7 +1150,7 @@
         "shortName": "K. Lee",
         "position": "M",
         "jerseyNumber": "19",
-        "userCount": 31488,
+        "userCount": 31562,
         "gender": "M",
         "sofascoreId": "kanginlee",
         "id": 917087,
@@ -1177,8 +1197,9 @@
         "shortName": "R. Rangel",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2536,
+        "userCount": 2843,
         "gender": "M",
+        "sofascoreId": "ekj3p4",
         "id": 990408,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1224,8 +1245,9 @@
         "shortName": "Y. W. Seol",
         "position": "D",
         "jerseyNumber": "66",
-        "userCount": 2515,
+        "userCount": 2513,
         "gender": "M",
+        "sofascoreId": "zbp9mv",
         "id": 1019333,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1265,8 +1287,9 @@
         "shortName": "R. Rangel",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2536,
+        "userCount": 2843,
         "gender": "M",
+        "sofascoreId": "ekj3p4",
         "id": 990408,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1310,7 +1333,7 @@
         "shortName": "J. Quiñones",
         "position": "F",
         "jerseyNumber": "33",
-        "userCount": 30197,
+        "userCount": 34204,
         "gender": "M",
         "sofascoreId": "julianquinones33",
         "id": 843114,
@@ -1359,8 +1382,9 @@
         "shortName": "K. Seung-gyu",
         "position": "G",
         "jerseyNumber": "81",
-        "userCount": 619,
+        "userCount": 617,
         "gender": "M",
+        "sofascoreId": "fyzynb",
         "id": 235686,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1410,8 +1434,9 @@
         "shortName": "B. Gutiérrez",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 6152,
+        "userCount": 6276,
         "gender": "M",
+        "sofascoreId": "sntphj",
         "id": 1023088,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1454,8 +1479,9 @@
         "shortName": "K. Seung-gyu",
         "position": "G",
         "jerseyNumber": "81",
-        "userCount": 619,
+        "userCount": 617,
         "gender": "M",
+        "sofascoreId": "fyzynb",
         "id": 235686,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1505,8 +1531,9 @@
         "shortName": "R. Alvarado",
         "position": "F",
         "jerseyNumber": "25",
-        "userCount": 4658,
+        "userCount": 5038,
         "gender": "M",
+        "sofascoreId": "h6if3c",
         "id": 865500,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1553,8 +1580,9 @@
         "shortName": "K. Seung-gyu",
         "position": "G",
         "jerseyNumber": "81",
-        "userCount": 619,
+        "userCount": 617,
         "gender": "M",
+        "sofascoreId": "fyzynb",
         "id": 235686,
         "fieldTranslations": {
           "nameTranslation": {

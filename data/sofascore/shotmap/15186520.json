@@ -9,8 +9,9 @@
         "shortName": "A. Murillo",
         "position": "D",
         "jerseyNumber": "62",
-        "userCount": 5103,
+        "userCount": 5130,
         "gender": "M",
+        "sofascoreId": "zt4wgd",
         "id": 839493,
         "fieldTranslations": {
           "nameTranslation": {
@@ -50,7 +51,7 @@
         "shortName": "D. Livaković",
         "position": "G",
         "jerseyNumber": "40",
-        "userCount": 14416,
+        "userCount": 14740,
         "gender": "M",
         "sofascoreId": "Livakovic40",
         "id": 190419,
@@ -101,8 +102,9 @@
         "shortName": "C. Waterman",
         "position": "F",
         "jerseyNumber": "18",
-        "userCount": 1068,
+        "userCount": 1073,
         "gender": "M",
+        "sofascoreId": "imx5ke",
         "id": 159931,
         "fieldTranslations": {
           "nameTranslation": {
@@ -147,7 +149,7 @@
         "shortName": "D. Livaković",
         "position": "G",
         "jerseyNumber": "40",
-        "userCount": 14416,
+        "userCount": 14740,
         "gender": "M",
         "sofascoreId": "Livakovic40",
         "id": 190419,
@@ -201,7 +203,7 @@
         "shortName": "L. Sučić",
         "position": "M",
         "jerseyNumber": "24",
-        "userCount": 6952,
+        "userCount": 6993,
         "gender": "M",
         "sofascoreId": "luka_sucic",
         "id": 949156,
@@ -250,8 +252,9 @@
         "shortName": "O. Mosquera",
         "position": "G",
         "jerseyNumber": "52",
-        "userCount": 702,
+        "userCount": 705,
         "gender": "M",
+        "sofascoreId": "bfubbq",
         "id": 886041,
         "fieldTranslations": {
           "nameTranslation": {
@@ -303,8 +306,9 @@
         "shortName": "C. Harvey",
         "position": "M",
         "jerseyNumber": "67",
-        "userCount": 528,
+        "userCount": 525,
         "gender": "M",
+        "sofascoreId": "vunnx4",
         "id": 985131,
         "fieldTranslations": {
           "nameTranslation": {
@@ -344,7 +348,7 @@
         "shortName": "D. Livaković",
         "position": "G",
         "jerseyNumber": "40",
-        "userCount": 14416,
+        "userCount": 14740,
         "gender": "M",
         "sofascoreId": "Livakovic40",
         "id": 190419,
@@ -396,6 +400,7 @@
         "jerseyNumber": "11",
         "userCount": 1002,
         "gender": "M",
+        "sofascoreId": "wexfbk",
         "id": 842253,
         "fieldTranslations": {
           "nameTranslation": {
@@ -435,7 +440,7 @@
         "shortName": "D. Livaković",
         "position": "G",
         "jerseyNumber": "40",
-        "userCount": 14416,
+        "userCount": 14740,
         "gender": "M",
         "sofascoreId": "Livakovic40",
         "id": 190419,
@@ -485,8 +490,9 @@
         "shortName": "C. Harvey",
         "position": "M",
         "jerseyNumber": "67",
-        "userCount": 528,
+        "userCount": 525,
         "gender": "M",
+        "sofascoreId": "vunnx4",
         "id": 985131,
         "fieldTranslations": {
           "nameTranslation": {
@@ -531,7 +537,7 @@
         "shortName": "D. Livaković",
         "position": "G",
         "jerseyNumber": "40",
-        "userCount": 14416,
+        "userCount": 14740,
         "gender": "M",
         "sofascoreId": "Livakovic40",
         "id": 190419,
@@ -585,8 +591,9 @@
         "shortName": "A. Murillo",
         "position": "D",
         "jerseyNumber": "62",
-        "userCount": 5103,
+        "userCount": 5130,
         "gender": "M",
+        "sofascoreId": "zt4wgd",
         "id": 839493,
         "fieldTranslations": {
           "nameTranslation": {
@@ -631,7 +638,7 @@
         "shortName": "D. Livaković",
         "position": "G",
         "jerseyNumber": "40",
-        "userCount": 14416,
+        "userCount": 14740,
         "gender": "M",
         "sofascoreId": "Livakovic40",
         "id": 190419,
@@ -687,6 +694,7 @@
         "jerseyNumber": "7",
         "userCount": 739,
         "gender": "M",
+        "sofascoreId": "5fdc7i",
         "id": 936184,
         "fieldTranslations": {
           "nameTranslation": {
@@ -731,7 +739,7 @@
         "shortName": "D. Livaković",
         "position": "G",
         "jerseyNumber": "40",
-        "userCount": 14416,
+        "userCount": 14740,
         "gender": "M",
         "sofascoreId": "Livakovic40",
         "id": 190419,
@@ -785,8 +793,9 @@
         "shortName": "M. Pašalić",
         "position": "M",
         "jerseyNumber": "87",
-        "userCount": 4761,
+        "userCount": 4804,
         "gender": "M",
+        "sofascoreId": "n5fmzn",
         "id": 1066802,
         "fieldTranslations": {
           "nameTranslation": {
@@ -828,8 +837,9 @@
         "shortName": "O. Mosquera",
         "position": "G",
         "jerseyNumber": "52",
-        "userCount": 702,
+        "userCount": 705,
         "gender": "M",
+        "sofascoreId": "bfubbq",
         "id": 886041,
         "fieldTranslations": {
           "nameTranslation": {
@@ -877,8 +887,9 @@
         "shortName": "M. Pašalić",
         "position": "M",
         "jerseyNumber": "87",
-        "userCount": 4761,
+        "userCount": 4804,
         "gender": "M",
+        "sofascoreId": "n5fmzn",
         "id": 1066802,
         "fieldTranslations": {
           "nameTranslation": {
@@ -925,8 +936,9 @@
         "shortName": "O. Mosquera",
         "position": "G",
         "jerseyNumber": "52",
-        "userCount": 702,
+        "userCount": 705,
         "gender": "M",
+        "sofascoreId": "bfubbq",
         "id": 886041,
         "fieldTranslations": {
           "nameTranslation": {
@@ -976,7 +988,7 @@
         "shortName": "A. Budimir",
         "position": "F",
         "jerseyNumber": "17",
-        "userCount": 10853,
+        "userCount": 11011,
         "gender": "M",
         "sofascoreId": "budimir_ante",
         "id": 37318,
@@ -1021,8 +1033,9 @@
         "shortName": "O. Mosquera",
         "position": "G",
         "jerseyNumber": "52",
-        "userCount": 702,
+        "userCount": 705,
         "gender": "M",
+        "sofascoreId": "bfubbq",
         "id": 886041,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1068,7 +1081,7 @@
         "shortName": "M. Baturina",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 13082,
+        "userCount": 13340,
         "gender": "M",
         "sofascoreId": "martinbaturina",
         "id": 1090019,
@@ -1117,8 +1130,9 @@
         "shortName": "O. Mosquera",
         "position": "G",
         "jerseyNumber": "52",
-        "userCount": 702,
+        "userCount": 705,
         "gender": "M",
+        "sofascoreId": "bfubbq",
         "id": 886041,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1171,8 +1185,9 @@
         "shortName": "A. Murillo",
         "position": "D",
         "jerseyNumber": "62",
-        "userCount": 5103,
+        "userCount": 5130,
         "gender": "M",
+        "sofascoreId": "zt4wgd",
         "id": 839493,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1217,7 +1232,7 @@
         "shortName": "D. Livaković",
         "position": "G",
         "jerseyNumber": "40",
-        "userCount": 14416,
+        "userCount": 14740,
         "gender": "M",
         "sofascoreId": "Livakovic40",
         "id": 190419,
@@ -1268,7 +1283,7 @@
         "slug": "luka-modric",
         "shortName": "L. Modrić",
         "position": "M",
-        "userCount": 364724,
+        "userCount": 365749,
         "gender": "M",
         "sofascoreId": "LModric10",
         "id": 15466,
@@ -1312,8 +1327,9 @@
         "shortName": "O. Mosquera",
         "position": "G",
         "jerseyNumber": "52",
-        "userCount": 702,
+        "userCount": 705,
         "gender": "M",
+        "sofascoreId": "bfubbq",
         "id": 886041,
         "fieldTranslations": {
           "nameTranslation": {

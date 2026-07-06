@@ -9,8 +9,9 @@
         "shortName": "R. Adé",
         "position": "D",
         "jerseyNumber": "4",
-        "userCount": 8037,
+        "userCount": 8066,
         "gender": "M",
+        "sofascoreId": "d59s7f",
         "id": 839638,
         "fieldTranslations": {
           "nameTranslation": {
@@ -57,7 +58,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -110,8 +111,9 @@
         "shortName": "L. D. Deedson",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 7870,
+        "userCount": 7869,
         "gender": "M",
+        "sofascoreId": "iwk34u",
         "id": 991451,
         "fieldTranslations": {
           "nameTranslation": {
@@ -158,7 +160,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -213,8 +215,9 @@
         "shortName": "J. Bellegarde",
         "position": "M",
         "jerseyNumber": "27",
-        "userCount": 38480,
+        "userCount": 38433,
         "gender": "M",
+        "sofascoreId": "bdirzq",
         "id": 845273,
         "fieldTranslations": {
           "nameTranslation": {
@@ -261,7 +264,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -316,7 +319,7 @@
         "shortName": "D. Nazon",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 24380,
+        "userCount": 24366,
         "gender": "M",
         "sofascoreId": "nazon",
         "id": 796023,
@@ -361,7 +364,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -415,8 +418,9 @@
         "shortName": "G. Yassine",
         "position": "M",
         "jerseyNumber": "80",
-        "userCount": 17332,
+        "userCount": 19468,
         "gender": "M",
+        "sofascoreId": "rsgrey",
         "id": 1638338,
         "fieldTranslations": {
           "nameTranslation": {
@@ -452,8 +456,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -495,7 +500,7 @@
         "shortName": "A. Ounahi",
         "position": "M",
         "jerseyNumber": "18",
-        "userCount": 38596,
+        "userCount": 39372,
         "gender": "M",
         "sofascoreId": "azzedine_ounahi",
         "id": 991421,
@@ -541,8 +546,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -590,7 +596,7 @@
         "shortName": "A. Hakimi",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 162558,
+        "userCount": 166139,
         "gender": "M",
         "sofascoreId": "AHakimi",
         "id": 814594,
@@ -636,8 +642,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -685,7 +692,7 @@
         "shortName": "S. Rahimi",
         "position": "F",
         "jerseyNumber": "21",
-        "userCount": 24657,
+        "userCount": 25195,
         "gender": "M",
         "sofascoreId": "soufiane_rahimi",
         "id": 953995,
@@ -727,8 +734,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -770,7 +778,7 @@
         "shortName": "C. Riad",
         "position": "D",
         "jerseyNumber": "34",
-        "userCount": 17297,
+        "userCount": 18521,
         "gender": "M",
         "sofascoreId": "chadiriad17",
         "id": 1064218,
@@ -816,8 +824,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -865,7 +874,7 @@
         "shortName": "S. Rahimi",
         "position": "F",
         "jerseyNumber": "21",
-        "userCount": 24657,
+        "userCount": 25195,
         "gender": "M",
         "sofascoreId": "soufiane_rahimi",
         "id": 953995,
@@ -911,8 +920,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -960,7 +970,7 @@
         "shortName": "A. Hakimi",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 162558,
+        "userCount": 166139,
         "gender": "M",
         "sofascoreId": "AHakimi",
         "id": 814594,
@@ -1006,8 +1016,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1055,7 +1066,7 @@
         "shortName": "A. Hakimi",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 162558,
+        "userCount": 166139,
         "gender": "M",
         "sofascoreId": "AHakimi",
         "id": 814594,
@@ -1101,8 +1112,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1150,8 +1162,9 @@
         "shortName": "J. Bellegarde",
         "position": "M",
         "jerseyNumber": "27",
-        "userCount": 38480,
+        "userCount": 38433,
         "gender": "M",
+        "sofascoreId": "bdirzq",
         "id": 845273,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1198,7 +1211,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -1252,7 +1265,7 @@
         "shortName": "B. E. Khannouss",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 32834,
+        "userCount": 34681,
         "gender": "M",
         "sofascoreId": "bilalekns_34",
         "id": 1126569,
@@ -1298,8 +1311,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1347,8 +1361,9 @@
         "shortName": "N. El Aynaoui",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 21180,
+        "userCount": 22018,
         "gender": "M",
+        "sofascoreId": "n5qs9q",
         "id": 1128530,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1392,8 +1407,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1442,7 +1458,7 @@
         "shortName": "B. E. Khannouss",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 32834,
+        "userCount": 34681,
         "gender": "M",
         "sofascoreId": "bilalekns_34",
         "id": 1126569,
@@ -1488,8 +1504,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1538,7 +1555,7 @@
         "shortName": "B. Díaz",
         "position": "M",
         "jerseyNumber": "21",
-        "userCount": 281907,
+        "userCount": 284763,
         "gender": "M",
         "sofascoreId": "Brahim",
         "id": 835485,
@@ -1579,8 +1596,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1625,7 +1643,7 @@
         "shortName": "I. Saibari",
         "position": "M",
         "jerseyNumber": "34",
-        "userCount": 58847,
+        "userCount": 70875,
         "gender": "M",
         "sofascoreId": "ismaelsaibari",
         "id": 1063767,
@@ -1667,8 +1685,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1713,8 +1732,9 @@
         "shortName": "W. Isidor",
         "position": "F",
         "jerseyNumber": "18",
-        "userCount": 39759,
+        "userCount": 39988,
         "gender": "M",
+        "sofascoreId": "h6xd6c",
         "id": 877980,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1757,7 +1777,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -1807,7 +1827,7 @@
         "shortName": "A. Hakimi",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 162558,
+        "userCount": 166139,
         "gender": "M",
         "sofascoreId": "AHakimi",
         "id": 814594,
@@ -1849,8 +1869,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1894,7 +1915,7 @@
         "shortName": "I. Saibari",
         "position": "M",
         "jerseyNumber": "34",
-        "userCount": 58847,
+        "userCount": 70875,
         "gender": "M",
         "sofascoreId": "ismaelsaibari",
         "id": 1063767,
@@ -1935,8 +1956,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1980,8 +2002,9 @@
         "shortName": "L. Joseph",
         "position": "F",
         "jerseyNumber": "75",
-        "userCount": 8485,
+        "userCount": 9069,
         "gender": "M",
+        "sofascoreId": "wrmevy",
         "id": 1010126,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2023,7 +2046,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -2071,7 +2094,7 @@
         "shortName": "A. E. Kaabi",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 29570,
+        "userCount": 29720,
         "gender": "M",
         "sofascoreId": "ayoub_elkaabii",
         "id": 919793,
@@ -2117,8 +2140,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2166,7 +2190,7 @@
         "shortName": "A. Hakimi",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 162558,
+        "userCount": 166139,
         "gender": "M",
         "sofascoreId": "AHakimi",
         "id": 814594,
@@ -2212,8 +2236,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2259,7 +2284,7 @@
         "shortName": "A. E. Kaabi",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 29570,
+        "userCount": 29720,
         "gender": "M",
         "sofascoreId": "ayoub_elkaabii",
         "id": 919793,
@@ -2305,8 +2330,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2354,7 +2380,7 @@
         "shortName": "I. Saibari",
         "position": "M",
         "jerseyNumber": "34",
-        "userCount": 58847,
+        "userCount": 70875,
         "gender": "M",
         "sofascoreId": "ismaelsaibari",
         "id": 1063767,
@@ -2400,8 +2426,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2449,7 +2476,7 @@
         "shortName": "I. Saibari",
         "position": "M",
         "jerseyNumber": "34",
-        "userCount": 58847,
+        "userCount": 70875,
         "gender": "M",
         "sofascoreId": "ismaelsaibari",
         "id": 1063767,
@@ -2495,8 +2522,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2544,7 +2572,7 @@
         "shortName": "I. Saibari",
         "position": "M",
         "jerseyNumber": "34",
-        "userCount": 58847,
+        "userCount": 70875,
         "gender": "M",
         "sofascoreId": "ismaelsaibari",
         "id": 1063767,
@@ -2585,8 +2613,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2628,7 +2657,7 @@
         "shortName": "A. E. Kaabi",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 29570,
+        "userCount": 29720,
         "gender": "M",
         "sofascoreId": "ayoub_elkaabii",
         "id": 919793,
@@ -2674,8 +2703,9 @@
         "slug": "johny-placide",
         "shortName": "J. Placide",
         "position": "G",
-        "userCount": 8526,
+        "userCount": 8487,
         "gender": "M",
+        "sofascoreId": "ek3ay8",
         "id": 37224,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2723,7 +2753,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -2767,7 +2797,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -2817,8 +2847,9 @@
         "shortName": "L. Joseph",
         "position": "F",
         "jerseyNumber": "75",
-        "userCount": 8485,
+        "userCount": 9069,
         "gender": "M",
+        "sofascoreId": "wrmevy",
         "id": 1010126,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2865,7 +2896,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,
@@ -2919,8 +2950,9 @@
         "shortName": "J. Bellegarde",
         "position": "M",
         "jerseyNumber": "27",
-        "userCount": 38480,
+        "userCount": 38433,
         "gender": "M",
+        "sofascoreId": "bdirzq",
         "id": 845273,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2962,7 +2994,7 @@
         "shortName": "Bono",
         "position": "G",
         "jerseyNumber": "37",
-        "userCount": 72686,
+        "userCount": 75025,
         "gender": "M",
         "sofascoreId": "BonoY",
         "id": 360938,

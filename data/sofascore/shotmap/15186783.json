@@ -9,7 +9,7 @@
         "shortName": "M. Oyarzabal",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 24879,
+        "userCount": 30052,
         "gender": "M",
         "sofascoreId": "mikel10oyar",
         "id": 823622,
@@ -52,8 +52,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -100,7 +101,7 @@
         "shortName": "L. Yamal",
         "position": "M",
         "jerseyNumber": "10",
-        "userCount": 2257676,
+        "userCount": 2284237,
         "gender": "M",
         "sofascoreId": "Lamiyamal",
         "id": 1402912,
@@ -148,8 +149,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -199,8 +201,9 @@
         "slug": "ryan-mendes",
         "shortName": "R. Mendes",
         "position": "M",
-        "userCount": 1112,
+        "userCount": 1333,
         "gender": "M",
+        "sofascoreId": "kmhw3j",
         "id": 52797,
         "fieldTranslations": {
           "nameTranslation": {
@@ -242,7 +245,7 @@
         "shortName": "U. Simón",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8516,
+        "userCount": 8743,
         "gender": "M",
         "sofascoreId": "unai_simon",
         "id": 797291,
@@ -291,7 +294,7 @@
         "shortName": "L. Yamal",
         "position": "M",
         "jerseyNumber": "10",
-        "userCount": 2257676,
+        "userCount": 2284237,
         "gender": "M",
         "sofascoreId": "Lamiyamal",
         "id": 1402912,
@@ -339,8 +342,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -393,8 +397,9 @@
         "shortName": "Diney",
         "position": "D",
         "jerseyNumber": "23",
-        "userCount": 911,
+        "userCount": 1180,
         "gender": "M",
+        "sofascoreId": "zn684d",
         "id": 784677,
         "fieldTranslations": {
           "nameTranslation": {
@@ -441,7 +446,7 @@
         "shortName": "U. Simón",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8516,
+        "userCount": 8743,
         "gender": "M",
         "sofascoreId": "unai_simon",
         "id": 797291,
@@ -496,8 +501,9 @@
         "shortName": "K. Lenini",
         "position": "M",
         "jerseyNumber": "6",
-        "userCount": 962,
+        "userCount": 1232,
         "gender": "M",
+        "sofascoreId": "ddirxf",
         "id": 906838,
         "fieldTranslations": {
           "nameTranslation": {
@@ -544,7 +550,7 @@
         "shortName": "U. Simón",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8516,
+        "userCount": 8743,
         "gender": "M",
         "sofascoreId": "unai_simon",
         "id": 797291,
@@ -598,7 +604,7 @@
         "shortName": "M. Oyarzabal",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 24879,
+        "userCount": 30052,
         "gender": "M",
         "sofascoreId": "mikel10oyar",
         "id": 823622,
@@ -646,8 +652,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -699,7 +706,7 @@
         "shortName": "Rodri",
         "position": "M",
         "jerseyNumber": "16",
-        "userCount": 95574,
+        "userCount": 96154,
         "gender": "M",
         "sofascoreId": "Rodri",
         "id": 827606,
@@ -741,8 +748,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -790,7 +798,7 @@
         "shortName": "M. Cucurella",
         "position": "D",
         "jerseyNumber": "3",
-        "userCount": 67879,
+        "userCount": 71063,
         "gender": "M",
         "sofascoreId": "cucurella3",
         "id": 794939,
@@ -838,8 +846,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -889,7 +898,7 @@
         "shortName": "Pedri",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 769292,
+        "userCount": 772679,
         "gender": "M",
         "sofascoreId": "Pedri",
         "id": 992587,
@@ -937,8 +946,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -990,7 +1000,7 @@
         "shortName": "F. Torres",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 164715,
+        "userCount": 165218,
         "gender": "M",
         "sofascoreId": "FerranTorres",
         "id": 855833,
@@ -1038,8 +1048,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1091,7 +1102,7 @@
         "shortName": "M. Merino",
         "position": "M",
         "jerseyNumber": "23",
-        "userCount": 34613,
+        "userCount": 34814,
         "gender": "M",
         "sofascoreId": "mikelmerino",
         "id": 592010,
@@ -1139,8 +1150,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1192,7 +1204,7 @@
         "shortName": "A. Laporte",
         "position": "D",
         "jerseyNumber": "14",
-        "userCount": 11741,
+        "userCount": 11966,
         "gender": "M",
         "sofascoreId": "laporte27",
         "id": 149734,
@@ -1235,8 +1247,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1284,7 +1297,7 @@
         "shortName": "F. Ruiz",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 25958,
+        "userCount": 26154,
         "gender": "M",
         "sofascoreId": "fabianruiz52",
         "id": 784655,
@@ -1332,8 +1345,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1385,7 +1399,7 @@
         "shortName": "F. Ruiz",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 25958,
+        "userCount": 26154,
         "gender": "M",
         "sofascoreId": "fabianruiz52",
         "id": 784655,
@@ -1428,8 +1442,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1477,7 +1492,7 @@
         "shortName": "F. Ruiz",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 25958,
+        "userCount": 26154,
         "gender": "M",
         "sofascoreId": "fabianruiz52",
         "id": 784655,
@@ -1520,8 +1535,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1569,7 +1585,7 @@
         "shortName": "M. Oyarzabal",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 24879,
+        "userCount": 30052,
         "gender": "M",
         "sofascoreId": "mikel10oyar",
         "id": 823622,
@@ -1617,8 +1633,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1670,7 +1687,7 @@
         "shortName": "M. Oyarzabal",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 24879,
+        "userCount": 30052,
         "gender": "M",
         "sofascoreId": "mikel10oyar",
         "id": 823622,
@@ -1713,8 +1730,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1763,7 +1781,7 @@
         "shortName": "Rodri",
         "position": "M",
         "jerseyNumber": "16",
-        "userCount": 95574,
+        "userCount": 96154,
         "gender": "M",
         "sofascoreId": "Rodri",
         "id": 827606,
@@ -1810,8 +1828,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1864,7 +1883,7 @@
         "shortName": "A. Laporte",
         "position": "D",
         "jerseyNumber": "14",
-        "userCount": 11741,
+        "userCount": 11966,
         "gender": "M",
         "sofascoreId": "laporte27",
         "id": 149734,
@@ -1912,8 +1931,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1966,7 +1986,7 @@
         "shortName": "F. Torres",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 164715,
+        "userCount": 165218,
         "gender": "M",
         "sofascoreId": "FerranTorres",
         "id": 855833,
@@ -2014,8 +2034,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2067,7 +2088,7 @@
         "shortName": "F. Ruiz",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 25958,
+        "userCount": 26154,
         "gender": "M",
         "sofascoreId": "fabianruiz52",
         "id": 784655,
@@ -2110,8 +2131,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2159,7 +2181,7 @@
         "shortName": "F. Torres",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 164715,
+        "userCount": 165218,
         "gender": "M",
         "sofascoreId": "FerranTorres",
         "id": 855833,
@@ -2207,8 +2229,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2260,7 +2283,7 @@
         "shortName": "M. Oyarzabal",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 24879,
+        "userCount": 30052,
         "gender": "M",
         "sofascoreId": "mikel10oyar",
         "id": 823622,
@@ -2308,8 +2331,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2361,7 +2385,7 @@
         "shortName": "F. Torres",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 164715,
+        "userCount": 165218,
         "gender": "M",
         "sofascoreId": "FerranTorres",
         "id": 855833,
@@ -2404,8 +2428,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2452,8 +2477,9 @@
         "slug": "jovane-cabral",
         "shortName": "J. Cabral",
         "position": "F",
-        "userCount": 1592,
+        "userCount": 1812,
         "gender": "M",
+        "sofascoreId": "c6nwhg",
         "id": 845802,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2495,7 +2521,7 @@
         "shortName": "U. Simón",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8516,
+        "userCount": 8743,
         "gender": "M",
         "sofascoreId": "unai_simon",
         "id": 797291,
@@ -2545,8 +2571,9 @@
         "shortName": "D. R. Livramento",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 5700,
+        "userCount": 5831,
         "gender": "M",
+        "sofascoreId": "p9c5c3",
         "id": 1155358,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2584,7 +2611,7 @@
         "shortName": "U. Simón",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8516,
+        "userCount": 8743,
         "gender": "M",
         "sofascoreId": "unai_simon",
         "id": 797291,
@@ -2634,7 +2661,7 @@
         "shortName": "M. Cucurella",
         "position": "D",
         "jerseyNumber": "3",
-        "userCount": 67879,
+        "userCount": 71063,
         "gender": "M",
         "sofascoreId": "cucurella3",
         "id": 794939,
@@ -2677,8 +2704,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2724,7 +2752,7 @@
         "shortName": "Gavi",
         "position": "M",
         "jerseyNumber": "6",
-        "userCount": 287099,
+        "userCount": 287684,
         "gender": "M",
         "sofascoreId": "Gavi",
         "id": 1103693,
@@ -2772,8 +2800,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2825,8 +2854,9 @@
         "shortName": "S. Moreira",
         "position": "D",
         "jerseyNumber": "31",
-        "userCount": 370,
+        "userCount": 488,
         "gender": "M",
+        "sofascoreId": "bcskfq",
         "id": 287833,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2873,7 +2903,7 @@
         "shortName": "U. Simón",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8516,
+        "userCount": 8743,
         "gender": "M",
         "sofascoreId": "unai_simon",
         "id": 797291,
@@ -2926,7 +2956,7 @@
         "shortName": "P. Cubarsí",
         "position": "D",
         "jerseyNumber": "5",
-        "userCount": 174731,
+        "userCount": 175664,
         "gender": "M",
         "sofascoreId": "PauCubarsí",
         "id": 1402913,
@@ -2974,8 +3004,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3027,7 +3058,7 @@
         "shortName": "F. Ruiz",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 25958,
+        "userCount": 26154,
         "gender": "M",
         "sofascoreId": "fabianruiz52",
         "id": 784655,
@@ -3075,8 +3106,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3126,7 +3158,7 @@
         "shortName": "Pedri",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 769292,
+        "userCount": 772679,
         "gender": "M",
         "sofascoreId": "Pedri",
         "id": 992587,
@@ -3174,8 +3206,9 @@
         "slug": "vozinha",
         "shortName": "Vozinha",
         "position": "G",
-        "userCount": 32246,
+        "userCount": 36919,
         "gender": "M",
+        "sofascoreId": "exngn8",
         "id": 307436,
         "fieldTranslations": {
           "nameTranslation": {

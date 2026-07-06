@@ -12,7 +12,7 @@
           "position": "G",
           "jerseyNumber": "1",
           "height": 185,
-          "userCount": 9394,
+          "userCount": 9560,
           "gender": "M",
           "sofascoreId": "jpickford1",
           "country": {
@@ -100,8 +100,9 @@
           "position": "D",
           "jerseyNumber": "24",
           "height": 184,
-          "userCount": 5842,
+          "userCount": 6010,
           "gender": "M",
+          "sofascoreId": "fpquam",
           "country": {
             "alpha2": "EN",
             "alpha3": "ENG",
@@ -162,6 +163,9 @@
           "rating": 6.6,
           "possessionLostCtrl": 17,
           "expectedAssists": 0.0113324,
+          "topSpeed": 33.51,
+          "kilometersCovered": 7.38,
+          "numberOfSprints": 12,
           "totalBallCarriesDistance": 153.10337082235,
           "ballCarriesCount": 17,
           "totalProgression": 93.833997667226,
@@ -176,6 +180,9 @@
           "passValueNormalized": -0.19,
           "dribbleValueNormalized": 0.19,
           "defensiveValueNormalized": -0.19,
+          "metersCoveredRunningKm": 0.83,
+          "metersCoveredHighSpeedRunningKm": 0.36,
+          "metersCoveredSprintingKm": 0.23,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -192,8 +199,9 @@
           "position": "D",
           "jerseyNumber": "4",
           "height": 183,
-          "userCount": 4356,
+          "userCount": 4460,
           "gender": "M",
+          "sofascoreId": "h24msc",
           "country": {
             "alpha2": "EN",
             "alpha3": "ENG",
@@ -250,6 +258,9 @@
           "rating": 6.9,
           "possessionLostCtrl": 3,
           "expectedAssists": 0.0244425,
+          "topSpeed": 31.29,
+          "kilometersCovered": 9.39,
+          "numberOfSprints": 6,
           "totalBallCarriesDistance": 236.31654972929,
           "ballCarriesCount": 31,
           "totalProgression": 135.72013336911,
@@ -262,6 +273,9 @@
           "passValueNormalized": 0.28,
           "dribbleValueNormalized": 0.16,
           "defensiveValueNormalized": -0.1,
+          "metersCoveredRunningKm": 1.04,
+          "metersCoveredHighSpeedRunningKm": 0.34,
+          "metersCoveredSprintingKm": 0.11,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -278,7 +292,7 @@
           "position": "D",
           "jerseyNumber": "15",
           "height": 182,
-          "userCount": 29104,
+          "userCount": 29367,
           "gender": "M",
           "sofascoreId": "MarcGuehi13",
           "country": {
@@ -335,6 +349,9 @@
           "touches": 76,
           "rating": 7.1,
           "expectedAssists": 0.0255483,
+          "topSpeed": 29.1,
+          "kilometersCovered": 9.47,
+          "numberOfSprints": 10,
           "totalBallCarriesDistance": 188.93642237877,
           "ballCarriesCount": 25,
           "totalProgression": 107.30908411166,
@@ -349,6 +366,9 @@
           "passValueNormalized": 0.2,
           "dribbleValueNormalized": 0.16,
           "defensiveValueNormalized": -0.05,
+          "metersCoveredRunningKm": 1.01,
+          "metersCoveredHighSpeedRunningKm": 0.35,
+          "metersCoveredSprintingKm": 0.15,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -365,8 +385,9 @@
           "position": "D",
           "jerseyNumber": "33",
           "height": 193,
-          "userCount": 32953,
+          "userCount": 33332,
           "gender": "M",
+          "sofascoreId": "iwsxkt",
           "country": {
             "alpha2": "EN",
             "alpha3": "ENG",
@@ -430,6 +451,9 @@
           "possessionLostCtrl": 8,
           "expectedGoals": 0.4396,
           "expectedAssists": 0.0231393,
+          "topSpeed": 32.54,
+          "kilometersCovered": 10.38,
+          "numberOfSprints": 12,
           "totalBallCarriesDistance": 131.57871852367,
           "ballCarriesCount": 15,
           "totalProgression": 71.63835918041,
@@ -446,6 +470,9 @@
           "passValueNormalized": 0.03,
           "dribbleValueNormalized": 0.07,
           "defensiveValueNormalized": -0.1,
+          "metersCoveredRunningKm": 1.35,
+          "metersCoveredHighSpeedRunningKm": 0.54,
+          "metersCoveredSprintingKm": 0.19,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -462,8 +489,9 @@
           "position": "M",
           "jerseyNumber": "8",
           "height": 179,
-          "userCount": 16575,
+          "userCount": 21167,
           "gender": "M",
+          "sofascoreId": "n5za3f",
           "country": {
             "alpha2": "EN",
             "alpha3": "ENG",
@@ -492,7 +520,7 @@
             }
           }
         },
-        "teamId": 14,
+        "teamId": 17,
         "shirtNumber": 8,
         "jerseyNumber": "8",
         "position": "M",
@@ -529,6 +557,9 @@
           "possessionLostCtrl": 13,
           "expectedGoals": 0.0374,
           "expectedAssists": 0.223711,
+          "topSpeed": 27.97,
+          "kilometersCovered": 10.85,
+          "numberOfSprints": 8,
           "totalBallCarriesDistance": 252.95128976003,
           "ballCarriesCount": 32,
           "totalProgression": 137.09492245154,
@@ -545,6 +576,9 @@
           "passValueNormalized": 0.32,
           "dribbleValueNormalized": 0.3,
           "defensiveValueNormalized": 0.18,
+          "metersCoveredRunningKm": 1.53,
+          "metersCoveredHighSpeedRunningKm": 0.45,
+          "metersCoveredSprintingKm": 0.07,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -561,7 +595,7 @@
           "position": "M",
           "jerseyNumber": "41",
           "height": 188,
-          "userCount": 77445,
+          "userCount": 77947,
           "gender": "M",
           "sofascoreId": "DeclanRice",
           "country": {
@@ -620,6 +654,9 @@
           "rating": 7.1,
           "possessionLostCtrl": 11,
           "expectedAssists": 0.297612,
+          "topSpeed": 31.39,
+          "kilometersCovered": 10.5,
+          "numberOfSprints": 15,
           "totalBallCarriesDistance": 204.71405850386,
           "ballCarriesCount": 27,
           "totalProgression": 77.732129273564,
@@ -635,6 +672,9 @@
           "passValueNormalized": 0.43,
           "dribbleValueNormalized": 0.19,
           "defensiveValueNormalized": -0.1,
+          "metersCoveredRunningKm": 1.61,
+          "metersCoveredHighSpeedRunningKm": 0.52,
+          "metersCoveredSprintingKm": 0.2,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -649,7 +689,7 @@
           "position": "F",
           "jerseyNumber": "20",
           "height": 182,
-          "userCount": 44401,
+          "userCount": 44728,
           "gender": "M",
           "sofascoreId": "nonzinoo10",
           "country": {
@@ -718,6 +758,9 @@
           "possessionLostCtrl": 13,
           "expectedGoals": 0.0351,
           "expectedAssists": 0.845881,
+          "topSpeed": 34.08,
+          "kilometersCovered": 6.42,
+          "numberOfSprints": 11,
           "totalBallCarriesDistance": 287.66855786862,
           "ballCarriesCount": 27,
           "totalProgression": 173.85019536219,
@@ -734,6 +777,9 @@
           "passValueNormalized": 0.76,
           "dribbleValueNormalized": 0.33,
           "defensiveValueNormalized": -0.07,
+          "metersCoveredRunningKm": 0.91,
+          "metersCoveredHighSpeedRunningKm": 0.39,
+          "metersCoveredSprintingKm": 0.16,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -748,7 +794,7 @@
           "position": "M",
           "jerseyNumber": "5",
           "height": 188,
-          "userCount": 1250547,
+          "userCount": 1265312,
           "gender": "M",
           "sofascoreId": "JudeBell",
           "country": {
@@ -815,6 +861,9 @@
           "expectedGoals": 0.6575,
           "expectedGoalsOnTarget": 1.2609,
           "expectedAssists": 0.292626,
+          "topSpeed": 30.44,
+          "kilometersCovered": 10.79,
+          "numberOfSprints": 13,
           "totalBallCarriesDistance": 224.76730295697,
           "ballCarriesCount": 26,
           "totalProgression": 113.09564271983,
@@ -831,6 +880,9 @@
           "passValueNormalized": 0.24,
           "dribbleValueNormalized": 0.4,
           "defensiveValueNormalized": -0.14,
+          "metersCoveredRunningKm": 1.79,
+          "metersCoveredHighSpeedRunningKm": 0.67,
+          "metersCoveredSprintingKm": 0.18,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -847,7 +899,7 @@
           "position": "F",
           "jerseyNumber": "10",
           "height": 185,
-          "userCount": 394607,
+          "userCount": 395150,
           "gender": "M",
           "sofascoreId": "Rashford",
           "country": {
@@ -916,6 +968,9 @@
           "possessionLostCtrl": 8,
           "expectedGoals": 0.4112,
           "expectedAssists": 0.0417866,
+          "topSpeed": 34.54,
+          "kilometersCovered": 7.29,
+          "numberOfSprints": 12,
           "totalBallCarriesDistance": 150.46468280983,
           "ballCarriesCount": 13,
           "totalProgression": 89.668837736378,
@@ -931,6 +986,9 @@
           "passValueNormalized": 0.29,
           "dribbleValueNormalized": 0.2,
           "defensiveValueNormalized": -0.09,
+          "metersCoveredRunningKm": 0.99,
+          "metersCoveredHighSpeedRunningKm": 0.34,
+          "metersCoveredSprintingKm": 0.19,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -947,7 +1005,7 @@
           "position": "F",
           "jerseyNumber": "9",
           "height": 188,
-          "userCount": 391194,
+          "userCount": 404249,
           "gender": "M",
           "sofascoreId": "HurriKane",
           "country": {
@@ -1016,6 +1074,9 @@
           "expectedGoals": 0.5426,
           "expectedGoalsOnTarget": 1.1826,
           "expectedAssists": 0.0173374,
+          "topSpeed": 31.37,
+          "kilometersCovered": 10.68,
+          "numberOfSprints": 7,
           "totalBallCarriesDistance": 81.169326119442,
           "ballCarriesCount": 12,
           "totalProgression": 22.727521477089,
@@ -1032,6 +1093,9 @@
           "passValueNormalized": -0.02,
           "dribbleValueNormalized": 0.18,
           "defensiveValueNormalized": 0.22,
+          "metersCoveredRunningKm": 1.65,
+          "metersCoveredHighSpeedRunningKm": 0.46,
+          "metersCoveredSprintingKm": 0.09,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -1048,7 +1112,7 @@
           "position": "F",
           "jerseyNumber": "10",
           "height": 183,
-          "userCount": 68599,
+          "userCount": 71713,
           "gender": "M",
           "sofascoreId": "AGordon",
           "country": {
@@ -1111,6 +1175,9 @@
           "possessionLostCtrl": 9,
           "expectedGoals": 0.0349,
           "expectedAssists": 0.24658,
+          "topSpeed": 27.92,
+          "kilometersCovered": 3.28,
+          "numberOfSprints": 4,
           "totalBallCarriesDistance": 72.788028903084,
           "ballCarriesCount": 5,
           "totalProgression": 49.218437206084,
@@ -1127,6 +1194,9 @@
           "passValueNormalized": 0.55,
           "dribbleValueNormalized": 0.03,
           "defensiveValueNormalized": 0.13,
+          "metersCoveredRunningKm": 0.5,
+          "metersCoveredHighSpeedRunningKm": 0.23,
+          "metersCoveredSprintingKm": 0.04,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -1143,7 +1213,7 @@
           "position": "F",
           "jerseyNumber": "7",
           "height": 178,
-          "userCount": 207905,
+          "userCount": 208521,
           "gender": "M",
           "sofascoreId": "BSaka7",
           "country": {
@@ -1200,6 +1270,9 @@
           "rating": 6.8,
           "possessionLostCtrl": 10,
           "expectedAssists": 0.0151278,
+          "topSpeed": 27.99,
+          "kilometersCovered": 3.59,
+          "numberOfSprints": 4,
           "totalBallCarriesDistance": 95.530294984427,
           "ballCarriesCount": 7,
           "totalProgression": 71.107730360127,
@@ -1214,6 +1287,9 @@
           "passValueNormalized": 0.01,
           "dribbleValueNormalized": 0.11,
           "defensiveValueNormalized": 0.14,
+          "metersCoveredRunningKm": 0.49,
+          "metersCoveredHighSpeedRunningKm": 0.19,
+          "metersCoveredSprintingKm": 0.05,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -1230,7 +1306,7 @@
           "position": "M",
           "jerseyNumber": "10",
           "height": 178,
-          "userCount": 65587,
+          "userCount": 65805,
           "gender": "M",
           "sofascoreId": "eze",
           "country": {
@@ -1282,6 +1358,9 @@
           "touches": 7,
           "rating": 6.7,
           "expectedAssists": 0.0128544,
+          "topSpeed": 31.46,
+          "kilometersCovered": 2.58,
+          "numberOfSprints": 5,
           "totalBallCarriesDistance": 18.559303380883,
           "ballCarriesCount": 3,
           "totalProgression": -6.4560036082677,
@@ -1294,6 +1373,9 @@
           "passValueNormalized": 0.07,
           "dribbleValueNormalized": 0,
           "defensiveValueNormalized": 0.14,
+          "metersCoveredRunningKm": 0.37,
+          "metersCoveredHighSpeedRunningKm": 0.08,
+          "metersCoveredSprintingKm": 0.05,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -1309,7 +1391,7 @@
           "shortName": "J. Stones",
           "position": "D",
           "height": 188,
-          "userCount": 24761,
+          "userCount": 24852,
           "gender": "M",
           "sofascoreId": "johnstones5",
           "country": {
@@ -1348,7 +1430,13 @@
         "statistics": {
           "goalAssist": 0,
           "minutesPlayed": 1,
+          "topSpeed": 26.58,
+          "kilometersCovered": 0.39,
+          "numberOfSprints": 2,
           "totalShots": 0,
+          "metersCoveredRunningKm": 0.02,
+          "metersCoveredHighSpeedRunningKm": 0.02,
+          "metersCoveredSprintingKm": 0.02,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -1365,8 +1453,9 @@
           "position": "G",
           "jerseyNumber": "1",
           "height": 197,
-          "userCount": 24750,
+          "userCount": 24919,
           "gender": "M",
+          "sofascoreId": "jvvwqy",
           "country": {
             "alpha2": "EN",
             "alpha3": "ENG",
@@ -1418,7 +1507,7 @@
           "position": "G",
           "jerseyNumber": "1",
           "height": 188,
-          "userCount": 5933,
+          "userCount": 5976,
           "gender": "M",
           "sofascoreId": "deanhenderson",
           "country": {
@@ -1472,7 +1561,7 @@
           "position": "D",
           "jerseyNumber": "23",
           "height": 190,
-          "userCount": 15789,
+          "userCount": 15936,
           "gender": "M",
           "sofascoreId": "yungchalobah",
           "country": {
@@ -1524,8 +1613,9 @@
           "position": "D",
           "jerseyNumber": "33",
           "height": 201,
-          "userCount": 5168,
+          "userCount": 5211,
           "gender": "M",
+          "sofascoreId": "nd9d6x",
           "country": {
             "alpha2": "EN",
             "alpha3": "ENG",
@@ -1577,7 +1667,7 @@
           "position": "D",
           "jerseyNumber": "24",
           "height": 180,
-          "userCount": 54817,
+          "userCount": 55100,
           "gender": "M",
           "sofascoreId": "ReeceJ",
           "country": {
@@ -1629,7 +1719,7 @@
           "position": "D",
           "jerseyNumber": "4",
           "height": 190,
-          "userCount": 11109,
+          "userCount": 11186,
           "gender": "M",
           "sofascoreId": "jarellquansah",
           "country": {
@@ -1681,7 +1771,7 @@
           "position": "M",
           "jerseyNumber": "6",
           "height": 183,
-          "userCount": 7094,
+          "userCount": 7164,
           "gender": "M",
           "sofascoreId": "jordanhenderson",
           "country": {
@@ -1735,7 +1825,7 @@
           "position": "M",
           "jerseyNumber": "27",
           "height": 187,
-          "userCount": 17986,
+          "userCount": 18148,
           "gender": "M",
           "sofascoreId": "mrogers",
           "country": {
@@ -1789,7 +1879,7 @@
           "position": "M",
           "jerseyNumber": "37",
           "height": 184,
-          "userCount": 59095,
+          "userCount": 59472,
           "gender": "M",
           "sofascoreId": "KobbieM",
           "country": {
@@ -1843,7 +1933,7 @@
           "position": "F",
           "jerseyNumber": "11",
           "height": 179,
-          "userCount": 23136,
+          "userCount": 23276,
           "gender": "M",
           "sofascoreId": "OllieWatkins",
           "country": {
@@ -1897,7 +1987,7 @@
           "position": "F",
           "jerseyNumber": "17",
           "height": 185,
-          "userCount": 16288,
+          "userCount": 16373,
           "gender": "M",
           "sofascoreId": "ivantoney",
           "country": {
@@ -1969,7 +2059,7 @@
           "position": "G",
           "jerseyNumber": "77",
           "height": 182,
-          "userCount": 6967,
+          "userCount": 8322,
           "gender": "M",
           "sofascoreId": "mpasil16",
           "country": {
@@ -2059,7 +2149,7 @@
           "position": "D",
           "jerseyNumber": "29",
           "height": 183,
-          "userCount": 20426,
+          "userCount": 20701,
           "gender": "M",
           "sofascoreId": "awbissaka",
           "country": {
@@ -2122,6 +2212,9 @@
           "rating": 7.6,
           "possessionLostCtrl": 9,
           "expectedAssists": 0.00717912,
+          "topSpeed": 32.61,
+          "kilometersCovered": 10.18,
+          "numberOfSprints": 11,
           "totalBallCarriesDistance": 51.145407981561,
           "ballCarriesCount": 9,
           "totalProgression": 21.994490823345,
@@ -2134,6 +2227,9 @@
           "passValueNormalized": 0.49,
           "dribbleValueNormalized": 0.03,
           "defensiveValueNormalized": -0.15,
+          "metersCoveredRunningKm": 1.52,
+          "metersCoveredHighSpeedRunningKm": 0.51,
+          "metersCoveredSprintingKm": 0.17,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -2150,7 +2246,7 @@
           "position": "D",
           "jerseyNumber": "18",
           "height": 182,
-          "userCount": 48862,
+          "userCount": 49565,
           "gender": "M",
           "sofascoreId": "chancel22",
           "country": {
@@ -2213,6 +2309,9 @@
           "rating": 7.2,
           "possessionLostCtrl": 13,
           "expectedAssists": 0.0174667,
+          "topSpeed": 32.5,
+          "kilometersCovered": 8.87,
+          "numberOfSprints": 10,
           "totalBallCarriesDistance": 81.28994655634,
           "ballCarriesCount": 12,
           "totalProgression": 47.21989672682,
@@ -2226,6 +2325,9 @@
           "passValueNormalized": 0.26,
           "dribbleValueNormalized": 0.03,
           "defensiveValueNormalized": -0.07,
+          "metersCoveredRunningKm": 0.86,
+          "metersCoveredHighSpeedRunningKm": 0.33,
+          "metersCoveredSprintingKm": 0.15,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -2242,8 +2344,9 @@
           "position": "D",
           "jerseyNumber": "6",
           "height": 185,
-          "userCount": 8435,
+          "userCount": 8566,
           "gender": "M",
+          "sofascoreId": "ihzm5e",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -2301,6 +2404,9 @@
           "rating": 6.8,
           "possessionLostCtrl": 6,
           "expectedAssists": 0.00336084,
+          "topSpeed": 29.98,
+          "kilometersCovered": 9.27,
+          "numberOfSprints": 8,
           "totalBallCarriesDistance": 162.90375190091,
           "ballCarriesCount": 17,
           "totalProgression": 104.24180613916,
@@ -2315,6 +2421,9 @@
           "passValueNormalized": 0.1,
           "dribbleValueNormalized": 0.09,
           "defensiveValueNormalized": 0.38,
+          "metersCoveredRunningKm": 0.94,
+          "metersCoveredHighSpeedRunningKm": 0.45,
+          "metersCoveredSprintingKm": 0.09,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -2331,7 +2440,7 @@
           "position": "D",
           "jerseyNumber": "26",
           "height": 179,
-          "userCount": 11416,
+          "userCount": 11555,
           "gender": "M",
           "sofascoreId": "masuaku26",
           "country": {
@@ -2394,6 +2503,9 @@
           "rating": 6.3,
           "possessionLostCtrl": 14,
           "expectedAssists": 0.00609324,
+          "topSpeed": 32.46,
+          "kilometersCovered": 8.75,
+          "numberOfSprints": 3,
           "totalBallCarriesDistance": 69.397109928986,
           "ballCarriesCount": 10,
           "totalProgression": 13.385147412438,
@@ -2407,6 +2519,9 @@
           "passValueNormalized": 0.08,
           "dribbleValueNormalized": 0.11,
           "defensiveValueNormalized": -0.35,
+          "metersCoveredRunningKm": 1.05,
+          "metersCoveredHighSpeedRunningKm": 0.28,
+          "metersCoveredSprintingKm": 0.08,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -2423,8 +2538,9 @@
           "position": "M",
           "jerseyNumber": "17",
           "height": 188,
-          "userCount": 9015,
+          "userCount": 9182,
           "gender": "M",
+          "sofascoreId": "ce57ix",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -2483,6 +2599,9 @@
           "rating": 6.5,
           "possessionLostCtrl": 3,
           "expectedAssists": 0.00462091,
+          "topSpeed": 32.64,
+          "kilometersCovered": 9.23,
+          "numberOfSprints": 10,
           "totalBallCarriesDistance": 35.432077677842,
           "ballCarriesCount": 6,
           "totalProgression": 10.72486173349,
@@ -2495,6 +2614,9 @@
           "passValueNormalized": 0.05,
           "dribbleValueNormalized": 0.04,
           "defensiveValueNormalized": 0.14,
+          "metersCoveredRunningKm": 1.49,
+          "metersCoveredHighSpeedRunningKm": 0.43,
+          "metersCoveredSprintingKm": 0.11,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -2511,8 +2633,9 @@
           "position": "M",
           "jerseyNumber": "92",
           "height": 178,
-          "userCount": 8317,
+          "userCount": 8645,
           "gender": "M",
+          "sofascoreId": "svvjp3",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -2571,6 +2694,9 @@
           "rating": 7,
           "possessionLostCtrl": 6,
           "expectedAssists": 0.0135137,
+          "topSpeed": 31.19,
+          "kilometersCovered": 10.75,
+          "numberOfSprints": 10,
           "totalBallCarriesDistance": 126.8382872723,
           "ballCarriesCount": 11,
           "totalProgression": 89.230275257655,
@@ -2585,6 +2711,9 @@
           "passValueNormalized": 0.16,
           "dribbleValueNormalized": 0.1,
           "defensiveValueNormalized": 0.14,
+          "metersCoveredRunningKm": 1.98,
+          "metersCoveredHighSpeedRunningKm": 0.49,
+          "metersCoveredSprintingKm": 0.13,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -2599,8 +2728,9 @@
           "position": "M",
           "jerseyNumber": "27",
           "height": 173,
-          "userCount": 17439,
+          "userCount": 17645,
           "gender": "M",
+          "sofascoreId": "utp45g",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -2664,6 +2794,9 @@
           "rating": 6.3,
           "possessionLostCtrl": 8,
           "expectedAssists": 0.00857882,
+          "topSpeed": 30.41,
+          "kilometersCovered": 11.35,
+          "numberOfSprints": 12,
           "totalBallCarriesDistance": 118.70062928499,
           "ballCarriesCount": 9,
           "totalProgression": 56.664163827037,
@@ -2679,6 +2812,9 @@
           "passValueNormalized": -0.04,
           "dribbleValueNormalized": 0.15,
           "defensiveValueNormalized": 0.15,
+          "metersCoveredRunningKm": 1.76,
+          "metersCoveredHighSpeedRunningKm": 0.58,
+          "metersCoveredSprintingKm": 0.12,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -2695,8 +2831,9 @@
           "position": "M",
           "jerseyNumber": "11",
           "height": 170,
-          "userCount": 7849,
+          "userCount": 8307,
           "gender": "M",
+          "sofascoreId": "6ggvx3",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -2754,6 +2891,9 @@
           "possessionLostCtrl": 11,
           "expectedGoals": 0.017,
           "expectedAssists": 0.0165182,
+          "topSpeed": 32.2,
+          "kilometersCovered": 7.84,
+          "numberOfSprints": 6,
           "totalBallCarriesDistance": 140.58610344846,
           "ballCarriesCount": 15,
           "totalProgression": 59.675672308949,
@@ -2769,6 +2909,9 @@
           "passValueNormalized": -0.28,
           "dribbleValueNormalized": 0.29,
           "defensiveValueNormalized": 0.13,
+          "metersCoveredRunningKm": 1.26,
+          "metersCoveredHighSpeedRunningKm": 0.37,
+          "metersCoveredSprintingKm": 0.11,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -2785,7 +2928,7 @@
           "position": "F",
           "jerseyNumber": "9",
           "height": 176,
-          "userCount": 79083,
+          "userCount": 81796,
           "gender": "M",
           "sofascoreId": "yowissa",
           "country": {
@@ -2850,6 +2993,9 @@
           "possessionLostCtrl": 9,
           "expectedGoals": 0.6233,
           "expectedAssists": 0.00540861,
+          "topSpeed": 33,
+          "kilometersCovered": 9.46,
+          "numberOfSprints": 9,
           "totalBallCarriesDistance": 71.730360692924,
           "ballCarriesCount": 8,
           "totalProgression": 14.989279856022,
@@ -2865,6 +3011,9 @@
           "passValueNormalized": -0.13,
           "dribbleValueNormalized": 0.05,
           "defensiveValueNormalized": 0,
+          "metersCoveredRunningKm": 1.07,
+          "metersCoveredHighSpeedRunningKm": 0.31,
+          "metersCoveredSprintingKm": 0.14,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -2881,8 +3030,9 @@
           "position": "M",
           "jerseyNumber": "16",
           "height": 169,
-          "userCount": 5538,
+          "userCount": 10031,
           "gender": "M",
+          "sofascoreId": "8ju8r4",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -2946,6 +3096,9 @@
           "expectedGoals": 0.1033,
           "expectedGoalsOnTarget": 0.2489,
           "expectedAssists": 0.0124936,
+          "topSpeed": 30.63,
+          "kilometersCovered": 8.63,
+          "numberOfSprints": 12,
           "totalBallCarriesDistance": 223.63235798626,
           "ballCarriesCount": 15,
           "totalProgression": 170.76306285353,
@@ -2962,6 +3115,9 @@
           "passValueNormalized": -0.55,
           "dribbleValueNormalized": 0.41,
           "defensiveValueNormalized": -0.04,
+          "metersCoveredRunningKm": 1.16,
+          "metersCoveredHighSpeedRunningKm": 0.57,
+          "metersCoveredSprintingKm": 0.15,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -2978,7 +3134,7 @@
           "position": "F",
           "jerseyNumber": "12",
           "height": 173,
-          "userCount": 36073,
+          "userCount": 36590,
           "gender": "M",
           "sofascoreId": "meschackelialina",
           "country": {
@@ -3035,6 +3191,9 @@
           "expectedGoals": 0.0288,
           "expectedGoalsOnTarget": 0.0557,
           "expectedAssists": 0.00121018,
+          "topSpeed": 33.25,
+          "kilometersCovered": 3.17,
+          "numberOfSprints": 7,
           "totalBallCarriesDistance": 46.416048789651,
           "ballCarriesCount": 2,
           "totalProgression": 35.101782592744,
@@ -3050,6 +3209,9 @@
           "passValueNormalized": -0.03,
           "dribbleValueNormalized": 0.06,
           "defensiveValueNormalized": 0.21,
+          "metersCoveredRunningKm": 0.46,
+          "metersCoveredHighSpeedRunningKm": 0.17,
+          "metersCoveredSprintingKm": 0.13,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -3063,7 +3225,7 @@
           "shortName": "T. Bongonda",
           "position": "M",
           "height": 177,
-          "userCount": 36442,
+          "userCount": 36487,
           "gender": "M",
           "sofascoreId": "theo_bongonda",
           "country": {
@@ -3119,6 +3281,9 @@
           "rating": 6.7,
           "possessionLostCtrl": 2,
           "expectedAssists": 0.00154737,
+          "topSpeed": 32.02,
+          "kilometersCovered": 2.14,
+          "numberOfSprints": 2,
           "totalBallCarriesDistance": 30.302126642456,
           "ballCarriesCount": 3,
           "totalProgression": 17.285039608553,
@@ -3131,6 +3296,9 @@
           "passValueNormalized": 0.02,
           "dribbleValueNormalized": 0.1,
           "defensiveValueNormalized": 0.13,
+          "metersCoveredRunningKm": 0.21,
+          "metersCoveredHighSpeedRunningKm": 0.12,
+          "metersCoveredSprintingKm": 0.02,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -3147,8 +3315,9 @@
           "position": "M",
           "jerseyNumber": "39",
           "height": 183,
-          "userCount": 4929,
+          "userCount": 4974,
           "gender": "M",
+          "sofascoreId": "bbxjkq",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -3197,6 +3366,9 @@
           "touches": 10,
           "rating": 6.6,
           "expectedAssists": 0.00648675,
+          "topSpeed": 26.52,
+          "kilometersCovered": 2.49,
+          "numberOfSprints": 2,
           "totalBallCarriesDistance": 61.442826757399,
           "ballCarriesCount": 4,
           "totalProgression": 22.960724530498,
@@ -3211,6 +3383,9 @@
           "passValueNormalized": -0.01,
           "dribbleValueNormalized": 0.09,
           "defensiveValueNormalized": -0.05,
+          "metersCoveredRunningKm": 0.4,
+          "metersCoveredHighSpeedRunningKm": 0.11,
+          "metersCoveredSprintingKm": 0.01,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -3227,7 +3402,7 @@
           "position": "D",
           "jerseyNumber": "18",
           "height": 180,
-          "userCount": 5798,
+          "userCount": 5854,
           "gender": "M",
           "sofascoreId": "joriskayembe23",
           "country": {
@@ -3280,6 +3455,9 @@
           "rating": 6.7,
           "possessionLostCtrl": 1,
           "expectedAssists": 0.00273533,
+          "topSpeed": 26.27,
+          "kilometersCovered": 0.75,
+          "numberOfSprints": 1,
           "totalBallCarriesDistance": 24.472824949319,
           "ballCarriesCount": 1,
           "totalProgression": 20.23310842662,
@@ -3294,6 +3472,9 @@
           "passValueNormalized": 0.05,
           "dribbleValueNormalized": 0.01,
           "defensiveValueNormalized": 0,
+          "metersCoveredRunningKm": 0.13,
+          "metersCoveredHighSpeedRunningKm": 0.04,
+          "metersCoveredSprintingKm": 0.01,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -3307,7 +3488,7 @@
           "shortName": "F. Mayele",
           "position": "F",
           "height": 185,
-          "userCount": 44747,
+          "userCount": 44815,
           "gender": "M",
           "sofascoreId": "mayelefiston",
           "country": {
@@ -3350,12 +3531,18 @@
           "fouls": 1,
           "minutesPlayed": 8,
           "rating": 6.4,
+          "topSpeed": 23.5,
+          "kilometersCovered": 0.65,
+          "numberOfSprints": 0,
           "ratingVersions": {
             "original": 6.4,
             "alternative": 6.3
           },
           "totalShots": 0,
           "defensiveValueNormalized": -0.02,
+          "metersCoveredRunningKm": 0.08,
+          "metersCoveredHighSpeedRunningKm": 0.02,
+          "metersCoveredSprintingKm": 0,
           "statisticsType": {
             "sportSlug": "football",
             "statisticsType": "player"
@@ -3371,8 +3558,9 @@
           "position": "G",
           "jerseyNumber": "1",
           "height": 189,
-          "userCount": 4472,
+          "userCount": 4571,
           "gender": "M",
+          "sofascoreId": "xzpwhj",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -3423,8 +3611,9 @@
           "shortName": "T. Fayulu",
           "position": "G",
           "height": 192,
-          "userCount": 3582,
+          "userCount": 3647,
           "gender": "M",
+          "sofascoreId": "8jkvnm",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -3476,8 +3665,9 @@
           "position": "D",
           "jerseyNumber": "28",
           "height": 184,
-          "userCount": 5003,
+          "userCount": 5050,
           "gender": "M",
+          "sofascoreId": "s7jfb3",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -3529,7 +3719,7 @@
           "position": "D",
           "jerseyNumber": "2",
           "height": 176,
-          "userCount": 4884,
+          "userCount": 4936,
           "gender": "M",
           "sofascoreId": "gedeon_K2",
           "country": {
@@ -3583,8 +3773,9 @@
           "position": "D",
           "jerseyNumber": "53",
           "height": 196,
-          "userCount": 2900,
+          "userCount": 2976,
           "gender": "M",
+          "sofascoreId": "cewm32",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -3634,7 +3825,7 @@
           "position": "M",
           "jerseyNumber": "5",
           "height": 174,
-          "userCount": 4310,
+          "userCount": 4367,
           "gender": "M",
           "sofascoreId": "gaelromeokakuta",
           "country": {
@@ -3688,7 +3879,7 @@
           "position": "M",
           "jerseyNumber": "18",
           "height": 184,
-          "userCount": 12513,
+          "userCount": 12560,
           "gender": "M",
           "sofascoreId": "charlespickel",
           "country": {
@@ -3742,8 +3933,9 @@
           "position": "M",
           "jerseyNumber": "36",
           "height": 190,
-          "userCount": 1634,
+          "userCount": 1687,
           "gender": "M",
+          "sofascoreId": "rb8j9m",
           "country": {
             "alpha2": "CD",
             "alpha3": "COD",
@@ -3792,7 +3984,7 @@
           "shortName": "C. Bakambu",
           "position": "F",
           "height": 182,
-          "userCount": 65524,
+          "userCount": 65539,
           "gender": "M",
           "sofascoreId": "bakambu17",
           "country": {
@@ -3844,7 +4036,7 @@
           "position": "F",
           "jerseyNumber": "9",
           "height": 189,
-          "userCount": 11187,
+          "userCount": 11267,
           "gender": "M",
           "sofascoreId": "simbnz",
           "country": {

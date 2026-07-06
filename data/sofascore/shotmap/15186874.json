@@ -8,7 +8,7 @@
         "shortName": "K. Yıldız",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 101738,
+        "userCount": 102144,
         "gender": "M",
         "sofascoreId": "KenanYıldız",
         "id": 1149011,
@@ -57,8 +57,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -107,7 +108,7 @@
         "shortName": "M. Demiral",
         "position": "D",
         "jerseyNumber": "28",
-        "userCount": 4891,
+        "userCount": 4907,
         "gender": "M",
         "sofascoreId": "merihdemiral",
         "id": 806968,
@@ -151,8 +152,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -196,7 +198,7 @@
         "shortName": "A. Güler",
         "position": "M",
         "jerseyNumber": "15",
-        "userCount": 456927,
+        "userCount": 457855,
         "gender": "M",
         "sofascoreId": "AGüler",
         "id": 1091116,
@@ -245,8 +247,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -292,7 +295,7 @@
         "shortName": "H. Çalhanoğlu",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 36667,
+        "userCount": 36747,
         "gender": "M",
         "sofascoreId": "HÇalhanoğlu",
         "id": 135700,
@@ -341,8 +344,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -389,7 +393,7 @@
         "shortName": "A. Güler",
         "position": "M",
         "jerseyNumber": "15",
-        "userCount": 456927,
+        "userCount": 457855,
         "gender": "M",
         "sofascoreId": "AGüler",
         "id": 1091116,
@@ -433,8 +437,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -478,7 +483,7 @@
         "shortName": "K. Aktürkoğlu",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 26145,
+        "userCount": 26193,
         "gender": "M",
         "sofascoreId": "KAktürkoğlu",
         "id": 903324,
@@ -527,8 +532,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -575,7 +581,7 @@
         "shortName": "K. Yıldız",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 101738,
+        "userCount": 102144,
         "gender": "M",
         "sofascoreId": "KenanYıldız",
         "id": 1149011,
@@ -624,8 +630,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -673,8 +680,9 @@
         "shortName": "C. Metcalfe",
         "position": "M",
         "jerseyNumber": "24",
-        "userCount": 569,
+        "userCount": 827,
         "gender": "M",
+        "sofascoreId": "dzn5sf",
         "id": 888854,
         "fieldTranslations": {
           "nameTranslation": {
@@ -717,8 +725,9 @@
         "shortName": "U. Çakır",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8273,
+        "userCount": 8295,
         "gender": "M",
+        "sofascoreId": "tsax45",
         "id": 754330,
         "fieldTranslations": {
           "nameTranslation": {
@@ -765,7 +774,7 @@
         "shortName": "A. Güler",
         "position": "M",
         "jerseyNumber": "15",
-        "userCount": 456927,
+        "userCount": 457855,
         "gender": "M",
         "sofascoreId": "AGüler",
         "id": 1091116,
@@ -809,8 +818,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -853,8 +863,9 @@
         "slug": "zeki-celik",
         "shortName": "Z. Çelik",
         "position": "D",
-        "userCount": 3575,
+        "userCount": 3592,
         "gender": "M",
+        "sofascoreId": "svsfe3",
         "id": 893008,
         "fieldTranslations": {
           "nameTranslation": {
@@ -901,8 +912,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -949,7 +961,7 @@
         "shortName": "K. Yıldız",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 101738,
+        "userCount": 102144,
         "gender": "M",
         "sofascoreId": "KenanYıldız",
         "id": 1149011,
@@ -998,8 +1010,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1046,7 +1059,7 @@
         "shortName": "K. Yıldız",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 101738,
+        "userCount": 102144,
         "gender": "M",
         "sofascoreId": "KenanYıldız",
         "id": 1149011,
@@ -1095,8 +1108,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1143,7 +1157,7 @@
         "shortName": "A. Güler",
         "position": "M",
         "jerseyNumber": "15",
-        "userCount": 456927,
+        "userCount": 457855,
         "gender": "M",
         "sofascoreId": "AGüler",
         "id": 1091116,
@@ -1192,8 +1206,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1240,7 +1255,7 @@
         "shortName": "K. Yıldız",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 101738,
+        "userCount": 102144,
         "gender": "M",
         "sofascoreId": "KenanYıldız",
         "id": 1149011,
@@ -1289,8 +1304,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1337,7 +1353,7 @@
         "shortName": "K. Yıldız",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 101738,
+        "userCount": 102144,
         "gender": "M",
         "sofascoreId": "KenanYıldız",
         "id": 1149011,
@@ -1386,8 +1402,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1435,8 +1452,9 @@
         "shortName": "İ. Yüksek",
         "position": "M",
         "jerseyNumber": "5",
-        "userCount": 3744,
+        "userCount": 3770,
         "gender": "M",
+        "sofascoreId": "5fd5af",
         "id": 952600,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1478,8 +1496,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1522,7 +1541,7 @@
         "shortName": "A. Güler",
         "position": "M",
         "jerseyNumber": "15",
-        "userCount": 456927,
+        "userCount": 457855,
         "gender": "M",
         "sofascoreId": "AGüler",
         "id": 1091116,
@@ -1571,8 +1590,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1618,8 +1638,9 @@
         "shortName": "M. Touré",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 3360,
+        "userCount": 3441,
         "gender": "M",
+        "sofascoreId": "cewrnh",
         "id": 1019061,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1666,8 +1687,9 @@
         "shortName": "U. Çakır",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8273,
+        "userCount": 8295,
         "gender": "M",
+        "sofascoreId": "tsax45",
         "id": 754330,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1719,8 +1741,9 @@
         "shortName": "H. Souttar",
         "position": "D",
         "jerseyNumber": "15",
-        "userCount": 1232,
+        "userCount": 2261,
         "gender": "M",
+        "sofascoreId": "ecmfd8",
         "id": 808680,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1767,8 +1790,9 @@
         "shortName": "U. Çakır",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8273,
+        "userCount": 8295,
         "gender": "M",
+        "sofascoreId": "tsax45",
         "id": 754330,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1820,7 +1844,7 @@
         "shortName": "K. Aktürkoğlu",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 26145,
+        "userCount": 26193,
         "gender": "M",
         "sofascoreId": "KAktürkoğlu",
         "id": 903324,
@@ -1869,8 +1893,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1918,8 +1943,9 @@
         "shortName": "İ. Yüksek",
         "position": "M",
         "jerseyNumber": "5",
-        "userCount": 3744,
+        "userCount": 3770,
         "gender": "M",
+        "sofascoreId": "5fd5af",
         "id": 952600,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1966,8 +1992,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2013,7 +2040,7 @@
         "shortName": "H. Çalhanoğlu",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 36667,
+        "userCount": 36747,
         "gender": "M",
         "sofascoreId": "HÇalhanoğlu",
         "id": 135700,
@@ -2062,8 +2089,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2111,8 +2139,9 @@
         "shortName": "J. Italiano",
         "position": "M",
         "jerseyNumber": "23",
-        "userCount": 273,
+        "userCount": 287,
         "gender": "M",
+        "sofascoreId": "kkqmvj",
         "id": 907217,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2150,8 +2179,9 @@
         "shortName": "U. Çakır",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8273,
+        "userCount": 8295,
         "gender": "M",
+        "sofascoreId": "tsax45",
         "id": 754330,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2199,8 +2229,9 @@
         "shortName": "J. Bos",
         "position": "D",
         "jerseyNumber": "15",
-        "userCount": 1372,
+        "userCount": 1656,
         "gender": "M",
+        "sofascoreId": "cemndp",
         "id": 1144138,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2247,8 +2278,9 @@
         "shortName": "U. Çakır",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8273,
+        "userCount": 8295,
         "gender": "M",
+        "sofascoreId": "tsax45",
         "id": 754330,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2298,7 +2330,7 @@
         "shortName": "H. Çalhanoğlu",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 36667,
+        "userCount": 36747,
         "gender": "M",
         "sofascoreId": "HÇalhanoğlu",
         "id": 135700,
@@ -2347,8 +2379,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2396,7 +2429,7 @@
         "shortName": "K. Aktürkoğlu",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 26145,
+        "userCount": 26193,
         "gender": "M",
         "sofascoreId": "KAktürkoğlu",
         "id": 903324,
@@ -2445,8 +2478,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2495,7 +2529,7 @@
         "shortName": "N. Irankunda",
         "position": "F",
         "jerseyNumber": "66",
-        "userCount": 7632,
+        "userCount": 8806,
         "gender": "M",
         "sofascoreId": "nestory._",
         "id": 1144687,
@@ -2544,8 +2578,9 @@
         "shortName": "U. Çakır",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8273,
+        "userCount": 8295,
         "gender": "M",
+        "sofascoreId": "tsax45",
         "id": 754330,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2596,7 +2631,7 @@
         "shortName": "A. Güler",
         "position": "M",
         "jerseyNumber": "15",
-        "userCount": 456927,
+        "userCount": 457855,
         "gender": "M",
         "sofascoreId": "AGüler",
         "id": 1091116,
@@ -2640,8 +2675,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2685,8 +2721,9 @@
         "shortName": "J. Bos",
         "position": "D",
         "jerseyNumber": "15",
-        "userCount": 1372,
+        "userCount": 1656,
         "gender": "M",
+        "sofascoreId": "cemndp",
         "id": 1144138,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2728,8 +2765,9 @@
         "shortName": "U. Çakır",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8273,
+        "userCount": 8295,
         "gender": "M",
+        "sofascoreId": "tsax45",
         "id": 754330,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2777,7 +2815,7 @@
         "shortName": "O. Kökçü",
         "position": "M",
         "jerseyNumber": "10",
-        "userCount": 20350,
+        "userCount": 20500,
         "gender": "M",
         "sofascoreId": "orkunkokcu",
         "id": 907461,
@@ -2821,8 +2859,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2864,7 +2903,7 @@
         "shortName": "H. Çalhanoğlu",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 36667,
+        "userCount": 36747,
         "gender": "M",
         "sofascoreId": "HÇalhanoğlu",
         "id": 135700,
@@ -2908,8 +2947,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2951,7 +2991,7 @@
         "shortName": "A. Bardakcı",
         "position": "D",
         "jerseyNumber": "42",
-        "userCount": 6986,
+        "userCount": 7009,
         "gender": "M",
         "sofascoreId": "abdulkerimbard1",
         "id": 178963,
@@ -3000,8 +3040,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3049,7 +3090,7 @@
         "shortName": "N. Irankunda",
         "position": "F",
         "jerseyNumber": "66",
-        "userCount": 7632,
+        "userCount": 8806,
         "gender": "M",
         "sofascoreId": "nestory._",
         "id": 1144687,
@@ -3094,8 +3135,9 @@
         "shortName": "U. Çakır",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8273,
+        "userCount": 8295,
         "gender": "M",
+        "sofascoreId": "tsax45",
         "id": 754330,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3142,7 +3184,7 @@
         "shortName": "A. Güler",
         "position": "M",
         "jerseyNumber": "15",
-        "userCount": 456927,
+        "userCount": 457855,
         "gender": "M",
         "sofascoreId": "AGüler",
         "id": 1091116,
@@ -3191,8 +3233,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3240,7 +3283,7 @@
         "shortName": "F. Kadıoğlu",
         "position": "D",
         "jerseyNumber": "24",
-        "userCount": 23768,
+        "userCount": 23850,
         "gender": "M",
         "sofascoreId": "ferdikadioglu",
         "id": 825844,
@@ -3284,8 +3327,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3329,8 +3373,9 @@
         "shortName": "A. Circati",
         "position": "D",
         "jerseyNumber": "3",
-        "userCount": 1477,
+        "userCount": 2371,
         "gender": "M",
+        "sofascoreId": "hir4vp",
         "id": 1155423,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3372,8 +3417,9 @@
         "shortName": "U. Çakır",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 8273,
+        "userCount": 8295,
         "gender": "M",
+        "sofascoreId": "tsax45",
         "id": 754330,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3420,7 +3466,7 @@
         "shortName": "A. Güler",
         "position": "M",
         "jerseyNumber": "15",
-        "userCount": 456927,
+        "userCount": 457855,
         "gender": "M",
         "sofascoreId": "AGüler",
         "id": 1091116,
@@ -3464,8 +3510,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3509,8 +3556,9 @@
         "shortName": "İ. Yüksek",
         "position": "M",
         "jerseyNumber": "5",
-        "userCount": 3744,
+        "userCount": 3770,
         "gender": "M",
+        "sofascoreId": "5fd5af",
         "id": 952600,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3557,8 +3605,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {
@@ -3604,7 +3653,7 @@
         "shortName": "H. Çalhanoğlu",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 36667,
+        "userCount": 36747,
         "gender": "M",
         "sofascoreId": "HÇalhanoğlu",
         "id": 135700,
@@ -3653,8 +3702,9 @@
         "shortName": "P. Beach",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 1256,
+        "userCount": 1593,
         "gender": "M",
+        "sofascoreId": "5faedi",
         "id": 1177240,
         "fieldTranslations": {
           "nameTranslation": {

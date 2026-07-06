@@ -102,6 +102,14 @@ def normalize_event(event: dict[str, Any]) -> dict[str, Any]:
 
     home_score = event.get("homeScore", {})
     away_score = event.get("awayScore", {})
+    home_display_score = home_score.get("display")
+    away_display_score = away_score.get("display")
+
+    if home_display_score is None:
+        home_display_score = home_score.get("current")
+
+    if away_display_score is None:
+        away_display_score = away_score.get("current")
 
     start_timestamp = event.get("startTimestamp")
     start_datetime = None
@@ -123,8 +131,20 @@ def normalize_event(event: dict[str, Any]) -> dict[str, Any]:
         "home_team_id": home_team.get("id"),
         "away_team_id": away_team.get("id"),
 
-        "home_score": home_score.get("current"),
-        "away_score": away_score.get("current"),
+        "home_score": home_display_score,
+        "away_score": away_display_score,
+
+        "home_score_current": home_score.get("current"),
+        "away_score_current": away_score.get("current"),
+
+        "home_score_normaltime": home_score.get("normaltime"),
+        "away_score_normaltime": away_score.get("normaltime"),
+
+        "home_score_overtime": home_score.get("overtime"),
+        "away_score_overtime": away_score.get("overtime"),
+
+        "home_penalty_score": home_score.get("penalties"),
+        "away_penalty_score": away_score.get("penalties"),
 
         "status": status.get("description"),
         "status_type": status.get("type"),

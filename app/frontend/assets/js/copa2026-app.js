@@ -1,4 +1,4 @@
-const DATA_BASE_PATH = "/dashboard/assets/data/copa2026";
+﻿const DATA_BASE_PATH = "/dashboard/assets/data/copa2026";
 const TEAMS_IMG_PATH = "/dashboard/assets/img/teams";
 
 const copa2026State = {
@@ -7,7 +7,7 @@ const copa2026State = {
         source: "SofaScore",
         date: "17 JUN 2026",
         homeTeam: "Inglaterra",
-        awayTeam: "Croácia",
+        awayTeam: "CroÃ¡cia",
         homeCode: "ENG",
         awayCode: "CRO",
         homeScore: 4,
@@ -19,15 +19,15 @@ const statTranslations = {
     ballPossession: "Posse de bola",
     expectedGoals: "Gols esperados",
     bigChanceCreated: "Grandes chances",
-    totalShotsOnGoal: "Finalizações",
-    totalShots: "Finalizações",
-    shotsOnGoal: "Finalizações no gol",
-    shotsOnTarget: "Finalizações no gol",
+    totalShotsOnGoal: "FinalizaÃ§Ãµes",
+    totalShots: "FinalizaÃ§Ãµes",
+    shotsOnGoal: "FinalizaÃ§Ãµes no gol",
+    shotsOnTarget: "FinalizaÃ§Ãµes no gol",
     cornerKicks: "Escanteios",
     passes: "Passes",
     accuratePasses: "Passes certos",
-    finalThirdEntries: "Entradas no terço final",
-    touchesInOppBox: "Toques na área",
+    finalThirdEntries: "Entradas no terÃ§o final",
+    touchesInOppBox: "Toques na Ã¡rea",
 };
 
 async function loadJson(path) {
@@ -148,7 +148,7 @@ function updateTeamLogos() {
         flagBoxes[1].innerHTML = `
             <img
                 src="${TEAMS_IMG_PATH}/croatia.png"
-                alt="Croácia"
+                alt="CroÃ¡cia"
                 class="team-logo-img"
             >
         `;
@@ -233,7 +233,7 @@ function renderStatsComparison(statsRows) {
         .filter(Boolean);
 
     if (!selectedRows.length) {
-        box.innerHTML = `<div class="loading-card">Não foi possível carregar as estatísticas.</div>`;
+        box.innerHTML = `<div class="loading-card">NÃ£o foi possÃ­vel carregar as estatÃ­sticas.</div>`;
         return;
     }
 
@@ -251,7 +251,7 @@ function renderShotSummary(shotSummary) {
                 <h3>Inglaterra</h3>
 
                 <div class="shot-team-stat">
-                    <span>Finalizações</span>
+                    <span>FinalizaÃ§Ãµes</span>
                     <strong>${shotSummary.homeShotsCount}</strong>
                 </div>
 
@@ -271,16 +271,16 @@ function renderShotSummary(shotSummary) {
                 </div>
 
                 <div class="shot-team-stat">
-                    <span>Precisão</span>
+                    <span>PrecisÃ£o</span>
                     <strong>${shotSummary.homeAccuracy.toFixed(1)}%</strong>
                 </div>
             </div>
 
             <div class="shot-team-card">
-                <h3>Croácia</h3>
+                <h3>CroÃ¡cia</h3>
 
                 <div class="shot-team-stat">
-                    <span>Finalizações</span>
+                    <span>FinalizaÃ§Ãµes</span>
                     <strong>${shotSummary.awayShotsCount}</strong>
                 </div>
 
@@ -300,7 +300,7 @@ function renderShotSummary(shotSummary) {
                 </div>
 
                 <div class="shot-team-stat">
-                    <span>Precisão</span>
+                    <span>PrecisÃ£o</span>
                     <strong>${shotSummary.awayAccuracy.toFixed(1)}%</strong>
                 </div>
             </div>
@@ -362,7 +362,7 @@ function renderShotsTable(selector, shots) {
     if (!box) return;
 
     if (!shots.length) {
-        box.innerHTML = `<div class="loading-card">Nenhuma finalização encontrada.</div>`;
+        box.innerHTML = `<div class="loading-card">Nenhuma finalizaÃ§Ã£o encontrada.</div>`;
         return;
     }
 
@@ -440,7 +440,7 @@ function normalizePlayersFromLineups(lineupsData) {
 
     return [
         ...homePlayers.map((item) => mapPlayer(item, "Inglaterra")),
-        ...awayPlayers.map((item) => mapPlayer(item, "Croácia")),
+        ...awayPlayers.map((item) => mapPlayer(item, "CroÃ¡cia")),
     ];
 }
 
@@ -455,7 +455,7 @@ function renderPlayerRanking(lineupsData) {
         .slice(0, 8);
 
     if (!players.length) {
-        box.innerHTML = `<div class="loading-card">Não foi possível carregar o ranking.</div>`;
+        box.innerHTML = `<div class="loading-card">NÃ£o foi possÃ­vel carregar o ranking.</div>`;
         return;
     }
 
@@ -518,7 +518,7 @@ function renderMomentum(momentumData) {
     const points = normalizeMomentum(momentumData);
 
     if (!points.length) {
-        box.innerHTML = `<div class="loading-card">Não foi possível carregar o momentum.</div>`;
+        box.innerHTML = `<div class="loading-card">NÃ£o foi possÃ­vel carregar o momentum.</div>`;
         return;
     }
 
@@ -540,12 +540,12 @@ function renderMomentum(momentumData) {
     box.innerHTML = `
         <div class="momentum-summary-grid">
             <div class="momentum-mini-card">
-                <span>Domínio Inglaterra</span>
+                <span>DomÃ­nio Inglaterra</span>
                 <strong>${homeDominance}</strong>
             </div>
 
             <div class="momentum-mini-card">
-                <span>Domínio Croácia</span>
+                <span>DomÃ­nio CroÃ¡cia</span>
                 <strong>${awayDominance}</strong>
             </div>
 
@@ -555,7 +555,7 @@ function renderMomentum(momentumData) {
             </div>
 
             <div class="momentum-mini-card">
-                <span>Pico Croácia</span>
+                <span>Pico CroÃ¡cia</span>
                 <strong>${Math.abs(Math.round(awayPeak.value))}</strong>
             </div>
         </div>
@@ -584,8 +584,8 @@ function renderMomentum(momentumData) {
         </div>
 
         <div class="momentum-legend">
-            <span class="legend-home">● Inglaterra</span>
-            <span class="legend-away">● Croácia</span>
+            <span class="legend-home">â— Inglaterra</span>
+            <span class="legend-away">â— CroÃ¡cia</span>
         </div>
     `;
 }
@@ -614,7 +614,7 @@ function getEventMinute(event) {
 
 function getEventTeam(event) {
     if (event.isHome === true) return "Inglaterra";
-    if (event.isHome === false) return "Croácia";
+    if (event.isHome === false) return "CroÃ¡cia";
 
     return (
         event.teamName ||
@@ -641,22 +641,22 @@ function getEventTitle(event) {
 
     const translatedTypes = {
         goal: "Gol",
-        card: "Cartão",
-        yellow: "Cartão amarelo",
-        red: "Cartão vermelho",
-        substitution: "Substituição",
+        card: "CartÃ£o",
+        yellow: "CartÃ£o amarelo",
+        red: "CartÃ£o vermelho",
+        substitution: "SubstituiÃ§Ã£o",
         injury: "Atendimento",
         period: "Intervalo",
         var: "VAR",
-        penalty: "Pênalti",
-        varDecision: "Decisão do VAR",
-        injuryTime: "Acréscimos",
+        penalty: "PÃªnalti",
+        varDecision: "DecisÃ£o do VAR",
+        injuryTime: "AcrÃ©scimos",
     };
 
     const translated = translatedTypes[type] || event.text || event.description || type;
 
     if (playerName) {
-        return `${translated} · ${playerName}`;
+        return `${translated} Â· ${playerName}`;
     }
 
     return translated;
@@ -681,7 +681,7 @@ function renderEventsTimeline(highlightsData) {
         .slice(0, 18);
 
     if (!events.length) {
-        box.innerHTML = `<div class="loading-card">Não foi possível carregar os eventos.</div>`;
+        box.innerHTML = `<div class="loading-card">NÃ£o foi possÃ­vel carregar os eventos.</div>`;
         return;
     }
 
@@ -791,7 +791,7 @@ function renderAveragePitch(title, players, isAway = false) {
             </div>
 
             <div class="average-note">
-                Números posicionados de acordo com a ocupação média em campo.
+                NÃºmeros posicionados de acordo com a ocupaÃ§Ã£o mÃ©dia em campo.
             </div>
         </div>
     `;
@@ -806,14 +806,14 @@ function renderAveragePositions(averageData) {
     const awayPlayers = getAverageSideData(averageData, "away");
 
     if (!homePlayers.length && !awayPlayers.length) {
-        box.innerHTML = `<div class="loading-card">Não foi possível carregar as posições médias.</div>`;
+        box.innerHTML = `<div class="loading-card">NÃ£o foi possÃ­vel carregar as posiÃ§Ãµes mÃ©dias.</div>`;
         return;
     }
 
     box.innerHTML = `
         <div class="average-position-grid">
             ${renderAveragePitch("Inglaterra", homePlayers, false)}
-            ${renderAveragePitch("Croácia", awayPlayers, true)}
+            ${renderAveragePitch("CroÃ¡cia", awayPlayers, true)}
         </div>
     `;
 }
@@ -898,7 +898,7 @@ function renderLineupTeam(title, formation, players, isAway = false) {
         <div class="lineup-team-card">
             <div class="lineup-team-header">
                 <h3>${title}</h3>
-                <span>Formação: ${formation || "-"}</span>
+                <span>FormaÃ§Ã£o: ${formation || "-"}</span>
             </div>
 
             <div class="lineup-pitch">
@@ -938,14 +938,14 @@ function renderLineups(lineupsData) {
     const awayFormation = lineupsData?.away?.formation || "-";
 
     if (!homePlayers.length && !awayPlayers.length) {
-        box.innerHTML = `<div class="loading-card">Não foi possível carregar as escalações.</div>`;
+        box.innerHTML = `<div class="loading-card">NÃ£o foi possÃ­vel carregar as escalaÃ§Ãµes.</div>`;
         return;
     }
 
     box.innerHTML = `
         <div class="lineups-grid">
             ${renderLineupTeam("Inglaterra", homeFormation, homePlayers, false)}
-            ${renderLineupTeam("Croácia", awayFormation, awayPlayers, true)}
+            ${renderLineupTeam("CroÃ¡cia", awayFormation, awayPlayers, true)}
         </div>
     `;
 }
@@ -975,7 +975,7 @@ function renderAdvancedMetric(label, homeValue, awayValue, note) {
 
                 <div class="advanced-team-value">
                     <strong>${awayValue}</strong>
-                    <span>Croácia</span>
+                    <span>CroÃ¡cia</span>
                 </div>
             </div>
 
@@ -1017,31 +1017,31 @@ function renderAdvancedComparisons(statsRows, shotSummary) {
     box.innerHTML = `
         <div class="advanced-comparison-grid">
             ${renderAdvancedMetric(
-                "Taxa de conversão",
+                "Taxa de conversÃ£o",
                 formatPercentValue(homeConversion),
                 formatPercentValue(awayConversion),
-                "Percentual de finalizações que terminaram em gol."
+                "Percentual de finalizaÃ§Ãµes que terminaram em gol."
             )}
 
             ${renderAdvancedMetric(
-                "Precisão dos chutes",
+                "PrecisÃ£o dos chutes",
                 formatPercentValue(shotSummary.homeAccuracy),
                 formatPercentValue(shotSummary.awayAccuracy),
-                "Percentual de finalizações que foram no alvo."
+                "Percentual de finalizaÃ§Ãµes que foram no alvo."
             )}
 
             ${renderAdvancedMetric(
-                "xG por finalização",
+                "xG por finalizaÃ§Ã£o",
                 formatDecimalValue(homeXgPerShot, 3),
                 formatDecimalValue(awayXgPerShot, 3),
-                "Mede a qualidade média das chances criadas."
+                "Mede a qualidade mÃ©dia das chances criadas."
             )}
 
             ${renderAdvancedMetric(
                 "Gols - xG",
                 formatDecimalValue(homeXgDiff, 2),
                 formatDecimalValue(awayXgDiff, 2),
-                "Diferença entre gols marcados e gols esperados."
+                "DiferenÃ§a entre gols marcados e gols esperados."
             )}
 
             ${renderAdvancedMetric(
@@ -1052,10 +1052,10 @@ function renderAdvancedComparisons(statsRows, shotSummary) {
             )}
 
             ${renderAdvancedMetric(
-                "Entradas no terço final",
+                "Entradas no terÃ§o final",
                 homeFinalThird,
                 awayFinalThird,
-                "Frequência de chegada ao setor ofensivo."
+                "FrequÃªncia de chegada ao setor ofensivo."
             )}
         </div>
     `;
@@ -1084,11 +1084,11 @@ function updateKpisFromData(statisticsData, shotmapData) {
 
     updateKpiCard(
         2,
-        "Finalizações",
+        "FinalizaÃ§Ãµes",
         totalShots
             ? `${totalShots.home} x ${totalShots.away}`
             : `${shotSummary.homeShotsCount} x ${shotSummary.awayShotsCount}`,
-        "Inglaterra x Croácia"
+        "Inglaterra x CroÃ¡cia"
     );
 
     updateKpiCard(
@@ -1097,7 +1097,7 @@ function updateKpisFromData(statisticsData, shotmapData) {
         possession
             ? `${possession.home} x ${possession.away}`
             : "--",
-        "Inglaterra x Croácia"
+        "Inglaterra x CroÃ¡cia"
     );
 
     renderStatsComparison(statsRows);
@@ -1113,10 +1113,10 @@ function renderDataStatus(success = true) {
 
     if (success) {
         statusPanel.textContent =
-            "Dados reais carregados com sucesso: estatísticas, finalizações, ranking, momentum, eventos, posições médias, escalações e comparativos avançados.";
+            "Dados reais carregados com sucesso: estatÃ­sticas, finalizaÃ§Ãµes, ranking, momentum, eventos, posiÃ§Ãµes mÃ©dias, escalaÃ§Ãµes e comparativos avanÃ§ados.";
     } else {
         statusPanel.textContent =
-            "A página foi carregada, mas algum arquivo de dados não foi encontrado. Verifique a pasta assets/data/copa2026.";
+            "A pÃ¡gina foi carregada, mas algum arquivo de dados nÃ£o foi encontrado. Verifique a pasta assets/data/copa2026.";
     }
 }
 
@@ -1157,7 +1157,7 @@ async function initCopa2026Dashboard() {
 document.addEventListener("DOMContentLoaded", initCopa2026Dashboard);
 
 // =======================================================
-// BASE SOFASCORE — COPA 2026
+// BASE SOFASCORE â€” COPA 2026
 // =======================================================
 
 const SOFASCORE_API_BASE = "/api/sofascore";
@@ -1188,21 +1188,250 @@ function formatSofascoreDate(dateText) {
 function getSofascoreStatusLabel(statusType, status) {
     if (statusType === "finished") return "Finalizado";
     if (statusType === "inprogress") return "Ao vivo";
-    if (statusType === "notstarted") return "Não iniciado";
+    if (statusType === "notstarted") return "NÃ£o iniciado";
 
     return status || "-";
 }
 
-function buildSofascoreOptionLabel(match) {
-    const home = match.home_team || "Mandante";
-    const away = match.away_team || "Visitante";
-    const status = getSofascoreStatusLabel(match.status_type, match.status);
+// =======================================================
+// TRADUÃ‡ÃƒO DE APRESENTAÃ‡ÃƒO â€” COPA 2026 / PT-BR
+// MantÃ©m os dados brutos do SofaScore intactos.
+// =======================================================
 
-    if (match.status_type === "finished" || match.status_type === "inprogress") {
-        return `${home} ${match.home_score ?? "-"} x ${match.away_score ?? "-"} ${away} — ${status}`;
+const COPA_TEAM_NAMES_PT_BR = {
+    "Mexico": "MÃ©xico",
+    "South Africa": "Ãfrica do Sul",
+    "South Korea": "Coreia do Sul",
+    "Czechia": "TchÃ©quia",
+
+    "Canada": "CanadÃ¡",
+    "Bosnia and Herzegovina": "BÃ³snia e Herzegovina",
+    "Qatar": "Catar",
+    "Switzerland": "SuÃ­Ã§a",
+
+    "Brazil": "Brasil",
+    "Morocco": "Marrocos",
+    "Haiti": "Haiti",
+    "Scotland": "EscÃ³cia",
+
+    "United States": "Estados Unidos",
+    "USA": "Estados Unidos",
+    "Paraguay": "Paraguai",
+    "Australia": "AustrÃ¡lia",
+    "Turkey": "Turquia",
+
+    "Germany": "Alemanha",
+    "Curacao": "CuraÃ§ao",
+    "CuraÃ§ao": "CuraÃ§ao",
+    "Ivory Coast": "Costa do Marfim",
+    "Ecuador": "Equador",
+
+    "Netherlands": "PaÃ­ses Baixos",
+    "Japan": "JapÃ£o",
+    "Sweden": "SuÃ©cia",
+    "Tunisia": "TunÃ­sia",
+
+    "Belgium": "BÃ©lgica",
+    "Egypt": "Egito",
+    "Iran": "IrÃ£",
+    "New Zealand": "Nova ZelÃ¢ndia",
+
+    "Spain": "Espanha",
+    "Cape Verde": "Cabo Verde",
+    "Saudi Arabia": "ArÃ¡bia Saudita",
+    "Uruguay": "Uruguai",
+
+    "France": "FranÃ§a",
+    "Senegal": "Senegal",
+    "Iraq": "Iraque",
+    "Norway": "Noruega",
+
+    "Argentina": "Argentina",
+    "Algeria": "ArgÃ©lia",
+    "Austria": "Ãustria",
+    "Jordan": "JordÃ¢nia",
+
+    "Portugal": "Portugal",
+    "DR Congo": "RD Congo",
+    "Democratic Republic of the Congo": "RD Congo",
+    "Uzbekistan": "UzbequistÃ£o",
+    "Colombia": "ColÃ´mbia",
+
+    "England": "Inglaterra",
+    "Croatia": "CroÃ¡cia",
+    "Ghana": "Gana",
+    "Panama": "PanamÃ¡",
+    "TÃ¼rkiye": "Turquia",
+    "Czech Republic": "TchÃ©quia",
+    "Korea Republic": "Coreia do Sul",
+    "United States of America": "Estados Unidos",
+};
+
+const COPA_ROUND_NAMES_PT_BR = {
+    "group stage": "Fase de grupos",
+    "round of 32": "16 avos de final",
+    "round of 16": "Oitavas de final",
+    "quarterfinal": "Quartas de final",
+    "quarterfinals": "Quartas de final",
+    "semifinal": "Semifinais",
+    "semifinals": "Semifinais",
+    "match for 3rd place": "Disputa de 3Âº lugar",
+    "3rd place playoff": "Disputa de 3Âº lugar",
+    "third place playoff": "Disputa de 3Âº lugar",
+    "final": "Final",
+};
+
+const COPA_TOURNAMENT_NAMES_PT_BR = {
+    "World Cup 2026": "Copa do Mundo 2026",
+    "FIFA World Cup 2026": "Copa do Mundo 2026",
+    "World Cup": "Copa do Mundo",
+    "World Championship": "Copa do Mundo 2026",
+};
+
+function translateCopaTeamName(name) {
+    if (!name) return name;
+
+    const normalizedName = String(name).trim();
+
+    return COPA_TEAM_NAMES_PT_BR[normalizedName] || normalizedName;
+}
+
+function translateCopaRoundName(round, roundNumber = null) {
+    if (round) {
+        const normalizedRound = String(round).trim().toLowerCase();
+
+        return COPA_ROUND_NAMES_PT_BR[normalizedRound] || String(round).trim();
     }
 
-    return `${home} x ${away} — ${status}`;
+    if (roundNumber) {
+        return `Rodada ${roundNumber}`;
+    }
+
+    return "-";
+}
+
+function translateCopaTournamentName(name) {
+    if (!name) return "Copa do Mundo 2026";
+
+    const normalizedName = String(name).trim();
+
+    return COPA_TOURNAMENT_NAMES_PT_BR[normalizedName] || normalizedName;
+}
+
+// =======================================================
+// PLACAR POR ETAPAS â€” COPA 2026
+// Ordem: tempo regulamentar â†’ prorrogaÃ§Ã£o â†’ pÃªnaltis
+// =======================================================
+
+function hasCopaScoreValue(value) {
+    return value !== null && value !== undefined && value !== "";
+}
+
+function getCopaMatchScorePhases(match) {
+    if (!match) return [];
+
+    const status = String(match.status || "").trim().toUpperCase();
+
+    const isFinishedOrLive =
+        match.status_type === "finished" ||
+        match.status_type === "inprogress";
+
+    if (!isFinishedOrLive) {
+        return [];
+    }
+
+    const hasPenalties =
+        status === "AP" ||
+        hasCopaScoreValue(match.home_penalty_score) ||
+        hasCopaScoreValue(match.away_penalty_score);
+
+    const hasOvertime =
+        status === "AET" ||
+        hasPenalties ||
+        hasCopaScoreValue(match.home_score_overtime) ||
+        hasCopaScoreValue(match.away_score_overtime);
+
+    const normalHome = hasCopaScoreValue(match.home_score_normaltime)
+        ? match.home_score_normaltime
+        : match.home_score;
+
+    const normalAway = hasCopaScoreValue(match.away_score_normaltime)
+        ? match.away_score_normaltime
+        : match.away_score;
+
+    const phases = [
+        {
+            key: "normal",
+            label: "Tempo regulamentar",
+            home: normalHome ?? "-",
+            away: normalAway ?? "-",
+        },
+    ];
+
+    if (hasOvertime) {
+        phases.push({
+            key: "overtime",
+            label: "ProrrogaÃ§Ã£o",
+            home: match.home_score_overtime ?? 0,
+            away: match.away_score_overtime ?? 0,
+        });
+    }
+
+    if (hasPenalties) {
+        phases.push({
+            key: "penalties",
+            label: "PÃªnaltis",
+            home: match.home_penalty_score ?? "-",
+            away: match.away_penalty_score ?? "-",
+        });
+    }
+
+    return phases;
+}
+
+function renderCopaMatchScorePhases(match) {
+    const phases = getCopaMatchScorePhases(match);
+
+    if (!phases.length) {
+        return `
+            <div class="copa-score-phases copa-score-phases-empty">
+                <strong>x</strong>
+            </div>
+        `;
+    }
+
+    return `
+        <div class="copa-score-phases">
+            ${phases
+                .map(
+                    (phase) => `
+                        <div class="copa-score-phase copa-score-phase-${phase.key}">
+                            <span>${phase.label}</span>
+                            <strong>${phase.home} x ${phase.away}</strong>
+                        </div>
+                    `
+                )
+                .join("")}
+        </div>
+    `;
+}
+
+function buildSofascoreOptionLabel(match) {
+    const home = translateCopaTeamName(match.home_team) || "Mandante";
+    const away = translateCopaTeamName(match.away_team) || "Visitante";
+    const status = getSofascoreStatusLabel(
+        match.status_type,
+        match.status
+    );
+
+    if (
+        match.status_type === "finished" ||
+        match.status_type === "inprogress"
+    ) {
+        return `${home} ${match.home_score ?? "-"} x ${match.away_score ?? "-"} ${away} â€” ${status}`;
+    }
+
+    return `${home} x ${away} â€” ${status}`;
 }
 
 function renderSofascoreMatchCard(match) {
@@ -1227,25 +1456,23 @@ function renderSofascoreMatchCard(match) {
 
     card.innerHTML = `
         <div class="sofascore-match-topline">
-            <span>${match.tournament_name || "World Cup 2026"}</span>
+            <span>${translateCopaTournamentName(match.tournament_name)}</span>
             <strong>${statusLabel}</strong>
         </div>
 
         <div class="sofascore-scoreboard">
             <div class="sofascore-team">
                 <span>Mandante</span>
-                <strong>${match.home_team || "-"}</strong>
+                <strong>${translateCopaTeamName(match.home_team) || "-"}</strong>
             </div>
 
-            <div class="sofascore-score">
-                <strong>${homeScore}</strong>
-                <span>x</span>
-                <strong>${awayScore}</strong>
-            </div>
+            <div class="sofascore-score-phases">
+    ${renderCopaMatchScorePhases(match)}
+</div>
 
             <div class="sofascore-team">
                 <span>Visitante</span>
-                <strong>${match.away_team || "-"}</strong>
+                <strong>${translateCopaTeamName(match.away_team) || "-"}</strong>
             </div>
         </div>
 
@@ -1257,7 +1484,7 @@ function renderSofascoreMatchCard(match) {
 
             <div>
                 <span>Rodada</span>
-                <strong>${match.round || match.round_number || "-"}</strong>
+                <strong>${translateCopaRoundName(match.round, match.round_number)}</strong>
             </div>
 
             <div>
@@ -1362,7 +1589,7 @@ async function initSofascoreSection() {
 }
 
 // =======================================================
-// ORGANIZAÇÃO POR ABAS — COPA 2026
+// ORGANIZAÃ‡ÃƒO POR ABAS â€” COPA 2026
 // =======================================================
 
 const copaStageTabs = ["groups", "r32", "r16", "qf", "sf", "final"];
@@ -1376,7 +1603,7 @@ const copaStageLabels = {
     r32: {
         kicker: "Mata-mata",
         title: "16 avos de final",
-        description: "Jogos da primeira fase eliminatória da Copa 2026.",
+        description: "Jogos da primeira fase eliminatÃ³ria da Copa 2026.",
     },
     r16: {
         kicker: "Mata-mata",
@@ -1394,9 +1621,9 @@ const copaStageLabels = {
         description: "Jogos das semifinais.",
     },
     final: {
-        kicker: "Decisão",
+        kicker: "DecisÃ£o",
         title: "Final e disputa de terceiro lugar",
-        description: "Jogos finais da competição.",
+        description: "Jogos finais da competiÃ§Ã£o.",
     },
 };
 
@@ -1654,7 +1881,7 @@ function renderGroupStage(grid) {
                 .map((row, rowIndex) => `
                     <tr>
                         <td>${rowIndex + 1}</td>
-                        <td>${row.team}</td>
+                        <td>${translateCopaTeamName(row.team)}</td>
                         <td>${row.points}</td>
                         <td>${row.played}</td>
                         <td>${row.wins}</td>
@@ -1673,11 +1900,13 @@ function renderGroupStage(grid) {
                 <article class="copa-group-card">
                     <div class="copa-group-header">
                         <span>Grupo ${groupLetter}</span>
-                        <strong>${group.teams.length} seleções</strong>
+                        <strong>${group.teams.length} seleÃ§Ãµes</strong>
                     </div>
 
                     <div class="copa-group-teams">
-                        ${group.teams.map((team) => `<span>${team}</span>`).join("")}
+                        ${group.teams
+    .map((team) => `<span>${translateCopaTeamName(team)}</span>`)
+    .join("")}
                     </div>
 
                     <div class="copa-group-table-wrapper">
@@ -1685,7 +1914,7 @@ function renderGroupStage(grid) {
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Seleção</th>
+                                    <th>SeleÃ§Ã£o</th>
                                     <th>Pts</th>
                                     <th>J</th>
                                     <th>V</th>
@@ -1753,12 +1982,44 @@ function getKnockoutMatchesByTab(tab) {
             }
 
             if (tab === "final") {
-                return round.includes("final") || roundNumber >= 10;
-            }
+    const normalizedRound = round.trim().toLowerCase();
+
+    return (
+        normalizedRound === "final" ||
+        normalizedRound === "match for 3rd place" ||
+        normalizedRound.includes("3rd place") ||
+        normalizedRound.includes("third place")
+    );
+}
 
             return false;
         })
-        .sort((a, b) => (a.start_timestamp || 0) - (b.start_timestamp || 0));
+                .sort((a, b) => {
+            if (tab === "final") {
+                const getFinalOrder = (match) => {
+                    const normalizedRound = String(match.round || "")
+                        .trim()
+                        .toLowerCase();
+
+                    if (
+                        normalizedRound.includes("3rd place") ||
+                        normalizedRound.includes("third place")
+                    ) {
+                        return 0;
+                    }
+
+                    if (normalizedRound === "final") {
+                        return 1;
+                    }
+
+                    return 2;
+                };
+
+                return getFinalOrder(a) - getFinalOrder(b);
+            }
+
+            return (a.start_timestamp || 0) - (b.start_timestamp || 0);
+        });
 }
 
 function renderCompactMatchButton(match) {
@@ -1770,33 +2031,48 @@ function renderCompactMatchButton(match) {
     return `
         <button class="copa-match-button" data-match-id="${match.match_id}">
             <span>${formatSofascoreDate(match.start_datetime_utc)}</span>
-            <strong>${match.home_team || "-"} ${score} ${match.away_team || "-"}</strong>
+            <strong>${translateCopaTeamName(match.home_team) || "-"} ${score} ${translateCopaTeamName(match.away_team) || "-"}</strong>
             <em>${status}</em>
         </button>
     `;
 }
 
 function renderKnockoutMatchCard(match) {
-    const status = getSofascoreStatusLabel(match.status_type, match.status);
-    const score = match.status_type === "finished" || match.status_type === "inprogress"
-        ? `${match.home_score ?? "-"} x ${match.away_score ?? "-"}`
-        : "x";
+    const status = getSofascoreStatusLabel(
+        match.status_type,
+        match.status
+    );
 
     return `
         <article class="copa-knockout-card">
             <div class="copa-knockout-top">
-                <span>${match.round || "Mata-mata"}</span>
+                <span>
+                    ${translateCopaRoundName(
+                        match.round,
+                        match.round_number
+                    )}
+                </span>
+
                 <strong>${status}</strong>
             </div>
 
             <div class="copa-knockout-score">
-                <span>${match.home_team || "-"}</span>
-                <strong>${score}</strong>
-                <span>${match.away_team || "-"}</span>
+                <span>
+                    ${translateCopaTeamName(match.home_team) || "-"}
+                </span>
+
+                ${renderCopaMatchScorePhases(match)}
+
+                <span>
+                    ${translateCopaTeamName(match.away_team) || "-"}
+                </span>
             </div>
 
-            <button class="copa-match-button copa-match-button-full" data-match-id="${match.match_id}">
-                Abrir no seletor da visão geral
+            <button
+                class="copa-match-button copa-match-button-full"
+                data-match-id="${match.match_id}"
+            >
+                Abrir no seletor da visÃ£o geral
             </button>
         </article>
     `;
@@ -1828,7 +2104,7 @@ function bindCompactMatchButtons() {
 }
 
 // =======================================================
-// ANÁLISE DINÂMICA DA PARTIDA SELECIONADA
+// ANÃLISE DINÃ‚MICA DA PARTIDA SELECIONADA
 // =======================================================
 
 async function loadSelectedMatchAnalysis(match) {
@@ -1841,23 +2117,23 @@ async function loadSelectedMatchAnalysis(match) {
     if (!match || !match.match_id) {
         content.innerHTML = `
             <div class="loading-card">
-                Selecione uma partida para iniciar a análise dinâmica.
+                Selecione uma partida para iniciar a anÃ¡lise dinÃ¢mica.
             </div>
         `;
         return;
     }
 
     if (title) {
-        title.textContent = `${match.home_team || "Mandante"} x ${match.away_team || "Visitante"}`;
+        title.textContent = `${translateCopaTeamName(match.home_team) || "Mandante"} x ${translateCopaTeamName(match.away_team) || "Visitante"}`;
     }
 
     if (description) {
-        description.textContent = `Dados dinâmicos carregados pelo SofaScore para a partida ID ${match.match_id}.`;
+        description.textContent = `Dados dinÃ¢micos carregados pelo SofaScore para a partida ID ${match.match_id}.`;
     }
 
     content.innerHTML = `
         <div class="loading-card">
-            Carregando análise da partida selecionada...
+            Carregando anÃ¡lise da partida selecionada...
         </div>
     `;
 
@@ -1877,11 +2153,11 @@ async function loadSelectedMatchAnalysis(match) {
             momentum,
         });
     } catch (error) {
-        console.error("Erro ao carregar análise dinâmica:", error);
+        console.error("Erro ao carregar anÃ¡lise dinÃ¢mica:", error);
 
         content.innerHTML = `
             <div class="loading-card">
-                Não foi possível carregar a análise dinâmica desta partida.
+                NÃ£o foi possÃ­vel carregar a anÃ¡lise dinÃ¢mica desta partida.
             </div>
         `;
     }
@@ -1897,7 +2173,7 @@ async function fetchSofascoreDetail(matchId, detailType) {
 
         return await response.json();
     } catch (error) {
-        console.warn(`Detalhe indisponível: ${detailType}`, error);
+        console.warn(`Detalhe indisponÃ­vel: ${detailType}`, error);
         return null;
     }
 }
@@ -1922,38 +2198,38 @@ function renderSelectedMatchAnalysis(data) {
 function renderDynamicMatchHeader(match) {
     const status = getSofascoreStatusLabel(match.status_type, match.status);
     const date = formatSofascoreDate(match.start_datetime_utc);
-    const score = match.status_type === "finished" || match.status_type === "inprogress"
-        ? `${match.home_score ?? "-"} x ${match.away_score ?? "-"}`
-        : "x";
+
 
     return `
         <div class="dynamic-match-hero">
             <div class="dynamic-match-team">
                 <span>Mandante</span>
-                <strong>${match.home_team || "-"}</strong>
+                <strong>${translateCopaTeamName(match.home_team) || "-"}</strong>
             </div>
 
-            <div class="dynamic-match-score">
-                <span>${status}</span>
-                <strong>${score}</strong>
-                <small>${date}</small>
-            </div>
+            <div class="dynamic-match-score dynamic-match-score-phases">
+    <span>${status}</span>
+
+    ${renderCopaMatchScorePhases(match)}
+
+    <small>${date}</small>
+</div>
 
             <div class="dynamic-match-team">
                 <span>Visitante</span>
-                <strong>${match.away_team || "-"}</strong>
+                <strong>${translateCopaTeamName(match.away_team) || "-"}</strong>
             </div>
         </div>
 
         <div class="dynamic-match-meta-grid">
             <div>
-                <span>Competição</span>
-                <strong>${match.tournament_name || "World Cup 2026"}</strong>
+                <span>CompetiÃ§Ã£o</span>
+                <strong>${translateCopaTournamentName(match.tournament_name)}</strong>
             </div>
 
             <div>
                 <span>Rodada/Fase</span>
-                <strong>${match.round || match.round_number || "-"}</strong>
+                <strong>${translateCopaRoundName(match.round, match.round_number)}</strong>
             </div>
 
             <div>
@@ -1972,15 +2248,15 @@ function renderDynamicMatchHeader(match) {
 function renderDynamicDataAvailability(statistics, lineups, shotmap, momentum) {
     const items = [
         {
-            label: "Estatísticas",
+            label: "EstatÃ­sticas",
             available: hasUsefulData(statistics),
         },
         {
-            label: "Escalações",
+            label: "EscalaÃ§Ãµes",
             available: hasUsefulData(lineups),
         },
         {
-            label: "Finalizações",
+            label: "FinalizaÃ§Ãµes",
             available: hasUsefulData(shotmap),
         },
         {
@@ -1995,7 +2271,7 @@ function renderDynamicDataAvailability(statistics, lineups, shotmap, momentum) {
                 .map((item) => `
                     <div class="dynamic-availability-card ${item.available ? "is-available" : "is-missing"}">
                         <span>${item.label}</span>
-                        <strong>${item.available ? "Disponível" : "Indisponível"}</strong>
+                        <strong>${item.available ? "DisponÃ­vel" : "IndisponÃ­vel"}</strong>
                     </div>
                 `)
                 .join("")}
@@ -2020,15 +2296,15 @@ function renderDynamicStatsSection(statistics) {
 
     if (!rows.length) {
         return renderDynamicEmptySection(
-            "Estatísticas principais",
-            "Nenhuma estatística disponível para esta partida."
+            "EstatÃ­sticas principais",
+            "Nenhuma estatÃ­stica disponÃ­vel para esta partida."
         );
     }
 
     return `
         <div class="dynamic-analysis-section">
             <div class="dynamic-section-title">
-                <span>Estatísticas</span>
+                <span>EstatÃ­sticas</span>
                 <h3>Comparativo principal</h3>
             </div>
 
@@ -2104,8 +2380,8 @@ function renderDynamicShotmapSection(shotmap, match) {
 
     if (!shots.length) {
         return renderDynamicEmptySection(
-            "Finalizações",
-            "Nenhum dado de finalização disponível para esta partida."
+            "FinalizaÃ§Ãµes",
+            "Nenhum dado de finalizaÃ§Ã£o disponÃ­vel para esta partida."
         );
     }
 
@@ -2134,7 +2410,7 @@ function renderDynamicShotmapSection(shotmap, match) {
     return `
         <div class="dynamic-analysis-section">
             <div class="dynamic-section-title">
-                <span>Finalizações</span>
+                <span>FinalizaÃ§Ãµes</span>
                 <h3>Mapa e resumo dos chutes</h3>
             </div>
 
@@ -2256,7 +2532,7 @@ function renderShotDot(shot, match) {
     const left = coords.y;
     const top = 100 - coords.x;
 
-    const title = `${String(player)} · ${String(minute)}' · ${
+    const title = `${String(player)} Â· ${String(minute)}' Â· ${
         xg !== null ? `xG ${Number(xg).toFixed(2)}` : "xG -"
     }`;
 
@@ -2271,7 +2547,7 @@ function renderShotDot(shot, match) {
 }
 
 function renderShotListItem(shot) {
-    const player = shot.player?.name || shot.playerName || shot.player?.shortName || "Jogador não identificado";
+    const player = shot.player?.name || shot.playerName || shot.player?.shortName || "Jogador nÃ£o identificado";
     const minute = shot.time || shot.minute || shot.addedTime || "-";
     const shotType = shot.shotType || shot.type || shot.situation || shot.goalType || "-";
     const xg = shot.xg ?? shot.expectedGoals ?? shot.xG ?? null;
@@ -2279,7 +2555,7 @@ function renderShotListItem(shot) {
     return `
         <div class="dynamic-shot-item">
             <strong>${String(player)}</strong>
-            <span>Minuto ${String(minute)} · ${String(shotType)}</span>
+            <span>Minuto ${String(minute)} Â· ${String(shotType)}</span>
             <em>${xg !== null ? `xG ${Number(xg).toFixed(2)}` : "xG -"}</em>
         </div>
     `;
@@ -2290,15 +2566,15 @@ function renderDynamicLineupsSection(lineups, match) {
 
     if (!extracted.home.length && !extracted.away.length) {
         return renderDynamicEmptySection(
-            "Escalações",
-            "Nenhuma escalação disponível para esta partida."
+            "EscalaÃ§Ãµes",
+            "Nenhuma escalaÃ§Ã£o disponÃ­vel para esta partida."
         );
     }
 
     return `
         <div class="dynamic-analysis-section">
             <div class="dynamic-section-title">
-                <span>Escalações</span>
+                <span>EscalaÃ§Ãµes</span>
                 <h3>Titulares e reservas relacionados</h3>
             </div>
 
@@ -2367,7 +2643,7 @@ function renderDynamicTeamLineupCard(teamName, players) {
 
 function renderDynamicPlayersList(players) {
     if (!players.length) {
-        return `<div class="dynamic-empty-small">Sem jogadores disponíveis.</div>`;
+        return `<div class="dynamic-empty-small">Sem jogadores disponÃ­veis.</div>`;
     }
 
     return `
@@ -2439,19 +2715,19 @@ function renderDynamicMomentumSection(momentum, match, shotmap = null) {
 
             <div class="dynamic-match-timeline-header">
                 <div>
-                    <strong>${match?.home_team || "Mandante"}</strong>
-                    <span>Pressão ofensiva positiva</span>
+                    <strong>${translateCopaTeamName(match?.home_team) || "Mandante"}</strong>
+                    <span>PressÃ£o ofensiva positiva</span>
                 </div>
 
                 <div>
-                    <strong>${match?.away_team || "Visitante"}</strong>
-                    <span>Pressão ofensiva negativa</span>
+                    <strong>${translateCopaTeamName(match?.away_team) || "Visitante"}</strong>
+                    <span>PressÃ£o ofensiva negativa</span>
                 </div>
             </div>
 
             <div class="dynamic-momentum-chart">
                 <div class="dynamic-momentum-team-label home">
-                    ${match?.home_team || "Mandante"}
+                    ${translateCopaTeamName(match?.home_team) || "Mandante"}
                 </div>
 
                 <div class="dynamic-momentum-bars">
@@ -2461,7 +2737,7 @@ function renderDynamicMomentumSection(momentum, match, shotmap = null) {
                             const isHome = item.value >= 0;
 
                             return `
-                                <div class="dynamic-momentum-column" title="${item.minute}' · ${item.value}">
+                                <div class="dynamic-momentum-column" title="${item.minute}' Â· ${item.value}">
                                     <div
                                         class="dynamic-momentum-column-bar ${isHome ? "home" : "away"}"
                                         style="
@@ -2488,7 +2764,7 @@ function renderDynamicMomentumSection(momentum, match, shotmap = null) {
                 </div>
 
                 <div class="dynamic-momentum-team-label away">
-                    ${match?.away_team || "Visitante"}
+                    ${translateCopaTeamName(match?.away_team) || "Visitante"}
                 </div>
             </div>
         </div>
@@ -2516,24 +2792,24 @@ function renderShotBasedMomentumTimeline(match, shotmap) {
         <div class="dynamic-analysis-section">
             <div class="dynamic-section-title">
                 <span>Momentum estimado</span>
-                <h3>Pressão ofensiva por finalizações</h3>
+                <h3>PressÃ£o ofensiva por finalizaÃ§Ãµes</h3>
             </div>
 
             <div class="dynamic-match-timeline-header">
                 <div>
-                    <strong>${match?.home_team || "Mandante"}</strong>
-                    <span>Volume e qualidade das finalizações</span>
+                    <strong>${translateCopaTeamName(match?.home_team) || "Mandante"}</strong>
+                    <span>Volume e qualidade das finalizaÃ§Ãµes</span>
                 </div>
 
                 <div>
-                    <strong>${match?.away_team || "Visitante"}</strong>
-                    <span>Volume e qualidade das finalizações</span>
+                    <strong>${translateCopaTeamName(match?.away_team) || "Visitante"}</strong>
+                    <span>Volume e qualidade das finalizaÃ§Ãµes</span>
                 </div>
             </div>
 
             <div class="dynamic-momentum-chart">
                 <div class="dynamic-momentum-team-label home">
-                    ${match?.home_team || "Mandante"}
+                    ${translateCopaTeamName(match?.home_team) || "Mandante"}
                 </div>
 
                 <div class="dynamic-momentum-bars">
@@ -2545,7 +2821,7 @@ function renderShotBasedMomentumTimeline(match, shotmap) {
                             return `
                                 <div
                                     class="dynamic-momentum-column"
-                                    title="${item.label} · ${item.value.toFixed(2)}"
+                                    title="${item.label} Â· ${item.value.toFixed(2)}"
                                 >
                                     <div
                                         class="dynamic-momentum-column-bar ${isHome ? "home" : "away"}"
@@ -2573,13 +2849,13 @@ function renderShotBasedMomentumTimeline(match, shotmap) {
                 </div>
 
                 <div class="dynamic-momentum-team-label away">
-                    ${match?.away_team || "Visitante"}
+                    ${translateCopaTeamName(match?.away_team) || "Visitante"}
                 </div>
             </div>
 
             <p class="dynamic-momentum-note">
-                O SofaScore não disponibilizou o gráfico de momentum real para esta partida.
-                Este painel usa as finalizações, minutos e xG para estimar os períodos de maior pressão ofensiva.
+                O SofaScore nÃ£o disponibilizou o grÃ¡fico de momentum real para esta partida.
+                Este painel usa as finalizaÃ§Ãµes, minutos e xG para estimar os perÃ­odos de maior pressÃ£o ofensiva.
             </p>
         </div>
     `;
@@ -2623,17 +2899,17 @@ function renderFallbackMatchTimeline(match) {
     const timelinePoints = [
         {
             minute: "0'",
-            label: "Início",
+            label: "InÃ­cio",
             active: isFinished || !isNotStarted,
         },
         {
             minute: "15'",
-            label: "1º tempo",
+            label: "1Âº tempo",
             active: isFinished || !isNotStarted,
         },
         {
             minute: "30'",
-            label: "Construção",
+            label: "ConstruÃ§Ã£o",
             active: isFinished || !isNotStarted,
         },
         {
@@ -2643,7 +2919,7 @@ function renderFallbackMatchTimeline(match) {
         },
         {
             minute: "60'",
-            label: "2º tempo",
+            label: "2Âº tempo",
             active: isFinished || !isNotStarted,
         },
         {
@@ -2668,7 +2944,7 @@ function renderFallbackMatchTimeline(match) {
             <div class="dynamic-fallback-timeline-card">
                 <div class="dynamic-fallback-timeline-top">
                     <div>
-                        <strong>${match?.home_team || "Mandante"} x ${match?.away_team || "Visitante"}</strong>
+                        <strong>${translateCopaTeamName(match?.home_team) || "Mandante"} x ${translateCopaTeamName(match?.away_team) || "Visitante"}</strong>
                         <span>${status}</span>
                     </div>
 
@@ -2691,8 +2967,8 @@ function renderFallbackMatchTimeline(match) {
                 <p>
                     ${
                         isNotStarted
-                            ? "Quando a partida começar e o SofaScore liberar os dados de pressão/momentum, este bloco será substituído automaticamente pelo gráfico real da partida."
-                            : "Esta partida não possui gráfico de momentum disponível no arquivo atual, então o dashboard mantém uma linha do tempo estrutural para preservar a leitura da análise."
+                            ? "Quando a partida comeÃ§ar e o SofaScore liberar os dados de pressÃ£o/momentum, este bloco serÃ¡ substituÃ­do automaticamente pelo grÃ¡fico real da partida."
+                            : "Esta partida nÃ£o possui grÃ¡fico de momentum disponÃ­vel no arquivo atual, entÃ£o o dashboard mantÃ©m uma linha do tempo estrutural para preservar a leitura da anÃ¡lise."
                     }
                 </p>
             </div>
@@ -2716,7 +2992,7 @@ function renderDynamicEmptySection(title, message) {
         <div class="dynamic-analysis-section dynamic-analysis-empty">
             <div class="dynamic-section-title">
                 <span>${title}</span>
-                <h3>Dados indisponíveis</h3>
+                <h3>Dados indisponÃ­veis</h3>
             </div>
 
             <p>${message}</p>
@@ -2725,7 +3001,7 @@ function renderDynamicEmptySection(title, message) {
 }
 
 // =======================================================
-// SELETOR PREMIUM DE PARTIDAS — AGS MATCH PICKER
+// SELETOR PREMIUM DE PARTIDAS â€” AGS MATCH PICKER
 // =======================================================
 
 function renderAgsMatchPicker(matches, selectedMatch) {
@@ -2754,12 +3030,16 @@ function renderAgsMatchPicker(matches, selectedMatch) {
                     data-match-id="${match.match_id}"
                 >
                     <div class="ags-picker-option-main">
-                        <strong>${match.home_team || "-"} ${score} ${match.away_team || "-"}</strong>
+                        <strong>
+    ${translateCopaTeamName(match.home_team) || "-"}
+    ${score}
+    ${translateCopaTeamName(match.away_team) || "-"}
+</strong>
                         <span>${date}</span>
                     </div>
 
                     <div class="ags-picker-option-meta">
-                        <span>${match.round || `Rodada ${match.round_number || "-"}`}</span>
+                        <span>${translateCopaRoundName(match.round, match.round_number)}</span>
                         <em>${status}</em>
                     </div>
                 </button>
@@ -2822,12 +3102,12 @@ function updateAgsMatchPickerLabel(match) {
     }
 
     if (strong) {
-        strong.textContent = `${match.home_team || "-"} ${score} ${match.away_team || "-"}`;
+        strong.textContent = `${translateCopaTeamName(match.home_team) || "-"} ${score} ${translateCopaTeamName(match.away_team) || "-"}`;
     }
 }
 
 // =======================================================
-// INICIALIZAÇÃO
+// INICIALIZAÃ‡ÃƒO
 // =======================================================
 
 document.addEventListener("DOMContentLoaded", () => {

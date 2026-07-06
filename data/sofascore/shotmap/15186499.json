@@ -9,7 +9,7 @@
         "shortName": "D. Lukebakio",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 5851,
+        "userCount": 6260,
         "gender": "M",
         "sofascoreId": "DLukebakio",
         "id": 823631,
@@ -52,8 +52,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -102,8 +103,9 @@
         "shortName": "M. Fernández-Pardo",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 3351,
+        "userCount": 3457,
         "gender": "M",
+        "sofascoreId": "5f98s7",
         "id": 1149144,
         "fieldTranslations": {
           "nameTranslation": {
@@ -140,8 +142,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -190,8 +193,9 @@
         "shortName": "B. Mechele",
         "position": "D",
         "jerseyNumber": "44",
-        "userCount": 1211,
+        "userCount": 1492,
         "gender": "M",
+        "sofascoreId": "vfq7gs",
         "id": 248331,
         "fieldTranslations": {
           "nameTranslation": {
@@ -232,8 +236,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -282,8 +287,9 @@
         "shortName": "A. Hosseinzadeh",
         "position": "F",
         "jerseyNumber": "99",
-        "userCount": 963,
+        "userCount": 968,
         "gender": "M",
+        "sofascoreId": "88z36w",
         "id": 905472,
         "fieldTranslations": {
           "nameTranslation": {
@@ -328,7 +334,7 @@
         "shortName": "T. Courtois",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 258722,
+        "userCount": 259414,
         "gender": "M",
         "sofascoreId": "TheOctopus",
         "id": 70988,
@@ -380,8 +386,9 @@
         "shortName": "M. De Cuyper",
         "position": "D",
         "jerseyNumber": "29",
-        "userCount": 5087,
+        "userCount": 5483,
         "gender": "M",
+        "sofascoreId": "8jrf43",
         "id": 997152,
         "fieldTranslations": {
           "nameTranslation": {
@@ -427,8 +434,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -480,8 +488,9 @@
         "shortName": "H. Vanaken",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 3263,
+        "userCount": 3588,
         "gender": "M",
+        "sofascoreId": "zp5x9d",
         "id": 118085,
         "fieldTranslations": {
           "nameTranslation": {
@@ -522,8 +531,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -571,7 +581,7 @@
         "shortName": "Y. Tielemans",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 11580,
+        "userCount": 12530,
         "gender": "M",
         "sofascoreId": "youritielemans",
         "id": 331737,
@@ -619,8 +629,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -672,8 +683,9 @@
         "shortName": "S. Ezatolahi",
         "position": "M",
         "jerseyNumber": "6",
-        "userCount": 1391,
+        "userCount": 1390,
         "gender": "M",
+        "sofascoreId": "fipzeb",
         "id": 359334,
         "fieldTranslations": {
           "nameTranslation": {
@@ -718,7 +730,7 @@
         "shortName": "T. Courtois",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 258722,
+        "userCount": 259414,
         "gender": "M",
         "sofascoreId": "TheOctopus",
         "id": 70988,
@@ -772,8 +784,9 @@
         "shortName": "S. Khalilzadeh",
         "position": "D",
         "jerseyNumber": "3",
-        "userCount": 683,
+        "userCount": 689,
         "gender": "M",
+        "sofascoreId": "e3f5b8",
         "id": 223340,
         "fieldTranslations": {
           "nameTranslation": {
@@ -813,7 +826,7 @@
         "shortName": "T. Courtois",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 258722,
+        "userCount": 259414,
         "gender": "M",
         "sofascoreId": "TheOctopus",
         "id": 70988,
@@ -863,8 +876,9 @@
         "shortName": "H. Vanaken",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 3263,
+        "userCount": 3588,
         "gender": "M",
+        "sofascoreId": "zp5x9d",
         "id": 118085,
         "fieldTranslations": {
           "nameTranslation": {
@@ -905,8 +919,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -954,7 +969,7 @@
         "shortName": "D. Lukebakio",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 5851,
+        "userCount": 6260,
         "gender": "M",
         "sofascoreId": "DLukebakio",
         "id": 823631,
@@ -1002,8 +1017,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1053,8 +1069,9 @@
         "shortName": "M. De Cuyper",
         "position": "D",
         "jerseyNumber": "29",
-        "userCount": 5087,
+        "userCount": 5483,
         "gender": "M",
+        "sofascoreId": "8jrf43",
         "id": 997152,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1100,8 +1117,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1153,7 +1171,7 @@
         "shortName": "M. Taremi",
         "position": "F",
         "jerseyNumber": "99",
-        "userCount": 22665,
+        "userCount": 23032,
         "gender": "M",
         "sofascoreId": "mehditaremi9",
         "id": 812533,
@@ -1200,7 +1218,7 @@
         "shortName": "T. Courtois",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 258722,
+        "userCount": 259414,
         "gender": "M",
         "sofascoreId": "TheOctopus",
         "id": 70988,
@@ -1252,8 +1270,9 @@
         "shortName": "M. De Cuyper",
         "position": "D",
         "jerseyNumber": "29",
-        "userCount": 5087,
+        "userCount": 5483,
         "gender": "M",
+        "sofascoreId": "8jrf43",
         "id": 997152,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1299,8 +1318,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1352,7 +1372,7 @@
         "shortName": "A. Saelemaekers",
         "position": "M",
         "jerseyNumber": "56",
-        "userCount": 8724,
+        "userCount": 8808,
         "gender": "M",
         "sofascoreId": "AS56",
         "id": 901891,
@@ -1395,8 +1415,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1442,7 +1463,7 @@
         "shortName": "K. De Bruyne",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 327154,
+        "userCount": 328700,
         "gender": "M",
         "sofascoreId": "KDB",
         "id": 70996,
@@ -1490,8 +1511,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1542,7 +1564,7 @@
         "slug": "alireza-jahanbakhsh",
         "shortName": "A. Jahanbakhsh",
         "position": "F",
-        "userCount": 4016,
+        "userCount": 4026,
         "gender": "M",
         "sofascoreId": "alirezajb",
         "id": 331837,
@@ -1584,7 +1606,7 @@
         "shortName": "T. Courtois",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 258722,
+        "userCount": 259414,
         "gender": "M",
         "sofascoreId": "TheOctopus",
         "id": 70988,
@@ -1632,7 +1654,7 @@
         "shortName": "K. De Bruyne",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 327154,
+        "userCount": 328700,
         "gender": "M",
         "sofascoreId": "KDB",
         "id": 70996,
@@ -1680,8 +1702,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1734,7 +1757,7 @@
         "shortName": "A. Saelemaekers",
         "position": "M",
         "jerseyNumber": "56",
-        "userCount": 8724,
+        "userCount": 8808,
         "gender": "M",
         "sofascoreId": "AS56",
         "id": 901891,
@@ -1782,8 +1805,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1833,8 +1857,9 @@
         "shortName": "M. De Cuyper",
         "position": "D",
         "jerseyNumber": "29",
-        "userCount": 5087,
+        "userCount": 5483,
         "gender": "M",
+        "sofascoreId": "8jrf43",
         "id": 997152,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1880,8 +1905,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1931,7 +1957,7 @@
         "shortName": "K. De Bruyne",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 327154,
+        "userCount": 328700,
         "gender": "M",
         "sofascoreId": "KDB",
         "id": 70996,
@@ -1979,8 +2005,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2032,8 +2059,9 @@
         "shortName": "N. Ngoy",
         "position": "D",
         "jerseyNumber": "3",
-        "userCount": 3168,
+        "userCount": 3229,
         "gender": "M",
+        "sofascoreId": "hijzyt",
         "id": 1119487,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2070,8 +2098,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2119,7 +2148,7 @@
         "shortName": "Y. Tielemans",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 11580,
+        "userCount": 12530,
         "gender": "M",
         "sofascoreId": "youritielemans",
         "id": 331737,
@@ -2167,8 +2196,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2220,7 +2250,7 @@
         "shortName": "L. Trossard",
         "position": "F",
         "jerseyNumber": "19",
-        "userCount": 35959,
+        "userCount": 36699,
         "gender": "M",
         "sofascoreId": "leandrotrossard",
         "id": 135666,
@@ -2268,8 +2298,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2321,8 +2352,9 @@
         "shortName": "S. Ezatolahi",
         "position": "M",
         "jerseyNumber": "6",
-        "userCount": 1391,
+        "userCount": 1390,
         "gender": "M",
+        "sofascoreId": "fipzeb",
         "id": 359334,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2362,7 +2394,7 @@
         "shortName": "T. Courtois",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 258722,
+        "userCount": 259414,
         "gender": "M",
         "sofascoreId": "TheOctopus",
         "id": 70988,
@@ -2412,8 +2444,9 @@
         "shortName": "H. Kanaani",
         "position": "D",
         "jerseyNumber": "6",
-        "userCount": 731,
+        "userCount": 730,
         "gender": "M",
+        "sofascoreId": "5nataz",
         "id": 812952,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2458,7 +2491,7 @@
         "shortName": "T. Courtois",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 258722,
+        "userCount": 259414,
         "gender": "M",
         "sofascoreId": "TheOctopus",
         "id": 70988,
@@ -2510,7 +2543,7 @@
         "shortName": "R. Lukaku",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 59852,
+        "userCount": 60456,
         "gender": "M",
         "sofascoreId": "RLukaku",
         "id": 78893,
@@ -2558,8 +2591,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2609,8 +2643,9 @@
         "shortName": "M. De Cuyper",
         "position": "D",
         "jerseyNumber": "29",
-        "userCount": 5087,
+        "userCount": 5483,
         "gender": "M",
+        "sofascoreId": "8jrf43",
         "id": 997152,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2656,8 +2691,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2707,7 +2743,7 @@
         "shortName": "K. De Bruyne",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 327154,
+        "userCount": 328700,
         "gender": "M",
         "sofascoreId": "KDB",
         "id": 70996,
@@ -2755,8 +2791,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2806,7 +2843,7 @@
         "shortName": "K. De Bruyne",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 327154,
+        "userCount": 328700,
         "gender": "M",
         "sofascoreId": "KDB",
         "id": 70996,
@@ -2849,8 +2886,9 @@
         "slug": "alireza-beiranvand",
         "shortName": "A. Beiranvand",
         "position": "G",
-        "userCount": 3222,
+        "userCount": 3238,
         "gender": "M",
+        "sofascoreId": "wg7quk",
         "id": 791374,
         "fieldTranslations": {
           "nameTranslation": {

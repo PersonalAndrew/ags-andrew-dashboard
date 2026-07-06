@@ -3153,3 +3153,139 @@ a {
     line-height: 1.55;
     text-align: center;
 }
+/* ======================================================
+   PLACAR POR ETAPAS — COPA 2026
+   ====================================================== */
+
+.copa-score-phases {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+
+.copa-score-phase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 105px;
+    padding: 9px 12px;
+    border: 1px solid rgba(212, 175, 55, 0.22);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.025);
+    text-align: center;
+}
+
+.copa-score-phase span {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 0.66rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.58);
+    text-align: center;
+}
+
+.copa-score-phase strong {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+}
+
+.copa-score-phase-penalties {
+    border-color: rgba(212, 175, 55, 0.48);
+    background: rgba(212, 175, 55, 0.08);
+}
+
+.copa-score-phase-penalties strong {
+    color: #d4af37;
+}
+
+.copa-score-phases-empty {
+    min-height: 42px;
+}
+
+@media (max-width: 768px) {
+    .copa-score-phases {
+        gap: 8px;
+    }
+
+    .copa-score-phase {
+        min-width: 88px;
+        padding: 8px 9px;
+    }
+
+    .copa-score-phase span {
+        font-size: 0.58rem;
+    }
+
+    .copa-score-phase strong {
+        font-size: 0.92rem;
+    }
+}
+/* ======================================================
+   PLACAR POR ETAPAS — VISÃO GERAL
+   ====================================================== */
+
+.sofascore-score-phases {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 180px;
+    text-align: center;
+}
+
+.sofascore-score-phases .copa-score-phases {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.sofascore-score-phases .copa-score-phase {
+    width: 100%;
+    min-width: 150px;
+}
+
+.dynamic-match-score-phases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.dynamic-match-score-phases .copa-score-phases {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.dynamic-match-score-phases .copa-score-phase {
+    width: 100%;
+    min-width: 150px;
+}
+
+@media (max-width: 768px) {
+    .sofascore-score-phases {
+        min-width: 140px;
+    }
+
+    .sofascore-score-phases .copa-score-phase,
+    .dynamic-match-score-phases .copa-score-phase {
+        min-width: 125px;
+    }
+}

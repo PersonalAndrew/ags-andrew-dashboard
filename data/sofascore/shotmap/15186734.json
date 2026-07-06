@@ -9,8 +9,9 @@
         "shortName": "M. Senesi",
         "position": "D",
         "jerseyNumber": "5",
-        "userCount": 8821,
+        "userCount": 9084,
         "gender": "M",
+        "sofascoreId": "j88fpr",
         "id": 830659,
         "fieldTranslations": {
           "nameTranslation": {
@@ -52,8 +53,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -101,8 +103,9 @@
         "shortName": "J. López",
         "position": "F",
         "jerseyNumber": "42",
-        "userCount": 25936,
+        "userCount": 26174,
         "gender": "M",
+        "sofascoreId": "jvnha3",
         "id": 1094179,
         "fieldTranslations": {
           "nameTranslation": {
@@ -149,8 +152,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -200,7 +204,7 @@
         "shortName": "T. Almada",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 31803,
+        "userCount": 32157,
         "gender": "M",
         "sofascoreId": "thiago_almada23",
         "id": 944660,
@@ -244,8 +248,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -291,7 +296,7 @@
         "shortName": "L. Messi",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 2675901,
+        "userCount": 2734575,
         "gender": "M",
         "sofascoreId": "LM10",
         "id": 12994,
@@ -336,8 +341,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -383,7 +389,7 @@
         "shortName": "L. Messi",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 2675901,
+        "userCount": 2734575,
         "gender": "M",
         "sofascoreId": "LM10",
         "id": 12994,
@@ -427,8 +433,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -476,7 +483,7 @@
         "shortName": "N. Paz",
         "position": "M",
         "jerseyNumber": "10",
-        "userCount": 119606,
+        "userCount": 120127,
         "gender": "M",
         "sofascoreId": "nicopaz1o",
         "id": 1171451,
@@ -520,8 +527,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -567,8 +575,9 @@
         "shortName": "M. Tamari",
         "position": "F",
         "jerseyNumber": "11",
-        "userCount": 7662,
+        "userCount": 7715,
         "gender": "M",
+        "sofascoreId": "5tc7cz",
         "id": 876600,
         "fieldTranslations": {
           "nameTranslation": {
@@ -609,7 +618,7 @@
         "shortName": "E. Martínez",
         "position": "G",
         "jerseyNumber": "23",
-        "userCount": 68354,
+        "userCount": 69148,
         "gender": "M",
         "sofascoreId": "EmiMartínez",
         "id": 158263,
@@ -659,7 +668,7 @@
         "shortName": "L. Martínez",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 133248,
+        "userCount": 134339,
         "gender": "M",
         "sofascoreId": "LautaroM",
         "id": 823984,
@@ -703,8 +712,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -750,8 +760,9 @@
         "shortName": "M. Tamari",
         "position": "F",
         "jerseyNumber": "11",
-        "userCount": 7662,
+        "userCount": 7715,
         "gender": "M",
+        "sofascoreId": "5tc7cz",
         "id": 876600,
         "fieldTranslations": {
           "nameTranslation": {
@@ -791,7 +802,7 @@
         "shortName": "E. Martínez",
         "position": "G",
         "jerseyNumber": "23",
-        "userCount": 68354,
+        "userCount": 69148,
         "gender": "M",
         "sofascoreId": "EmiMartínez",
         "id": 158263,
@@ -839,7 +850,7 @@
         "shortName": "J. Álvarez",
         "position": "F",
         "jerseyNumber": "19",
-        "userCount": 272164,
+        "userCount": 274353,
         "gender": "M",
         "sofascoreId": "LaAraña",
         "id": 944656,
@@ -888,8 +899,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -941,8 +953,9 @@
         "shortName": "A. Al-Azaizeh",
         "position": "M",
         "jerseyNumber": "99",
-        "userCount": 788,
+        "userCount": 792,
         "gender": "M",
+        "sofascoreId": "wr7833",
         "id": 1457997,
         "fieldTranslations": {
           "nameTranslation": {
@@ -978,7 +991,7 @@
         "shortName": "E. Martínez",
         "position": "G",
         "jerseyNumber": "23",
-        "userCount": 68354,
+        "userCount": 69148,
         "gender": "M",
         "sofascoreId": "EmiMartínez",
         "id": 158263,
@@ -1028,8 +1041,9 @@
         "shortName": "M. A. Taha",
         "position": "M",
         "jerseyNumber": "14",
-        "userCount": 777,
+        "userCount": 782,
         "gender": "M",
+        "sofascoreId": "xzp65c",
         "id": 1114775,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1074,7 +1088,7 @@
         "shortName": "E. Martínez",
         "position": "G",
         "jerseyNumber": "23",
-        "userCount": 68354,
+        "userCount": 69148,
         "gender": "M",
         "sofascoreId": "EmiMartínez",
         "id": 158263,
@@ -1127,8 +1141,9 @@
         "shortName": "O. A. Fakhouri",
         "position": "F",
         "jerseyNumber": "25",
-        "userCount": 2033,
+        "userCount": 2032,
         "gender": "M",
+        "sofascoreId": "b4979d",
         "id": 1937497,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1169,7 +1184,7 @@
         "shortName": "E. Martínez",
         "position": "G",
         "jerseyNumber": "23",
-        "userCount": 68354,
+        "userCount": 69148,
         "gender": "M",
         "sofascoreId": "EmiMartínez",
         "id": 158263,
@@ -1223,7 +1238,7 @@
         "shortName": "L. Martínez",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 133248,
+        "userCount": 134339,
         "gender": "M",
         "sofascoreId": "LautaroM",
         "id": 823984,
@@ -1268,8 +1283,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1317,7 +1333,7 @@
         "shortName": "L. Martínez",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 133248,
+        "userCount": 134339,
         "gender": "M",
         "sofascoreId": "LautaroM",
         "id": 823984,
@@ -1361,8 +1377,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1408,7 +1425,7 @@
         "shortName": "G. Lo Celso",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 18419,
+        "userCount": 19218,
         "gender": "M",
         "sofascoreId": "locelso_giovani",
         "id": 798835,
@@ -1453,8 +1470,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1500,7 +1518,7 @@
         "shortName": "N. Otamendi",
         "position": "D",
         "jerseyNumber": "30",
-        "userCount": 21606,
+        "userCount": 21789,
         "gender": "M",
         "sofascoreId": "Notamendi30",
         "id": 74915,
@@ -1544,8 +1562,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {

@@ -9,7 +9,7 @@
         "shortName": "F. Trincão",
         "position": "M",
         "jerseyNumber": "17",
-        "userCount": 14987,
+        "userCount": 15161,
         "gender": "M",
         "sofascoreId": "trincao",
         "id": 830431,
@@ -51,8 +51,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -101,7 +102,7 @@
         "shortName": "R. Leão",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 81665,
+        "userCount": 82436,
         "gender": "M",
         "sofascoreId": "RLeão",
         "id": 851284,
@@ -144,8 +145,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -193,7 +195,7 @@
         "shortName": "B. Fernandes",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 337313,
+        "userCount": 339718,
         "gender": "M",
         "sofascoreId": "BrunoFernandes",
         "id": 288205,
@@ -240,8 +242,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -293,8 +296,9 @@
         "shortName": "E. Shomurodov",
         "position": "F",
         "jerseyNumber": "14",
-        "userCount": 43126,
+        "userCount": 43370,
         "gender": "M",
+        "sofascoreId": "i6bzqe",
         "id": 791355,
         "fieldTranslations": {
           "nameTranslation": {
@@ -332,7 +336,7 @@
         "shortName": "D. Costa",
         "position": "G",
         "jerseyNumber": "99",
-        "userCount": 16123,
+        "userCount": 16547,
         "gender": "M",
         "sofascoreId": "diogomcosta99",
         "id": 843115,
@@ -380,7 +384,7 @@
         "shortName": "C. Ronaldo",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 2972681,
+        "userCount": 3012792,
         "gender": "M",
         "sofascoreId": "CR7",
         "id": 750,
@@ -427,8 +431,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -478,7 +483,7 @@
         "shortName": "C. Ronaldo",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 2972681,
+        "userCount": 3012792,
         "gender": "M",
         "sofascoreId": "CR7",
         "id": 750,
@@ -525,8 +530,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -576,8 +582,9 @@
         "shortName": "A. Ganiev",
         "position": "M",
         "jerseyNumber": "6",
-        "userCount": 1302,
+        "userCount": 1321,
         "gender": "M",
+        "sofascoreId": "gypw3i",
         "id": 793857,
         "fieldTranslations": {
           "nameTranslation": {
@@ -624,7 +631,7 @@
         "shortName": "D. Costa",
         "position": "G",
         "jerseyNumber": "99",
-        "userCount": 16123,
+        "userCount": 16547,
         "gender": "M",
         "sofascoreId": "diogomcosta99",
         "id": 843115,
@@ -676,8 +683,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -716,8 +724,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -765,7 +774,7 @@
         "shortName": "J. Félix",
         "position": "F",
         "jerseyNumber": "79",
-        "userCount": 139658,
+        "userCount": 140320,
         "gender": "M",
         "sofascoreId": "JFélix",
         "id": 851671,
@@ -812,8 +821,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -863,7 +873,7 @@
         "shortName": "C. Ronaldo",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 2972681,
+        "userCount": 3012792,
         "gender": "M",
         "sofascoreId": "CR7",
         "id": 750,
@@ -910,8 +920,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -960,8 +971,9 @@
         "slug": "otabek-shukurov",
         "shortName": "O. Shukurov",
         "position": "M",
-        "userCount": 3582,
+        "userCount": 3566,
         "gender": "M",
+        "sofascoreId": "cnetwg",
         "id": 358890,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1008,7 +1020,7 @@
         "shortName": "D. Costa",
         "position": "G",
         "jerseyNumber": "99",
-        "userCount": 16123,
+        "userCount": 16547,
         "gender": "M",
         "sofascoreId": "diogomcosta99",
         "id": 843115,
@@ -1062,7 +1074,7 @@
         "shortName": "A. Fayzullaev",
         "position": "M",
         "jerseyNumber": "11",
-        "userCount": 38708,
+        "userCount": 39021,
         "gender": "M",
         "sofascoreId": "abbos",
         "id": 1118429,
@@ -1111,7 +1123,7 @@
         "shortName": "D. Costa",
         "position": "G",
         "jerseyNumber": "99",
-        "userCount": 16123,
+        "userCount": 16547,
         "gender": "M",
         "sofascoreId": "diogomcosta99",
         "id": 843115,
@@ -1165,7 +1177,7 @@
         "shortName": "J. Félix",
         "position": "F",
         "jerseyNumber": "79",
-        "userCount": 139658,
+        "userCount": 140320,
         "gender": "M",
         "sofascoreId": "JFélix",
         "id": 851671,
@@ -1207,8 +1219,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1254,7 +1267,7 @@
         "shortName": "C. Ronaldo",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 2972681,
+        "userCount": 3012792,
         "gender": "M",
         "sofascoreId": "CR7",
         "id": 750,
@@ -1301,8 +1314,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1355,8 +1369,9 @@
         "shortName": "O. Khamrobekov",
         "position": "M",
         "jerseyNumber": "21",
-        "userCount": 1174,
+        "userCount": 1177,
         "gender": "M",
+        "sofascoreId": "5njchz",
         "id": 823992,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1403,7 +1418,7 @@
         "shortName": "D. Costa",
         "position": "G",
         "jerseyNumber": "99",
-        "userCount": 16123,
+        "userCount": 16547,
         "gender": "M",
         "sofascoreId": "diogomcosta99",
         "id": 843115,
@@ -1455,8 +1470,9 @@
         "slug": "otabek-shukurov",
         "shortName": "O. Shukurov",
         "position": "M",
-        "userCount": 3582,
+        "userCount": 3566,
         "gender": "M",
+        "sofascoreId": "cnetwg",
         "id": 358890,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1498,7 +1514,7 @@
         "shortName": "D. Costa",
         "position": "G",
         "jerseyNumber": "99",
-        "userCount": 16123,
+        "userCount": 16547,
         "gender": "M",
         "sofascoreId": "diogomcosta99",
         "id": 843115,
@@ -1548,7 +1564,7 @@
         "shortName": "J. Félix",
         "position": "F",
         "jerseyNumber": "79",
-        "userCount": 139658,
+        "userCount": 140320,
         "gender": "M",
         "sofascoreId": "JFélix",
         "id": 851671,
@@ -1590,8 +1606,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1637,7 +1654,7 @@
         "shortName": "C. Ronaldo",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 2972681,
+        "userCount": 3012792,
         "gender": "M",
         "sofascoreId": "CR7",
         "id": 750,
@@ -1680,8 +1697,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1729,7 +1747,7 @@
         "shortName": "Vitinha",
         "position": "M",
         "jerseyNumber": "17",
-        "userCount": 79468,
+        "userCount": 80339,
         "gender": "M",
         "sofascoreId": "vitinha",
         "id": 902029,
@@ -1776,8 +1794,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1827,8 +1846,9 @@
         "shortName": "S. Nasrullaev",
         "position": "D",
         "jerseyNumber": "34",
-        "userCount": 805,
+        "userCount": 808,
         "gender": "M",
+        "sofascoreId": "q4a4wv",
         "id": 1014276,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1875,7 +1895,7 @@
         "shortName": "D. Costa",
         "position": "G",
         "jerseyNumber": "99",
-        "userCount": 16123,
+        "userCount": 16547,
         "gender": "M",
         "sofascoreId": "diogomcosta99",
         "id": 843115,
@@ -1927,7 +1947,7 @@
         "shortName": "N. Mendes",
         "position": "D",
         "jerseyNumber": "25",
-        "userCount": 51356,
+        "userCount": 52135,
         "gender": "M",
         "sofascoreId": "nunomendes_5",
         "id": 989768,
@@ -1970,8 +1990,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2017,7 +2038,7 @@
         "shortName": "J. Cancelo",
         "position": "D",
         "jerseyNumber": "2",
-        "userCount": 107262,
+        "userCount": 107553,
         "gender": "M",
         "sofascoreId": "JCancelo",
         "id": 138892,
@@ -2064,8 +2085,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2115,7 +2137,7 @@
         "shortName": "C. Ronaldo",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 2972681,
+        "userCount": 3012792,
         "gender": "M",
         "sofascoreId": "CR7",
         "id": 750,
@@ -2158,8 +2180,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2205,7 +2228,7 @@
         "shortName": "C. Ronaldo",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 2972681,
+        "userCount": 3012792,
         "gender": "M",
         "sofascoreId": "CR7",
         "id": 750,
@@ -2252,8 +2275,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2305,7 +2329,7 @@
         "shortName": "B. Fernandes",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 337313,
+        "userCount": 339718,
         "gender": "M",
         "sofascoreId": "BrunoFernandes",
         "id": 288205,
@@ -2352,8 +2376,9 @@
         "shortName": "A. Nematov",
         "position": "G",
         "jerseyNumber": "35",
-        "userCount": 3090,
+        "userCount": 3169,
         "gender": "M",
+        "sofascoreId": "kmv9vv",
         "id": 1000465,
         "fieldTranslations": {
           "nameTranslation": {

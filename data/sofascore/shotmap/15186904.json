@@ -9,7 +9,7 @@
         "shortName": "P. Hincapié",
         "position": "D",
         "jerseyNumber": "5",
-        "userCount": 40312,
+        "userCount": 40631,
         "gender": "M",
         "sofascoreId": "pierohincapie",
         "id": 1002837,
@@ -58,7 +58,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -112,8 +112,9 @@
         "shortName": "C. I. Oulaï",
         "position": "M",
         "jerseyNumber": "42",
-        "userCount": 15643,
+        "userCount": 15687,
         "gender": "M",
+        "sofascoreId": "r3sbyd",
         "id": 1888002,
         "fieldTranslations": {
           "nameTranslation": {
@@ -151,8 +152,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -201,7 +203,7 @@
         "shortName": "A. Diallo",
         "position": "M",
         "jerseyNumber": "16",
-        "userCount": 120085,
+        "userCount": 121313,
         "gender": "M",
         "sofascoreId": "AmadDiallo19",
         "id": 971037,
@@ -250,8 +252,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -304,7 +307,7 @@
         "shortName": "A. Diallo",
         "position": "M",
         "jerseyNumber": "16",
-        "userCount": 120085,
+        "userCount": 121313,
         "gender": "M",
         "sofascoreId": "AmadDiallo19",
         "id": 971037,
@@ -349,8 +352,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -398,8 +402,9 @@
         "shortName": "J. Ordóñez",
         "position": "D",
         "jerseyNumber": "4",
-        "userCount": 6568,
+        "userCount": 6871,
         "gender": "M",
+        "sofascoreId": "vufk9z",
         "id": 1187275,
         "fieldTranslations": {
           "nameTranslation": {
@@ -446,7 +451,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -500,8 +505,9 @@
         "shortName": "J. Ordóñez",
         "position": "D",
         "jerseyNumber": "4",
-        "userCount": 6568,
+        "userCount": 6871,
         "gender": "M",
+        "sofascoreId": "vufk9z",
         "id": 1187275,
         "fieldTranslations": {
           "nameTranslation": {
@@ -548,7 +554,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -602,8 +608,9 @@
         "shortName": "G. Konan",
         "position": "D",
         "jerseyNumber": "3",
-        "userCount": 3583,
+        "userCount": 3586,
         "gender": "M",
+        "sofascoreId": "zxt8rd",
         "id": 831781,
         "fieldTranslations": {
           "nameTranslation": {
@@ -645,8 +652,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -694,7 +702,7 @@
         "shortName": "G. Plata",
         "position": "M",
         "jerseyNumber": "19",
-        "userCount": 24924,
+        "userCount": 25138,
         "gender": "M",
         "sofascoreId": "gonzaloplata",
         "id": 937937,
@@ -743,7 +751,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -797,7 +805,7 @@
         "shortName": "S. Fofana",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 12925,
+        "userCount": 12913,
         "gender": "M",
         "sofascoreId": "sekofofana",
         "id": 191188,
@@ -846,8 +854,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -898,8 +907,9 @@
         "shortName": "Y. Diomande",
         "position": "F",
         "jerseyNumber": "49",
-        "userCount": 52756,
+        "userCount": 56293,
         "gender": "M",
+        "sofascoreId": "wmxrh5",
         "id": 2087085,
         "fieldTranslations": {
           "nameTranslation": {
@@ -937,8 +947,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -986,8 +997,9 @@
         "shortName": "P. Vite",
         "position": "M",
         "jerseyNumber": "45",
-        "userCount": 3855,
+        "userCount": 4033,
         "gender": "M",
+        "sofascoreId": "hiebjt",
         "id": 1002524,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1029,7 +1041,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -1079,7 +1091,7 @@
         "shortName": "S. Fofana",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 12925,
+        "userCount": 12913,
         "gender": "M",
         "sofascoreId": "sekofofana",
         "id": 191188,
@@ -1123,8 +1135,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1170,7 +1183,7 @@
         "shortName": "E. Wahi",
         "position": "F",
         "jerseyNumber": "17",
-        "userCount": 5458,
+        "userCount": 5461,
         "gender": "M",
         "sofascoreId": "e.wahi7",
         "id": 979315,
@@ -1214,8 +1227,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1262,8 +1276,9 @@
         "shortName": "Y. Diomande",
         "position": "F",
         "jerseyNumber": "49",
-        "userCount": 52756,
+        "userCount": 56293,
         "gender": "M",
+        "sofascoreId": "wmxrh5",
         "id": 2087085,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1301,8 +1316,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1350,7 +1366,7 @@
         "shortName": "E. Valencia",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 14278,
+        "userCount": 14483,
         "gender": "M",
         "sofascoreId": "ennervalencia",
         "id": 106456,
@@ -1394,7 +1410,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -1444,7 +1460,7 @@
         "shortName": "N. Pépé",
         "position": "F",
         "jerseyNumber": "19",
-        "userCount": 15674,
+        "userCount": 16336,
         "gender": "M",
         "sofascoreId": "nicolas_pepe19",
         "id": 593526,
@@ -1493,8 +1509,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1547,7 +1564,7 @@
         "shortName": "W. Singo",
         "position": "D",
         "jerseyNumber": "90",
-        "userCount": 14413,
+        "userCount": 14441,
         "gender": "M",
         "sofascoreId": "stephane_singo",
         "id": 978285,
@@ -1591,8 +1608,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1641,7 +1659,7 @@
         "shortName": "N. Pépé",
         "position": "F",
         "jerseyNumber": "19",
-        "userCount": 15674,
+        "userCount": 16336,
         "gender": "M",
         "sofascoreId": "nicolas_pepe19",
         "id": 593526,
@@ -1690,8 +1708,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1743,7 +1762,7 @@
         "shortName": "S. Fofana",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 12925,
+        "userCount": 12913,
         "gender": "M",
         "sofascoreId": "sekofofana",
         "id": 191188,
@@ -1787,8 +1806,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1836,8 +1856,9 @@
         "shortName": "J. Yeboah",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 6101,
+        "userCount": 6274,
         "gender": "M",
+        "sofascoreId": "txigr5",
         "id": 879802,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1879,7 +1900,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -1929,8 +1950,9 @@
         "shortName": "A. Minda",
         "position": "F",
         "jerseyNumber": "27",
-        "userCount": 3410,
+        "userCount": 3413,
         "gender": "M",
+        "sofascoreId": "5f4rq6",
         "id": 1122552,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1968,7 +1990,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -2018,8 +2040,9 @@
         "shortName": "A. Minda",
         "position": "F",
         "jerseyNumber": "27",
-        "userCount": 3410,
+        "userCount": 3413,
         "gender": "M",
+        "sofascoreId": "5f4rq6",
         "id": 1122552,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2057,7 +2080,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -2107,8 +2130,9 @@
         "shortName": "J. Yeboah",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 6101,
+        "userCount": 6274,
         "gender": "M",
+        "sofascoreId": "txigr5",
         "id": 879802,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2150,7 +2174,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -2198,7 +2222,7 @@
         "shortName": "E. Wahi",
         "position": "F",
         "jerseyNumber": "17",
-        "userCount": 5458,
+        "userCount": 5461,
         "gender": "M",
         "sofascoreId": "e.wahi7",
         "id": 979315,
@@ -2247,8 +2271,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2300,7 +2325,7 @@
         "shortName": "S. Fofana",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 12925,
+        "userCount": 12913,
         "gender": "M",
         "sofascoreId": "sekofofana",
         "id": 191188,
@@ -2349,8 +2374,9 @@
         "shortName": "H. Galíndez",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 2837,
+        "userCount": 2892,
         "gender": "M",
+        "sofascoreId": "cb45pg",
         "id": 588618,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2402,8 +2428,9 @@
         "shortName": "J. Yeboah",
         "position": "F",
         "jerseyNumber": "10",
-        "userCount": 6101,
+        "userCount": 6274,
         "gender": "M",
+        "sofascoreId": "txigr5",
         "id": 879802,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2445,7 +2472,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,
@@ -2495,7 +2522,7 @@
         "shortName": "M. Caicedo",
         "position": "M",
         "jerseyNumber": "25",
-        "userCount": 86888,
+        "userCount": 87274,
         "gender": "M",
         "sofascoreId": "MoisesCaicedo55",
         "id": 987650,
@@ -2539,7 +2566,7 @@
         "shortName": "Y. Fofana",
         "position": "G",
         "jerseyNumber": "75",
-        "userCount": 4608,
+        "userCount": 4602,
         "gender": "M",
         "sofascoreId": "yahia.fofana_",
         "id": 877977,

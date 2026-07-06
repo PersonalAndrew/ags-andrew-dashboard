@@ -9,7 +9,7 @@
         "shortName": "I. Maza",
         "position": "F",
         "jerseyNumber": "30",
-        "userCount": 44562,
+        "userCount": 45423,
         "gender": "M",
         "sofascoreId": "ibo_mz10",
         "id": 1407524,
@@ -58,8 +58,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -111,7 +112,7 @@
         "shortName": "A. Gouiri",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 33152,
+        "userCount": 33433,
         "gender": "M",
         "sofascoreId": "amine_gouiri",
         "id": 859026,
@@ -156,8 +157,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -205,7 +207,7 @@
         "shortName": "R. Bensebaini",
         "position": "D",
         "jerseyNumber": "5",
-        "userCount": 35335,
+        "userCount": 35628,
         "gender": "M",
         "sofascoreId": "rbens",
         "id": 577726,
@@ -254,8 +256,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -307,7 +310,7 @@
         "shortName": "A. H. Moussa",
         "position": "M",
         "jerseyNumber": "23",
-        "userCount": 29662,
+        "userCount": 30027,
         "gender": "M",
         "sofascoreId": "hadj.a20",
         "id": 1218066,
@@ -356,8 +359,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -409,7 +413,7 @@
         "shortName": "N. Bentaleb",
         "position": "M",
         "jerseyNumber": "6",
-        "userCount": 9208,
+        "userCount": 9245,
         "gender": "M",
         "sofascoreId": "nabilbentaleb",
         "id": 368120,
@@ -458,8 +462,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -511,7 +516,7 @@
         "shortName": "F. Chaïbi",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 19216,
+        "userCount": 19323,
         "gender": "M",
         "sofascoreId": "fareschaibi28",
         "id": 1192318,
@@ -560,8 +565,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -613,8 +619,9 @@
         "shortName": "M. Al-Mardi",
         "position": "M",
         "jerseyNumber": "13",
-        "userCount": 456,
+        "userCount": 455,
         "gender": "M",
+        "sofascoreId": "wixppk",
         "id": 812557,
         "fieldTranslations": {
           "nameTranslation": {
@@ -661,8 +668,9 @@
         "shortName": "L. Zidane",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 27300,
+        "userCount": 27484,
         "gender": "M",
+        "sofascoreId": "c26pvg",
         "id": 802133,
         "fieldTranslations": {
           "nameTranslation": {
@@ -714,8 +722,9 @@
         "shortName": "A. N. Benbouali",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 4144,
+        "userCount": 4227,
         "gender": "M",
+        "sofascoreId": "iw3fq2",
         "id": 1177807,
         "fieldTranslations": {
           "nameTranslation": {
@@ -754,8 +763,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -803,7 +813,7 @@
         "shortName": "I. Maza",
         "position": "F",
         "jerseyNumber": "30",
-        "userCount": 44562,
+        "userCount": 45423,
         "gender": "M",
         "sofascoreId": "ibo_mz10",
         "id": 1407524,
@@ -852,8 +862,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -905,8 +916,9 @@
         "shortName": "A. N. Benbouali",
         "position": "F",
         "jerseyNumber": "7",
-        "userCount": 4144,
+        "userCount": 4227,
         "gender": "M",
+        "sofascoreId": "iw3fq2",
         "id": 1177807,
         "fieldTranslations": {
           "nameTranslation": {
@@ -949,8 +961,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1001,8 +1014,9 @@
         "slug": "noor-al-deen-al-rawabdeh",
         "shortName": "N. Al Rawabdeh",
         "position": "M",
-        "userCount": 355,
+        "userCount": 356,
         "gender": "M",
+        "sofascoreId": "zbf7ee",
         "id": 927845,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1044,8 +1058,9 @@
         "shortName": "L. Zidane",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 27300,
+        "userCount": 27484,
         "gender": "M",
+        "sofascoreId": "c26pvg",
         "id": 802133,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1093,7 +1108,7 @@
         "shortName": "I. Maza",
         "position": "F",
         "jerseyNumber": "30",
-        "userCount": 44562,
+        "userCount": 45423,
         "gender": "M",
         "sofascoreId": "ibo_mz10",
         "id": 1407524,
@@ -1137,8 +1152,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1186,7 +1202,7 @@
         "shortName": "R. Aït-Nouri",
         "position": "D",
         "jerseyNumber": "21",
-        "userCount": 53886,
+        "userCount": 54335,
         "gender": "M",
         "sofascoreId": "r_aitnouri",
         "id": 931278,
@@ -1230,8 +1246,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1279,7 +1296,7 @@
         "shortName": "I. Maza",
         "position": "F",
         "jerseyNumber": "30",
-        "userCount": 44562,
+        "userCount": 45423,
         "gender": "M",
         "sofascoreId": "ibo_mz10",
         "id": 1407524,
@@ -1328,8 +1345,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1379,8 +1397,9 @@
         "shortName": "R. Belghali",
         "position": "M",
         "jerseyNumber": "7",
-        "userCount": 7868,
+        "userCount": 8043,
         "gender": "M",
+        "sofascoreId": "8j3jnz",
         "id": 1103488,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1423,8 +1442,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1476,8 +1496,9 @@
         "shortName": "A. Olwan",
         "position": "F",
         "jerseyNumber": "18",
-        "userCount": 1692,
+        "userCount": 1740,
         "gender": "M",
+        "sofascoreId": "5ffxeh",
         "id": 980728,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1519,8 +1540,9 @@
         "shortName": "L. Zidane",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 27300,
+        "userCount": 27484,
         "gender": "M",
+        "sofascoreId": "c26pvg",
         "id": 802133,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1566,9 +1588,9 @@
         "slug": "nizar-mahmoud-al-rashdan",
         "shortName": "N. Al-Rashdan",
         "position": "M",
-        "jerseyNumber": "21",
-        "userCount": 650,
+        "userCount": 651,
         "gender": "M",
+        "sofascoreId": "g8k8zj",
         "id": 1014324,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1611,8 +1633,9 @@
         "shortName": "L. Zidane",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 27300,
+        "userCount": 27484,
         "gender": "M",
+        "sofascoreId": "c26pvg",
         "id": 802133,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1658,8 +1681,9 @@
         "shortName": "M. Tamari",
         "position": "F",
         "jerseyNumber": "11",
-        "userCount": 7662,
+        "userCount": 7715,
         "gender": "M",
+        "sofascoreId": "5tc7cz",
         "id": 876600,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1706,8 +1730,9 @@
         "shortName": "L. Zidane",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 27300,
+        "userCount": 27484,
         "gender": "M",
+        "sofascoreId": "c26pvg",
         "id": 802133,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1758,8 +1783,7 @@
         "slug": "riyad-mahrez",
         "shortName": "R. Mahrez",
         "position": "M",
-        "jerseyNumber": "7",
-        "userCount": 81892,
+        "userCount": 82882,
         "gender": "M",
         "sofascoreId": "RMahrez",
         "id": 158213,
@@ -1808,8 +1832,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1861,7 +1886,7 @@
         "shortName": "A. Gouiri",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 33152,
+        "userCount": 33433,
         "gender": "M",
         "sofascoreId": "amine_gouiri",
         "id": 859026,
@@ -1910,8 +1935,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1963,8 +1989,9 @@
         "shortName": "A. Olwan",
         "position": "F",
         "jerseyNumber": "18",
-        "userCount": 1692,
+        "userCount": 1740,
         "gender": "M",
+        "sofascoreId": "5ffxeh",
         "id": 980728,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2011,8 +2038,9 @@
         "shortName": "L. Zidane",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 27300,
+        "userCount": 27484,
         "gender": "M",
+        "sofascoreId": "c26pvg",
         "id": 802133,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2064,7 +2092,7 @@
         "shortName": "F. Chaïbi",
         "position": "M",
         "jerseyNumber": "8",
-        "userCount": 19216,
+        "userCount": 19323,
         "gender": "M",
         "sofascoreId": "fareschaibi28",
         "id": 1192318,
@@ -2113,8 +2141,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2164,8 +2193,9 @@
         "shortName": "M. Tamari",
         "position": "F",
         "jerseyNumber": "11",
-        "userCount": 7662,
+        "userCount": 7715,
         "gender": "M",
+        "sofascoreId": "5tc7cz",
         "id": 876600,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2212,8 +2242,9 @@
         "shortName": "L. Zidane",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 27300,
+        "userCount": 27484,
         "gender": "M",
+        "sofascoreId": "c26pvg",
         "id": 802133,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2265,7 +2296,7 @@
         "shortName": "A. Gouiri",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 33152,
+        "userCount": 33433,
         "gender": "M",
         "sofascoreId": "amine_gouiri",
         "id": 859026,
@@ -2309,8 +2340,9 @@
         "shortName": "Y. Abu Laila",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 710,
+        "userCount": 745,
         "gender": "M",
+        "sofascoreId": "f5nzab",
         "id": 828294,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2355,9 +2387,9 @@
         "slug": "nizar-mahmoud-al-rashdan",
         "shortName": "N. Al-Rashdan",
         "position": "M",
-        "jerseyNumber": "21",
-        "userCount": 650,
+        "userCount": 651,
         "gender": "M",
+        "sofascoreId": "g8k8zj",
         "id": 1014324,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2399,8 +2431,9 @@
         "shortName": "L. Zidane",
         "position": "G",
         "jerseyNumber": "1",
-        "userCount": 27300,
+        "userCount": 27484,
         "gender": "M",
+        "sofascoreId": "c26pvg",
         "id": 802133,
         "fieldTranslations": {
           "nameTranslation": {

@@ -8,9 +8,10 @@
         "slug": "mbekezeli-mbokazi",
         "shortName": "M. Mbokazi",
         "position": "D",
-        "jerseyNumber": "4",
-        "userCount": 11905,
+        "jerseyNumber": "44",
+        "userCount": 12367,
         "gender": "M",
+        "sofascoreId": "gwvw95",
         "id": 2058228,
         "fieldTranslations": {
           "nameTranslation": {
@@ -53,8 +54,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -107,8 +109,9 @@
         "shortName": "A. Modiba",
         "position": "D",
         "jerseyNumber": "6",
-        "userCount": 1183,
+        "userCount": 1194,
         "gender": "M",
+        "sofascoreId": "vrxnzs",
         "id": 837099,
         "fieldTranslations": {
           "nameTranslation": {
@@ -155,8 +158,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -209,8 +213,9 @@
         "shortName": "E. Makgopa",
         "position": "F",
         "jerseyNumber": "17",
-        "userCount": 1863,
+        "userCount": 1890,
         "gender": "M",
+        "sofascoreId": "tdbak4",
         "id": 1022170,
         "fieldTranslations": {
           "nameTranslation": {
@@ -257,8 +262,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -311,8 +317,9 @@
         "shortName": "L. Provod",
         "position": "F",
         "jerseyNumber": "17",
-        "userCount": 872,
+        "userCount": 874,
         "gender": "M",
+        "sofascoreId": "c6ntvg",
         "id": 846122,
         "fieldTranslations": {
           "nameTranslation": {
@@ -354,8 +361,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -402,8 +410,9 @@
         "shortName": "J. Zelený",
         "position": "D",
         "jerseyNumber": "30",
-        "userCount": 201,
+        "userCount": 198,
         "gender": "M",
+        "sofascoreId": "h8hgic",
         "id": 118204,
         "fieldTranslations": {
           "nameTranslation": {
@@ -450,8 +459,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -504,8 +514,9 @@
         "shortName": "L. Krejčí",
         "position": "D",
         "jerseyNumber": "37",
-        "userCount": 4048,
+        "userCount": 4056,
         "gender": "M",
+        "sofascoreId": "tnrtt5",
         "id": 856250,
         "fieldTranslations": {
           "nameTranslation": {
@@ -552,8 +563,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -603,8 +615,9 @@
         "shortName": "R. Mofokeng",
         "position": "M",
         "jerseyNumber": "38",
-        "userCount": 17408,
+        "userCount": 18562,
         "gender": "M",
+        "sofascoreId": "fpskwx",
         "id": 1564998,
         "fieldTranslations": {
           "nameTranslation": {
@@ -651,8 +664,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -704,8 +718,9 @@
         "shortName": "T. Mbatha",
         "position": "M",
         "jerseyNumber": "16",
-        "userCount": 1568,
+        "userCount": 1589,
         "gender": "M",
+        "sofascoreId": "cewed6",
         "id": 1014410,
         "fieldTranslations": {
           "nameTranslation": {
@@ -748,8 +763,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -801,8 +817,9 @@
         "shortName": "T. Mokoena",
         "position": "M",
         "jerseyNumber": "4",
-        "userCount": 3456,
+        "userCount": 3467,
         "gender": "M",
+        "sofascoreId": "kw4e3j",
         "id": 881117,
         "fieldTranslations": {
           "nameTranslation": {
@@ -845,8 +862,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -894,8 +912,9 @@
         "shortName": "T. Maseko",
         "position": "M",
         "jerseyNumber": "33",
-        "userCount": 1533,
+        "userCount": 1718,
         "gender": "M",
+        "sofascoreId": "himdgz",
         "id": 1179164,
         "fieldTranslations": {
           "nameTranslation": {
@@ -938,8 +957,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -990,9 +1010,10 @@
         "slug": "mbekezeli-mbokazi",
         "shortName": "M. Mbokazi",
         "position": "D",
-        "jerseyNumber": "4",
-        "userCount": 11905,
+        "jerseyNumber": "44",
+        "userCount": 12367,
         "gender": "M",
+        "sofascoreId": "gwvw95",
         "id": 2058228,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1035,8 +1056,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1088,8 +1110,9 @@
         "shortName": "E. Makgopa",
         "position": "F",
         "jerseyNumber": "17",
-        "userCount": 1863,
+        "userCount": 1890,
         "gender": "M",
+        "sofascoreId": "tdbak4",
         "id": 1022170,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1136,8 +1159,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1189,8 +1213,9 @@
         "shortName": "L. Krejčí",
         "position": "D",
         "jerseyNumber": "37",
-        "userCount": 4048,
+        "userCount": 4056,
         "gender": "M",
+        "sofascoreId": "tnrtt5",
         "id": 856250,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1237,8 +1262,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1290,8 +1316,9 @@
         "shortName": "A. Modiba",
         "position": "D",
         "jerseyNumber": "6",
-        "userCount": 1183,
+        "userCount": 1194,
         "gender": "M",
+        "sofascoreId": "vrxnzs",
         "id": 837099,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1333,8 +1360,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1382,8 +1410,9 @@
         "shortName": "M. Sadílek",
         "position": "M",
         "jerseyNumber": "23",
-        "userCount": 586,
+        "userCount": 589,
         "gender": "M",
+        "sofascoreId": "j8ht7r",
         "id": 825731,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1430,8 +1459,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1483,8 +1513,9 @@
         "shortName": "T. Maseko",
         "position": "M",
         "jerseyNumber": "33",
-        "userCount": 1533,
+        "userCount": 1718,
         "gender": "M",
+        "sofascoreId": "himdgz",
         "id": 1179164,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1522,8 +1553,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1571,8 +1603,9 @@
         "shortName": "L. Krejčí",
         "position": "D",
         "jerseyNumber": "37",
-        "userCount": 4048,
+        "userCount": 4056,
         "gender": "M",
+        "sofascoreId": "tnrtt5",
         "id": 856250,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1614,8 +1647,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1662,9 +1696,10 @@
         "slug": "mbekezeli-mbokazi",
         "shortName": "M. Mbokazi",
         "position": "D",
-        "jerseyNumber": "4",
-        "userCount": 11905,
+        "jerseyNumber": "44",
+        "userCount": 12367,
         "gender": "M",
+        "sofascoreId": "gwvw95",
         "id": 2058228,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1707,8 +1742,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1760,7 +1796,7 @@
         "shortName": "P. Schick",
         "position": "F",
         "jerseyNumber": "14",
-        "userCount": 14835,
+        "userCount": 14871,
         "gender": "M",
         "sofascoreId": "p_shicky",
         "id": 280609,
@@ -1809,8 +1845,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1862,8 +1899,9 @@
         "shortName": "L. Červ",
         "position": "M",
         "jerseyNumber": "6",
-        "userCount": 376,
+        "userCount": 375,
         "gender": "M",
+        "sofascoreId": "n5tuja",
         "id": 952114,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1906,8 +1944,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1957,8 +1996,9 @@
         "shortName": "V. Darida",
         "position": "M",
         "jerseyNumber": "16",
-        "userCount": 411,
+        "userCount": 413,
         "gender": "M",
+        "sofascoreId": "cwqxrg",
         "id": 109002,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2005,8 +2045,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2058,8 +2099,9 @@
         "shortName": "T. Maseko",
         "position": "M",
         "jerseyNumber": "33",
-        "userCount": 1533,
+        "userCount": 1718,
         "gender": "M",
+        "sofascoreId": "himdgz",
         "id": 1179164,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2102,8 +2144,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2156,8 +2199,9 @@
         "shortName": "T. Mokoena",
         "position": "M",
         "jerseyNumber": "4",
-        "userCount": 3456,
+        "userCount": 3467,
         "gender": "M",
+        "sofascoreId": "kw4e3j",
         "id": 881117,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2199,8 +2243,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2248,7 +2293,7 @@
         "shortName": "A. Hložek",
         "position": "F",
         "jerseyNumber": "23",
-        "userCount": 3666,
+        "userCount": 3669,
         "gender": "M",
         "sofascoreId": "ahlozek",
         "id": 963801,
@@ -2292,8 +2337,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2341,8 +2387,9 @@
         "shortName": "I. Rayners",
         "position": "F",
         "jerseyNumber": "13",
-        "userCount": 1815,
+        "userCount": 1826,
         "gender": "M",
+        "sofascoreId": "snxbfy",
         "id": 991024,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2385,8 +2432,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2438,8 +2486,9 @@
         "shortName": "A. Modiba",
         "position": "D",
         "jerseyNumber": "6",
-        "userCount": 1183,
+        "userCount": 1194,
         "gender": "M",
+        "sofascoreId": "vrxnzs",
         "id": 837099,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2481,8 +2530,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2530,8 +2580,9 @@
         "shortName": "O. Appollis",
         "position": "M",
         "jerseyNumber": "12",
-        "userCount": 4541,
+        "userCount": 4684,
         "gender": "M",
+        "sofascoreId": "b747w6",
         "id": 984505,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2574,8 +2625,9 @@
         "shortName": "M. Kovář",
         "position": "G",
         "jerseyNumber": "32",
-        "userCount": 2431,
+        "userCount": 2442,
         "gender": "M",
+        "sofascoreId": "fpq9qp",
         "id": 927366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2627,8 +2679,9 @@
         "shortName": "M. Sadílek",
         "position": "M",
         "jerseyNumber": "23",
-        "userCount": 586,
+        "userCount": 589,
         "gender": "M",
+        "sofascoreId": "j8ht7r",
         "id": 825731,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2671,8 +2724,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2720,8 +2774,9 @@
         "shortName": "M. Sadílek",
         "position": "M",
         "jerseyNumber": "23",
-        "userCount": 586,
+        "userCount": 589,
         "gender": "M",
+        "sofascoreId": "j8ht7r",
         "id": 825731,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2763,8 +2818,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2812,8 +2868,9 @@
         "shortName": "L. Krejčí",
         "position": "D",
         "jerseyNumber": "37",
-        "userCount": 4048,
+        "userCount": 4056,
         "gender": "M",
+        "sofascoreId": "tnrtt5",
         "id": 856250,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2860,8 +2917,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {
@@ -2913,7 +2971,7 @@
         "shortName": "P. Schick",
         "position": "F",
         "jerseyNumber": "14",
-        "userCount": 14835,
+        "userCount": 14871,
         "gender": "M",
         "sofascoreId": "p_shicky",
         "id": 280609,
@@ -2957,8 +3015,9 @@
         "shortName": "R. Williams",
         "position": "G",
         "jerseyNumber": "30",
-        "userCount": 3187,
+        "userCount": 3208,
         "gender": "M",
+        "sofascoreId": "shtig3",
         "id": 539792,
         "fieldTranslations": {
           "nameTranslation": {

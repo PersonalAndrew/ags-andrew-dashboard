@@ -9,8 +9,9 @@
         "shortName": "E. Mahmić",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 1897,
+        "userCount": 2230,
         "gender": "M",
+        "sofascoreId": "8jup8i",
         "id": 1149353,
         "fieldTranslations": {
           "nameTranslation": {
@@ -27,8 +28,8 @@
       "shotType": "miss",
       "situation": "fast-break",
       "playerCoordinates": {
-        "x": 26.5,
-        "y": 66.5,
+        "x": 23.7,
+        "y": 67.3,
         "z": 0
       },
       "bodyPart": "right-foot",
@@ -38,7 +39,7 @@
         "y": 57.1,
         "z": 4.2
       },
-      "xg": 0.02368731610477,
+      "xg": 0.030003299936652,
       "xgot": 0,
       "goalkeeper": {
         "name": "Matthew Freese",
@@ -46,8 +47,9 @@
         "shortName": "M. Freese",
         "position": "G",
         "jerseyNumber": "49",
-        "userCount": 643,
+        "userCount": 712,
         "gender": "M",
+        "sofascoreId": "hiib6k",
         "id": 973436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -70,8 +72,8 @@
       "timeSeconds": 5902,
       "draw": {
         "start": {
-          "x": 66.5,
-          "y": 26.5
+          "x": 67.3,
+          "y": 23.7
         },
         "end": {
           "x": 42.9,
@@ -96,8 +98,9 @@
         "shortName": "E. Mahmić",
         "position": "M",
         "jerseyNumber": "20",
-        "userCount": 1897,
+        "userCount": 2230,
         "gender": "M",
+        "sofascoreId": "8jup8i",
         "id": 1149353,
         "fieldTranslations": {
           "nameTranslation": {
@@ -114,8 +117,8 @@
       "shotType": "miss",
       "situation": "assisted",
       "playerCoordinates": {
-        "x": 29.7,
-        "y": 32.2,
+        "x": 28.8,
+        "y": 31.9,
         "z": 0
       },
       "bodyPart": "right-foot",
@@ -125,7 +128,7 @@
         "y": 43.5,
         "z": 6.9
       },
-      "xg": 0.010855685919523,
+      "xg": 0.010659961029887,
       "xgot": 0,
       "goalkeeper": {
         "name": "Matthew Freese",
@@ -133,8 +136,9 @@
         "shortName": "M. Freese",
         "position": "G",
         "jerseyNumber": "49",
-        "userCount": 643,
+        "userCount": 712,
         "gender": "M",
+        "sofascoreId": "hiib6k",
         "id": 973436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -157,8 +161,8 @@
       "timeSeconds": 5857,
       "draw": {
         "start": {
-          "x": 32.2,
-          "y": 29.7
+          "x": 31.9,
+          "y": 28.8
         },
         "end": {
           "x": 56.5,
@@ -182,8 +186,9 @@
         "shortName": "A. Freeman",
         "position": "D",
         "jerseyNumber": "3",
-        "userCount": 1739,
+        "userCount": 1876,
         "gender": "M",
+        "sofascoreId": "kmthar",
         "id": 1184541,
         "fieldTranslations": {
           "nameTranslation": {
@@ -220,8 +225,9 @@
         "slug": "nikola-vasilj",
         "shortName": "N. Vasilj",
         "position": "G",
-        "userCount": 3116,
+        "userCount": 3231,
         "gender": "M",
+        "sofascoreId": "z6tand",
         "id": 325061,
         "fieldTranslations": {
           "nameTranslation": {
@@ -241,7 +247,7 @@
       "id": 7626040,
       "time": 90,
       "addedTime": 6,
-      "timeSeconds": 5719,
+      "timeSeconds": 5718,
       "draw": {
         "start": {
           "x": 67,
@@ -257,8 +263,8 @@
         }
       },
       "reversedPeriodTime": 1,
-      "reversedPeriodTimeSeconds": 581,
-      "periodTimeSeconds": 319,
+      "reversedPeriodTimeSeconds": 582,
+      "periodTimeSeconds": 318,
       "incidentType": "shot"
     },
     {
@@ -270,8 +276,9 @@
         "shortName": "K. Alajbegović",
         "position": "M",
         "jerseyNumber": "27",
-        "userCount": 11012,
+        "userCount": 11582,
         "gender": "M",
+        "sofascoreId": "dqwxak",
         "id": 1425366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -288,18 +295,18 @@
       "shotType": "miss",
       "situation": "assisted",
       "playerCoordinates": {
-        "x": 15.1,
-        "y": 25.5,
+        "x": 13.2,
+        "y": 25.2,
         "z": 0
       },
       "bodyPart": "right-foot",
-      "goalMouthLocation": "right",
+      "goalMouthLocation": "close-right",
       "goalMouthCoordinates": {
         "x": 0,
-        "y": 39.5,
-        "z": 31.9
+        "y": 42,
+        "z": 18.1
       },
-      "xg": 0.025855544954538,
+      "xg": 0.025893716141582,
       "xgot": 0,
       "goalkeeper": {
         "name": "Matthew Freese",
@@ -307,8 +314,9 @@
         "shortName": "M. Freese",
         "position": "G",
         "jerseyNumber": "49",
-        "userCount": 643,
+        "userCount": 712,
         "gender": "M",
+        "sofascoreId": "hiib6k",
         "id": 973436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -331,16 +339,16 @@
       "timeSeconds": 5502,
       "draw": {
         "start": {
-          "x": 25.5,
-          "y": 15.1
+          "x": 25.2,
+          "y": 13.2
         },
         "end": {
-          "x": 60.5,
+          "x": 58,
           "y": 0
         },
         "goal": {
-          "x": 60.5,
-          "y": 68.1
+          "x": 58,
+          "y": 81.9
         }
       },
       "reversedPeriodTime": 1,
@@ -357,8 +365,9 @@
         "shortName": "A. Memić",
         "position": "M",
         "jerseyNumber": "99",
-        "userCount": 2012,
+        "userCount": 2070,
         "gender": "M",
+        "sofascoreId": "cer6te",
         "id": 1129610,
         "fieldTranslations": {
           "nameTranslation": {
@@ -380,15 +389,15 @@
         "z": 0
       },
       "bodyPart": "right-foot",
-      "goalMouthLocation": "low-centre",
+      "goalMouthLocation": "low-left",
       "goalMouthCoordinates": {
         "x": 0,
-        "y": 51.4,
-        "z": 19
+        "y": 53.8,
+        "z": 12.5
       },
       "blockCoordinates": {
-        "x": 1,
-        "y": 55.6,
+        "x": 0.7,
+        "y": 56.3,
         "z": 0
       },
       "xg": 0.020261930301785,
@@ -399,8 +408,9 @@
         "shortName": "M. Freese",
         "position": "G",
         "jerseyNumber": "49",
-        "userCount": 643,
+        "userCount": 712,
         "gender": "M",
+        "sofascoreId": "hiib6k",
         "id": 973436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -426,16 +436,16 @@
           "y": 2.9
         },
         "block": {
-          "x": 55.6,
-          "y": 1
+          "x": 56.3,
+          "y": 0.7
         },
         "end": {
-          "x": 48.6,
+          "x": 46.2,
           "y": 0
         },
         "goal": {
-          "x": 48.6,
-          "y": 81
+          "x": 46.2,
+          "y": 87.5
         }
       },
       "reversedPeriodTime": 1,
@@ -450,7 +460,7 @@
         "shortName": "M. Tillman",
         "position": "M",
         "jerseyNumber": "10",
-        "userCount": 7990,
+        "userCount": 8328,
         "gender": "M",
         "sofascoreId": "MalikTillman8",
         "id": 975798,
@@ -485,8 +495,8 @@
         "y": 53.8,
         "z": 21.5
       },
-      "xg": 0.074891857802868,
-      "xgot": 0.093850716948509,
+      "xg": 0.091619163751602,
+      "xgot": 0.093171052634716,
       "goalkeeper": {
         "name": "Nikola Vasilj",
         "firstName": "Nikola",
@@ -494,8 +504,9 @@
         "slug": "nikola-vasilj",
         "shortName": "N. Vasilj",
         "position": "G",
-        "userCount": 3116,
+        "userCount": 3231,
         "gender": "M",
+        "sofascoreId": "z6tand",
         "id": 325061,
         "fieldTranslations": {
           "nameTranslation": {
@@ -541,7 +552,7 @@
         "shortName": "M. Tillman",
         "position": "M",
         "jerseyNumber": "10",
-        "userCount": 7990,
+        "userCount": 8328,
         "gender": "M",
         "sofascoreId": "MalikTillman8",
         "id": 975798,
@@ -564,23 +575,23 @@
       "shotType": "block",
       "situation": "assisted",
       "playerCoordinates": {
-        "x": 12.3,
-        "y": 48.7,
+        "x": 9.7,
+        "y": 48.1,
         "z": 0
       },
       "bodyPart": "left-foot",
       "goalMouthLocation": "low-left",
       "goalMouthCoordinates": {
         "x": 0,
-        "y": 52.3,
+        "y": 54.4,
         "z": 19
       },
       "blockCoordinates": {
-        "x": 10.5,
-        "y": 48.6,
+        "x": 8.6,
+        "y": 47.8,
         "z": 0
       },
-      "xg": 0.076098643243313,
+      "xg": 0.10088167339563,
       "xgot": 0,
       "goalkeeper": {
         "name": "Nikola Vasilj",
@@ -589,8 +600,9 @@
         "slug": "nikola-vasilj",
         "shortName": "N. Vasilj",
         "position": "G",
-        "userCount": 3116,
+        "userCount": 3231,
         "gender": "M",
+        "sofascoreId": "z6tand",
         "id": 325061,
         "fieldTranslations": {
           "nameTranslation": {
@@ -612,19 +624,19 @@
       "timeSeconds": 4683,
       "draw": {
         "start": {
-          "x": 48.7,
-          "y": 12.3
+          "x": 48.1,
+          "y": 9.7
         },
         "block": {
-          "x": 48.6,
-          "y": 10.5
+          "x": 47.8,
+          "y": 8.6
         },
         "end": {
-          "x": 47.7,
+          "x": 45.6,
           "y": 0
         },
         "goal": {
-          "x": 47.7,
+          "x": 45.6,
           "y": 81
         }
       },
@@ -642,8 +654,9 @@
         "shortName": "K. Alajbegović",
         "position": "M",
         "jerseyNumber": "27",
-        "userCount": 11012,
+        "userCount": 11582,
         "gender": "M",
+        "sofascoreId": "dqwxak",
         "id": 1425366,
         "fieldTranslations": {
           "nameTranslation": {
@@ -660,23 +673,23 @@
       "shotType": "block",
       "situation": "regular",
       "playerCoordinates": {
-        "x": 18.5,
-        "y": 38.8,
+        "x": 18.1,
+        "y": 37.4,
         "z": 0
       },
       "bodyPart": "left-foot",
-      "goalMouthLocation": "low-centre",
+      "goalMouthLocation": "low-left",
       "goalMouthCoordinates": {
         "x": 0,
-        "y": 50.6,
+        "y": 53.3,
         "z": 19
       },
       "blockCoordinates": {
-        "x": 11.2,
-        "y": 43,
+        "x": 11.5,
+        "y": 40.8,
         "z": 0
       },
-      "xg": 0.027749426662922,
+      "xg": 0.02513312548399,
       "xgot": 0,
       "goalkeeper": {
         "name": "Matthew Freese",
@@ -684,8 +697,9 @@
         "shortName": "M. Freese",
         "position": "G",
         "jerseyNumber": "49",
-        "userCount": 643,
+        "userCount": 712,
         "gender": "M",
+        "sofascoreId": "hiib6k",
         "id": 973436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -707,19 +721,19 @@
       "timeSeconds": 4562,
       "draw": {
         "start": {
-          "x": 38.8,
-          "y": 18.5
+          "x": 37.4,
+          "y": 18.1
         },
         "block": {
-          "x": 43,
-          "y": 11.2
+          "x": 40.8,
+          "y": 11.5
         },
         "end": {
-          "x": 49.4,
+          "x": 46.7,
           "y": 0
         },
         "goal": {
-          "x": 49.4,
+          "x": 46.7,
           "y": 81
         }
       },
@@ -737,8 +751,9 @@
         "shortName": "A. Dedić",
         "position": "D",
         "jerseyNumber": "17",
-        "userCount": 8196,
+        "userCount": 8430,
         "gender": "M",
+        "sofascoreId": "6gkct2",
         "id": 1102791,
         "fieldTranslations": {
           "nameTranslation": {
@@ -759,23 +774,23 @@
       "shotType": "block",
       "situation": "corner",
       "playerCoordinates": {
-        "x": 24.9,
-        "y": 57.3,
+        "x": 20.7,
+        "y": 59.5,
         "z": 0
       },
       "bodyPart": "left-foot",
       "goalMouthLocation": "low-centre",
       "goalMouthCoordinates": {
         "x": 0,
-        "y": 50.5,
+        "y": 49.4,
         "z": 19
       },
       "blockCoordinates": {
-        "x": 20.1,
-        "y": 55.8,
+        "x": 18.8,
+        "y": 58.7,
         "z": 0
       },
-      "xg": 0.010785263963044,
+      "xg": 0.016880383715034,
       "xgot": 0,
       "goalkeeper": {
         "name": "Matthew Freese",
@@ -783,8 +798,9 @@
         "shortName": "M. Freese",
         "position": "G",
         "jerseyNumber": "49",
-        "userCount": 643,
+        "userCount": 712,
         "gender": "M",
+        "sofascoreId": "hiib6k",
         "id": 973436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -803,28 +819,28 @@
       },
       "id": 7625965,
       "time": 74,
-      "timeSeconds": 4404,
+      "timeSeconds": 4403,
       "draw": {
         "start": {
-          "x": 57.3,
-          "y": 24.9
+          "x": 59.5,
+          "y": 20.7
         },
         "block": {
-          "x": 55.8,
-          "y": 20.1
+          "x": 58.7,
+          "y": 18.8
         },
         "end": {
-          "x": 49.5,
+          "x": 50.6,
           "y": 0
         },
         "goal": {
-          "x": 49.5,
+          "x": 50.6,
           "y": 81
         }
       },
       "reversedPeriodTime": 17,
-      "reversedPeriodTimeSeconds": 996,
-      "periodTimeSeconds": 1704,
+      "reversedPeriodTimeSeconds": 997,
+      "periodTimeSeconds": 1703,
       "incidentType": "shot"
     },
     {
@@ -836,8 +852,9 @@
         "shortName": "E. Bajraktarević",
         "position": "F",
         "jerseyNumber": "19",
-        "userCount": 13052,
+        "userCount": 13450,
         "gender": "M",
+        "sofascoreId": "wrnsuy",
         "id": 1136110,
         "fieldTranslations": {
           "nameTranslation": {
@@ -858,8 +875,8 @@
       "shotType": "save",
       "situation": "regular",
       "playerCoordinates": {
-        "x": 13.2,
-        "y": 26.4,
+        "x": 12.6,
+        "y": 27.8,
         "z": 0
       },
       "bodyPart": "left-foot",
@@ -874,16 +891,17 @@
         "y": 47.8,
         "z": 0
       },
-      "xg": 0.026163002476096,
-      "xgot": 0.025885317474604,
+      "xg": 0.018198281526566,
+      "xgot": 0.026409864425659,
       "goalkeeper": {
         "name": "Matthew Freese",
         "slug": "matthew-freese",
         "shortName": "M. Freese",
         "position": "G",
         "jerseyNumber": "49",
-        "userCount": 643,
+        "userCount": 712,
         "gender": "M",
+        "sofascoreId": "hiib6k",
         "id": 973436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -905,8 +923,8 @@
       "timeSeconds": 4032,
       "draw": {
         "start": {
-          "x": 26.4,
-          "y": 13.2
+          "x": 27.8,
+          "y": 12.6
         },
         "block": {
           "x": 47.8,
@@ -935,7 +953,7 @@
         "shortName": "E. Demirović",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 9272,
+        "userCount": 9452,
         "gender": "M",
         "sofascoreId": "e.demirovic29",
         "id": 878081,
@@ -958,8 +976,8 @@
       "shotType": "save",
       "situation": "regular",
       "playerCoordinates": {
-        "x": 15.7,
-        "y": 49.5,
+        "x": 15,
+        "y": 50.5,
         "z": 0
       },
       "bodyPart": "right-foot",
@@ -974,16 +992,17 @@
         "y": 50.4,
         "z": 0
       },
-      "xg": 0.042675320059061,
-      "xgot": 0.025905415415764,
+      "xg": 0.047533288598061,
+      "xgot": 0.032088372856379,
       "goalkeeper": {
         "name": "Matthew Freese",
         "slug": "matthew-freese",
         "shortName": "M. Freese",
         "position": "G",
         "jerseyNumber": "49",
-        "userCount": 643,
+        "userCount": 712,
         "gender": "M",
+        "sofascoreId": "hiib6k",
         "id": 973436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1005,8 +1024,8 @@
       "timeSeconds": 3926,
       "draw": {
         "start": {
-          "x": 49.5,
-          "y": 15.7
+          "x": 50.5,
+          "y": 15
         },
         "block": {
           "x": 50.4,
@@ -1035,8 +1054,9 @@
         "shortName": "N. Katić",
         "position": "D",
         "jerseyNumber": "25",
-        "userCount": 2876,
+        "userCount": 2971,
         "gender": "M",
+        "sofascoreId": "8giu3w",
         "id": 831488,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1057,8 +1077,8 @@
       "shotType": "miss",
       "situation": "assisted",
       "playerCoordinates": {
-        "x": 30.6,
-        "y": 75.9,
+        "x": 28.2,
+        "y": 73,
         "z": 0
       },
       "bodyPart": "right-foot",
@@ -1076,8 +1096,9 @@
         "shortName": "M. Freese",
         "position": "G",
         "jerseyNumber": "49",
-        "userCount": 643,
+        "userCount": 712,
         "gender": "M",
+        "sofascoreId": "hiib6k",
         "id": 973436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1099,8 +1120,8 @@
       "timeSeconds": 3306,
       "draw": {
         "start": {
-          "x": 75.9,
-          "y": 30.6
+          "x": 73,
+          "y": 28.2
         },
         "end": {
           "x": 59.3,
@@ -1125,7 +1146,7 @@
         "shortName": "F. Balogun",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 24227,
+        "userCount": 26309,
         "gender": "M",
         "sofascoreId": "balogun",
         "id": 934237,
@@ -1159,7 +1180,7 @@
         "y": 47.4,
         "z": 40.5
       },
-      "xg": 0.19920234382153,
+      "xg": 0.20792123675346,
       "xgot": 0,
       "goalkeeper": {
         "name": "Nikola Vasilj",
@@ -1168,8 +1189,9 @@
         "slug": "nikola-vasilj",
         "shortName": "N. Vasilj",
         "position": "G",
-        "userCount": 3116,
+        "userCount": 3231,
         "gender": "M",
+        "sofascoreId": "z6tand",
         "id": 325061,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1218,7 +1240,7 @@
         "shortName": "F. Balogun",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 24227,
+        "userCount": 26309,
         "gender": "M",
         "sofascoreId": "balogun",
         "id": 934237,
@@ -1253,8 +1275,8 @@
         "y": 48.7,
         "z": 5.1
       },
-      "xg": 0.20688423514366,
-      "xgot": 0.17624731361866,
+      "xg": 0.20954550802708,
+      "xgot": 0.19638560712337,
       "goalkeeper": {
         "name": "Nikola Vasilj",
         "firstName": "Nikola",
@@ -1262,8 +1284,9 @@
         "slug": "nikola-vasilj",
         "shortName": "N. Vasilj",
         "position": "G",
-        "userCount": 3116,
+        "userCount": 3231,
         "gender": "M",
+        "sofascoreId": "z6tand",
         "id": 325061,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1311,7 +1334,7 @@
         "shortName": "F. Balogun",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 24227,
+        "userCount": 26309,
         "gender": "M",
         "sofascoreId": "balogun",
         "id": 934237,
@@ -1345,7 +1368,7 @@
         "y": 38.3,
         "z": 16.7
       },
-      "xg": 0.06532034277916,
+      "xg": 0.058416932821274,
       "xgot": 0,
       "goalkeeper": {
         "name": "Nikola Vasilj",
@@ -1354,8 +1377,9 @@
         "slug": "nikola-vasilj",
         "shortName": "N. Vasilj",
         "position": "G",
-        "userCount": 3116,
+        "userCount": 3231,
         "gender": "M",
+        "sofascoreId": "z6tand",
         "id": 325061,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1403,7 +1427,7 @@
         "shortName": "F. Balogun",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 24227,
+        "userCount": 26309,
         "gender": "M",
         "sofascoreId": "balogun",
         "id": 934237,
@@ -1427,7 +1451,7 @@
       "situation": "set-piece",
       "playerCoordinates": {
         "x": 10.1,
-        "y": 60.3,
+        "y": 64.4,
         "z": 0
       },
       "bodyPart": "right-foot",
@@ -1437,7 +1461,7 @@
         "y": 39.5,
         "z": 4.2
       },
-      "xg": 0.16696073114872,
+      "xg": 0.089400596916676,
       "xgot": 0,
       "goalkeeper": {
         "name": "Nikola Vasilj",
@@ -1446,8 +1470,9 @@
         "slug": "nikola-vasilj",
         "shortName": "N. Vasilj",
         "position": "G",
-        "userCount": 3116,
+        "userCount": 3231,
         "gender": "M",
+        "sofascoreId": "z6tand",
         "id": 325061,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1469,7 +1494,7 @@
       "timeSeconds": 865,
       "draw": {
         "start": {
-          "x": 60.3,
+          "x": 64.4,
           "y": 10.1
         },
         "end": {
@@ -1495,7 +1520,7 @@
         "shortName": "E. Demirović",
         "position": "F",
         "jerseyNumber": "9",
-        "userCount": 9272,
+        "userCount": 9452,
         "gender": "M",
         "sofascoreId": "e.demirovic29",
         "id": 878081,
@@ -1542,8 +1567,9 @@
         "shortName": "M. Freese",
         "position": "G",
         "jerseyNumber": "49",
-        "userCount": 643,
+        "userCount": 712,
         "gender": "M",
+        "sofascoreId": "hiib6k",
         "id": 973436,
         "fieldTranslations": {
           "nameTranslation": {
@@ -1593,7 +1619,7 @@
         "shortName": "C. Pulišić",
         "position": "F",
         "jerseyNumber": "11",
-        "userCount": 42687,
+        "userCount": 43378,
         "gender": "M",
         "sofascoreId": "CMPulisic",
         "id": 817957,
@@ -1641,8 +1667,9 @@
         "slug": "nikola-vasilj",
         "shortName": "N. Vasilj",
         "position": "G",
-        "userCount": 3116,
+        "userCount": 3231,
         "gender": "M",
+        "sofascoreId": "z6tand",
         "id": 325061,
         "fieldTranslations": {
           "nameTranslation": {
