@@ -8,11 +8,16 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>Brasileirão Série A | AGS Performance</title>
+    <title>Brasileir&atilde;o S&eacute;rie A | AGS Performance</title>
 
     <link
         rel="stylesheet"
         href="/dashboard/assets/css/brasileirao.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="/dashboard/assets/css/ags-design-system.css?v=2"
     >
 </head>
 
@@ -24,15 +29,15 @@
 
                 <div>
                     <h1>AGS Performance</h1>
-                    <p>Análises</p>
+                    <p>An&aacute;lises</p>
                 </div>
             </div>
 
             <nav class="br-menu">
-                <a href="/dashboard/index.html">Início</a>
+                <a href="/dashboard/index.html">In&iacute;cio</a>
                 <a href="/dashboard/copa2022.html">Copa 2022</a>
                 <a href="/dashboard/copa2026.html">Copa 2026</a>
-                <a href="/dashboard/brasileirao.html" class="active">Brasileirão</a>
+                <a href="/dashboard/brasileirao.html" class="active">Brasileir&atilde;o</a>
                 <a href="/dashboard/comparativo.html">Comparativo</a>
             </nav>
 
@@ -44,13 +49,13 @@
 
         <section class="br-content">
             <header class="br-hero">
-                <span class="br-kicker">Competição nacional</span>
+                <span class="br-kicker">Competi&ccedil;&atilde;o nacional</span>
 
-                <h2>Brasileirão Série A 2026</h2>
+                <h2>Brasileir&atilde;o S&eacute;rie A 2026</h2>
 
                 <p>
-                    Módulo experimental com dados extraídos via FBref/SoccerData,
-                    mantendo a fonte separada dos módulos StatsBomb e SofaScore.
+                    M&oacute;dulo experimental com dados extra&iacute;dos via FBref/SoccerData,
+                    mantendo a fonte separada dos m&oacute;dulos StatsBomb e SofaScore.
                 </p>
             </header>
 
@@ -71,19 +76,126 @@
                 </article>
 
                 <article class="br-kpi-card">
-                    <span>Líder</span>
+                    <span>L&iacute;der</span>
                     <strong id="brLeader">--</strong>
                 </article>
             </section>
 
             <section class="br-alert" id="brXgNote">
-                Carregando observação metodológica...
+                Carregando observa&ccedil;&atilde;o metodol&oacute;gica...
+            </section>
+
+            <section class="br-filter-bar">
+                <div class="br-field">
+                    <label for="brTeamFilter">Clube</label>
+                    <select id="brTeamFilter" class="br-select">
+                        <option value="">Todos os clubes</option>
+                    </select>
+                </div>
+
+                <div class="br-field">
+                    <label for="brPlayerSearch">Buscar jogador</label>
+                    <input
+                        id="brPlayerSearch"
+                        class="br-input"
+                        type="search"
+                        placeholder="Nome do jogador"
+                    >
+                </div>
+
+                <div class="br-field">
+                    <label for="brPlayerSort">Ordenar jogadores</label>
+                    <select id="brPlayerSort" class="br-select">
+                        <option value="shots">Mais finaliza&ccedil;&otilde;es totais</option>
+                        <option value="shots_per90">Maior m&eacute;dia por jogo completo</option>
+                        <option value="shots_on_target">Mais finaliza&ccedil;&otilde;es no alvo</option>
+                    </select>
+                </div>
+
+                <button id="brClearFilters" class="br-button">
+                    Limpar filtros
+                </button>
+            </section>
+
+            <section class="br-panel br-player-search-panel">
+                <div class="br-panel-header">
+                    <span>Central de jogadores</span>
+                    <h3>Finaliza&ccedil;&otilde;es por jogador</h3>
+                    <p class="br-panel-description">
+                        Leitura simples: finaliza&ccedil;&otilde;es totais mostram todos os chutes do atleta
+                        na competi&ccedil;&atilde;o at&eacute; a extra&ccedil;&atilde;o. A m&eacute;dia por jogo completo
+                        estima o volume de finaliza&ccedil;&otilde;es a cada 90 minutos em campo.
+                    </p>
+                </div>
+
+                <div class="br-table-wrap">
+                    <table class="br-table br-players-table">
+                        <thead>
+                            <tr>
+                                <th>Jogador</th>
+                                <th>Clube</th>
+                                <th>Minutos aprox.</th>
+                                <th>Finaliza&ccedil;&otilde;es</th>
+                                <th>No alvo</th>
+                                <th>Sem alvo</th>
+                                <th>M&eacute;dia por jogo completo</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="brPlayersBody"></tbody>
+                    </table>
+                </div>
+            </section>
+
+
+            <section class="br-club-panel" id="brClubPanel">
+                <div>
+                    <span class="br-club-kicker">Clube selecionado</span>
+
+                    <h3 id="brClubName">Vis&atilde;o geral da competi&ccedil;&atilde;o</h3>
+
+                    <p id="brClubDescription">
+                        Use os filtros para analisar clube, jogadores e calend&aacute;rio.
+                    </p>
+                </div>
+
+                <div class="br-club-stats">
+                    <div>
+                        <span>Posi&ccedil;&atilde;o</span>
+                        <strong id="brClubPosition">--</strong>
+                    </div>
+
+                    <div>
+                        <span>Pontos</span>
+                        <strong id="brClubPoints">--</strong>
+                    </div>
+
+                    <div>
+                        <span>Finaliza&ccedil;&otilde;es feitas</span>
+                        <strong id="brClubShotsFor">--</strong>
+                    </div>
+
+                    <div>
+                        <span>No alvo</span>
+                        <strong id="brClubShotsOnTarget">--</strong>
+                    </div>
+
+                    <div>
+                        <span>Precis&atilde;o</span>
+                        <strong id="brClubShotAccuracy">--</strong>
+                    </div>
+
+                    <div>
+                        <span>Finaliza&ccedil;&otilde;es sofridas</span>
+                        <strong id="brClubShotsAgainst">--</strong>
+                    </div>
+                </div>
             </section>
 
             <section class="br-grid-two">
                 <article class="br-panel">
                     <div class="br-panel-header">
-                        <span>Classificação</span>
+                        <span>Classifica&ccedil;&atilde;o</span>
                         <h3>Tabela do campeonato</h3>
                     </div>
 
@@ -109,8 +221,8 @@
 
                 <article class="br-panel">
                     <div class="br-panel-header">
-                        <span>Pressão sofrida</span>
-                        <h3>Finalizações concedidas</h3>
+                        <span>Press&atilde;o sofrida</span>
+                        <h3>Finaliza&ccedil;&otilde;es concedidas por clube</h3>
                     </div>
 
                     <div id="brShootingAgainst" class="br-ranking-list"></div>
@@ -119,28 +231,32 @@
 
             <section class="br-panel">
                 <div class="br-panel-header">
-                    <span>Jogadores</span>
-                    <h3>Mais finalizações</h3>
+                    <span>Calend&aacute;rio</span>
+                    <h3 id="brMatchesTitle">Partidas da competi&ccedil;&atilde;o</h3>
                 </div>
 
                 <div class="br-table-wrap">
                     <table class="br-table">
                         <thead>
                             <tr>
-                                <th>Jogador</th>
-                                <th>Time</th>
-                                <th>90s</th>
-                                <th>Chutes</th>
+                                <th>Rodada</th>
+                                <th>Data</th>
+                                <th>Mandante</th>
+                                <th>Placar</th>
+                                <th>Visitante</th>
+                                <th>Est&aacute;dio</th>
                             </tr>
                         </thead>
 
-                        <tbody id="brPlayersBody"></tbody>
+                        <tbody id="brMatchesBody"></tbody>
                     </table>
                 </div>
             </section>
+
+            
         </section>
     </main>
 
-    <script src="/dashboard/assets/js/brasileirao-app.js"></script>
+    <script src="/dashboard/assets/js/brasileirao-app.js?v=2"></script>
 </body>
 </html>
