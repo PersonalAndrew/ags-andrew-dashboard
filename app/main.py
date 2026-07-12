@@ -8,6 +8,7 @@ from fastapi.staticfiles import StaticFiles
 from app.api.routes import router
 from app.api.statsbomb_routes import router as statsbomb_router
 from app.api.sofascore_routes import router as sofascore_router
+from app.api.sofascore_xg_routes import router as sofascore_xg_router
 from app.api.brasileirao_routes import router as brasileirao_router
 
 
@@ -69,3 +70,4 @@ app.include_router(router, prefix="")
 app.include_router(statsbomb_router, prefix="")
 app.include_router(sofascore_router, prefix="")
 app.include_router(brasileirao_router, prefix="")
+app.include_router(sofascore_xg_router)
