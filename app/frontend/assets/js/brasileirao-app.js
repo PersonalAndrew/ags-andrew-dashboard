@@ -8,6 +8,41 @@ const state = {
     selectedTeam: "",
     playerSearch: "",
     playerSort: "shots",
+    rankingMetric: "goals",
+    rankingLimit: 10,
+};
+
+const rankingMetrics = {
+    goals: {
+        label: "Gols",
+        description: "Total de gols marcados por clube na competi\u00e7\u00e3o.",
+        suffix: "",
+        decimals: 0,
+    },
+    shots: {
+        label: "Finaliza\u00e7\u00f5es totais",
+        description: "Volume total de chutes registrados por clube.",
+        suffix: "",
+        decimals: 0,
+    },
+    shots_on_target: {
+        label: "Finaliza\u00e7\u00f5es no alvo",
+        description: "Chutes que foram no gol, exigiram defesa ou resultaram em gol.",
+        suffix: "",
+        decimals: 0,
+    },
+    shot_accuracy: {
+        label: "Precis\u00e3o de finaliza\u00e7\u00e3o",
+        description: "Percentual de finaliza\u00e7\u00f5es que foram no alvo.",
+        suffix: "%",
+        decimals: 1,
+    },
+    shots_against: {
+        label: "Finaliza\u00e7\u00f5es concedidas",
+        description: "Volume de chutes sofridos por cada clube. Quanto maior, mais pressionado o time foi.",
+        suffix: "",
+        decimals: 0,
+    },
 };
 
 async function fetchJson(url) {
@@ -22,6 +57,13 @@ async function fetchJson(url) {
 
 function formatNumber(value) {
     return new Intl.NumberFormat("pt-BR").format(value ?? 0);
+}
+
+function formatDecimal(value, decimals = 1) {
+    return new Intl.NumberFormat("pt-BR", {
+        minimumFractionDigits: decimals,
+        maximumFractionDigits: decimals,
+    }).format(Number(value ?? 0));
 }
 
 function normalizeText(value) {
@@ -43,7 +85,6 @@ function renderSummary(summary) {
 
 function populateTeamFilter(rows) {
     const select = document.getElementById("brTeamFilter");
-
     const currentValue = select.value;
 
     select.innerHTML = `
@@ -103,10 +144,124 @@ function renderClubPanel() {
     points.textContent = club.points;
     shotsFor.textContent = club.shots_for ?? "--";
     shotsOnTarget.textContent = club.shots_on_target ?? "--";
-    shotAccuracy.textContent = club.shot_accuracy !== null ? `${club.shot_accuracy}%` : "--";
+    shotAccuracy.textContent = club.shot_accuracy !== null ? `${formatDecimal(club.shot_accuracy, 1)}%` : "--";
     shotsAgainst.textContent = club.shots_against ?? "--";
 }
 
+function getClubRankingDataset() {
+    return state.standings.map((row) => {
+        const attackRow = state.teamShooting.find((team) => team.team === row.team) ?? {};
+        const againstRow = state.shootingAgainst.find((team) => team.team === row.team) ?? {};
+
+        return {
+            team: row.team,
+            position: row.position,
+            points: row.points,
+            goals: Number(row.goals_for ?? 0),
+            shots: Number(attackRow.shots ?? 0),
+            shots_on_target: Number(attackRow.shots_on_target ?? 0),
+            shot_accuracy: Number(attackRow.shot_accuracy ?? 0),
+            shots_against: Number(againstRow.shots_against ?? 0),
+        };
+    });
+}
+
+function renderTeamRanking() {
+    const body = document.getElementById("brTeamRankingBody");
+    const meta = document.getElementById("brTeamRankingMeta");
+
+    if (!body || !meta) {
+        return;
+    }
+
+    const metric = rankingMetrics[state.rankingMetric] ?? rankingMetrics.goals;
+    const rows = getClubRankingDataset()
+        .map((row) => ({
+            ...row,
+            value: Number(row[state.rankingMetric] ?? 0),
+        }))
+        .sort((a, b) => b.value - a.value)
+        .slice(0, state.rankingLimit);
+
+    const maxValue = Math.max(...rows.map((row) => row.value), 1);
+
+    meta.textContent = metric.description;
+
+    body.innerHTML = rows.map((row, index) => {
+        const width = Math.max((row.value / maxValue) * 100, 3);
+        const isSelected = row.team === state.selectedTeam ? " is-highlighted" : "";
+        const valueLabel = metric.decimals > 0
+            ? `${formatDecimal(row.value, metric.decimals)}${metric.suffix}`
+            : `${formatNumber(row.value)}${metric.suffix}`;
+
+        return `
+            <div class="br-bar-row${isSelected}">
+                <div class="br-bar-rank">${index + 1}</div>
+
+                <div class="br-bar-content">
+                    <div class="br-bar-info">
+                        <strong>${row.team}</strong>
+                        <span>${valueLabel}</span>
+                    </div>
+
+                    <div class="br-bar-track">
+                        <div class="br-bar-fill" style="width: ${width}%"></div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }).join("");
+}
+
+function getFilteredScorers() {
+    let rows = [...state.players];
+
+    if (state.selectedTeam) {
+        rows = rows.filter((row) => row.team === state.selectedTeam);
+    }
+
+    if (state.playerSearch) {
+        const search = normalizeText(state.playerSearch);
+        rows = rows.filter((row) => normalizeText(row.player).includes(search));
+    }
+
+    return rows
+        .filter((row) => Number(row.goals ?? 0) > 0)
+        .sort((a, b) => Number(b.goals ?? 0) - Number(a.goals ?? 0))
+        .slice(0, 12);
+}
+
+function renderTopScorers() {
+    const body = document.getElementById("brTopScorersBody");
+
+    if (!body) {
+        return;
+    }
+
+    const rows = getFilteredScorers();
+
+    if (!rows.length) {
+        body.innerHTML = `
+            <div class="br-empty-state">
+                Nenhum artilheiro encontrado com os filtros atuais.
+            </div>
+        `;
+        return;
+    }
+
+    body.innerHTML = rows.map((row, index) => `
+        <div class="br-scorer-item">
+            <div class="br-scorer-rank">${index + 1}</div>
+
+            <div class="br-scorer-main">
+                <strong>${row.player}</strong>
+                <span>${row.team}</span>
+            </div>
+
+            <div class="br-scorer-goals">${row.goals}</div>
+        </div>
+    `).join("");
+}
 
 function renderClubs() {
     const body = document.getElementById("brClubsBody");
@@ -129,7 +284,7 @@ function renderClubs() {
                 <td>${row.goals_for}</td>
                 <td>${attackRow.shots ?? "--"}</td>
                 <td>${attackRow.shots_on_target ?? "--"}</td>
-                <td>${attackRow.shot_accuracy !== undefined ? `${attackRow.shot_accuracy}%` : "--"}</td>
+                <td>${attackRow.shot_accuracy !== undefined ? `${formatDecimal(attackRow.shot_accuracy, 1)}%` : "--"}</td>
                 <td>${againstRow.shots_against ?? "--"}</td>
             </tr>
         `;
@@ -224,7 +379,7 @@ function renderPlayers() {
                 <td><strong>${shots}</strong></td>
                 <td>${shotsOnTarget}</td>
                 <td>${shotsNotOnTarget}</td>
-                <td><strong>${shotsPer90.toFixed(2)}</strong> por 90 min</td>
+                <td><strong>${formatDecimal(shotsPer90, 2)}</strong> por 90 min</td>
             </tr>
         `;
     }).join("");
@@ -243,9 +398,7 @@ function getFilteredMatches() {
             row.away_team === state.selectedTeam
         ));
 
-        rows = rows.filter(isPlayedMatch);
-
-        return rows;
+        return rows.filter(isPlayedMatch);
     }
 
     return rows.filter(isPlayedMatch).slice(0, 20);
@@ -277,6 +430,8 @@ function renderAll() {
     renderStandings();
     renderClubs();
     renderShootingAgainst();
+    renderTeamRanking();
+    renderTopScorers();
     renderPlayers();
     renderMatches();
 }
@@ -294,7 +449,7 @@ function setupFilters() {
 
     playerSearch.addEventListener("input", (event) => {
         state.playerSearch = event.target.value;
-        renderPlayers();
+        renderAll();
     });
 
     playerSort.addEventListener("change", (event) => {
@@ -312,6 +467,44 @@ function setupFilters() {
         playerSort.value = "shots";
 
         renderAll();
+    });
+}
+
+function setupRankingControls() {
+    const metricSelect = document.getElementById("brRankingMetric");
+    const limitSelect = document.getElementById("brRankingLimit");
+
+    if (!metricSelect || !limitSelect) {
+        return;
+    }
+
+    metricSelect.addEventListener("change", (event) => {
+        state.rankingMetric = event.target.value;
+        renderTeamRanking();
+    });
+
+    limitSelect.addEventListener("change", (event) => {
+        state.rankingLimit = Number(event.target.value);
+        renderTeamRanking();
+    });
+}
+
+function setupBrasileiraoTabs() {
+    const buttons = document.querySelectorAll(".br-tab-button");
+    const panels = document.querySelectorAll(".br-tab-panel");
+
+    buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+            const target = button.dataset.tab;
+
+            buttons.forEach((item) => {
+                item.classList.toggle("active", item === button);
+            });
+
+            panels.forEach((panel) => {
+                panel.classList.toggle("active", panel.dataset.panel === target);
+            });
+        });
     });
 }
 
@@ -336,6 +529,7 @@ async function initBrasileiraoDashboard() {
         renderSummary(summary);
         populateTeamFilter(state.standings);
         setupFilters();
+        setupRankingControls();
         renderAll();
     } catch (error) {
         console.error(error);
@@ -344,27 +538,6 @@ async function initBrasileiraoDashboard() {
             "Erro ao carregar os dados do Brasileirao. Verifique se o backend esta rodando.";
     }
 }
-
-
-function setupBrasileiraoTabs() {
-    const buttons = document.querySelectorAll(".br-tab-button");
-    const panels = document.querySelectorAll(".br-tab-panel");
-
-    buttons.forEach((button) => {
-        button.addEventListener("click", () => {
-            const target = button.dataset.tab;
-
-            buttons.forEach((item) => {
-                item.classList.toggle("active", item === button);
-            });
-
-            panels.forEach((panel) => {
-                panel.classList.toggle("active", panel.dataset.panel === target);
-            });
-        });
-    });
-}
-
 
 document.addEventListener("DOMContentLoaded", () => {
     setupBrasileiraoTabs();

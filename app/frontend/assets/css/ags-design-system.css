@@ -1090,3 +1090,177 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+/* =========================
+   BRASILEIRAO PROFESSIONAL RANKINGS
+   ========================= */
+
+.br-ranking-dashboard {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(340px, 0.85fr);
+    gap: 18px;
+    align-items: stretch;
+}
+
+.br-ranking-chart-panel,
+.br-scorers-panel {
+    min-height: 560px;
+}
+
+.br-ranking-controls {
+    display: grid;
+    grid-template-columns: minmax(260px, 1fr) minmax(160px, 0.45fr);
+    gap: 12px;
+    max-width: 620px;
+    margin: 18px auto;
+    padding: 14px;
+    border: 1px solid var(--ags-line);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.br-ranking-meta {
+    max-width: 760px;
+    margin: 0 auto 18px;
+    text-align: center;
+    color: var(--ags-muted);
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+.br-bar-list {
+    display: grid;
+    gap: 13px;
+}
+
+.br-bar-row {
+    display: grid;
+    grid-template-columns: 38px minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.018);
+}
+
+.br-bar-row.is-highlighted {
+    border-color: var(--ags-line-strong);
+    background: rgba(212, 175, 55, 0.08);
+}
+
+.br-bar-rank {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 999px;
+    background: var(--ags-gold-soft);
+    color: var(--ags-gold);
+    font-size: 12px;
+    font-weight: 950;
+}
+
+.br-bar-content {
+    display: grid;
+    gap: 7px;
+}
+
+.br-bar-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    color: var(--ags-text);
+    font-size: 13px;
+}
+
+.br-bar-info span {
+    color: var(--ags-gold);
+    font-weight: 950;
+}
+
+.br-bar-track {
+    height: 12px;
+    border-radius: 999px;
+    overflow: hidden;
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02));
+    border: 1px solid rgba(255, 255, 255, 0.045);
+}
+
+.br-bar-fill {
+    height: 100%;
+    border-radius: 999px;
+    background:
+        linear-gradient(90deg, rgba(212, 175, 55, 0.70), var(--ags-gold-2));
+    box-shadow: 0 0 18px rgba(212, 175, 55, 0.18);
+}
+
+.br-scorer-list {
+    display: grid;
+}
+
+.br-scorer-item {
+    display: grid;
+    grid-template-columns: 34px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--ags-line);
+}
+
+.br-scorer-item:last-child {
+    border-bottom: 0;
+}
+
+.br-scorer-rank {
+    width: 26px;
+    height: 26px;
+    display: grid;
+    place-items: center;
+    border-radius: 999px;
+    background: var(--ags-gold-soft);
+    color: var(--ags-gold);
+    font-size: 11px;
+    font-weight: 950;
+}
+
+.br-scorer-main {
+    display: grid;
+    gap: 4px;
+}
+
+.br-scorer-main strong {
+    color: var(--ags-text);
+    font-size: 14px;
+}
+
+.br-scorer-main span {
+    color: var(--ags-muted);
+    font-size: 12px;
+}
+
+.br-scorer-goals {
+    color: var(--ags-gold);
+    font-size: 18px;
+    font-weight: 950;
+}
+
+.br-empty-state {
+    padding: 22px;
+    border: 1px solid var(--ags-line);
+    border-radius: 18px;
+    color: var(--ags-muted);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.025);
+}
+
+@media (max-width: 1020px) {
+    .br-ranking-dashboard {
+        grid-template-columns: 1fr;
+    }
+
+    .br-ranking-controls {
+        grid-template-columns: 1fr;
+    }
+}

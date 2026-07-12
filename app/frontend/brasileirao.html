@@ -17,7 +17,7 @@
 
     <link
         rel="stylesheet"
-        href="/dashboard/assets/css/ags-design-system.css?v=3"
+        href="/dashboard/assets/css/ags-design-system.css?v=4"
     >
 </head>
 
@@ -122,6 +122,11 @@
                     Resumo
                 </button>
 
+
+                <button class="br-tab-button" data-tab="rankings" type="button">
+                    Rankings
+                </button>
+
                 <button class="br-tab-button" data-tab="clubs" type="button">
                     Clubes
                 </button>
@@ -218,6 +223,64 @@
                         </div>
 
                         <div id="brShootingAgainst" class="br-ranking-list"></div>
+                    </article>
+                </section>
+            </section>
+
+
+            <section class="br-tab-panel" data-panel="rankings">
+                <section class="br-ranking-dashboard">
+                    <article class="br-panel br-ranking-chart-panel">
+                        <div class="br-panel-header">
+                            <span>Equipes</span>
+                            <h3>Ranking por clubes</h3>
+                            <p class="br-panel-description">
+                                Compare os clubes por gols, volume de finaliza&ccedil;&otilde;es,
+                                finaliza&ccedil;&otilde;es no alvo, precis&atilde;o e press&atilde;o sofrida.
+                            </p>
+                        </div>
+
+                        <div class="br-ranking-controls">
+                            <div class="br-field">
+                                <label for="brRankingMetric">M&eacute;trica</label>
+                                <select id="brRankingMetric" class="br-select">
+                                    <option value="goals">Gols</option>
+                                    <option value="shots">Finaliza&ccedil;&otilde;es totais</option>
+                                    <option value="shots_on_target">Finaliza&ccedil;&otilde;es no alvo</option>
+                                    <option value="shot_accuracy">Precis&atilde;o de finaliza&ccedil;&atilde;o</option>
+                                    <option value="shots_against">Finaliza&ccedil;&otilde;es concedidas</option>
+                                    <option value="xg" disabled>xG indispon&iacute;vel nesta fonte</option>
+                                </select>
+                            </div>
+
+                            <div class="br-field">
+                                <label for="brRankingLimit">Exibir</label>
+                                <select id="brRankingLimit" class="br-select">
+                                    <option value="5">Top 5</option>
+                                    <option value="10" selected>Top 10</option>
+                                    <option value="20">Todos os clubes</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div id="brTeamRankingMeta" class="br-ranking-meta">
+                            Selecione uma m&eacute;trica para comparar os clubes.
+                        </div>
+
+                        <div id="brTeamRankingBody" class="br-bar-list"></div>
+                    </article>
+
+                    <article class="br-panel br-scorers-panel">
+                        <div class="br-panel-header">
+                            <span>Jogadores</span>
+                            <h3>Artilheiros</h3>
+                            <p class="br-panel-description">
+                                Ranking dos principais goleadores. O filtro de clube e a busca por jogador
+                                tamb&eacute;m afetam esta lista.
+                            </p>
+                        </div>
+
+                        <div id="brTopScorersBody" class="br-scorer-list"></div>
                     </article>
                 </section>
             </section>
@@ -379,6 +442,6 @@
         </section>
     </main>
 
-    <script src="/dashboard/assets/js/brasileirao-app.js?v=3"></script>
+    <script src="/dashboard/assets/js/brasileirao-app.js?v=4"></script>
 </body>
 </html>
