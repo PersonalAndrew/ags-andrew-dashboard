@@ -1,4 +1,4 @@
-﻿const DATA_BASE_PATH = "/dashboard/assets/data/copa2026";
+const DATA_BASE_PATH = "/dashboard/assets/data/copa2026";
 const TEAMS_IMG_PATH = "/dashboard/assets/img/teams";
 
 const copa2026State = {
@@ -1654,6 +1654,11 @@ function assignCopaTabSections() {
         if (section.classList.contains("hero-section")) return;
         if (section.classList.contains("copa-tabs-panel")) return;
         if (section.dataset.copaDynamicStage === "true") return;
+
+        if (section.id === "copa2026XgPanel") {
+            section.dataset.copaTabContent = "model";
+            return;
+        }
 
         if (section.classList.contains("sofascore-live-panel")) {
             section.dataset.copaTabContent = "overview";

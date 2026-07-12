@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -466,8 +466,126 @@
                 AGS Performance Análises · Copa 2026 · Inglaterra x Croácia
             </p>
         </footer>
-    </main>
+    
+<section id="copa2026XgPanel" class="xg2026-section" data-copa-tab-content="model" hidden>
+    <div class="xg2026-header">
+        <span class="xg2026-eyebrow">SofaScore Shotmap</span>
+        <h2>Modelo xG - Copa 2026</h2>
+        <p>
+            Painel de qualidade das chances com xG, xGOT, gols acima do esperado,
+            ranking de sele&ccedil;&otilde;es, jogadores e partidas de maior volume ofensivo.
+        </p>
+    </div>
+
+    <div class="xg2026-kpi-grid">
+        <article class="xg2026-kpi">
+            <span>Finaliza&ccedil;&otilde;es analisadas</span>
+            <strong id="xg2026TotalShots">--</strong>
+        </article>
+
+        <article class="xg2026-kpi">
+            <span>Partidas com xG</span>
+            <strong id="xg2026TotalMatches">--</strong>
+        </article>
+
+        <article class="xg2026-kpi">
+            <span>L&iacute;der em xG</span>
+            <strong id="xg2026LeaderTeam">--</strong>
+            <small id="xg2026LeaderValue">--</small>
+        </article>
+
+        <article class="xg2026-kpi">
+            <span>Jogador l&iacute;der em xG</span>
+            <strong id="xg2026TopPlayer">--</strong>
+            <small id="xg2026TopPlayerValue">--</small>
+        </article>
+    </div>
+
+    <div class="xg2026-layout">
+        <article class="xg2026-panel xg2026-ranking-panel">
+            <div class="xg2026-panel-header">
+                <div>
+                    <span>Sele&ccedil;&otilde;es</span>
+                    <h3>Ranking xG por equipe</h3>
+                </div>
+
+                <select id="xg2026TeamMetric" class="xg2026-select">
+                    <option value="xg_for">xG criado</option>
+                    <option value="xg_difference">Saldo de xG</option>
+                    <option value="xg_against">Menor xG contra</option>
+                    <option value="goals_minus_xg">Gols - xG</option>
+                    <option value="xgot_for">xGOT</option>
+                    <option value="shots_for">Finaliza&ccedil;&otilde;es</option>
+                </select>
+            </div>
+
+            <p id="xg2026TeamMetricDescription" class="xg2026-description">
+                Qualidade das chances criadas por cada sele&ccedil;&atilde;o.
+            </p>
+
+            <div id="xg2026TeamRanking" class="xg2026-bar-list"></div>
+        </article>
+
+        <article class="xg2026-panel">
+            <div class="xg2026-panel-header">
+                <div>
+                    <span>Jogadores</span>
+                    <h3>Ranking individual</h3>
+                </div>
+            </div>
+
+            <div class="xg2026-filter-grid">
+                <select id="xg2026TeamFilter" class="xg2026-select">
+                    <option value="">Todas as sele&ccedil;&otilde;es</option>
+                </select>
+
+                <select id="xg2026PlayerOrder" class="xg2026-select">
+                    <option value="xg">xG</option>
+                    <option value="xgot">xGOT</option>
+                    <option value="goals_minus_xg">Gols - xG</option>
+                    <option value="goals">Gols</option>
+                    <option value="shots">Finaliza&ccedil;&otilde;es</option>
+                    <option value="xg_per_shot">xG por chute</option>
+                </select>
+
+                <input id="xg2026PlayerSearch" class="xg2026-input" type="search" placeholder="Buscar jogador">
+            </div>
+
+            <div id="xg2026PlayerRanking" class="xg2026-player-list"></div>
+        </article>
+    </div>
+
+    <article class="xg2026-panel xg2026-matches-panel">
+        <div class="xg2026-panel-header">
+            <div>
+                <span>Partidas</span>
+                <h3>Jogos com maior volume de xG</h3>
+            </div>
+
+            <span id="xg2026BestFinisher" class="xg2026-chip">--</span>
+        </div>
+
+        <div class="xg2026-table-wrap">
+            <table class="xg2026-table">
+                <thead>
+                    <tr>
+                        <th>Partida</th>
+                        <th>Placar</th>
+                        <th>xG mandante</th>
+                        <th>xG visitante</th>
+                        <th>xG total</th>
+                        <th>Finaliza&ccedil;&otilde;es</th>
+                    </tr>
+                </thead>
+                <tbody id="xg2026MatchesBody"></tbody>
+            </table>
+        </div>
+    </article>
+</section>
+
+</main>
 
     <script src="/dashboard/assets/js/copa2026-app.js?v=21"></script>
+<script src="/dashboard/assets/js/copa2026-xg-panel.js?v=4"></script>
 </body>
 </html>
