@@ -1,4 +1,4 @@
-﻿from pathlib import Path
+from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -8,6 +8,7 @@ from fastapi.staticfiles import StaticFiles
 from app.api.routes import router
 from app.api.statsbomb_routes import router as statsbomb_router
 from app.api.sofascore_routes import router as sofascore_router
+from app.api.brasileirao_routes import router as brasileirao_router
 
 
 app = FastAPI(
@@ -46,6 +47,13 @@ def copa2026_dashboard():
     return FileResponse(FRONTEND_DIR / "copa2026.html")
 
 
+
+
+@app.get("/dashboard/brasileirao.html")
+def brasileirao_dashboard():
+    return FileResponse(FRONTEND_DIR / "brasileirao.html")
+
+
 @app.get("/dashboard/comparativo.html")
 def comparativo_dashboard():
     return FileResponse(FRONTEND_DIR / "comparativo.html")
@@ -60,3 +68,4 @@ app.mount(
 app.include_router(router, prefix="")
 app.include_router(statsbomb_router, prefix="")
 app.include_router(sofascore_router, prefix="")
+app.include_router(brasileirao_router, prefix="")
