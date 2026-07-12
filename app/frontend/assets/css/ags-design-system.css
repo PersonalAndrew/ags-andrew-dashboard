@@ -981,3 +981,112 @@ body {
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
 }
+
+/* =========================
+   BRASILEIRAO INTERNAL TABS
+   ========================= */
+
+.br-tabs {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 10px;
+    margin: 18px 0;
+    padding: 8px;
+    border: 1px solid var(--ags-line);
+    border-radius: 20px;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent),
+        rgba(255, 255, 255, 0.025);
+}
+
+.br-tab-button {
+    height: 46px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    color: var(--ags-muted);
+    background: transparent;
+    font-weight: 900;
+    cursor: pointer;
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.br-tab-button:hover,
+.br-tab-button.active {
+    color: #05060a;
+    border-color: rgba(212, 175, 55, 0.45);
+    background: linear-gradient(135deg, var(--ags-gold), var(--ags-gold-2));
+    transform: translateY(-1px);
+}
+
+.br-tab-panel {
+    display: none;
+    animation: brFadeIn 0.22s ease;
+}
+
+.br-tab-panel.active {
+    display: block;
+}
+
+@keyframes brFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.br-methodology-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.br-methodology-grid article {
+    padding: 18px;
+    border: 1px solid var(--ags-line);
+    border-radius: 18px;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.045), transparent),
+        rgba(255, 255, 255, 0.025);
+}
+
+.br-methodology-grid h4 {
+    margin: 0 0 8px;
+    color: var(--ags-gold);
+    font-size: 15px;
+}
+
+.br-methodology-grid p {
+    margin: 0;
+    color: var(--ags-muted);
+    line-height: 1.65;
+    font-size: 13px;
+}
+
+.br-clubs-table th,
+.br-clubs-table td {
+    text-align: center !important;
+}
+
+.br-clubs-table th:nth-child(2),
+.br-clubs-table td:nth-child(2) {
+    text-align: left !important;
+}
+
+@media (max-width: 920px) {
+    .br-tabs {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .br-methodology-grid {
+        grid-template-columns: 1fr;
+    }
+}

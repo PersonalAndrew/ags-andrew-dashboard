@@ -107,6 +107,35 @@ function renderClubPanel() {
     shotsAgainst.textContent = club.shots_against ?? "--";
 }
 
+
+function renderClubs() {
+    const body = document.getElementById("brClubsBody");
+
+    if (!body) {
+        return;
+    }
+
+    body.innerHTML = state.standings.map((row) => {
+        const attackRow = state.teamShooting.find((team) => team.team === row.team) ?? {};
+        const againstRow = state.shootingAgainst.find((team) => team.team === row.team) ?? {};
+        const highlighted = row.team === state.selectedTeam ? "is-highlighted" : "";
+
+        return `
+            <tr class="${highlighted}">
+                <td>${row.position}</td>
+                <td><strong>${row.team}</strong></td>
+                <td><strong>${row.points}</strong></td>
+                <td>${row.goal_difference}</td>
+                <td>${row.goals_for}</td>
+                <td>${attackRow.shots ?? "--"}</td>
+                <td>${attackRow.shots_on_target ?? "--"}</td>
+                <td>${attackRow.shot_accuracy !== undefined ? `${attackRow.shot_accuracy}%` : "--"}</td>
+                <td>${againstRow.shots_against ?? "--"}</td>
+            </tr>
+        `;
+    }).join("");
+}
+
 function renderStandings() {
     const body = document.getElementById("brStandingsBody");
 
@@ -246,6 +275,7 @@ function renderMatches() {
 function renderAll() {
     renderClubPanel();
     renderStandings();
+    renderClubs();
     renderShootingAgainst();
     renderPlayers();
     renderMatches();
@@ -315,4 +345,28 @@ async function initBrasileiraoDashboard() {
     }
 }
 
-document.addEventListener("DOMContentLoaded", initBrasileiraoDashboard);
+
+function setupBrasileiraoTabs() {
+    const buttons = document.querySelectorAll(".br-tab-button");
+    const panels = document.querySelectorAll(".br-tab-panel");
+
+    buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+            const target = button.dataset.tab;
+
+            buttons.forEach((item) => {
+                item.classList.toggle("active", item === button);
+            });
+
+            panels.forEach((panel) => {
+                panel.classList.toggle("active", panel.dataset.panel === target);
+            });
+        });
+    });
+}
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    setupBrasileiraoTabs();
+    initBrasileiraoDashboard();
+});
