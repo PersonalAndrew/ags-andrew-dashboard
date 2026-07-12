@@ -139,14 +139,52 @@ def brasileirao_shooting_against():
     return {"shooting_against": rows}
 
 
+@router.get("/api/brasileirao/team-shooting")
+def brasileirao_team_shooting():
+    rows = query("""
+        SELECT
+            team,
+            "90s" AS nineties,
+            standard_gls AS goals,
+            standard_sh AS shots,
+            standard_sot AS shots_on_target,
+            standard_sh - standard_sot AS shots_not_on_target,
+            ROUND(
+                CASE
+                    WHEN standard_sh > 0 THEN standard_sot * 100.0 / standard_sh
+                    ELSE 0
+                END,
+                1
+            ) AS shot_accuracy,
+            standard_sh_90 AS shots_per90,
+            standard_sot_90 AS shots_on_target_per90
+        FROM fbref_team_shooting
+        ORDER BY standard_sh DESC
+    """)
+
+    return {"teams": rows}
+
+
 @router.get("/api/brasileirao/player-shooting")
-def brasileirao_player_shooting(limit: int = 50):
+def brasileirao_player_shooting(limit: int = 1000):
     rows = query("""
         SELECT
             team,
             player,
             "90s" AS nineties,
-            standard_sh AS shots
+            standard_gls AS goals,
+            standard_sh AS shots,
+            standard_sot AS shots_on_target,
+            standard_sh - standard_sot AS shots_not_on_target,
+            ROUND(
+                CASE
+                    WHEN standard_sh > 0 THEN standard_sot * 100.0 / standard_sh
+                    ELSE 0
+                END,
+                1
+            ) AS shot_accuracy,
+            standard_sh_90 AS shots_per90,
+            standard_sot_90 AS shots_on_target_per90
         FROM fbref_player_shooting
         ORDER BY standard_sh DESC
         LIMIT ?
@@ -155,5 +193,5 @@ def brasileirao_player_shooting(limit: int = 50):
     return {
         "players": rows,
         "xg_available": False,
-        "note": "xG não disponível nas tabelas de jogadores extraídas para o Brasileirão 2026.",
+        "note": "xG indisponivel nas tabelas de jogadores extraidas para o Brasileirao 2026.",
     }
