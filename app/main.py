@@ -10,6 +10,7 @@ from app.api.statsbomb_routes import router as statsbomb_router
 from app.api.sofascore_routes import router as sofascore_router
 from app.api.brasileirao_routes import router as brasileirao_router
 from app.api.brasileirao_xg_routes import router as brasileirao_xg_router
+from app.api.admin_sync_routes import router as admin_sync_router
 
 
 app = FastAPI(
@@ -71,3 +72,4 @@ app.include_router(statsbomb_router, prefix="")
 app.include_router(sofascore_router, prefix="")
 app.include_router(brasileirao_router, prefix="")
 app.include_router(brasileirao_xg_router)
+app.include_router(admin_sync_router)
