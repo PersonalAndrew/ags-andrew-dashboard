@@ -196,6 +196,16 @@ def copa2026_commands() -> list[tuple[str, list[str]]]:
 def brasileirao_commands() -> list[tuple[str, list[str]]]:
     return [
         (
+            "Atualizar dados FBref SoccerData Brasileirao",
+            [
+                sys.executable,
+                str(PROJECT_ROOT / "src" / "fbref_extract.py"),
+                "--season",
+                "2026",
+                "--all",
+            ],
+        ),
+        (
             "Atualizar JSONs SofaScore Brasileirao",
             script_command("sync_sofascore_brasileirao.py", "--max-pages", "20"),
         ),
